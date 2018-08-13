@@ -13,13 +13,13 @@ return [
     // 数据库类型
     'type'            => 'mysql',
     // 服务器地址
-    'hostname'        => '47.97.218.145',
+    'hostname'        => '',
     // 数据库名
     'database'        => 'limiapp',
     // 用户名
     'username'        => 'limiapp',
     // 密码
-    'password'        => 'YOUhong@limiapp888',
+    'password'        => '',
     // 端口
     'hostport'        => '3306',
     // 连接dsn
