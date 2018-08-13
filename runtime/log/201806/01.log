@@ -1,0 +1,1133 @@
+---------------------------------------------------------------
+[ 2018-06-01T11:44:49+08:00 ] 127.0.0.1 POST /index.php/app1_4/pushvideo/getNomalNextVideo
+[ info ] limiapp.com/index.php/app1_4/pushvideo/getNomalNextVideo [运行时间：0.648522s][吞吐率：1.54req/s] [内存消耗：3,106.36kb] [文件加载：57]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'pushvideo',
+    2 => 'getNomalNextVideo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7596fcdc-c719-4cae-be74-aa8b2ff6b1aa',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------910496488806873431782710',
+  'content-length' => '984',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'title' => '测试视频',
+  'fileName' => 'aaa.mp4',
+  'fileSize' => '',
+  'fileDes' => '没有视频哦',
+  'fileCover' => '',
+  'tags' => '美女,帅哥',
+  'pushvideo' => 'getNomalNextVideo',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.335827s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001883s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.187364s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.136281s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.090072s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.090484s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.090240s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.090529s ]
+[ error ] [0]方法参数错误:next_video[D:\xampp\htdocs\limiapp\thinkphp\library\think\App.php:431]
+---------------------------------------------------------------
+[ 2018-06-01T11:48:38+08:00 ] 127.0.0.1 POST /index.php/app1_4/pushvideo/getNomalNextVideo
+[ info ] limiapp.com/index.php/app1_4/pushvideo/getNomalNextVideo [运行时间：190.063918s][吞吐率：0.01req/s] [内存消耗：2,992.19kb] [文件加载：53]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'pushvideo',
+    2 => 'getNomalNextVideo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '8ab33702-45f9-4a45-965d-2f8c6ebadd61',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------311828972643521236977841',
+  'content-length' => '164',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'video_id' => '0',
+  'pushvideo' => 'getNomalNextVideo',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.331311s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001218s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.001589s ]
+[ info ] [ RUN ] app\apps1_4\controller\Pushvideo->getNomalNextVideo[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Pushvideo.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.136527s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.089682s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.090968s ]
+---------------------------------------------------------------
+[ 2018-06-01T11:49:00+08:00 ] 127.0.0.1 POST /index.php/app1_4/pushvideo/getNomalNextVideo
+[ info ] limiapp.com/index.php/app1_4/pushvideo/getNomalNextVideo [运行时间：5.526817s][吞吐率：0.18req/s] [内存消耗：2,986.13kb] [文件加载：53]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'pushvideo',
+    2 => 'getNomalNextVideo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f9f13f6a-8e02-44de-ba07-70b55f2dda36',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------083325326719749882510673',
+  'content-length' => '164',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'video_id' => '0',
+  'pushvideo' => 'getNomalNextVideo',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.331229s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001308s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.001580s ]
+[ info ] [ RUN ] app\apps1_4\controller\Pushvideo->getNomalNextVideo[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Pushvideo.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.137951s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.089902s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.089041s ]
+---------------------------------------------------------------
+[ 2018-06-01T11:49:16+08:00 ] 127.0.0.1 POST /index.php/app1_4/pushvideo/getNomalNextVideo
+[ info ] limiapp.com/index.php/app1_4/pushvideo/getNomalNextVideo [运行时间：2.915263s][吞吐率：0.34req/s] [内存消耗：2,986.13kb] [文件加载：53]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'pushvideo',
+    2 => 'getNomalNextVideo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7f2fe03d-fd44-4d78-a51f-433d5a98a7fa',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------267870400165630261958988',
+  'content-length' => '164',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'video_id' => '0',
+  'pushvideo' => 'getNomalNextVideo',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.319813s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001230s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.001264s ]
+[ info ] [ RUN ] app\apps1_4\controller\Pushvideo->getNomalNextVideo[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Pushvideo.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.132338s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.086603s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.086358s ]
+---------------------------------------------------------------
+[ 2018-06-01T12:30:11+08:00 ] 127.0.0.1 POST /index.php/app1_4/video/getStsAuth
+[ info ] limiapp.com/index.php/app1_4/video/getStsAuth [运行时间：12.546134s][吞吐率：0.08req/s] [内存消耗：3,886.55kb] [文件加载：73]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'getStsAuth',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd1801f78-ce68-44d6-be0e-5b6638a7449f',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------457580901437977129441042',
+  'content-length' => '411',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'type' => 'upload',
+  'video' => 'getStsAuth',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.315778s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001544s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.178417s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->getStsAuth[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.128772s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.085813s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.084934s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.085380s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.086705s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.083618s ]
+[ sql ] [ SQL ] SELECT `user_info_status`,`identity_status`,`identity_time` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.084948s ]
+---------------------------------------------------------------
+[ 2018-06-01T12:30:26+08:00 ] 127.0.0.1 POST /index.php/app1_4/video/getStsAuth
+[ info ] limiapp.com/index.php/app1_4/video/getStsAuth [运行时间：1.071663s][吞吐率：0.93req/s] [内存消耗：3,974.38kb] [文件加载：77]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'getStsAuth',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '328265ae-5237-4347-8a06-b96888a3d325',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------720404079400549395941107',
+  'content-length' => '411',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'type' => 'upload',
+  'video' => 'getStsAuth',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.330674s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001827s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.186020s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->getStsAuth[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.135251s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.088664s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.089116s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.089934s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.089334s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.088883s ]
+[ sql ] [ SQL ] SELECT `user_info_status`,`identity_status`,`identity_time` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.088392s ]
+---------------------------------------------------------------
+[ 2018-06-01T12:33:42+08:00 ] 127.0.0.1 POST /index.php/app1_4/video/getStsAuth
+[ info ] limiapp.com/index.php/app1_4/video/getStsAuth [运行时间：174.222434s][吞吐率：0.01req/s] [内存消耗：3,932.44kb] [文件加载：75]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'getStsAuth',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a95e68e5-31f1-42f5-9412-d665224c326e',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------038459895701827386918670',
+  'content-length' => '411',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'type' => 'upload',
+  'video' => 'getStsAuth',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.319055s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001316s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.179681s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->getStsAuth[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.131012s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.084972s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.085275s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.087791s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.085602s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.085115s ]
+[ sql ] [ SQL ] SELECT `user_info_status`,`identity_status`,`identity_time` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.086348s ]
+---------------------------------------------------------------
+[ 2018-06-01T12:41:26+08:00 ] 127.0.0.1 POST /index.php/app1_4/video/getStsAuth
+[ info ] limiapp.com/index.php/app1_4/video/getStsAuth [运行时间：184.644725s][吞吐率：0.01req/s] [内存消耗：4,093.98kb] [文件加载：81]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'getStsAuth',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7c6327de-0c68-4eb5-b39b-fb01dfb0cab5',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------968924905595036047032804',
+  'content-length' => '411',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'type' => 'upload',
+  'video' => 'getStsAuth',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.340098s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001238s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.189560s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->getStsAuth[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.140105s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.090335s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.089352s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.090249s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.090857s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.088908s ]
+[ sql ] [ SQL ] SELECT `user_info_status`,`identity_status`,`identity_time` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.090755s ]
+[ error ] [4]语法错误: unexpected end of file, expecting variable (T_VARIABLE) or heredoc end (T_END_HEREDOC) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN)[xdebug://debug-eval(1) : eval()'d code:16]
+---------------------------------------------------------------
+[ 2018-06-01T12:45:26+08:00 ] 127.0.0.1 POST /index.php/app1_4/video/getStsAuth
+[ info ] limiapp.com/index.php/app1_4/video/getStsAuth [运行时间：117.590925s][吞吐率：0.01req/s] [内存消耗：3,934.84kb] [文件加载：75]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'getStsAuth',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '79abb4b7-48f7-4d36-898c-25e93d504538',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------623248409841909976519682',
+  'content-length' => '411',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'type' => 'upload',
+  'video' => 'getStsAuth',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.324032s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001546s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.184303s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->getStsAuth[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.131518s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.087060s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.086676s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.086959s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.087223s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.086791s ]
+[ sql ] [ SQL ] SELECT `user_info_status`,`identity_status`,`identity_time` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.086035s ]
+---------------------------------------------------------------
+[ 2018-06-01T12:46:26+08:00 ] 127.0.0.1 POST /index.php/app1_4/video/getStsAuth
+[ info ] limiapp.com/index.php/app1_4/video/getStsAuth [运行时间：37.606248s][吞吐率：0.03req/s] [内存消耗：3,932.34kb] [文件加载：75]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'getStsAuth',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e89d0168-03f4-4dc1-8acd-64a7bb768a9e',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------037475155358138785605221',
+  'content-length' => '411',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'type' => 'upload',
+  'video' => 'getStsAuth',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.322025s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001801s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.181877s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->getStsAuth[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.132945s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.088899s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.085943s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.086705s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.086861s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.086556s ]
+[ sql ] [ SQL ] SELECT `user_info_status`,`identity_status`,`identity_time` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.085855s ]
+---------------------------------------------------------------
+[ 2018-06-01T12:47:08+08:00 ] 127.0.0.1 POST /index.php/app1_4/video/getStsAuth
+[ info ] limiapp.com/index.php/app1_4/video/getStsAuth [运行时间：8.330380s][吞吐率：0.12req/s] [内存消耗：3,932.36kb] [文件加载：75]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'getStsAuth',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '26e7ca59-2f8f-4ff7-85b7-3e5ff58dd45a',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------441573969863938264682154',
+  'content-length' => '411',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'type' => 'upload',
+  'video' => 'getStsAuth',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.306136s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001872s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.170668s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->getStsAuth[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.125854s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.081722s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.082189s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.082050s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.082665s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.082248s ]
+[ sql ] [ SQL ] SELECT `user_info_status`,`identity_status`,`identity_time` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.083165s ]
+---------------------------------------------------------------
+[ 2018-06-01T14:29:31+08:00 ] 127.0.0.1 POST /index.php/app1_4/video/getStsAuth
+[ info ] limiapp.com/index.php/app1_4/video/getStsAuth [运行时间：14.149564s][吞吐率：0.07req/s] [内存消耗：3,932.35kb] [文件加载：75]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'getStsAuth',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '56b1dc4b-5186-4bf3-a940-3ba8ce6b92c6',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------173367114355656999799890',
+  'content-length' => '411',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'type' => 'upload',
+  'video' => 'getStsAuth',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.326840s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001390s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.178993s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->getStsAuth[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.132451s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.088190s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.086679s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.085093s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.086542s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.085630s ]
+[ sql ] [ SQL ] SELECT `user_info_status`,`identity_status`,`identity_time` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.085398s ]
+---------------------------------------------------------------
+[ 2018-06-01T14:31:12+08:00 ] 127.0.0.1 POST /index.php/app1_4/video/getStsAuth
+[ info ] limiapp.com/index.php/app1_4/video/getStsAuth [运行时间：1.008229s][吞吐率：0.99req/s] [内存消耗：3,954.13kb] [文件加载：75]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'getStsAuth',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7d7e2eab-fe99-4c17-b560-08b054967ade',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------360356334941707257281677',
+  'content-length' => '411',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'type' => 'upload',
+  'video' => 'getStsAuth',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.313771s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000765s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.177052s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->getStsAuth[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.129997s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.085246s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.084905s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.085655s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.085385s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.084006s ]
+[ sql ] [ SQL ] SELECT `user_info_status`,`identity_status`,`identity_time` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.084439s ]
+---------------------------------------------------------------
+[ 2018-06-01T15:32:31+08:00 ] 127.0.0.1 POST /index.php/app1_4/video/getStsAuth
+[ info ] limiapp.com/index.php/app1_4/video/getStsAuth [运行时间：5.430050s][吞吐率：0.18req/s] [内存消耗：3,277.46kb] [文件加载：54]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'getStsAuth',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '4cdb6698-8291-441c-84af-58c73022eaaa',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------359723100581163184531379',
+  'content-length' => '411',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'type' => 'upload',
+  'video' => 'getStsAuth',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.317899s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001161s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.176095s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->getStsAuth[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.132906s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.085292s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.085742s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.085350s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.083938s ]
+---------------------------------------------------------------
+[ 2018-06-01T15:32:47+08:00 ] 127.0.0.1 POST /index.php/app1_4/video/getStsAuth
+[ info ] limiapp.com/index.php/app1_4/video/getStsAuth [运行时间：12.335156s][吞吐率：0.08req/s] [内存消耗：3,276.58kb] [文件加载：54]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'getStsAuth',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7f642488-ab42-4df8-bb4d-97dd4dd744fd',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------021758725442014746077566',
+  'content-length' => '411',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'type' => 'upload',
+  'video' => 'getStsAuth',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.302185s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001150s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.169735s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->getStsAuth[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.123431s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.081446s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.082226s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.082934s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.081294s ]
+---------------------------------------------------------------
+[ 2018-06-01T15:33:18+08:00 ] 127.0.0.1 POST /index.php/app1_4/video/getStsAuth
+[ info ] limiapp.com/index.php/app1_4/video/getStsAuth [运行时间：16.465756s][吞吐率：0.06req/s] [内存消耗：3,277.38kb] [文件加载：54]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'getStsAuth',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '8119e94f-02a8-49df-9462-517e7bb74c4d',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------873893787103963102336212',
+  'content-length' => '411',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'type' => 'upload',
+  'video' => 'getStsAuth',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.313694s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001210s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.175537s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->getStsAuth[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.129705s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.084239s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.084394s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.085184s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.084592s ]
+---------------------------------------------------------------
+[ 2018-06-01T15:33:33+08:00 ] 127.0.0.1 POST /index.php/app1_4/video/getStsAuth
+[ info ] limiapp.com/index.php/app1_4/video/getStsAuth [运行时间：14.035439s][吞吐率：0.07req/s] [内存消耗：3,276.61kb] [文件加载：54]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'getStsAuth',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'cd6bb014-807f-456f-bda2-fb6b87c5984c',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------219132013396532622635613',
+  'content-length' => '411',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'type' => 'upload',
+  'video' => 'getStsAuth',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.322945s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001999s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.175533s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->getStsAuth[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.133126s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.084450s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.084531s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.085502s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.084844s ]
+---------------------------------------------------------------
+[ 2018-06-01T16:11:08+08:00 ] 127.0.0.1 POST /index.php/app1_4/video/getStsAuth
+[ info ] limiapp.com/index.php/app1_4/video/getStsAuth [运行时间：1.157233s][吞吐率：0.86req/s] [内存消耗：3,941.51kb] [文件加载：75]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'getStsAuth',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e9c769ed-8c55-4d0f-bd28-3a654dba5c4f',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------881669163079039861173141',
+  'content-length' => '411',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'type' => 'upload',
+  'video' => 'getStsAuth',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.317525s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001073s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.181912s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->getStsAuth[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.133987s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.084654s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.084708s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.087329s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.086742s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.085295s ]
+[ sql ] [ SQL ] SELECT `user_info_status`,`identity_status`,`identity_time` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.085558s ]
+---------------------------------------------------------------
+[ 2018-06-01T16:46:48+08:00 ] 127.0.0.1 POST /index.php/app1_4/Aliyunvideo/shortVideoGetPlayAuth
+[ info ] limiapp.com/index.php/app1_4/Aliyunvideo/shortVideoGetPlayAuth [运行时间：0.749232s][吞吐率：1.33req/s] [内存消耗：3,107.10kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'Aliyunvideo',
+    2 => 'shortVideoGetPlayAuth',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e2020a5b-7fd4-49f1-b6d2-34c66a4b054c',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------425738303933720920730630',
+  'content-length' => '161',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1191',
+  'Aliyunvideo' => 'shortVideoGetPlayAuth',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.322173s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001392s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.181119s ]
+[ info ] [ RUN ] app\apps1_4\controller\Aliyunvideo->shortVideoGetPlayAuth[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Aliyunvideo.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.132139s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.089777s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.086865s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.087886s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1191 LIMIT 1 [ RunTime:0.086719s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_action` [ RunTime:0.087466s ]
+[ sql ] [ SQL ] SELECT `video_id` FROM `limi_action` WHERE  `id` = 1191  AND `is_show` = 0 LIMIT 1 [ RunTime:0.086932s ]
+---------------------------------------------------------------
+[ 2018-06-01T16:47:50+08:00 ] 127.0.0.1 POST /index.php/app1_4/Aliyunvideo/shortVideoGetPlayAuth
+[ info ] limiapp.com/index.php/app1_4/Aliyunvideo/shortVideoGetPlayAuth [运行时间：0.762978s][吞吐率：1.31req/s] [内存消耗：3,107.10kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'Aliyunvideo',
+    2 => 'shortVideoGetPlayAuth',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '0dbb5580-06d8-48c4-b8e7-1cf23d24c435',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------502914662894676382743375',
+  'content-length' => '161',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1278',
+  'Aliyunvideo' => 'shortVideoGetPlayAuth',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.330038s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000749s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.185899s ]
+[ info ] [ RUN ] app\apps1_4\controller\Aliyunvideo->shortVideoGetPlayAuth[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Aliyunvideo.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.136323s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.090742s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.089453s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.090255s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1278 LIMIT 1 [ RunTime:0.090688s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_action` [ RunTime:0.090608s ]
+[ sql ] [ SQL ] SELECT `video_id` FROM `limi_action` WHERE  `id` = 1278  AND `is_show` = 0 LIMIT 1 [ RunTime:0.089423s ]
+---------------------------------------------------------------
+[ 2018-06-01T16:49:22+08:00 ] 127.0.0.1 POST /index.php/app1_4/Aliyunvideo/shortVideoGetPlayAuth
+[ info ] limiapp.com/index.php/app1_4/Aliyunvideo/shortVideoGetPlayAuth [运行时间：1.467220s][吞吐率：0.68req/s] [内存消耗：3,161.38kb] [文件加载：60]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'Aliyunvideo',
+    2 => 'shortVideoGetPlayAuth',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a83abafb-c6f8-4104-96c7-44eb9e837f8b',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------131428503316031237663118',
+  'content-length' => '161',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1278',
+  'Aliyunvideo' => 'shortVideoGetPlayAuth',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.645739s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001261s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.292581s ]
+[ info ] [ RUN ] app\apps1_4\controller\Aliyunvideo->shortVideoGetPlayAuth[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Aliyunvideo.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.337057s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.120181s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.175157s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.116619s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1278 LIMIT 1 [ RunTime:0.169576s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_video` [ RunTime:0.184008s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'video_id' in 'field list'[D:\xampp\htdocs\limiapp\thinkphp\library\think\db\Connection.php:388]
+---------------------------------------------------------------
+[ 2018-06-01T16:49:46+08:00 ] 127.0.0.1 POST /index.php/app1_4/Aliyunvideo/shortVideoGetPlayAuth
+[ info ] limiapp.com/index.php/app1_4/Aliyunvideo/shortVideoGetPlayAuth [运行时间：1.152823s][吞吐率：0.87req/s] [内存消耗：3,804.31kb] [文件加载：80]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'Aliyunvideo',
+    2 => 'shortVideoGetPlayAuth',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '0963738a-193b-4f85-8499-cbe8e375bf0b',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------105053106939490443602679',
+  'content-length' => '161',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1278',
+  'Aliyunvideo' => 'shortVideoGetPlayAuth',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.331624s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000946s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.184502s ]
+[ info ] [ RUN ] app\apps1_4\controller\Aliyunvideo->shortVideoGetPlayAuth[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Aliyunvideo.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.134352s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.089481s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.088681s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.089700s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1278 LIMIT 1 [ RunTime:0.088644s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_video` [ RunTime:0.088771s ]
+[ sql ] [ SQL ] SELECT `video` FROM `limi_video` WHERE  `id` = 1278  AND `is_show` = 0 LIMIT 1 [ RunTime:0.089448s ]
+[ error ] [8]未定义数组索引: cn-shanghai#vod[D:\xampp\htdocs\limiapp\extend\aliyunOpenapi\aliyun-php-sdk-core\Regions\LocationService.php:56]
+---------------------------------------------------------------
+[ 2018-06-01T16:50:43+08:00 ] 127.0.0.1 POST /index.php/app1_4/Aliyunvideo/shortVideoGetPlayAuth
+[ info ] limiapp.com/index.php/app1_4/Aliyunvideo/shortVideoGetPlayAuth [运行时间：44.714034s][吞吐率：0.02req/s] [内存消耗：3,750.96kb] [文件加载：78]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'Aliyunvideo',
+    2 => 'shortVideoGetPlayAuth',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '82a2f1b2-7bc5-4c08-9c30-39a8561cf086',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------376808441089790064829897',
+  'content-length' => '161',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1278',
+  'Aliyunvideo' => 'shortVideoGetPlayAuth',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.320331s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001562s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.178354s ]
+[ info ] [ RUN ] app\apps1_4\controller\Aliyunvideo->shortVideoGetPlayAuth[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Aliyunvideo.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.132001s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.087534s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.086488s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.087486s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1278 LIMIT 1 [ RunTime:0.085365s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_video` [ RunTime:0.086815s ]
+[ sql ] [ SQL ] SELECT `video` FROM `limi_video` WHERE  `id` = 1278  AND `is_show` = 0 LIMIT 1 [ RunTime:0.085224s ]
+[ error ] [8]未定义数组索引: cn-shanghai#vod[D:\xampp\htdocs\limiapp\extend\aliyunOpenapi\aliyun-php-sdk-core\Regions\LocationService.php:56]
+---------------------------------------------------------------
+[ 2018-06-01T17:07:41+08:00 ] 127.0.0.1 POST /index.php/app1_4/video/getStsAuth
+[ info ] limiapp.com/index.php/app1_4/video/getStsAuth [运行时间：1.137887s][吞吐率：0.88req/s] [内存消耗：3,941.51kb] [文件加载：75]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'getStsAuth',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e1d3e6eb-78a6-44e0-9687-ef25dc4b63b8',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------744823444453400798306851',
+  'content-length' => '411',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'type' => 'upload',
+  'video' => 'getStsAuth',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.327656s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000941s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.184799s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->getStsAuth[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.136876s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.089594s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.089632s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.089073s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.089644s ]
+[ sql ] [ SQL ] SELECT `user_info_status`,`identity_status`,`identity_time` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.089911s ]
+---------------------------------------------------------------
+[ 2018-06-01T17:11:19+08:00 ] 127.0.0.1 POST /index.php/app1_4/video/getStsAuth
+[ info ] limiapp.com/index.php/app1_4/video/getStsAuth [运行时间：1.054597s][吞吐率：0.95req/s] [内存消耗：3,941.51kb] [文件加载：75]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'getStsAuth',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '47501181-4f22-4987-9749-4c67bc29f8ac',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------665000993632355221524632',
+  'content-length' => '411',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'type' => 'upload',
+  'video' => 'getStsAuth',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.332588s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001473s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.186807s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->getStsAuth[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.135609s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.090523s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.090523s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.089295s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.089169s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.089280s ]
+[ sql ] [ SQL ] SELECT `user_info_status`,`identity_status`,`identity_time` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.088958s ]
+---------------------------------------------------------------
+[ 2018-06-01T17:52:17+08:00 ] 127.0.0.1 POST /index.php/callback/Aligreencallback/videoSafe
+[ info ] limiapp.com/index.php/callback/Aligreencallback/videoSafe [运行时间：21.940193s][吞吐率：0.05req/s] [内存消耗：2,333.30kb] [文件加载：46]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'callback',
+    1 => 'Aligreencallback',
+    2 => 'videoSafe',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '764010f8-4f1d-4e29-899f-e6f1d95dc45d',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------056285513862328713541447',
+  'content-length' => '411',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'type' => 'upload',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.303533s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001539s ]
+[ info ] [ RUN ] app\callback\controller\Aligreencallback->videoSafe[ D:\xampp\htdocs\limiapp\application\callback\controller\Aligreencallback.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.123126s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.081671s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.084326s ]

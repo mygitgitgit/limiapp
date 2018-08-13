@@ -1,0 +1,1413 @@
+---------------------------------------------------------------
+[ 2018-06-21T10:20:11+08:00 ] 127.0.0.1 POST /index.php/app1_5/Statistics/test
+[ info ] limiapp.com/index.php/app1_5/Statistics/test [运行时间：44.288924s][吞吐率：0.02req/s] [内存消耗：3,002.50kb] [文件加载：53]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Statistics',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '80b29268-f60c-45b5-a887-d4276c26dce6',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------811379612313409624137374',
+  'content-length' => '414',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '8d6ce4fcee776b897b39168320f584412a0bd053',
+  'event_code' => '100',
+  'Statistics' => 'test',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.341525s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001191s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.190202s ]
+[ info ] [ RUN ] app\apps1_5\controller\statistics->test[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Statistics.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.139006s ] mysql:host=47.97.218.145;port=3306;dbname=limiapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.091370s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.093225s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.096030s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.088079s ]
+---------------------------------------------------------------
+[ 2018-06-21T10:20:34+08:00 ] 127.0.0.1 POST /index.php/app1_5/Statistics/test
+[ info ] limiapp.com/index.php/app1_5/Statistics/test [运行时间：12.992436s][吞吐率：0.08req/s] [内存消耗：3,002.10kb] [文件加载：53]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Statistics',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '5d8a7bad-46e9-49b3-8f0b-b1144bc309a7',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------860959772265880162048449',
+  'content-length' => '414',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '8d6ce4fcee776b897b39168320f584412a0bd053',
+  'event_code' => '100',
+  'Statistics' => 'test',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.310533s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001294s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.176141s ]
+[ info ] [ RUN ] app\apps1_5\controller\statistics->test[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Statistics.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.129053s ] mysql:host=47.97.218.145;port=3306;dbname=limiapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.084157s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.083346s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.085214s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.083328s ]
+---------------------------------------------------------------
+[ 2018-06-21T11:38:59+08:00 ] 127.0.0.1 POST /index.php/app1_5/Statistics/test
+[ info ] limiapp.com/index.php/app1_5/Statistics/test [运行时间：3.924925s][吞吐率：0.25req/s] [内存消耗：3,002.10kb] [文件加载：53]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Statistics',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'limiapp.com',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'content-length' => '414',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'content-type' => 'multipart/form-data; boundary=--------------------------843409571476854086350159',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'postman-token' => '2b01d764-3bdf-4c7f-b0ac-20d64b258eaa',
+  'x-lantern-version' => '4.7.5',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '8d6ce4fcee776b897b39168320f584412a0bd053',
+  'event_code' => '100',
+  'Statistics' => 'test',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.328937s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001834s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.186721s ]
+[ info ] [ RUN ] app\apps1_5\controller\statistics->test[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Statistics.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.134570s ] mysql:host=47.97.218.145;port=3306;dbname=limiapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.088363s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.088881s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.087929s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.089138s ]
+---------------------------------------------------------------
+[ 2018-06-21T12:43:41+08:00 ] 127.0.0.1 POST /index.php/app1_5/Statistics/test
+[ info ] limiapp.com/index.php/app1_5/Statistics/test [运行时间：3,839.229801s][吞吐率：0.00req/s] [内存消耗：3,002.23kb] [文件加载：53]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Statistics',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'bda88bb6-e7f3-4e54-8409-caafc0b81397',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------979765954796060904306500',
+  'content-length' => '414',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '8d6ce4fcee776b897b39168320f584412a0bd053',
+  'event_code' => '100',
+  'Statistics' => 'test',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.316793s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000949s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.174878s ]
+[ info ] [ RUN ] app\apps1_5\controller\statistics->test[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Statistics.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.130090s ] mysql:host=47.97.218.145;port=3306;dbname=limiapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.085160s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.084705s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.084767s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.084549s ]
+---------------------------------------------------------------
+[ 2018-06-21T14:19:12+08:00 ] 127.0.0.1 POST /index.php/app1_5/Statistics/test
+[ info ] limiapp.com/index.php/app1_5/Statistics/test [运行时间：11.848102s][吞吐率：0.08req/s] [内存消耗：3,002.11kb] [文件加载：53]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Statistics',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '5a897801-26b9-4a76-963e-fc31bb2a1c7c',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------383274847204157564232182',
+  'content-length' => '414',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '8d6ce4fcee776b897b39168320f584412a0bd053',
+  'event_code' => '100',
+  'Statistics' => 'test',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.336736s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001036s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.182989s ]
+[ info ] [ RUN ] app\apps1_5\controller\statistics->test[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Statistics.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.138159s ] mysql:host=47.97.218.145;port=3306;dbname=limiapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.092119s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.090375s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.088584s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.089220s ]
+---------------------------------------------------------------
+[ 2018-06-21T15:56:26+08:00 ] 127.0.0.1 POST /index.php/app1_5/Statistics/test
+[ info ] limiapp.com/index.php/app1_5/Statistics/test [运行时间：8.499386s][吞吐率：0.12req/s] [内存消耗：3,002.11kb] [文件加载：53]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Statistics',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7ca2d6a3-4d8b-4a38-8045-a21418f45f48',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------947309711996047699322122',
+  'content-length' => '414',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '8d6ce4fcee776b897b39168320f584412a0bd053',
+  'event_code' => '100',
+  'Statistics' => 'test',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.332015s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001138s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.185467s ]
+[ info ] [ RUN ] app\apps1_5\controller\statistics->test[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Statistics.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.136666s ] mysql:host=47.97.218.145;port=3306;dbname=limiapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.090167s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.088808s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.089607s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.090002s ]
+---------------------------------------------------------------
+[ 2018-06-21T16:05:05+08:00 ] 127.0.0.1 POST /index.php/app1_5/Statistics/test
+[ info ] limiapp.com/index.php/app1_5/Statistics/test [运行时间：46.133558s][吞吐率：0.02req/s] [内存消耗：3,003.08kb] [文件加载：53]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Statistics',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f43f2c14-dda0-415c-b201-df77af7b66d2',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------072506063064913413870429',
+  'content-length' => '414',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '8d6ce4fcee776b897b39168320f584412a0bd053',
+  'event_code' => '100',
+  'Statistics' => 'test',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.326804s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000990s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.184234s ]
+[ info ] [ RUN ] app\apps1_5\controller\statistics->test[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Statistics.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.133186s ] mysql:host=47.97.218.145;port=3306;dbname=limiapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.089556s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.090672s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.089052s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.089839s ]
+---------------------------------------------------------------
+[ 2018-06-21T16:07:40+08:00 ] 127.0.0.1 POST /index.php/app1_5/Statistics/test
+[ info ] limiapp.com/index.php/app1_5/Statistics/test [运行时间：97.180950s][吞吐率：0.01req/s] [内存消耗：3,011.30kb] [文件加载：53]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Statistics',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c8da0388-f4e6-4d09-aa37-00f4cdba7ab7',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------146404285377122164560399',
+  'content-length' => '414',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '8d6ce4fcee776b897b39168320f584412a0bd053',
+  'event_code' => '100',
+  'Statistics' => 'test',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.317348s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000734s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.180399s ]
+[ info ] [ RUN ] app\apps1_5\controller\statistics->test[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Statistics.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.133854s ] mysql:host=47.97.218.145;port=3306;dbname=limiapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.086468s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.086104s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.086945s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.086861s ]
+---------------------------------------------------------------
+[ 2018-06-21T16:08:00+08:00 ] 127.0.0.1 POST /index.php/app1_5/Statistics/test
+[ info ] limiapp.com/index.php/app1_5/Statistics/test [运行时间：5.403262s][吞吐率：0.19req/s] [内存消耗：3,003.88kb] [文件加载：53]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Statistics',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '990ed1e2-9e17-4e3e-9fae-fd15280340be',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------264250192453786883803355',
+  'content-length' => '414',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '8d6ce4fcee776b897b39168320f584412a0bd053',
+  'event_code' => '100',
+  'Statistics' => 'test',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.329333s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001014s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.183206s ]
+[ info ] [ RUN ] app\apps1_5\controller\statistics->test[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Statistics.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.137252s ] mysql:host=47.97.218.145;port=3306;dbname=limiapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.089057s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.088321s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.089369s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.087896s ]
+---------------------------------------------------------------
+[ 2018-06-21T16:09:22+08:00 ] 127.0.0.1 POST /index.php/app1_5/Statistics/test
+[ info ] limiapp.com/index.php/app1_5/Statistics/test [运行时间：74.437635s][吞吐率：0.01req/s] [内存消耗：3,011.74kb] [文件加载：53]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Statistics',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '4692b150-fe9b-4354-be9e-62e0f09147f5',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------963499345235983719466404',
+  'content-length' => '414',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '8d6ce4fcee776b897b39168320f584412a0bd053',
+  'event_code' => '100',
+  'Statistics' => 'test',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.312507s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001066s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.172017s ]
+[ info ] [ RUN ] app\apps1_5\controller\statistics->test[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Statistics.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.129248s ] mysql:host=47.97.218.145;port=3306;dbname=limiapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.084679s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.082820s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.083650s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.082960s ]
+---------------------------------------------------------------
+[ 2018-06-21T16:12:17+08:00 ] 127.0.0.1 POST /index.php/app1_5/Statistics/test
+[ info ] limiapp.com/index.php/app1_5/Statistics/test [运行时间：27.589227s][吞吐率：0.04req/s] [内存消耗：3,004.30kb] [文件加载：53]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Statistics',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '78084456-93bf-4e5b-b657-23df08b77b5d',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------674231155644844161797222',
+  'content-length' => '414',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '8d6ce4fcee776b897b39168320f584412a0bd053',
+  'event_code' => '100',
+  'Statistics' => 'test',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.349232s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001930s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.189369s ]
+[ info ] [ RUN ] app\apps1_5\controller\statistics->test[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Statistics.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.134165s ] mysql:host=47.97.218.145;port=3306;dbname=limiapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.088200s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.088986s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.090012s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.089234s ]
+---------------------------------------------------------------
+[ 2018-06-21T16:52:48+08:00 ] 127.0.0.1 POST /index.php/app1_5/Statistics/test
+[ info ] limiapp.com/index.php/app1_5/Statistics/test [运行时间：43.171693s][吞吐率：0.02req/s] [内存消耗：3,004.31kb] [文件加载：53]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Statistics',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '22291e7c-ac09-47ce-95b5-55309f9a07fc',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------087389438244095254818606',
+  'content-length' => '414',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '8d6ce4fcee776b897b39168320f584412a0bd053',
+  'event_code' => '100',
+  'Statistics' => 'test',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.311652s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001267s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.176167s ]
+[ info ] [ RUN ] app\apps1_5\controller\statistics->test[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Statistics.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.127480s ] mysql:host=47.97.218.145;port=3306;dbname=limiapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.084639s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.084983s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.085967s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.084698s ]
+---------------------------------------------------------------
+[ 2018-06-21T16:53:20+08:00 ] 127.0.0.1 POST /index.php/app1_5/Statistics/test
+[ info ] limiapp.com/index.php/app1_5/Statistics/test [运行时间：21.064764s][吞吐率：0.05req/s] [内存消耗：2,398.46kb] [文件加载：44]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Statistics',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '4c0ab7ae-384c-462a-b945-74dd0098b9c3',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------685516972711781542227206',
+  'content-length' => '414',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '8d6ce4fcee776b897b39168320f584412a0bd053',
+  'event_code' => '100',
+  'Statistics' => 'test',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] �������ӷ���һ��ʱ���û����ȷ�𸴻����ӵ�����û�з�Ӧ�����ӳ���ʧ�ܡ�
+[D:\xampp\htdocs\limiapp\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2018-06-21T16:57:41+08:00 ] 127.0.0.1 POST /index.php/app1_5/Statistics/test
+[ info ] limiapp.com/index.php/app1_5/Statistics/test [运行时间：261.348085s][吞吐率：0.00req/s] [内存消耗：3,004.40kb] [文件加载：53]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Statistics',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c86daaae-3654-4a93-8906-61168468c063',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------099585042804150634185356',
+  'content-length' => '414',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '8d6ce4fcee776b897b39168320f584412a0bd053',
+  'event_code' => '100',
+  'Statistics' => 'test',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.312949s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001468s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.175636s ]
+[ info ] [ RUN ] app\apps1_5\controller\statistics->test[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Statistics.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.129483s ] mysql:host=47.97.218.145;port=3306;dbname=limiapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.084874s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.084070s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.084497s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.084993s ]
+---------------------------------------------------------------
+[ 2018-06-21T16:57:44+08:00 ] 127.0.0.1 GET /index.php/app1_5/Statistics/test
+[ info ] limiapp.com/index.php/app1_5/Statistics/test [运行时间：2.300306s][吞吐率：0.43req/s] [内存消耗：2,991.62kb] [文件加载：53]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Statistics',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '8e637f65-ea54-4904-a5a7-9c3305842204',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'Statistics' => 'test',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.331695s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000983s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.001019s ]
+[ info ] [ RUN ] app\apps1_5\controller\statistics->test[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Statistics.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.135864s ] mysql:host=47.97.218.145;port=3306;dbname=limiapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.088044s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.088491s ]
+---------------------------------------------------------------
+[ 2018-06-21T17:41:05+08:00 ] 127.0.0.1 GET /index.php/app1_5/Statistics/test2
+[ info ] limiapp.com/index.php/app1_5/Statistics/test2 [运行时间：0.750537s][吞吐率：1.33req/s] [内存消耗：3,076.09kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Statistics',
+    2 => 'test2',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '0827f40e-fee0-4426-9d92-a61384e2ae87',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'Statistics' => 'test2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.387281s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001137s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.001321s ]
+[ info ] [ RUN ] app\apps1_5\controller\statistics->test2[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Statistics.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.197935s ] mysql:host=47.97.218.145;port=3306;dbname=limiapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.090118s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.085342s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_test` [ RunTime:0.084083s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_test` WHERE  `aa` = '797538' LIMIT 1 [ RunTime:0.091599s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_test` WHERE  `bb` = 797538 LIMIT 1 [ RunTime:0.087915s ]
+IT 1 [ RunTime:0.087907s ]
+---------------------------------------------------------------
+[ 2018-06-21T17:41:05+08:00 ] 127.0.0.1 GET /index.php/app1_5/Statistics/test2
+[ info ] limiapp.com/index.php/app1_5/Statistics/test2 [运行时间：0.729935s][吞吐率：1.37req/s] [内存消耗：3,076.09kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Statistics',
+    2 => 'test2',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'fb19a234-0d9e-40a3-b3b0-a20f6fea9552',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'Statistics' => 'test2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.319289s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000779s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.001082s ]
+[ info ] [ RUN ] app\apps1_5\controller\statistics->test2[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Statistics.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.135219s ] mysql:host=47.97.218.145;port=3306;dbname=limiapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.082786s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.087374s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_test` [ RunTime:0.083349s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_test` WHERE  `aa` = '797538' LIMIT 1 [ RunTime:0.087592s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_test` WHERE  `bb` = 797538 LIMIT 1 [ RunTime:0.087846s ]
+---------------------------------------------------------------
+[ 2018-06-21T17:41:05+08:00 ] 127.0.0.1 GET /index.php/app1_5/Statistics/test2
+[ info ] limiapp.com/index.php/app1_5/Statistics/test2 [运行时间：0.739199s][吞吐率：1.35req/s] [内存消耗：3,076.09kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Statistics',
+    2 => 'test2',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f1cc2666-9b76-485b-b4ab-791c3cb08e29',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'Statistics' => 'test2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.332103s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000960s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.001382s ]
+[ info ] [ RUN ] app\apps1_5\controller\statistics->test2[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Statistics.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.134278s ] mysql:host=47.97.218.145;port=3306;dbname=limiapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.091645s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.087914s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_test` [ RunTime:0.086475s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_test` WHERE  `aa` = '797538' LIMIT 1 [ RunTime:0.091913s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_test` WHERE  `bb` = 797538 LIMIT 1 [ RunTime:0.088540s ]
+---------------------------------------------------------------
+[ 2018-06-21T17:41:05+08:00 ] 127.0.0.1 GET /index.php/app1_5/Statistics/test2
+[ info ] limiapp.com/index.php/app1_5/Statistics/test2 [运行时间：0.787104s][吞吐率：1.27req/s] [内存消耗：3,076.14kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Statistics',
+    2 => 'test2',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c37fbd16-bbb3-4ccd-a392-d505f08628cc',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'Statistics' => 'test2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.405947s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000821s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.001274s ]
+[ info ] [ RUN ] app\apps1_5\controller\statistics->test2[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Statistics.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.209461s ] mysql:host=47.97.218.145;port=3306;dbname=limiapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.088961s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.093685s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_test` [ RunTime:0.087273s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_test` WHERE  `aa` = '797538' LIMIT 1 [ RunTime:0.092208s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_test` WHERE  `bb` = 797538 LIMIT 1 [ RunTime:0.090879s ]
+---------------------------------------------------------------
+[ 2018-06-21T17:41:05+08:00 ] 127.0.0.1 GET /index.php/app1_5/Statistics/test2
+[ info ] limiapp.com/index.php/app1_5/Statistics/test2 [运行时间：0.747858s][吞吐率：1.34req/s] [内存消耗：3,076.09kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Statistics',
+    2 => 'test2',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '9b7bd63e-fbb4-434a-bf58-46a3af716acf',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'Statistics' => 'test2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.313935s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000915s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.001111s ]
+[ info ] [ RUN ] app\apps1_5\controller\statistics->test2[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Statistics.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.126479s ] mysql:host=47.97.218.145;port=3306;dbname=limiapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.085467s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.084187s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_test` [ RunTime:0.085247s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_test` WHERE  `aa` = '797538' LIMIT 1 [ RunTime:0.088270s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_test` WHERE  `bb` = 797538 LIMIT 1 [ RunTime:0.087318s ]
+---------------------------------------------------------------
+[ 2018-06-21T17:42:28+08:00 ] 127.0.0.1 POST /index.php/app1_5/Statistics/test2
+[ info ] limiapp.com/index.php/app1_5/Statistics/test2 [运行时间：43.983217s][吞吐率：0.02req/s] [内存消耗：3,013.87kb] [文件加载：53]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Statistics',
+    2 => 'test2',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7ac2f1fd-71c4-472d-8eb0-6184e07f6f52',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'Statistics' => 'test2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.317565s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001338s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.001045s ]
+[ info ] [ RUN ] app\apps1_5\controller\statistics->test2[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Statistics.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.129907s ] mysql:host=47.97.218.145;port=3306;dbname=limiapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.086439s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.086960s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_test` [ RunTime:0.089332s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_test` WHERE  `aa` = '797538' LIMIT 1 [ RunTime:0.090130s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_test` WHERE  `bb` = 797538 LIMIT 1 [ RunTime:0.089632s ]
+---------------------------------------------------------------
+[ 2018-06-21T17:43:05+08:00 ] 127.0.0.1 POST /index.php/app1_5/Statistics/test2
+[ info ] limiapp.com/index.php/app1_5/Statistics/test2 [运行时间：28.542497s][吞吐率：0.04req/s] [内存消耗：3,013.87kb] [文件加载：53]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Statistics',
+    2 => 'test2',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'cf597604-2a19-4eb4-9b2a-e3066ae95ac4',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'Statistics' => 'test2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.329462s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001124s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.001813s ]
+[ info ] [ RUN ] app\apps1_5\controller\statistics->test2[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Statistics.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.139219s ] mysql:host=47.97.218.145;port=3306;dbname=limiapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.087893s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.089291s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_test` [ RunTime:0.093517s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_test` WHERE  `aa` = '797538' LIMIT 1 [ RunTime:0.091854s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_test` WHERE  `bb` = 797538 LIMIT 1 [ RunTime:0.093484s ]
+---------------------------------------------------------------
+[ 2018-06-21T17:43:39+08:00 ] 127.0.0.1 POST /index.php/app1_5/Statistics/test2
+[ info ] limiapp.com/index.php/app1_5/Statistics/test2 [运行时间：31.892963s][吞吐率：0.03req/s] [内存消耗：3,006.09kb] [文件加载：53]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Statistics',
+    2 => 'test2',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '87d2b0fb-743e-4704-8307-5b8f267a0160',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'Statistics' => 'test2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.322065s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000719s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.000621s ]
+[ info ] [ RUN ] app\apps1_5\controller\statistics->test2[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Statistics.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.132657s ] mysql:host=47.97.218.145;port=3306;dbname=limiapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.088715s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.088036s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_test` [ RunTime:0.089013s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_test` WHERE  `aa` = '797538' LIMIT 1 [ RunTime:0.089977s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_test` WHERE  `bb` = 797538 LIMIT 1 [ RunTime:0.091910s ]
+---------------------------------------------------------------
+[ 2018-06-21T17:44:19+08:00 ] 127.0.0.1 POST /index.php/app1_5/Statistics/test2
+[ info ] limiapp.com/index.php/app1_5/Statistics/test2 [运行时间：10.160602s][吞吐率：0.10req/s] [内存消耗：3,006.16kb] [文件加载：53]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Statistics',
+    2 => 'test2',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '3e95c0a4-614c-4d12-a71a-313fa9b7defc',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'Statistics' => 'test2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.398250s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001204s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.001105s ]
+[ info ] [ RUN ] app\apps1_5\controller\statistics->test2[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Statistics.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.135198s ] mysql:host=47.97.218.145;port=3306;dbname=limiapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.089289s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.157820s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_test` [ RunTime:0.134118s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_test` WHERE  `bb` = 797538 LIMIT 1 [ RunTime:0.099936s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_test` WHERE  `aa` = '797538' LIMIT 1 [ RunTime:0.091531s ]
+---------------------------------------------------------------
+[ 2018-06-21T17:44:38+08:00 ] 127.0.0.1 POST /index.php/app1_5/Statistics/test2
+[ info ] limiapp.com/index.php/app1_5/Statistics/test2 [运行时间：15.381051s][吞吐率：0.07req/s] [内存消耗：3,006.16kb] [文件加载：53]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Statistics',
+    2 => 'test2',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7965f255-b1e6-4f5e-ab2b-216448056e17',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'Statistics' => 'test2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.343593s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001491s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.001597s ]
+[ info ] [ RUN ] app\apps1_5\controller\statistics->test2[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Statistics.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.140520s ] mysql:host=47.97.218.145;port=3306;dbname=limiapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.089644s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_test` [ RunTime:0.090611s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_test` WHERE  `bb` = 797538 LIMIT 1 [ RunTime:0.096133s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_test` WHERE  `aa` = '797538' LIMIT 1 [ RunTime:0.091650s ]
+---------------------------------------------------------------
+[ 2018-06-21T17:44:48+08:00 ] 127.0.0.1 POST /index.php/app1_5/Statistics/test2
+[ info ] limiapp.com/index.php/app1_5/Statistics/test2 [运行时间：3.262003s][吞吐率：0.31req/s] [内存消耗：3,001.08kb] [文件加载：53]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Statistics',
+    2 => 'test2',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '43d62ded-20bd-479f-87b7-475be3ef4828',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'Statistics' => 'test2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.326776s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000712s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.000659s ]
+[ info ] [ RUN ] app\apps1_5\controller\statistics->test2[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Statistics.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.135131s ] mysql:host=47.97.218.145;port=3306;dbname=limiapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.088112s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.087418s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_test` [ RunTime:0.090029s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_test` WHERE  `bb` = 797538 LIMIT 1 [ RunTime:0.091819s ]
+---------------------------------------------------------------
+[ 2018-06-21T17:44:58+08:00 ] 127.0.0.1 POST /index.php/app1_5/Statistics/test2
+[ info ] limiapp.com/index.php/app1_5/Statistics/test2 [运行时间：4.660279s][吞吐率：0.21req/s] [内存消耗：3,001.20kb] [文件加载：53]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Statistics',
+    2 => 'test2',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '3e94dbdd-088d-49b0-8791-26c68dfaf100',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'Statistics' => 'test2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.332922s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001001s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.000578s ]
+[ info ] [ RUN ] app\apps1_5\controller\statistics->test2[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Statistics.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.135062s ] mysql:host=47.97.218.145;port=3306;dbname=limiapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.090504s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.089219s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_test` [ RunTime:0.087530s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_test` WHERE  `aa` = '797538' LIMIT 1 [ RunTime:0.095742s ]
+---------------------------------------------------------------
+[ 2018-06-21T17:45:37+08:00 ] 127.0.0.1 POST /index.php/app1_5/Statistics/test2
+[ info ] limiapp.com/index.php/app1_5/Statistics/test2 [运行时间：7.111935s][吞吐率：0.14req/s] [内存消耗：3,000.30kb] [文件加载：53]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Statistics',
+    2 => 'test2',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '52e188db-dded-48e7-9a81-bcefc3079a95',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'Statistics' => 'test2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.325455s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000939s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.000719s ]
+[ info ] [ RUN ] app\apps1_5\controller\statistics->test2[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Statistics.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.133661s ] mysql:host=47.97.218.145;port=3306;dbname=limiapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.091146s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.088240s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_test` [ RunTime:0.088156s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_test` WHERE  `aa` = '797538' LIMIT 1 [ RunTime:0.087149s ]
+---------------------------------------------------------------
+[ 2018-06-21T17:45:51+08:00 ] 127.0.0.1 POST /index.php/app1_5/Statistics/test2
+[ info ] limiapp.com/index.php/app1_5/Statistics/test2 [运行时间：10.908006s][吞吐率：0.09req/s] [内存消耗：3,000.30kb] [文件加载：53]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Statistics',
+    2 => 'test2',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '6f4b7940-a526-4f8c-9d2e-05587653fe33',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'Statistics' => 'test2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.327581s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000739s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.000727s ]
+[ info ] [ RUN ] app\apps1_5\controller\statistics->test2[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Statistics.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.134231s ] mysql:host=47.97.218.145;port=3306;dbname=limiapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.088525s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.089869s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_test` [ RunTime:0.088568s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_test` WHERE  `aa` = '797538' LIMIT 1 [ RunTime:0.088506s ]
+---------------------------------------------------------------
+[ 2018-06-21T17:46:06+08:00 ] 127.0.0.1 POST /index.php/app1_5/Statistics/test2
+[ info ] limiapp.com/index.php/app1_5/Statistics/test2 [运行时间：6.540916s][吞吐率：0.15req/s] [内存消耗：3,000.26kb] [文件加载：53]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Statistics',
+    2 => 'test2',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '0c0a06d3-27b0-415f-8a16-47c866d48b12',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'Statistics' => 'test2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.324537s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000758s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.000749s ]
+[ info ] [ RUN ] app\apps1_5\controller\statistics->test2[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Statistics.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.134670s ] mysql:host=47.97.218.145;port=3306;dbname=limiapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.087753s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.086514s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_test` [ RunTime:0.086868s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_test` WHERE  `aa` = '797538' LIMIT 1 [ RunTime:0.087264s ]
+---------------------------------------------------------------
+[ 2018-06-21T17:46:21+08:00 ] 127.0.0.1 POST /index.php/app1_5/Statistics/test2
+[ info ] limiapp.com/index.php/app1_5/Statistics/test2 [运行时间：6.374077s][吞吐率：0.16req/s] [内存消耗：3,000.18kb] [文件加载：53]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Statistics',
+    2 => 'test2',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e45dcc6c-a32b-41ee-a42f-b2327914081d',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'Statistics' => 'test2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.325440s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000998s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.001048s ]
+[ info ] [ RUN ] app\apps1_5\controller\statistics->test2[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Statistics.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.133560s ] mysql:host=47.97.218.145;port=3306;dbname=limiapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.088787s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.087772s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_test` [ RunTime:0.090283s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_test` WHERE  `bb` = 797538 LIMIT 1 [ RunTime:0.087444s ]
+---------------------------------------------------------------
+[ 2018-06-21T17:47:34+08:00 ] 127.0.0.1 POST /index.php/app1_5/Statistics/test2
+[ info ] limiapp.com/index.php/app1_5/Statistics/test2 [运行时间：9.290130s][吞吐率：0.11req/s] [内存消耗：2,995.13kb] [文件加载：53]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Statistics',
+    2 => 'test2',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e226d603-22fa-499d-aafb-0d93328c99a4',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'Statistics' => 'test2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.325956s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.006256s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.001057s ]
+[ info ] [ RUN ] app\apps1_5\controller\statistics->test2[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Statistics.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.130257s ] mysql:host=47.97.218.145;port=3306;dbname=limiapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.085587s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.088967s ]
+[ sql ] [ SQL ] SELECT * FROM limi_test WHERE aa='172863' [ RunTime:0.088774s ]
+---------------------------------------------------------------
+[ 2018-06-21T17:47:46+08:00 ] 127.0.0.1 POST /index.php/app1_5/Statistics/test2
+[ info ] limiapp.com/index.php/app1_5/Statistics/test2 [运行时间：5.799726s][吞吐率：0.17req/s] [内存消耗：2,995.05kb] [文件加载：53]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Statistics',
+    2 => 'test2',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '52b33cc9-2902-4269-adac-2a2c5947835a',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'Statistics' => 'test2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.310971s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001081s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.000744s ]
+[ info ] [ RUN ] app\apps1_5\controller\statistics->test2[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Statistics.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.127615s ] mysql:host=47.97.218.145;port=3306;dbname=limiapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.084659s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.084198s ]
+[ sql ] [ SQL ] SELECT * FROM limi_test WHERE aa=172863 [ RunTime:0.087523s ]
+---------------------------------------------------------------
+[ 2018-06-21T17:48:35+08:00 ] 127.0.0.1 POST /index.php/app1_5/Statistics/test2
+[ info ] limiapp.com/index.php/app1_5/Statistics/test2 [运行时间：35.769276s][吞吐率：0.03req/s] [内存消耗：2,995.05kb] [文件加载：53]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Statistics',
+    2 => 'test2',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '2c55e299-0bf8-467c-81a4-5d9db3fa1d8d',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'Statistics' => 'test2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.339119s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001011s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.000935s ]
+[ info ] [ RUN ] app\apps1_5\controller\statistics->test2[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Statistics.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.150182s ] mysql:host=47.97.218.145;port=3306;dbname=limiapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.086976s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.090075s ]
+[ sql ] [ SQL ] SELECT * FROM limi_test WHERE bb=172863 [ RunTime:0.087682s ]
+---------------------------------------------------------------
+[ 2018-06-21T17:48:53+08:00 ] 127.0.0.1 POST /index.php/app1_5/Statistics/test2
+[ info ] limiapp.com/index.php/app1_5/Statistics/test2 [运行时间：4.974903s][吞吐率：0.20req/s] [内存消耗：2,993.79kb] [文件加载：53]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Statistics',
+    2 => 'test2',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b0220213-84c2-41a3-b258-a25ed7a85ed4',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'Statistics' => 'test2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.359048s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001842s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.002720s ]
+[ info ] [ RUN ] app\apps1_5\controller\statistics->test2[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Statistics.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.136447s ] mysql:host=47.97.218.145;port=3306;dbname=limiapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.091438s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.092801s ]
+[ sql ] [ SQL ] SELECT id FROM limi_test WHERE bb=172863 [ RunTime:0.090714s ]

@@ -1,0 +1,291 @@
+---------------------------------------------------------------
+[ 2018-08-07T11:46:47+08:00 ] 127.0.0.1 GET /index.php/app1_5/Video/personalDetails?id=36&user_id=36&page=1&type=0&time=1528104018
+[ info ] limiapp.com/index.php/app1_5/Video/personalDetails?id=36&user_id=36&page=1&type=0&time=1528104018 [运行时间：3.963227s][吞吐率：0.25req/s] [内存消耗：3,592.01kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Video',
+    2 => 'personalDetails',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7d4d88c3-fde9-4b7a-8ef7-7028cb232bfd',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '36',
+  'user_id' => '36',
+  'page' => '1',
+  'type' => '0',
+  'time' => '1528104018',
+  'Video' => 'personalDetails',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.354021s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.019001s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.191011s ]
+[ info ] [ RUN ] app\apps1_5\controller\Video->personalDetails[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T11:46:55+08:00 ] 127.0.0.1 GET /index.php/app1_6/Video/personalDetails?id=36&user_id=36&page=1&type=0&time=1528104018
+[ info ] limiapp.com/index.php/app1_6/Video/personalDetails?id=36&user_id=36&page=1&type=0&time=1528104018 [运行时间：5.004286s][吞吐率：0.20req/s] [内存消耗：3,832.23kb] [文件加载：56]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_6',
+    1 => 'Video',
+    2 => 'personalDetails',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'bf2da241-1b5b-435e-b8ef-d29ee24a1152',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '36',
+  'user_id' => '36',
+  'page' => '1',
+  'type' => '0',
+  'time' => '1528104018',
+  'Video' => 'personalDetails',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.280016s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.163010s ]
+[ info ] [ RUN ] app\apps1_6\controller\Video->personalDetails[ D:\xampp\htdocs\limiapp\application\apps1_6\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T15:20:17+08:00 ] 127.0.0.1 GET /index.php/app1_6/Video/clickCollege?id=36&college_id=22005
+[ info ] limiapp.com/index.php/app1_6/Video/clickCollege?id=36&college_id=22005 [运行时间：0.992057s][吞吐率：1.01req/s] [内存消耗：3,790.96kb] [文件加载：60]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_6',
+    1 => 'Video',
+    2 => 'clickCollege',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '73072b90-e617-4748-af49-5c877e0bb178',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '36',
+  'college_id' => '22005',
+  'Video' => 'clickCollege',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.296017s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.174010s ]
+[ info ] [ RUN ] app\apps1_6\controller\Video->clickCollege[ D:\xampp\htdocs\limiapp\application\apps1_6\controller\Video.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T15:20:35+08:00 ] 127.0.0.1 GET /index.php/app1_6/Video/clickCollege?id=36&college_id=22005
+[ info ] limiapp.com/index.php/app1_6/Video/clickCollege?id=36&college_id=22005 [运行时间：0.735042s][吞吐率：1.36req/s] [内存消耗：3,687.00kb] [文件加载：57]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_6',
+    1 => 'Video',
+    2 => 'clickCollege',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '5c3fb528-97be-43fd-8170-c61dd0ff430b',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '36',
+  'college_id' => '22005',
+  'Video' => 'clickCollege',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.308017s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.181010s ]
+[ info ] [ RUN ] app\apps1_6\controller\Video->clickCollege[ D:\xampp\htdocs\limiapp\application\apps1_6\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T15:23:35+08:00 ] 127.0.0.1 GET /index.php/app1_6/Video/clickCollege?id=36&college_id=22005
+[ info ] limiapp.com/index.php/app1_6/Video/clickCollege?id=36&college_id=22005 [运行时间：0.741042s][吞吐率：1.35req/s] [内存消耗：3,687.48kb] [文件加载：57]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_6',
+    1 => 'Video',
+    2 => 'clickCollege',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f4f51f86-01ef-442a-bb13-4327841920b8',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '36',
+  'college_id' => '22005',
+  'Video' => 'clickCollege',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.298017s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.177011s ]
+[ info ] [ RUN ] app\apps1_6\controller\Video->clickCollege[ D:\xampp\htdocs\limiapp\application\apps1_6\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T15:24:16+08:00 ] 127.0.0.1 GET /index.php/app1_6/Video/clickCollege?id=3&college_id=22005
+[ info ] limiapp.com/index.php/app1_6/Video/clickCollege?id=3&college_id=22005 [运行时间：0.977056s][吞吐率：1.02req/s] [内存消耗：3,791.11kb] [文件加载：60]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_6',
+    1 => 'Video',
+    2 => 'clickCollege',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'df7f886a-7cc6-4b1c-986f-46b7c4e0d775',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+  'college_id' => '22005',
+  'Video' => 'clickCollege',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.315018s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002001s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.177011s ]
+[ info ] [ RUN ] app\apps1_6\controller\Video->clickCollege[ D:\xampp\htdocs\limiapp\application\apps1_6\controller\Video.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T15:24:47+08:00 ] 127.0.0.1 GET /index.php/app1_6/Video/clickCollege?id=3&college_id=22005
+[ info ] limiapp.com/index.php/app1_6/Video/clickCollege?id=3&college_id=22005 [运行时间：0.699040s][吞吐率：1.43req/s] [内存消耗：3,687.64kb] [文件加载：57]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_6',
+    1 => 'Video',
+    2 => 'clickCollege',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '138f3d43-cf55-4fc1-9fb8-24ca2f1542ce',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+  'college_id' => '22005',
+  'Video' => 'clickCollege',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.295017s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.173010s ]
+[ info ] [ RUN ] app\apps1_6\controller\Video->clickCollege[ D:\xampp\htdocs\limiapp\application\apps1_6\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T16:53:02+08:00 ] 127.0.0.1 GET /index.php/app1_6/Video/personalDetails?id=36&user_id=36&page=1&type=0&time=1528104018
+[ info ] limiapp.com/index.php/app1_6/Video/personalDetails?id=36&user_id=36&page=1&type=0&time=1528104018 [运行时间：5.375307s][吞吐率：0.19req/s] [内存消耗：3,849.29kb] [文件加载：56]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_6',
+    1 => 'Video',
+    2 => 'personalDetails',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e64df00c-48de-4698-8699-dc08c98990d9',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '36',
+  'user_id' => '36',
+  'page' => '1',
+  'type' => '0',
+  'time' => '1528104018',
+  'Video' => 'personalDetails',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.287017s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.165009s ]
+[ info ] [ RUN ] app\apps1_6\controller\Video->personalDetails[ D:\xampp\htdocs\limiapp\application\apps1_6\controller\Video.php ]
+[ info ] [ LOG ] INIT File

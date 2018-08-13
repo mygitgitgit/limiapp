@@ -1,0 +1,2102 @@
+---------------------------------------------------------------
+[ 2018-06-06T16:03:29+08:00 ] 127.0.0.1 POST /index.php/app1_4/video/videoClickAction
+[ info ] limiapp.com/index.php/app1_4/video/videoClickAction [运行时间：166.792708s][吞吐率：0.01req/s] [内存消耗：3,422.86kb] [文件加载：56]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'videoClickAction',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c36da025-621c-426b-b228-51b629ed77ec',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------480759939016180897318082',
+  'content-length' => '410',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'video_id' => '1',
+  'video' => 'videoClickAction',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.327094s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001727s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.178928s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->videoClickAction[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.132777s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.085888s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.086839s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.086717s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.085306s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.084661s ]
+[ sql ] [ SQL ] SELECT `user_info_status`,`identity_status`,`identity_time` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.085531s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_video_click` [ RunTime:0.086148s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `user_id` = 1  AND `video_id` = 1 LIMIT 1 [ RunTime:0.086907s ]
+[ sql ] [ SQL ] INSERT INTO `limi_video_click` (`user_id` , `video_id` , `create_time`) VALUES (1 , 1 , '2018-06-06 16:01:22') [ RunTime:0.089241s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_video` [ RunTime:0.086604s ]
+[ sql ] [ SQL ] UPDATE `limi_video`  SET `click_num`=`click_num`+1  WHERE  `id` = 1 [ RunTime:0.087193s ]
+---------------------------------------------------------------
+[ 2018-06-06T16:04:54+08:00 ] 127.0.0.1 POST /index.php/app1_4/video/videoClickAction
+[ info ] limiapp.com/index.php/app1_4/video/videoClickAction [运行时间：70.020651s][吞吐率：0.01req/s] [内存消耗：3,549.43kb] [文件加载：58]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'videoClickAction',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7b93521b-30fd-4b44-8a3c-6d466dcc534b',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------181367369941930748284809',
+  'content-length' => '413',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'video_id' => '1242',
+  'video' => 'videoClickAction',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.327601s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001561s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.189858s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->videoClickAction[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.135069s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.089764s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.090607s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.091084s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.089144s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.089793s ]
+[ sql ] [ SQL ] SELECT `user_info_status`,`identity_status`,`identity_time` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.090187s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_video_click` [ RunTime:0.089969s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `user_id` = 1  AND `video_id` = 1242 LIMIT 1 [ RunTime:0.090088s ]
+[ sql ] [ SQL ] INSERT INTO `limi_video_click` (`user_id` , `video_id` , `create_time`) VALUES (1 , 1242 , '2018-06-06 16:03:48') [ RunTime:0.093709s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_video` [ RunTime:0.093145s ]
+[ sql ] [ SQL ] UPDATE `limi_video`  SET `click_num`=`click_num`+1  WHERE  `id` = 1242 [ RunTime:0.093991s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_im_user` [ RunTime:0.090063s ]
+[ sql ] [ SQL ] SELECT `accid` FROM `limi_im_user` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.090120s ]
+[ sql ] [ SQL ] SELECT `user_id` FROM `limi_video` WHERE  `id` = 1242 LIMIT 1 [ RunTime:0.089733s ]
+[ sql ] [ SQL ] SELECT `accid` FROM `limi_im_user` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.089735s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_message_click` [ RunTime:0.090531s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_message_click` WHERE  `from` = 1  AND `type` = 0  AND `type_id` = 1242 LIMIT 1 [ RunTime:0.090705s ]
+---------------------------------------------------------------
+[ 2018-06-06T16:06:57+08:00 ] 127.0.0.1 POST /index.php/app1_4/video/videoClickAction
+[ info ] limiapp.com/index.php/app1_4/video/videoClickAction [运行时间：105.992376s][吞吐率：0.01req/s] [内存消耗：3,634.48kb] [文件加载：60]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'videoClickAction',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '84276097-b930-47c3-858e-5b4d4302e987',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------739038216244746899410810',
+  'content-length' => '413',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'video_id' => '1243',
+  'video' => 'videoClickAction',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.329610s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000943s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.187376s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->videoClickAction[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.136997s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.090087s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.088720s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.091088s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.089487s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.090212s ]
+[ sql ] [ SQL ] SELECT `user_info_status`,`identity_status`,`identity_time` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.089472s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_video_click` [ RunTime:0.090517s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `user_id` = 1  AND `video_id` = 1243 LIMIT 1 [ RunTime:0.090386s ]
+[ sql ] [ SQL ] INSERT INTO `limi_video_click` (`user_id` , `video_id` , `create_time`) VALUES (1 , 1243 , '2018-06-06 16:05:12') [ RunTime:0.091906s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_video` [ RunTime:0.091198s ]
+[ sql ] [ SQL ] UPDATE `limi_video`  SET `click_num`=`click_num`+1  WHERE  `id` = 1243 [ RunTime:0.091720s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_im_user` [ RunTime:0.089886s ]
+[ sql ] [ SQL ] SELECT `accid` FROM `limi_im_user` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.089171s ]
+[ sql ] [ SQL ] SELECT `user_id` FROM `limi_video` WHERE  `id` = 1243 LIMIT 1 [ RunTime:0.089556s ]
+[ sql ] [ SQL ] SELECT `accid` FROM `limi_im_user` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.090359s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_message_click` [ RunTime:0.090508s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_message_click` WHERE  `from` = 1  AND `type` = 2  AND `type_id` = 1243 LIMIT 1 [ RunTime:0.090490s ]
+[ sql ] [ SQL ] INSERT INTO `limi_message_click` (`from` , `to` , `type` , `type_id` , `time`) VALUES (1 , 1 , 2 , 1243 , '2018-06-06 16:05:18') [ RunTime:0.091670s ]
+---------------------------------------------------------------
+[ 2018-06-06T16:07:49+08:00 ] 127.0.0.1 POST /index.php/app1_4/video/videoClickAction
+[ info ] limiapp.com/index.php/app1_4/video/videoClickAction [运行时间：4.760276s][吞吐率：0.21req/s] [内存消耗：3,534.27kb] [文件加载：58]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'videoClickAction',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '9b5dc88e-ca91-4da2-b681-8ccc825cd341',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------574268226027465004440672',
+  'content-length' => '413',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'video_id' => '1244',
+  'video' => 'videoClickAction',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.302484s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001021s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.169487s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->videoClickAction[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.123946s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.081887s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.081548s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.081792s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.081073s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.080571s ]
+[ sql ] [ SQL ] SELECT `user_info_status`,`identity_status`,`identity_time` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.080602s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_video_click` [ RunTime:0.081664s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `user_id` = 1  AND `video_id` = 1244 LIMIT 1 [ RunTime:0.084344s ]
+[ sql ] [ SQL ] INSERT INTO `limi_video_click` (`user_id` , `video_id` , `create_time`) VALUES (1 , 1244 , '2018-06-06 16:07:45') [ RunTime:0.084499s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_video` [ RunTime:0.081586s ]
+[ sql ] [ SQL ] UPDATE `limi_video`  SET `click_num`=`click_num`+1  WHERE  `id` = 1244 [ RunTime:0.083724s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_im_user` [ RunTime:0.084709s ]
+[ sql ] [ SQL ] SELECT `accid` FROM `limi_im_user` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.081293s ]
+[ sql ] [ SQL ] SELECT `user_id` FROM `limi_video` WHERE  `id` = 1244 LIMIT 1 [ RunTime:0.081014s ]
+[ sql ] [ SQL ] SELECT `accid` FROM `limi_im_user` WHERE  `uid` = 5 LIMIT 1 [ RunTime:0.082593s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_message_click` [ RunTime:0.081749s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_message_click` WHERE  `from` = 1  AND `type` = 2  AND `type_id` = 1244 LIMIT 1 [ RunTime:0.082012s ]
+[ sql ] [ SQL ] INSERT INTO `limi_message_click` (`from` , `to` , `type` , `type_id` , `time`) VALUES (1 , 5 , 2 , 1244 , '2018-06-06 16:07:46') [ RunTime:0.086649s ]
+---------------------------------------------------------------
+[ 2018-06-06T16:33:53+08:00 ] 127.0.0.1 POST /index.php/app1_4/video/videoClickAction
+[ info ] limiapp.com/index.php/app1_4/video/videoClickAction [运行时间：2.036221s][吞吐率：0.49req/s] [内存消耗：3,597.33kb] [文件加载：60]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'videoClickAction',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '4c10261d-4a72-4cc6-8e70-82d73ddcff88',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------149450203616470512468535',
+  'content-length' => '413',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'video_id' => '1245',
+  'video' => 'videoClickAction',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.318286s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002065s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.178002s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->videoClickAction[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.129279s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.087530s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.085733s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.086760s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.085067s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.086677s ]
+[ sql ] [ SQL ] SELECT `user_info_status`,`identity_status`,`identity_time` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.085367s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_video_click` [ RunTime:0.086301s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `user_id` = 1  AND `video_id` = 1245 LIMIT 1 [ RunTime:0.086696s ]
+[ sql ] [ SQL ] INSERT INTO `limi_video_click` (`user_id` , `video_id` , `create_time`) VALUES (1 , 1245 , '2018-06-06 16:33:52') [ RunTime:0.094098s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_video` [ RunTime:0.085369s ]
+[ sql ] [ SQL ] UPDATE `limi_video`  SET `click_num`=`click_num`+1  WHERE  `id` = 1245 [ RunTime:0.087112s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_im_user` [ RunTime:0.094377s ]
+[ sql ] [ SQL ] SELECT `accid` FROM `limi_im_user` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.086339s ]
+[ sql ] [ SQL ] SELECT `user_id` FROM `limi_video` WHERE  `id` = 1245 LIMIT 1 [ RunTime:0.086431s ]
+[ sql ] [ SQL ] SELECT `accid` FROM `limi_im_user` WHERE  `uid` = 5 LIMIT 1 [ RunTime:0.084176s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_message_click` [ RunTime:0.086552s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_message_click` WHERE  `from` = 1  AND `type` = 2  AND `type_id` = 1245 LIMIT 1 [ RunTime:0.088303s ]
+[ sql ] [ SQL ] INSERT INTO `limi_message_click` (`from` , `to` , `type` , `type_id` , `time`) VALUES (1 , 5 , 2 , 1245 , '2018-06-06 16:33:52') [ RunTime:0.087521s ]
+---------------------------------------------------------------
+[ 2018-06-06T16:35:41+08:00 ] 127.0.0.1 GET /index.php/app1_4/message/clickList?id=5&token=5d119fe16370507b3d3c4b2d059d07ef4308b17d
+[ info ] limiapp.com/index.php/app1_4/message/clickList?id=5&token=5d119fe16370507b3d3c4b2d059d07ef4308b17d [运行时间：1.387205s][吞吐率：0.72req/s] [内存消耗：3,201.63kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'message',
+    2 => 'clickList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a05bdbc1-d0d3-4a93-b013-5ad8fce4ec06',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+  'token' => '5d119fe16370507b3d3c4b2d059d07ef4308b17d',
+  'message' => 'clickList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.313790s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000804s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.169518s ]
+[ info ] [ RUN ] app\apps1_4\controller\Message->clickList[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Message.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.130869s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.089781s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.082228s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.082421s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.082031s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.081622s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_message_read` [ RunTime:0.083197s ]
+[ sql ] [ SQL ] SELECT `time` FROM `limi_message_read` WHERE  `uid` = 5 LIMIT 1 [ RunTime:0.082355s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_message_click` [ RunTime:0.083350s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_message_click` WHERE  `to` = 5  AND `from` <> 5 ORDER BY time desc LIMIT 0,10 [ RunTime:0.083193s ]
+[ sql ] [ SQL ] SELECT `id`,`nickname`,`head_pic`,`sex` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.082771s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_video` [ RunTime:0.083503s ]
+[ sql ] [ SQL ] SELECT `id`,`video_cover`,`title` FROM `limi_video` WHERE  `id` = 1245 LIMIT 1 [ RunTime:0.083024s ]
+[ sql ] [ SQL ] SELECT `id`,`nickname`,`head_pic`,`sex` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.082647s ]
+[ sql ] [ SQL ] SELECT `id`,`video_cover`,`title` FROM `limi_video` WHERE  `id` = 1244 LIMIT 1 [ RunTime:0.082310s ]
+---------------------------------------------------------------
+[ 2018-06-06T16:43:55+08:00 ] 127.0.0.1 POST /index.php/app1_4/video/discussClickAction
+[ info ] limiapp.com/index.php/app1_4/video/discussClickAction [运行时间：1.181417s][吞吐率：0.85req/s] [内存消耗：3,466.15kb] [文件加载：58]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'discussClickAction',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '1d49721e-e890-4a64-8dca-d4512814e8a2',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------305758391569392882473459',
+  'content-length' => '415',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'discuss_id' => '1242',
+  'video' => 'discussClickAction',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.312523s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000961s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.184741s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->discussClickAction[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.130097s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.085603s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.084357s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.085906s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.091142s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.082082s ]
+[ sql ] [ SQL ] SELECT `user_info_status`,`identity_status`,`identity_time` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.082636s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_video_discuss_click` [ RunTime:0.082937s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_discuss_click` WHERE  `user_id` = 1  AND `discuss_id` = 1242 LIMIT 1 [ RunTime:0.081845s ]
+[ sql ] [ SQL ] INSERT INTO `limi_video_discuss_click` (`user_id` , `discuss_id` , `create_time`) VALUES (1 , 1242 , '2018-06-06 16:43:55') [ RunTime:0.084591s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_video_discuss` [ RunTime:0.082848s ]
+[ sql ] [ SQL ] UPDATE `limi_video_discuss`  SET `click_num`=`click_num`+1  WHERE  `id` = 1242 [ RunTime:0.103127s ]
+---------------------------------------------------------------
+[ 2018-06-06T16:44:17+08:00 ] 127.0.0.1 POST /index.php/app1_4/discussAction
+[ info ] limiapp.com/index.php/app1_4/discussAction [运行时间：0.356438s][吞吐率：2.81req/s] [内存消耗：2,415.28kb] [文件加载：46]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'app1_4',
+    1 => 'discussAction',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '2faaa390-e893-46f5-8726-a8ba8d502b3f',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------630541310971381143342977',
+  'content-length' => '415',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'discuss_id' => '1242',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.300382s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000788s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.124196s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.082084s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.080596s ]
+---------------------------------------------------------------
+[ 2018-06-06T16:45:22+08:00 ] 127.0.0.1 POST /index.php/app1_4/discussAction
+[ info ] limiapp.com/index.php/app1_4/discussAction [运行时间：0.358612s][吞吐率：2.79req/s] [内存消耗：2,415.53kb] [文件加载：46]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'app1_4',
+    1 => 'discussAction',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '038fcb63-633a-43d9-a816-763863340ba1',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------858447593104087411061262',
+  'content-length' => '756',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'video_id' => '1242',
+  'content' => '哈哈哈测试下',
+  'parent_id' => '0',
+  'parent_uid' => '0',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.305913s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001120s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.122506s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.081971s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.083176s ]
+---------------------------------------------------------------
+[ 2018-06-06T16:45:42+08:00 ] 127.0.0.1 POST /index.php/app1_4/video/discussAction
+[ info ] limiapp.com/index.php/app1_4/video/discussAction [运行时间：1.809382s][吞吐率：0.55req/s] [内存消耗：3,599.89kb] [文件加载：60]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'discussAction',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e1194d67-6fc3-4daa-b258-cb3fed613aad',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------328022959369224708694491',
+  'content-length' => '756',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'video_id' => '1242',
+  'content' => '哈哈哈测试下',
+  'parent_id' => '0',
+  'parent_uid' => '0',
+  'video' => 'discussAction',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.314931s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000861s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.177713s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->discussAction[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.130536s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.084967s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.085598s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.085930s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.085708s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.085078s ]
+[ sql ] [ SQL ] SELECT `user_info_status`,`identity_status`,`identity_time` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.085925s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_video_discuss` [ RunTime:0.085948s ]
+[ sql ] [ SQL ] INSERT INTO `limi_video_discuss` (`user_id` , `video_id` , `parent_id` , `parent_uid` , `content` , `create_time`) VALUES (1 , 1242 , 0 , 0 , '哈哈哈测试下' , '2018-06-06 16:45:41') [ RunTime:0.086660s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_video_discuss` WHERE  `id` = 175 LIMIT 1 [ RunTime:0.088335s ]
+[ sql ] [ SQL ] UPDATE `limi_video_discuss`  SET `group_id`=175  WHERE  `id` = 175 [ RunTime:0.087800s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_video` [ RunTime:0.086185s ]
+[ sql ] [ SQL ] UPDATE `limi_video`  SET `discuss_num`=`discuss_num`+1  WHERE  `id` = 1242 [ RunTime:0.088859s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_im_user` [ RunTime:0.086793s ]
+[ sql ] [ SQL ] SELECT `accid` FROM `limi_im_user` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.084868s ]
+[ sql ] [ SQL ] SELECT `user_id` FROM `limi_video` WHERE  `id` = 1242 LIMIT 1 [ RunTime:0.084511s ]
+[ sql ] [ SQL ] SELECT `accid` FROM `limi_im_user` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.088812s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_message_comment` [ RunTime:0.086775s ]
+[ sql ] [ SQL ] INSERT INTO `limi_message_comment` (`from` , `to` , `type` , `type_id` , `rid` , `time`) VALUES (1 , 1 , 2 , 1242 , 175 , '2018-06-06 16:45:42') [ RunTime:0.088200s ]
+---------------------------------------------------------------
+[ 2018-06-06T16:45:49+08:00 ] 127.0.0.1 POST /index.php/app1_4/video/discussAction
+[ info ] limiapp.com/index.php/app1_4/video/discussAction [运行时间：1.931466s][吞吐率：0.52req/s] [内存消耗：3,599.89kb] [文件加载：60]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'discussAction',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '4876b379-2bb4-44b7-aa18-05f9360c603c',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------377997300548821728441573',
+  'content-length' => '756',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'video_id' => '1242',
+  'content' => '哈哈哈测试下',
+  'parent_id' => '0',
+  'parent_uid' => '0',
+  'video' => 'discussAction',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.427065s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000742s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.180232s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->discussAction[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.189821s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.122012s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.099442s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.087674s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.086425s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.087159s ]
+[ sql ] [ SQL ] SELECT `user_info_status`,`identity_status`,`identity_time` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.088391s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_video_discuss` [ RunTime:0.087199s ]
+[ sql ] [ SQL ] INSERT INTO `limi_video_discuss` (`user_id` , `video_id` , `parent_id` , `parent_uid` , `content` , `create_time`) VALUES (1 , 1242 , 0 , 0 , '哈哈哈测试下' , '2018-06-06 16:45:48') [ RunTime:0.088500s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_video_discuss` WHERE  `id` = 176 LIMIT 1 [ RunTime:0.086592s ]
+[ sql ] [ SQL ] UPDATE `limi_video_discuss`  SET `group_id`=176  WHERE  `id` = 176 [ RunTime:0.089731s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_video` [ RunTime:0.087223s ]
+[ sql ] [ SQL ] UPDATE `limi_video`  SET `discuss_num`=`discuss_num`+1  WHERE  `id` = 1242 [ RunTime:0.088153s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_im_user` [ RunTime:0.087253s ]
+[ sql ] [ SQL ] SELECT `accid` FROM `limi_im_user` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.087231s ]
+[ sql ] [ SQL ] SELECT `user_id` FROM `limi_video` WHERE  `id` = 1242 LIMIT 1 [ RunTime:0.086462s ]
+[ sql ] [ SQL ] SELECT `accid` FROM `limi_im_user` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.086646s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_message_comment` [ RunTime:0.086960s ]
+[ sql ] [ SQL ] INSERT INTO `limi_message_comment` (`from` , `to` , `type` , `type_id` , `rid` , `time`) VALUES (1 , 1 , 2 , 1242 , 176 , '2018-06-06 16:45:49') [ RunTime:0.089209s ]
+---------------------------------------------------------------
+[ 2018-06-06T16:46:01+08:00 ] 127.0.0.1 POST /index.php/app1_4/video/discussAction
+[ info ] limiapp.com/index.php/app1_4/video/discussAction [运行时间：1.749752s][吞吐率：0.57req/s] [内存消耗：3,600.00kb] [文件加载：60]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'discussAction',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '9d0f6a29-2f52-41db-8680-4e85e4fa75b9',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------937342959239174587078900',
+  'content-length' => '758',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'video_id' => '1243',
+  'content' => '哈哈哈测试下ss',
+  'parent_id' => '0',
+  'parent_uid' => '0',
+  'video' => 'discussAction',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.307065s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001887s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.171140s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->discussAction[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.126109s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.083142s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.082813s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.082406s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.082263s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.081042s ]
+[ sql ] [ SQL ] SELECT `user_info_status`,`identity_status`,`identity_time` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.082157s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_video_discuss` [ RunTime:0.082470s ]
+[ sql ] [ SQL ] INSERT INTO `limi_video_discuss` (`user_id` , `video_id` , `parent_id` , `parent_uid` , `content` , `create_time`) VALUES (1 , 1243 , 0 , 0 , '哈哈哈测试下ss' , '2018-06-06 16:46:00') [ RunTime:0.085283s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_video_discuss` WHERE  `id` = 177 LIMIT 1 [ RunTime:0.082037s ]
+[ sql ] [ SQL ] UPDATE `limi_video_discuss`  SET `group_id`=177  WHERE  `id` = 177 [ RunTime:0.085957s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_video` [ RunTime:0.082774s ]
+[ sql ] [ SQL ] UPDATE `limi_video`  SET `discuss_num`=`discuss_num`+1  WHERE  `id` = 1243 [ RunTime:0.082205s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_im_user` [ RunTime:0.081493s ]
+[ sql ] [ SQL ] SELECT `accid` FROM `limi_im_user` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.083203s ]
+[ sql ] [ SQL ] SELECT `user_id` FROM `limi_video` WHERE  `id` = 1243 LIMIT 1 [ RunTime:0.081808s ]
+[ sql ] [ SQL ] SELECT `accid` FROM `limi_im_user` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.082098s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_message_comment` [ RunTime:0.082313s ]
+[ sql ] [ SQL ] INSERT INTO `limi_message_comment` (`from` , `to` , `type` , `type_id` , `rid` , `time`) VALUES (1 , 1 , 2 , 1243 , 177 , '2018-06-06 16:46:01') [ RunTime:0.084683s ]
+---------------------------------------------------------------
+[ 2018-06-06T16:46:09+08:00 ] 127.0.0.1 POST /index.php/app1_4/video/discussAction
+[ info ] limiapp.com/index.php/app1_4/video/discussAction [运行时间：2.031600s][吞吐率：0.49req/s] [内存消耗：3,600.21kb] [文件加载：60]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'discussAction',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '8309be4a-0257-45b0-bc6b-bb4ff0cc0490',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------750918249046317287590815',
+  'content-length' => '760',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'video_id' => '1244',
+  'content' => '哈哈哈测试下6666',
+  'parent_id' => '0',
+  'parent_uid' => '0',
+  'video' => 'discussAction',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.325055s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000746s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.180589s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->discussAction[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.137342s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.086807s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.086807s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.086983s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.087899s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.086308s ]
+[ sql ] [ SQL ] SELECT `user_info_status`,`identity_status`,`identity_time` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.086774s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_video_discuss` [ RunTime:0.086702s ]
+[ sql ] [ SQL ] INSERT INTO `limi_video_discuss` (`user_id` , `video_id` , `parent_id` , `parent_uid` , `content` , `create_time`) VALUES (1 , 1244 , 0 , 0 , '哈哈哈测试下6666' , '2018-06-06 16:46:08') [ RunTime:0.089110s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_video_discuss` WHERE  `id` = 178 LIMIT 1 [ RunTime:0.087192s ]
+[ sql ] [ SQL ] UPDATE `limi_video_discuss`  SET `group_id`=178  WHERE  `id` = 178 [ RunTime:0.089523s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_video` [ RunTime:0.087529s ]
+[ sql ] [ SQL ] UPDATE `limi_video`  SET `discuss_num`=`discuss_num`+1  WHERE  `id` = 1244 [ RunTime:0.088303s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_im_user` [ RunTime:0.088938s ]
+[ sql ] [ SQL ] SELECT `accid` FROM `limi_im_user` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.086599s ]
+[ sql ] [ SQL ] SELECT `user_id` FROM `limi_video` WHERE  `id` = 1244 LIMIT 1 [ RunTime:0.086267s ]
+[ sql ] [ SQL ] SELECT `accid` FROM `limi_im_user` WHERE  `uid` = 5 LIMIT 1 [ RunTime:0.085840s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_message_comment` [ RunTime:0.087407s ]
+[ sql ] [ SQL ] INSERT INTO `limi_message_comment` (`from` , `to` , `type` , `type_id` , `rid` , `time`) VALUES (1 , 5 , 2 , 1244 , 178 , '2018-06-06 16:46:09') [ RunTime:0.088270s ]
+---------------------------------------------------------------
+[ 2018-06-06T16:46:14+08:00 ] 127.0.0.1 POST /index.php/app1_4/video/discussAction
+[ info ] limiapp.com/index.php/app1_4/video/discussAction [运行时间：2.025829s][吞吐率：0.49req/s] [内存消耗：3,600.21kb] [文件加载：60]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'discussAction',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '8cb5e1f8-990d-499e-8668-44761c3c547a',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------712825357426572352847176',
+  'content-length' => '760',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'video_id' => '1245',
+  'content' => '哈哈哈测试下5555',
+  'parent_id' => '0',
+  'parent_uid' => '0',
+  'video' => 'discussAction',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.316148s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001327s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.176053s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->discussAction[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.130070s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.085507s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.085533s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.085926s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.084112s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.085848s ]
+[ sql ] [ SQL ] SELECT `user_info_status`,`identity_status`,`identity_time` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.084448s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_video_discuss` [ RunTime:0.085649s ]
+[ sql ] [ SQL ] INSERT INTO `limi_video_discuss` (`user_id` , `video_id` , `parent_id` , `parent_uid` , `content` , `create_time`) VALUES (1 , 1245 , 0 , 0 , '哈哈哈测试下5555' , '2018-06-06 16:46:12') [ RunTime:0.088565s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_video_discuss` WHERE  `id` = 179 LIMIT 1 [ RunTime:0.085410s ]
+[ sql ] [ SQL ] UPDATE `limi_video_discuss`  SET `group_id`=179  WHERE  `id` = 179 [ RunTime:0.087423s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_video` [ RunTime:0.087324s ]
+[ sql ] [ SQL ] UPDATE `limi_video`  SET `discuss_num`=`discuss_num`+1  WHERE  `id` = 1245 [ RunTime:0.087081s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_im_user` [ RunTime:0.085004s ]
+[ sql ] [ SQL ] SELECT `accid` FROM `limi_im_user` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.085158s ]
+[ sql ] [ SQL ] SELECT `user_id` FROM `limi_video` WHERE  `id` = 1245 LIMIT 1 [ RunTime:0.084678s ]
+[ sql ] [ SQL ] SELECT `accid` FROM `limi_im_user` WHERE  `uid` = 5 LIMIT 1 [ RunTime:0.088238s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_message_comment` [ RunTime:0.084983s ]
+[ sql ] [ SQL ] INSERT INTO `limi_message_comment` (`from` , `to` , `type` , `type_id` , `rid` , `time`) VALUES (1 , 5 , 2 , 1245 , 179 , '2018-06-06 16:46:13') [ RunTime:0.087246s ]
+---------------------------------------------------------------
+[ 2018-06-06T16:51:24+08:00 ] 127.0.0.1 GET /index.php/app1_4/message/commentList?id=5&token=5d119fe16370507b3d3c4b2d059d07ef4308b17d
+[ info ] limiapp.com/index.php/app1_4/message/commentList?id=5&token=5d119fe16370507b3d3c4b2d059d07ef4308b17d [运行时间：1.292605s][吞吐率：0.77req/s] [内存消耗：3,250.55kb] [文件加载：59]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'message',
+    2 => 'commentList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c0bd1d7a-cecb-434e-a6f0-c9b41cde9fd3',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+  'token' => '5d119fe16370507b3d3c4b2d059d07ef4308b17d',
+  'message' => 'commentList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.323827s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001149s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.183240s ]
+[ info ] [ RUN ] app\apps1_4\controller\Message->commentList[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Message.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.132261s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.086838s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.087072s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.088100s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.087135s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.086128s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_message_read` [ RunTime:0.086684s ]
+[ sql ] [ SQL ] SELECT `time` FROM `limi_message_read` WHERE  `uid` = 5 LIMIT 1 [ RunTime:0.087008s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_message_comment` [ RunTime:0.087007s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_message_comment` WHERE  `to` = 5  AND `from` <> 5 ORDER BY time desc LIMIT 0,10 [ RunTime:0.086385s ]
+[ sql ] [ SQL ] SELECT `id`,`nickname`,`head_pic`,`sex` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.088045s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_video` [ RunTime:0.087372s ]
+[ sql ] [ SQL ] SELECT `id`,`video_cover`,`title` FROM `limi_video` WHERE  `id` = 1245 LIMIT 1 [ RunTime:0.087700s ]
+[ error ] [8]未定义数组索引: $title[D:\xampp\htdocs\limiapp\application\apps1_4\controller\Message.php:202]
+---------------------------------------------------------------
+[ 2018-06-06T16:52:20+08:00 ] 127.0.0.1 GET /index.php/app1_4/message/commentList?id=5&token=5d119fe16370507b3d3c4b2d059d07ef4308b17d
+[ info ] limiapp.com/index.php/app1_4/message/commentList?id=5&token=5d119fe16370507b3d3c4b2d059d07ef4308b17d [运行时间：4.971487s][吞吐率：0.20req/s] [内存消耗：3,343.85kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'message',
+    2 => 'commentList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '3da024cc-d3ec-47e1-a597-3ff5d283cb6e',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+  'token' => '5d119fe16370507b3d3c4b2d059d07ef4308b17d',
+  'message' => 'commentList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.308711s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000847s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.176894s ]
+[ info ] [ RUN ] app\apps1_4\controller\Message->commentList[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Message.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.127070s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.084175s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.083522s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.086166s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.084111s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.083807s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_message_read` [ RunTime:0.085038s ]
+[ sql ] [ SQL ] SELECT `time` FROM `limi_message_read` WHERE  `uid` = 5 LIMIT 1 [ RunTime:0.083097s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_message_comment` [ RunTime:0.084834s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_message_comment` WHERE  `to` = 5  AND `from` <> 5 ORDER BY time desc LIMIT 0,10 [ RunTime:0.085333s ]
+[ sql ] [ SQL ] SELECT `id`,`nickname`,`head_pic`,`sex` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.084147s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_video` [ RunTime:0.084320s ]
+[ sql ] [ SQL ] SELECT `id`,`video_cover`,`title` FROM `limi_video` WHERE  `id` = 1245 LIMIT 1 [ RunTime:0.084369s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_video_discuss` [ RunTime:0.085379s ]
+[ sql ] [ SQL ] SELECT `parent_uid`,`group_id` FROM `limi_video_discuss` WHERE  `id` = 179 LIMIT 1 [ RunTime:0.083902s ]
+[ sql ] [ SQL ] SELECT `content` FROM `limi_video_discuss` WHERE  `id` = 179 LIMIT 1 [ RunTime:0.086315s ]
+[ sql ] [ SQL ] SELECT `id`,`nickname`,`head_pic`,`sex` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.084018s ]
+[ sql ] [ SQL ] SELECT `id`,`video_cover`,`title` FROM `limi_video` WHERE  `id` = 1244 LIMIT 1 [ RunTime:0.084623s ]
+[ sql ] [ SQL ] SELECT `parent_uid`,`group_id` FROM `limi_video_discuss` WHERE  `id` = 178 LIMIT 1 [ RunTime:0.084784s ]
+[ sql ] [ SQL ] SELECT `content` FROM `limi_video_discuss` WHERE  `id` = 178 LIMIT 1 [ RunTime:0.085121s ]
+[ sql ] [ SQL ] SELECT `id`,`nickname`,`head_pic`,`sex` FROM `limi_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.084636s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_topic_action` [ RunTime:0.085091s ]
+[ sql ] [ SQL ] SELECT `topic_id`,`pic`,`content` FROM `limi_topic_action` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.085248s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_topic_discuss` [ RunTime:0.084946s ]
+[ sql ] [ SQL ] SELECT `parent_uid`,`group_id` FROM `limi_topic_discuss` WHERE  `id` = 31 LIMIT 1 [ RunTime:0.084374s ]
+[ sql ] [ SQL ] SELECT `content` FROM `limi_topic_discuss` WHERE  `id` = 31 LIMIT 1 [ RunTime:0.084669s ]
+[ sql ] [ SQL ] SELECT `id`,`nickname`,`head_pic`,`sex` FROM `limi_user` WHERE  `id` = 14 LIMIT 1 [ RunTime:0.085723s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_action` [ RunTime:0.084240s ]
+[ sql ] [ SQL ] SELECT `action_pic`,`action_video`,`content` FROM `limi_action` WHERE  `id` = 18 LIMIT 1 [ RunTime:0.083058s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_discuss` [ RunTime:0.086895s ]
+[ sql ] [ SQL ] SELECT `parent_uid`,`group_id` FROM `limi_discuss` WHERE  `id` = 143 LIMIT 1 [ RunTime:0.084701s ]
+[ sql ] [ SQL ] SELECT `content` FROM `limi_discuss` WHERE  `id` = 143 LIMIT 1 [ RunTime:0.084340s ]
+[ sql ] [ SQL ] SELECT `id`,`nickname`,`head_pic`,`sex` FROM `limi_user` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.084620s ]
+[ sql ] [ SQL ] SELECT `action_pic`,`action_video`,`content` FROM `limi_action` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.084435s ]
+[ sql ] [ SQL ] SELECT `parent_uid`,`group_id` FROM `limi_discuss` WHERE  `id` = 139 LIMIT 1 [ RunTime:0.084607s ]
+[ sql ] [ SQL ] SELECT `content` FROM `limi_discuss` WHERE  `id` = 139 LIMIT 1 [ RunTime:0.083097s ]
+[ sql ] [ SQL ] SELECT `id`,`nickname`,`head_pic`,`sex` FROM `limi_user` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.084947s ]
+[ sql ] [ SQL ] SELECT `action_pic`,`action_video`,`content` FROM `limi_action` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.083732s ]
+[ sql ] [ SQL ] SELECT `parent_uid`,`group_id` FROM `limi_discuss` WHERE  `id` = 138 LIMIT 1 [ RunTime:0.083769s ]
+[ sql ] [ SQL ] SELECT `content` FROM `limi_discuss` WHERE  `id` = 138 LIMIT 1 [ RunTime:0.084440s ]
+[ sql ] [ SQL ] SELECT `id`,`nickname`,`head_pic`,`sex` FROM `limi_user` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.083786s ]
+[ sql ] [ SQL ] SELECT `action_pic`,`action_video`,`content` FROM `limi_action` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.085951s ]
+[ sql ] [ SQL ] SELECT `parent_uid`,`group_id` FROM `limi_discuss` WHERE  `id` = 137 LIMIT 1 [ RunTime:0.084631s ]
+[ sql ] [ SQL ] SELECT `content` FROM `limi_discuss` WHERE  `id` = 137 LIMIT 1 [ RunTime:0.083872s ]
+[ sql ] [ SQL ] SELECT `id`,`nickname`,`head_pic`,`sex` FROM `limi_user` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.085897s ]
+[ sql ] [ SQL ] SELECT `action_pic`,`action_video`,`content` FROM `limi_action` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.084773s ]
+[ sql ] [ SQL ] SELECT `parent_uid`,`group_id` FROM `limi_discuss` WHERE  `id` = 136 LIMIT 1 [ RunTime:0.085181s ]
+[ sql ] [ SQL ] SELECT `content` FROM `limi_discuss` WHERE  `id` = 136 LIMIT 1 [ RunTime:0.085198s ]
+[ sql ] [ SQL ] SELECT `id`,`nickname`,`head_pic`,`sex` FROM `limi_user` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.083650s ]
+[ sql ] [ SQL ] SELECT `action_pic`,`action_video`,`content` FROM `limi_action` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.083971s ]
+[ sql ] [ SQL ] SELECT `parent_uid`,`group_id` FROM `limi_discuss` WHERE  `id` = 135 LIMIT 1 [ RunTime:0.084365s ]
+[ sql ] [ SQL ] SELECT `content` FROM `limi_discuss` WHERE  `id` = 135 LIMIT 1 [ RunTime:0.083935s ]
+[ sql ] [ SQL ] SELECT `id`,`nickname`,`head_pic`,`sex` FROM `limi_user` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.084460s ]
+[ sql ] [ SQL ] SELECT `action_pic`,`action_video`,`content` FROM `limi_action` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.084230s ]
+[ sql ] [ SQL ] SELECT `parent_uid`,`group_id` FROM `limi_discuss` WHERE  `id` = 134 LIMIT 1 [ RunTime:0.083518s ]
+[ sql ] [ SQL ] SELECT `content` FROM `limi_discuss` WHERE  `id` = 134 LIMIT 1 [ RunTime:0.083040s ]
+---------------------------------------------------------------
+[ 2018-06-06T16:55:29+08:00 ] 127.0.0.1 GET /index.php/app1_4/message/commentList?id=5&token=5d119fe16370507b3d3c4b2d059d07ef4308b17d
+[ info ] limiapp.com/index.php/app1_4/message/commentList?id=5&token=5d119fe16370507b3d3c4b2d059d07ef4308b17d [运行时间：4.849363s][吞吐率：0.21req/s] [内存消耗：3,343.85kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'message',
+    2 => 'commentList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'bf400842-b509-4bb3-b183-70c8eabc0851',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+  'token' => '5d119fe16370507b3d3c4b2d059d07ef4308b17d',
+  'message' => 'commentList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.302964s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000983s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.175710s ]
+[ info ] [ RUN ] app\apps1_4\controller\Message->commentList[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Message.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.126245s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.081747s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.080460s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.087033s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.083249s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.083447s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_message_read` [ RunTime:0.082624s ]
+[ sql ] [ SQL ] SELECT `time` FROM `limi_message_read` WHERE  `uid` = 5 LIMIT 1 [ RunTime:0.081661s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_message_comment` [ RunTime:0.081691s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_message_comment` WHERE  `to` = 5  AND `from` <> 5 ORDER BY time desc LIMIT 0,10 [ RunTime:0.082399s ]
+[ sql ] [ SQL ] SELECT `id`,`nickname`,`head_pic`,`sex` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.081953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_video` [ RunTime:0.081360s ]
+[ sql ] [ SQL ] SELECT `id`,`video_cover`,`title` FROM `limi_video` WHERE  `id` = 1245 LIMIT 1 [ RunTime:0.083851s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_video_discuss` [ RunTime:0.082104s ]
+[ sql ] [ SQL ] SELECT `parent_uid`,`group_id` FROM `limi_video_discuss` WHERE  `id` = 179 LIMIT 1 [ RunTime:0.080963s ]
+[ sql ] [ SQL ] SELECT `content` FROM `limi_video_discuss` WHERE  `id` = 179 LIMIT 1 [ RunTime:0.086868s ]
+[ sql ] [ SQL ] SELECT `id`,`nickname`,`head_pic`,`sex` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.082646s ]
+[ sql ] [ SQL ] SELECT `id`,`video_cover`,`title` FROM `limi_video` WHERE  `id` = 1244 LIMIT 1 [ RunTime:0.080169s ]
+[ sql ] [ SQL ] SELECT `parent_uid`,`group_id` FROM `limi_video_discuss` WHERE  `id` = 178 LIMIT 1 [ RunTime:0.082578s ]
+[ sql ] [ SQL ] SELECT `content` FROM `limi_video_discuss` WHERE  `id` = 178 LIMIT 1 [ RunTime:0.081465s ]
+[ sql ] [ SQL ] SELECT `id`,`nickname`,`head_pic`,`sex` FROM `limi_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.081503s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_topic_action` [ RunTime:0.081438s ]
+[ sql ] [ SQL ] SELECT `topic_id`,`pic`,`content` FROM `limi_topic_action` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.080617s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_topic_discuss` [ RunTime:0.082099s ]
+[ sql ] [ SQL ] SELECT `parent_uid`,`group_id` FROM `limi_topic_discuss` WHERE  `id` = 31 LIMIT 1 [ RunTime:0.080770s ]
+[ sql ] [ SQL ] SELECT `content` FROM `limi_topic_discuss` WHERE  `id` = 31 LIMIT 1 [ RunTime:0.085060s ]
+[ sql ] [ SQL ] SELECT `id`,`nickname`,`head_pic`,`sex` FROM `limi_user` WHERE  `id` = 14 LIMIT 1 [ RunTime:0.080722s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_action` [ RunTime:0.081852s ]
+[ sql ] [ SQL ] SELECT `action_pic`,`action_video`,`content` FROM `limi_action` WHERE  `id` = 18 LIMIT 1 [ RunTime:0.082391s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_discuss` [ RunTime:0.081315s ]
+[ sql ] [ SQL ] SELECT `parent_uid`,`group_id` FROM `limi_discuss` WHERE  `id` = 143 LIMIT 1 [ RunTime:0.084108s ]
+[ sql ] [ SQL ] SELECT `content` FROM `limi_discuss` WHERE  `id` = 143 LIMIT 1 [ RunTime:0.080886s ]
+[ sql ] [ SQL ] SELECT `id`,`nickname`,`head_pic`,`sex` FROM `limi_user` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.079433s ]
+[ sql ] [ SQL ] SELECT `action_pic`,`action_video`,`content` FROM `limi_action` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.085977s ]
+[ sql ] [ SQL ] SELECT `parent_uid`,`group_id` FROM `limi_discuss` WHERE  `id` = 139 LIMIT 1 [ RunTime:0.080829s ]
+[ sql ] [ SQL ] SELECT `content` FROM `limi_discuss` WHERE  `id` = 139 LIMIT 1 [ RunTime:0.081705s ]
+[ sql ] [ SQL ] SELECT `id`,`nickname`,`head_pic`,`sex` FROM `limi_user` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.082422s ]
+[ sql ] [ SQL ] SELECT `action_pic`,`action_video`,`content` FROM `limi_action` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.081064s ]
+[ sql ] [ SQL ] SELECT `parent_uid`,`group_id` FROM `limi_discuss` WHERE  `id` = 138 LIMIT 1 [ RunTime:0.083306s ]
+[ sql ] [ SQL ] SELECT `content` FROM `limi_discuss` WHERE  `id` = 138 LIMIT 1 [ RunTime:0.080631s ]
+[ sql ] [ SQL ] SELECT `id`,`nickname`,`head_pic`,`sex` FROM `limi_user` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.079878s ]
+[ sql ] [ SQL ] SELECT `action_pic`,`action_video`,`content` FROM `limi_action` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.081129s ]
+[ sql ] [ SQL ] SELECT `parent_uid`,`group_id` FROM `limi_discuss` WHERE  `id` = 137 LIMIT 1 [ RunTime:0.083370s ]
+[ sql ] [ SQL ] SELECT `content` FROM `limi_discuss` WHERE  `id` = 137 LIMIT 1 [ RunTime:0.081773s ]
+[ sql ] [ SQL ] SELECT `id`,`nickname`,`head_pic`,`sex` FROM `limi_user` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.081664s ]
+[ sql ] [ SQL ] SELECT `action_pic`,`action_video`,`content` FROM `limi_action` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.081701s ]
+[ sql ] [ SQL ] SELECT `parent_uid`,`group_id` FROM `limi_discuss` WHERE  `id` = 136 LIMIT 1 [ RunTime:0.083055s ]
+[ sql ] [ SQL ] SELECT `content` FROM `limi_discuss` WHERE  `id` = 136 LIMIT 1 [ RunTime:0.081701s ]
+[ sql ] [ SQL ] SELECT `id`,`nickname`,`head_pic`,`sex` FROM `limi_user` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.085622s ]
+[ sql ] [ SQL ] SELECT `action_pic`,`action_video`,`content` FROM `limi_action` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.083742s ]
+[ sql ] [ SQL ] SELECT `parent_uid`,`group_id` FROM `limi_discuss` WHERE  `id` = 135 LIMIT 1 [ RunTime:0.082520s ]
+[ sql ] [ SQL ] SELECT `content` FROM `limi_discuss` WHERE  `id` = 135 LIMIT 1 [ RunTime:0.083794s ]
+[ sql ] [ SQL ] SELECT `id`,`nickname`,`head_pic`,`sex` FROM `limi_user` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.080664s ]
+[ sql ] [ SQL ] SELECT `action_pic`,`action_video`,`content` FROM `limi_action` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.081127s ]
+[ sql ] [ SQL ] SELECT `parent_uid`,`group_id` FROM `limi_discuss` WHERE  `id` = 134 LIMIT 1 [ RunTime:0.081055s ]
+[ sql ] [ SQL ] SELECT `content` FROM `limi_discuss` WHERE  `id` = 134 LIMIT 1 [ RunTime:0.080504s ]
+---------------------------------------------------------------
+[ 2018-06-06T16:56:13+08:00 ] 127.0.0.1 GET /index.php/app1_4/message/commentList?id=5&token=5d119fe16370507b3d3c4b2d059d07ef4308b17d
+[ info ] limiapp.com/index.php/app1_4/message/commentList?id=5&token=5d119fe16370507b3d3c4b2d059d07ef4308b17d [运行时间：5.399174s][吞吐率：0.19req/s] [内存消耗：3,343.85kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'message',
+    2 => 'commentList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd7eedbfd-da82-4314-9580-36245a76a402',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+  'token' => '5d119fe16370507b3d3c4b2d059d07ef4308b17d',
+  'message' => 'commentList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.335365s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001067s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.187244s ]
+[ info ] [ RUN ] app\apps1_4\controller\Message->commentList[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Message.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.139598s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.089526s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.090745s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.088684s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.092274s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.089594s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_message_read` [ RunTime:0.089931s ]
+[ sql ] [ SQL ] SELECT `time` FROM `limi_message_read` WHERE  `uid` = 5 LIMIT 1 [ RunTime:0.089029s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_message_comment` [ RunTime:0.089205s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_message_comment` WHERE  `to` = 5  AND `from` <> 5 ORDER BY time desc LIMIT 0,10 [ RunTime:0.089192s ]
+[ sql ] [ SQL ] SELECT `id`,`nickname`,`head_pic`,`sex` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.090132s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_video` [ RunTime:0.094371s ]
+[ sql ] [ SQL ] SELECT `id`,`video_cover`,`title` FROM `limi_video` WHERE  `id` = 1245 LIMIT 1 [ RunTime:0.089690s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_video_discuss` [ RunTime:0.090965s ]
+[ sql ] [ SQL ] SELECT `parent_uid`,`group_id` FROM `limi_video_discuss` WHERE  `id` = 179 LIMIT 1 [ RunTime:0.090322s ]
+[ sql ] [ SQL ] SELECT `content` FROM `limi_video_discuss` WHERE  `id` = 179 LIMIT 1 [ RunTime:0.089022s ]
+[ sql ] [ SQL ] SELECT `id`,`nickname`,`head_pic`,`sex` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.089779s ]
+[ sql ] [ SQL ] SELECT `id`,`video_cover`,`title` FROM `limi_video` WHERE  `id` = 1244 LIMIT 1 [ RunTime:0.093257s ]
+[ sql ] [ SQL ] SELECT `parent_uid`,`group_id` FROM `limi_video_discuss` WHERE  `id` = 178 LIMIT 1 [ RunTime:0.090017s ]
+[ sql ] [ SQL ] SELECT `content` FROM `limi_video_discuss` WHERE  `id` = 178 LIMIT 1 [ RunTime:0.090079s ]
+[ sql ] [ SQL ] SELECT `id`,`nickname`,`head_pic`,`sex` FROM `limi_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.090491s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_topic_action` [ RunTime:0.090452s ]
+[ sql ] [ SQL ] SELECT `topic_id`,`pic`,`content` FROM `limi_topic_action` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.091748s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_topic_discuss` [ RunTime:0.090533s ]
+[ sql ] [ SQL ] SELECT `parent_uid`,`group_id` FROM `limi_topic_discuss` WHERE  `id` = 31 LIMIT 1 [ RunTime:0.088659s ]
+[ sql ] [ SQL ] SELECT `content` FROM `limi_topic_discuss` WHERE  `id` = 31 LIMIT 1 [ RunTime:0.089672s ]
+[ sql ] [ SQL ] SELECT `id`,`nickname`,`head_pic`,`sex` FROM `limi_user` WHERE  `id` = 14 LIMIT 1 [ RunTime:0.092023s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_action` [ RunTime:0.092025s ]
+[ sql ] [ SQL ] SELECT `action_pic`,`action_video`,`content` FROM `limi_action` WHERE  `id` = 18 LIMIT 1 [ RunTime:0.089287s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_discuss` [ RunTime:0.091389s ]
+[ sql ] [ SQL ] SELECT `parent_uid`,`group_id` FROM `limi_discuss` WHERE  `id` = 143 LIMIT 1 [ RunTime:0.091874s ]
+[ sql ] [ SQL ] SELECT `content` FROM `limi_discuss` WHERE  `id` = 143 LIMIT 1 [ RunTime:0.091296s ]
+[ sql ] [ SQL ] SELECT `id`,`nickname`,`head_pic`,`sex` FROM `limi_user` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.090649s ]
+[ sql ] [ SQL ] SELECT `action_pic`,`action_video`,`content` FROM `limi_action` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.092179s ]
+[ sql ] [ SQL ] SELECT `parent_uid`,`group_id` FROM `limi_discuss` WHERE  `id` = 139 LIMIT 1 [ RunTime:0.090325s ]
+[ sql ] [ SQL ] SELECT `content` FROM `limi_discuss` WHERE  `id` = 139 LIMIT 1 [ RunTime:0.093074s ]
+[ sql ] [ SQL ] SELECT `id`,`nickname`,`head_pic`,`sex` FROM `limi_user` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.089574s ]
+[ sql ] [ SQL ] SELECT `action_pic`,`action_video`,`content` FROM `limi_action` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.089655s ]
+[ sql ] [ SQL ] SELECT `parent_uid`,`group_id` FROM `limi_discuss` WHERE  `id` = 138 LIMIT 1 [ RunTime:0.093266s ]
+[ sql ] [ SQL ] SELECT `content` FROM `limi_discuss` WHERE  `id` = 138 LIMIT 1 [ RunTime:0.095164s ]
+[ sql ] [ SQL ] SELECT `id`,`nickname`,`head_pic`,`sex` FROM `limi_user` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.093268s ]
+[ sql ] [ SQL ] SELECT `action_pic`,`action_video`,`content` FROM `limi_action` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.093593s ]
+[ sql ] [ SQL ] SELECT `parent_uid`,`group_id` FROM `limi_discuss` WHERE  `id` = 137 LIMIT 1 [ RunTime:0.093165s ]
+[ sql ] [ SQL ] SELECT `content` FROM `limi_discuss` WHERE  `id` = 137 LIMIT 1 [ RunTime:0.093766s ]
+[ sql ] [ SQL ] SELECT `id`,`nickname`,`head_pic`,`sex` FROM `limi_user` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.095686s ]
+[ sql ] [ SQL ] SELECT `action_pic`,`action_video`,`content` FROM `limi_action` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.093612s ]
+[ sql ] [ SQL ] SELECT `parent_uid`,`group_id` FROM `limi_discuss` WHERE  `id` = 136 LIMIT 1 [ RunTime:0.094531s ]
+[ sql ] [ SQL ] SELECT `content` FROM `limi_discuss` WHERE  `id` = 136 LIMIT 1 [ RunTime:0.095287s ]
+[ sql ] [ SQL ] SELECT `id`,`nickname`,`head_pic`,`sex` FROM `limi_user` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.094391s ]
+[ sql ] [ SQL ] SELECT `action_pic`,`action_video`,`content` FROM `limi_action` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.094801s ]
+[ sql ] [ SQL ] SELECT `parent_uid`,`group_id` FROM `limi_discuss` WHERE  `id` = 135 LIMIT 1 [ RunTime:0.093499s ]
+[ sql ] [ SQL ] SELECT `content` FROM `limi_discuss` WHERE  `id` = 135 LIMIT 1 [ RunTime:0.092281s ]
+[ sql ] [ SQL ] SELECT `id`,`nickname`,`head_pic`,`sex` FROM `limi_user` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.093004s ]
+[ sql ] [ SQL ] SELECT `action_pic`,`action_video`,`content` FROM `limi_action` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.097217s ]
+[ sql ] [ SQL ] SELECT `parent_uid`,`group_id` FROM `limi_discuss` WHERE  `id` = 134 LIMIT 1 [ RunTime:0.092125s ]
+[ sql ] [ SQL ] SELECT `content` FROM `limi_discuss` WHERE  `id` = 134 LIMIT 1 [ RunTime:0.094043s ]
+---------------------------------------------------------------
+[ 2018-06-06T16:57:32+08:00 ] 127.0.0.1 GET /index.php/app1_4/message/commentList?id=5&token=5d119fe16370507b3d3c4b2d059d07ef4308b17d
+[ info ] limiapp.com/index.php/app1_4/message/commentList?id=5&token=5d119fe16370507b3d3c4b2d059d07ef4308b17d [运行时间：4.797452s][吞吐率：0.21req/s] [内存消耗：3,343.85kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'message',
+    2 => 'commentList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'eb046bfe-1a79-4d37-90b7-3671be8ad253',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+  'token' => '5d119fe16370507b3d3c4b2d059d07ef4308b17d',
+  'message' => 'commentList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.301304s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002063s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.168492s ]
+[ info ] [ RUN ] app\apps1_4\controller\Message->commentList[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Message.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.124722s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.081186s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.082079s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.082047s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.080612s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.081525s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_message_read` [ RunTime:0.081275s ]
+[ sql ] [ SQL ] SELECT `time` FROM `limi_message_read` WHERE  `uid` = 5 LIMIT 1 [ RunTime:0.082314s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_message_comment` [ RunTime:0.081276s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_message_comment` WHERE  `to` = 5  AND `from` <> 5 ORDER BY time desc LIMIT 0,10 [ RunTime:0.083748s ]
+[ sql ] [ SQL ] SELECT `id`,`nickname`,`head_pic`,`sex` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.080083s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_video` [ RunTime:0.081534s ]
+[ sql ] [ SQL ] SELECT `id`,`video_cover`,`title` FROM `limi_video` WHERE  `id` = 1245 LIMIT 1 [ RunTime:0.081085s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_video_discuss` [ RunTime:0.080462s ]
+[ sql ] [ SQL ] SELECT `parent_uid`,`group_id` FROM `limi_video_discuss` WHERE  `id` = 179 LIMIT 1 [ RunTime:0.081338s ]
+[ sql ] [ SQL ] SELECT `content` FROM `limi_video_discuss` WHERE  `id` = 179 LIMIT 1 [ RunTime:0.080086s ]
+[ sql ] [ SQL ] SELECT `id`,`nickname`,`head_pic`,`sex` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.081077s ]
+[ sql ] [ SQL ] SELECT `id`,`video_cover`,`title` FROM `limi_video` WHERE  `id` = 1244 LIMIT 1 [ RunTime:0.080811s ]
+[ sql ] [ SQL ] SELECT `parent_uid`,`group_id` FROM `limi_video_discuss` WHERE  `id` = 178 LIMIT 1 [ RunTime:0.082349s ]
+[ sql ] [ SQL ] SELECT `content` FROM `limi_video_discuss` WHERE  `id` = 178 LIMIT 1 [ RunTime:0.079868s ]
+[ sql ] [ SQL ] SELECT `id`,`nickname`,`head_pic`,`sex` FROM `limi_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.085617s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_topic_action` [ RunTime:0.080662s ]
+[ sql ] [ SQL ] SELECT `topic_id`,`pic`,`content` FROM `limi_topic_action` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.081183s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_topic_discuss` [ RunTime:0.081382s ]
+[ sql ] [ SQL ] SELECT `parent_uid`,`group_id` FROM `limi_topic_discuss` WHERE  `id` = 31 LIMIT 1 [ RunTime:0.080590s ]
+[ sql ] [ SQL ] SELECT `content` FROM `limi_topic_discuss` WHERE  `id` = 31 LIMIT 1 [ RunTime:0.080510s ]
+[ sql ] [ SQL ] SELECT `id`,`nickname`,`head_pic`,`sex` FROM `limi_user` WHERE  `id` = 14 LIMIT 1 [ RunTime:0.080520s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_action` [ RunTime:0.082799s ]
+[ sql ] [ SQL ] SELECT `action_pic`,`action_video`,`content` FROM `limi_action` WHERE  `id` = 18 LIMIT 1 [ RunTime:0.080686s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_discuss` [ RunTime:0.080833s ]
+[ sql ] [ SQL ] SELECT `parent_uid`,`group_id` FROM `limi_discuss` WHERE  `id` = 143 LIMIT 1 [ RunTime:0.081538s ]
+[ sql ] [ SQL ] SELECT `content` FROM `limi_discuss` WHERE  `id` = 143 LIMIT 1 [ RunTime:0.080022s ]
+[ sql ] [ SQL ] SELECT `id`,`nickname`,`head_pic`,`sex` FROM `limi_user` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.080912s ]
+[ sql ] [ SQL ] SELECT `action_pic`,`action_video`,`content` FROM `limi_action` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.085008s ]
+[ sql ] [ SQL ] SELECT `parent_uid`,`group_id` FROM `limi_discuss` WHERE  `id` = 139 LIMIT 1 [ RunTime:0.079640s ]
+[ sql ] [ SQL ] SELECT `content` FROM `limi_discuss` WHERE  `id` = 139 LIMIT 1 [ RunTime:0.081701s ]
+[ sql ] [ SQL ] SELECT `id`,`nickname`,`head_pic`,`sex` FROM `limi_user` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.079932s ]
+[ sql ] [ SQL ] SELECT `action_pic`,`action_video`,`content` FROM `limi_action` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.080696s ]
+[ sql ] [ SQL ] SELECT `parent_uid`,`group_id` FROM `limi_discuss` WHERE  `id` = 138 LIMIT 1 [ RunTime:0.080174s ]
+[ sql ] [ SQL ] SELECT `content` FROM `limi_discuss` WHERE  `id` = 138 LIMIT 1 [ RunTime:0.080636s ]
+[ sql ] [ SQL ] SELECT `id`,`nickname`,`head_pic`,`sex` FROM `limi_user` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.082535s ]
+[ sql ] [ SQL ] SELECT `action_pic`,`action_video`,`content` FROM `limi_action` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.081266s ]
+[ sql ] [ SQL ] SELECT `parent_uid`,`group_id` FROM `limi_discuss` WHERE  `id` = 137 LIMIT 1 [ RunTime:0.082328s ]
+[ sql ] [ SQL ] SELECT `content` FROM `limi_discuss` WHERE  `id` = 137 LIMIT 1 [ RunTime:0.081796s ]
+[ sql ] [ SQL ] SELECT `id`,`nickname`,`head_pic`,`sex` FROM `limi_user` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.081116s ]
+[ sql ] [ SQL ] SELECT `action_pic`,`action_video`,`content` FROM `limi_action` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.081426s ]
+[ sql ] [ SQL ] SELECT `parent_uid`,`group_id` FROM `limi_discuss` WHERE  `id` = 136 LIMIT 1 [ RunTime:0.081424s ]
+[ sql ] [ SQL ] SELECT `content` FROM `limi_discuss` WHERE  `id` = 136 LIMIT 1 [ RunTime:0.080887s ]
+[ sql ] [ SQL ] SELECT `id`,`nickname`,`head_pic`,`sex` FROM `limi_user` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.079181s ]
+[ sql ] [ SQL ] SELECT `action_pic`,`action_video`,`content` FROM `limi_action` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.080954s ]
+[ sql ] [ SQL ] SELECT `parent_uid`,`group_id` FROM `limi_discuss` WHERE  `id` = 135 LIMIT 1 [ RunTime:0.081136s ]
+[ sql ] [ SQL ] SELECT `content` FROM `limi_discuss` WHERE  `id` = 135 LIMIT 1 [ RunTime:0.079709s ]
+[ sql ] [ SQL ] SELECT `id`,`nickname`,`head_pic`,`sex` FROM `limi_user` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.081199s ]
+[ sql ] [ SQL ] SELECT `action_pic`,`action_video`,`content` FROM `limi_action` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.083204s ]
+[ sql ] [ SQL ] SELECT `parent_uid`,`group_id` FROM `limi_discuss` WHERE  `id` = 134 LIMIT 1 [ RunTime:0.080145s ]
+[ sql ] [ SQL ] SELECT `content` FROM `limi_discuss` WHERE  `id` = 134 LIMIT 1 [ RunTime:0.081293s ]
+---------------------------------------------------------------
+[ 2018-06-06T17:03:06+08:00 ] 127.0.0.1 GET /index.php/app1_4/message/commentList?id=5&token=5d119fe16370507b3d3c4b2d059d07ef4308b17d
+[ info ] limiapp.com/index.php/app1_4/message/commentList?id=5&token=5d119fe16370507b3d3c4b2d059d07ef4308b17d [运行时间：5.261513s][吞吐率：0.19req/s] [内存消耗：3,343.85kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'message',
+    2 => 'commentList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd2c799aa-7583-4573-9b3a-208e65a8be1e',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+  'token' => '5d119fe16370507b3d3c4b2d059d07ef4308b17d',
+  'message' => 'commentList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.327851s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001818s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.183595s ]
+[ info ] [ RUN ] app\apps1_4\controller\Message->commentList[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Message.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.135583s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.088604s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.087890s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.088820s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.089081s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.093654s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_message_read` [ RunTime:0.090162s ]
+[ sql ] [ SQL ] SELECT `time` FROM `limi_message_read` WHERE  `uid` = 5 LIMIT 1 [ RunTime:0.088709s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_message_comment` [ RunTime:0.089029s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_message_comment` WHERE  `to` = 5  AND `from` <> 5 ORDER BY time desc LIMIT 0,10 [ RunTime:0.090436s ]
+[ sql ] [ SQL ] SELECT `id`,`nickname`,`head_pic`,`sex` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.089610s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_video` [ RunTime:0.090657s ]
+[ sql ] [ SQL ] SELECT `id`,`video_cover`,`title` FROM `limi_video` WHERE  `id` = 1245 LIMIT 1 [ RunTime:0.088677s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_video_discuss` [ RunTime:0.090328s ]
+[ sql ] [ SQL ] SELECT `parent_uid`,`group_id` FROM `limi_video_discuss` WHERE  `id` = 179 LIMIT 1 [ RunTime:0.088600s ]
+[ sql ] [ SQL ] SELECT `content` FROM `limi_video_discuss` WHERE  `id` = 179 LIMIT 1 [ RunTime:0.088992s ]
+[ sql ] [ SQL ] SELECT `id`,`nickname`,`head_pic`,`sex` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.089443s ]
+[ sql ] [ SQL ] SELECT `id`,`video_cover`,`title` FROM `limi_video` WHERE  `id` = 1244 LIMIT 1 [ RunTime:0.089222s ]
+[ sql ] [ SQL ] SELECT `parent_uid`,`group_id` FROM `limi_video_discuss` WHERE  `id` = 178 LIMIT 1 [ RunTime:0.089427s ]
+[ sql ] [ SQL ] SELECT `content` FROM `limi_video_discuss` WHERE  `id` = 178 LIMIT 1 [ RunTime:0.089464s ]
+[ sql ] [ SQL ] SELECT `id`,`nickname`,`head_pic`,`sex` FROM `limi_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.089204s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_topic_action` [ RunTime:0.089359s ]
+[ sql ] [ SQL ] SELECT `topic_id`,`pic`,`content` FROM `limi_topic_action` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.089330s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_topic_discuss` [ RunTime:0.089689s ]
+[ sql ] [ SQL ] SELECT `parent_uid`,`group_id` FROM `limi_topic_discuss` WHERE  `id` = 31 LIMIT 1 [ RunTime:0.088812s ]
+[ sql ] [ SQL ] SELECT `content` FROM `limi_topic_discuss` WHERE  `id` = 31 LIMIT 1 [ RunTime:0.088067s ]
+[ sql ] [ SQL ] SELECT `id`,`nickname`,`head_pic`,`sex` FROM `limi_user` WHERE  `id` = 14 LIMIT 1 [ RunTime:0.090409s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_action` [ RunTime:0.089645s ]
+[ sql ] [ SQL ] SELECT `action_pic`,`action_video`,`content` FROM `limi_action` WHERE  `id` = 18 LIMIT 1 [ RunTime:0.088988s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_discuss` [ RunTime:0.090213s ]
+[ sql ] [ SQL ] SELECT `parent_uid`,`group_id` FROM `limi_discuss` WHERE  `id` = 143 LIMIT 1 [ RunTime:0.088784s ]
+[ sql ] [ SQL ] SELECT `content` FROM `limi_discuss` WHERE  `id` = 143 LIMIT 1 [ RunTime:0.088370s ]
+[ sql ] [ SQL ] SELECT `id`,`nickname`,`head_pic`,`sex` FROM `limi_user` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.087819s ]
+[ sql ] [ SQL ] SELECT `action_pic`,`action_video`,`content` FROM `limi_action` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.088962s ]
+[ sql ] [ SQL ] SELECT `parent_uid`,`group_id` FROM `limi_discuss` WHERE  `id` = 139 LIMIT 1 [ RunTime:0.088309s ]
+[ sql ] [ SQL ] SELECT `content` FROM `limi_discuss` WHERE  `id` = 139 LIMIT 1 [ RunTime:0.089088s ]
+[ sql ] [ SQL ] SELECT `id`,`nickname`,`head_pic`,`sex` FROM `limi_user` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.088980s ]
+[ sql ] [ SQL ] SELECT `action_pic`,`action_video`,`content` FROM `limi_action` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.088719s ]
+[ sql ] [ SQL ] SELECT `parent_uid`,`group_id` FROM `limi_discuss` WHERE  `id` = 138 LIMIT 1 [ RunTime:0.089392s ]
+[ sql ] [ SQL ] SELECT `content` FROM `limi_discuss` WHERE  `id` = 138 LIMIT 1 [ RunTime:0.088741s ]
+[ sql ] [ SQL ] SELECT `id`,`nickname`,`head_pic`,`sex` FROM `limi_user` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.089410s ]
+[ sql ] [ SQL ] SELECT `action_pic`,`action_video`,`content` FROM `limi_action` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.088801s ]
+[ sql ] [ SQL ] SELECT `parent_uid`,`group_id` FROM `limi_discuss` WHERE  `id` = 137 LIMIT 1 [ RunTime:0.087055s ]
+[ sql ] [ SQL ] SELECT `content` FROM `limi_discuss` WHERE  `id` = 137 LIMIT 1 [ RunTime:0.089310s ]
+[ sql ] [ SQL ] SELECT `id`,`nickname`,`head_pic`,`sex` FROM `limi_user` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.088951s ]
+[ sql ] [ SQL ] SELECT `action_pic`,`action_video`,`content` FROM `limi_action` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.088079s ]
+[ sql ] [ SQL ] SELECT `parent_uid`,`group_id` FROM `limi_discuss` WHERE  `id` = 136 LIMIT 1 [ RunTime:0.090338s ]
+[ sql ] [ SQL ] SELECT `content` FROM `limi_discuss` WHERE  `id` = 136 LIMIT 1 [ RunTime:0.089337s ]
+[ sql ] [ SQL ] SELECT `id`,`nickname`,`head_pic`,`sex` FROM `limi_user` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.089531s ]
+[ sql ] [ SQL ] SELECT `action_pic`,`action_video`,`content` FROM `limi_action` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.089655s ]
+[ sql ] [ SQL ] SELECT `parent_uid`,`group_id` FROM `limi_discuss` WHERE  `id` = 135 LIMIT 1 [ RunTime:0.089664s ]
+[ sql ] [ SQL ] SELECT `content` FROM `limi_discuss` WHERE  `id` = 135 LIMIT 1 [ RunTime:0.089635s ]
+[ sql ] [ SQL ] SELECT `id`,`nickname`,`head_pic`,`sex` FROM `limi_user` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.088734s ]
+[ sql ] [ SQL ] SELECT `action_pic`,`action_video`,`content` FROM `limi_action` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.089220s ]
+[ sql ] [ SQL ] SELECT `parent_uid`,`group_id` FROM `limi_discuss` WHERE  `id` = 134 LIMIT 1 [ RunTime:0.089051s ]
+[ sql ] [ SQL ] SELECT `content` FROM `limi_discuss` WHERE  `id` = 134 LIMIT 1 [ RunTime:0.090518s ]
+---------------------------------------------------------------
+[ 2018-06-06T18:17:44+08:00 ] 127.0.0.1 GET /index.php/app1_4/video/getVideoList?id=2&token=a5df55687307ce489977321318c118655e28845f&page=1&time=
+[ info ] limiapp.com/index.php/app1_4/video/getVideoList?id=2&token=a5df55687307ce489977321318c118655e28845f&page=1&time= [运行时间：4.471976s][吞吐率：0.22req/s] [内存消耗：3,549.33kb] [文件加载：56]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'getVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'limiapp.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'token' => 'a5df55687307ce489977321318c118655e28845f',
+  'page' => '1',
+  'time' => '',
+  'video' => 'getVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.307401s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000950s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.166585s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->getVideoList[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.128151s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.081813s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.082572s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.082647s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.081084s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.081828s ]
+[ sql ] [ SQL ] SELECT `user_info_status`,`identity_status`,`identity_time` FROM `limi_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.081725s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_video` [ RunTime:0.084975s ]
+[ sql ] [ SQL ] SELECT `id`,`user_id`,`title`,`video_cover`,`video`,`view_num`,`click_num`,`discuss_num`,`tags`,`music_id` FROM `limi_video` WHERE  `create_time` < '2018-06-06 18:17:40'  AND `view_auth` = 1  AND `is_show` = 0 ORDER BY id desc LIMIT 0,10 [ RunTime:0.082634s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_video_click` [ RunTime:0.082161s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1298  AND `user_id` = 2 LIMIT 1 [ RunTime:0.082074s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user_relation` [ RunTime:0.083654s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.082304s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_music` [ RunTime:0.083410s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.081451s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.082483s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1297  AND `user_id` = 2 LIMIT 1 [ RunTime:0.082835s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.084926s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.082226s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.082333s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1296  AND `user_id` = 2 LIMIT 1 [ RunTime:0.089461s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.082054s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.081933s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.085162s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1295  AND `user_id` = 2 LIMIT 1 [ RunTime:0.081857s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 18 LIMIT 1 [ RunTime:0.083478s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.081768s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 18 LIMIT 1 [ RunTime:0.082367s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1294  AND `user_id` = 2 LIMIT 1 [ RunTime:0.082748s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.082382s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.082987s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.084882s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1292  AND `user_id` = 2 LIMIT 1 [ RunTime:0.081898s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.081851s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.082453s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.081890s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1291  AND `user_id` = 2 LIMIT 1 [ RunTime:0.082088s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.081419s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.082226s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.083550s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1290  AND `user_id` = 2 LIMIT 1 [ RunTime:0.083198s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.082092s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.081947s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.082447s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1287  AND `user_id` = 2 LIMIT 1 [ RunTime:0.082056s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.082153s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.081775s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.081691s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1286  AND `user_id` = 2 LIMIT 1 [ RunTime:0.082191s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.082283s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.085227s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.082317s ]
+---------------------------------------------------------------
+[ 2018-06-06T18:18:03+08:00 ] 127.0.0.1 GET /index.php/app1_4/video/getVideoList?id=2&token=a5df55687307ce489977321318c118655e28845f&page=1&time=
+[ info ] limiapp.com/index.php/app1_4/video/getVideoList?id=2&token=a5df55687307ce489977321318c118655e28845f&page=1&time= [运行时间：4.869073s][吞吐率：0.21req/s] [内存消耗：3,549.36kb] [文件加载：56]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'getVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'limiapp.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'token' => 'a5df55687307ce489977321318c118655e28845f',
+  'page' => '1',
+  'time' => '',
+  'video' => 'getVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.342249s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000751s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.185639s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->getVideoList[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.135915s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.090307s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.088937s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.091480s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.090753s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.092318s ]
+[ sql ] [ SQL ] SELECT `user_info_status`,`identity_status`,`identity_time` FROM `limi_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.088066s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_video` [ RunTime:0.090075s ]
+[ sql ] [ SQL ] SELECT `id`,`user_id`,`title`,`video_cover`,`video`,`view_num`,`click_num`,`discuss_num`,`tags`,`music_id` FROM `limi_video` WHERE  `create_time` < '2018-06-06 18:17:59'  AND `view_auth` = 1  AND `is_show` = 0 ORDER BY id desc LIMIT 0,10 [ RunTime:0.090569s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_video_click` [ RunTime:0.091884s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1298  AND `user_id` = 2 LIMIT 1 [ RunTime:0.089383s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user_relation` [ RunTime:0.100946s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.089289s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_music` [ RunTime:0.093392s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.090474s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.089686s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1297  AND `user_id` = 2 LIMIT 1 [ RunTime:0.091574s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.091715s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.088803s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.088911s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1296  AND `user_id` = 2 LIMIT 1 [ RunTime:0.089647s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.089746s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.088208s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.088521s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1295  AND `user_id` = 2 LIMIT 1 [ RunTime:0.090200s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 18 LIMIT 1 [ RunTime:0.090145s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.090159s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 18 LIMIT 1 [ RunTime:0.090017s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1294  AND `user_id` = 2 LIMIT 1 [ RunTime:0.090177s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.089767s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.088796s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.089072s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1292  AND `user_id` = 2 LIMIT 1 [ RunTime:0.089806s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.089846s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.090131s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.090364s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1291  AND `user_id` = 2 LIMIT 1 [ RunTime:0.091001s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.089018s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.089460s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.092307s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1290  AND `user_id` = 2 LIMIT 1 [ RunTime:0.089800s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.090611s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.087966s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.089176s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1287  AND `user_id` = 2 LIMIT 1 [ RunTime:0.089222s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.089266s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.090436s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.090944s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1286  AND `user_id` = 2 LIMIT 1 [ RunTime:0.089372s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.090983s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.088914s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.089361s ]
+---------------------------------------------------------------
+[ 2018-06-06T18:18:06+08:00 ] 127.0.0.1 GET /index.php/app1_4/video/getVideoList?id=2&token=a5df55687307ce489977321318c118655e28845f&page=2&time=
+[ info ] limiapp.com/index.php/app1_4/video/getVideoList?id=2&token=a5df55687307ce489977321318c118655e28845f&page=2&time= [运行时间：0.691192s][吞吐率：1.45req/s] [内存消耗：3,397.72kb] [文件加载：56]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'getVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'limiapp.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'token' => 'a5df55687307ce489977321318c118655e28845f',
+  'page' => '2',
+  'time' => '',
+  'video' => 'getVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.301971s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001280s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.166695s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->getVideoList[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.125377s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.081719s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.083360s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.082521s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.081244s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.082130s ]
+[ sql ] [ SQL ] SELECT `user_info_status`,`identity_status`,`identity_time` FROM `limi_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.082866s ]
+---------------------------------------------------------------
+[ 2018-06-06T18:18:12+08:00 ] 127.0.0.1 GET /index.php/app1_4/video/getVideoList?id=2&token=a5df55687307ce489977321318c118655e28845f&page=1&time=
+[ info ] limiapp.com/index.php/app1_4/video/getVideoList?id=2&token=a5df55687307ce489977321318c118655e28845f&page=1&time= [运行时间：4.684149s][吞吐率：0.21req/s] [内存消耗：3,549.36kb] [文件加载：56]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'getVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'limiapp.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'token' => 'a5df55687307ce489977321318c118655e28845f',
+  'page' => '1',
+  'time' => '',
+  'video' => 'getVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.319450s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001424s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.175587s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->getVideoList[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.131807s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.086347s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.086961s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.087071s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.085919s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.086013s ]
+[ sql ] [ SQL ] SELECT `user_info_status`,`identity_status`,`identity_time` FROM `limi_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.086473s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_video` [ RunTime:0.087572s ]
+[ sql ] [ SQL ] SELECT `id`,`user_id`,`title`,`video_cover`,`video`,`view_num`,`click_num`,`discuss_num`,`tags`,`music_id` FROM `limi_video` WHERE  `create_time` < '2018-06-06 18:18:08'  AND `view_auth` = 1  AND `is_show` = 0 ORDER BY id desc LIMIT 0,10 [ RunTime:0.087334s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_video_click` [ RunTime:0.086814s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1298  AND `user_id` = 2 LIMIT 1 [ RunTime:0.085955s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user_relation` [ RunTime:0.088297s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.086589s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_music` [ RunTime:0.086983s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.086841s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.087682s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1297  AND `user_id` = 2 LIMIT 1 [ RunTime:0.084443s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.087605s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.086222s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.086280s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1296  AND `user_id` = 2 LIMIT 1 [ RunTime:0.088252s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.086493s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.086786s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.086063s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1295  AND `user_id` = 2 LIMIT 1 [ RunTime:0.089007s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 18 LIMIT 1 [ RunTime:0.086079s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.087922s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 18 LIMIT 1 [ RunTime:0.085925s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1294  AND `user_id` = 2 LIMIT 1 [ RunTime:0.088013s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.087339s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.085570s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.085706s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1292  AND `user_id` = 2 LIMIT 1 [ RunTime:0.090011s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.088428s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.087324s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.086367s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1291  AND `user_id` = 2 LIMIT 1 [ RunTime:0.087882s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.086350s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.086173s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.086523s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1290  AND `user_id` = 2 LIMIT 1 [ RunTime:0.087985s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.087243s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.086361s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.087349s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1287  AND `user_id` = 2 LIMIT 1 [ RunTime:0.086090s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.084879s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.087490s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.085158s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1286  AND `user_id` = 2 LIMIT 1 [ RunTime:0.086018s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.090451s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.089365s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.088967s ]
+---------------------------------------------------------------
+[ 2018-06-06T18:18:54+08:00 ] 127.0.0.1 GET /index.php/app1_4/video/getVideoList?id=2&token=a5df55687307ce489977321318c118655e28845f&page=1&time=
+[ info ] limiapp.com/index.php/app1_4/video/getVideoList?id=2&token=a5df55687307ce489977321318c118655e28845f&page=1&time= [运行时间：4.427725s][吞吐率：0.23req/s] [内存消耗：3,549.36kb] [文件加载：56]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'getVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'limiapp.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'token' => 'a5df55687307ce489977321318c118655e28845f',
+  'page' => '1',
+  'time' => '',
+  'video' => 'getVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.304106s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000621s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.168818s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->getVideoList[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.124434s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.083262s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.081190s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.084333s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.081980s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.082156s ]
+[ sql ] [ SQL ] SELECT `user_info_status`,`identity_status`,`identity_time` FROM `limi_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.081694s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_video` [ RunTime:0.081318s ]
+[ sql ] [ SQL ] SELECT `id`,`user_id`,`title`,`video_cover`,`video`,`view_num`,`click_num`,`discuss_num`,`tags`,`music_id` FROM `limi_video` WHERE  `create_time` < '2018-06-06 18:18:50'  AND `view_auth` = 1  AND `is_show` = 0 ORDER BY id desc LIMIT 0,10 [ RunTime:0.082713s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_video_click` [ RunTime:0.081590s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1298  AND `user_id` = 2 LIMIT 1 [ RunTime:0.081180s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user_relation` [ RunTime:0.083029s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.082596s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_music` [ RunTime:0.081767s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.081262s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.082295s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1297  AND `user_id` = 2 LIMIT 1 [ RunTime:0.082681s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.082714s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.081476s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.081874s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1296  AND `user_id` = 2 LIMIT 1 [ RunTime:0.082021s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.081896s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.082008s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.081093s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1295  AND `user_id` = 2 LIMIT 1 [ RunTime:0.080486s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 18 LIMIT 1 [ RunTime:0.081678s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.080715s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 18 LIMIT 1 [ RunTime:0.080117s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1294  AND `user_id` = 2 LIMIT 1 [ RunTime:0.081891s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.081182s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.081762s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.081406s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1292  AND `user_id` = 2 LIMIT 1 [ RunTime:0.081314s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.081726s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.081671s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.082918s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1291  AND `user_id` = 2 LIMIT 1 [ RunTime:0.081131s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.082205s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.081588s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.081546s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1290  AND `user_id` = 2 LIMIT 1 [ RunTime:0.083366s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.082690s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.080137s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.082238s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1287  AND `user_id` = 2 LIMIT 1 [ RunTime:0.080246s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.080740s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.081336s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.081686s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1286  AND `user_id` = 2 LIMIT 1 [ RunTime:0.081101s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.082932s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.082045s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.081562s ]
+---------------------------------------------------------------
+[ 2018-06-06T18:18:54+08:00 ] 127.0.0.1 GET /index.php/app1_4/video/getVideoList?id=2&token=a5df55687307ce489977321318c118655e28845f&page=2&time=
+[ info ] limiapp.com/index.php/app1_4/video/getVideoList?id=2&token=a5df55687307ce489977321318c118655e28845f&page=2&time= [运行时间：0.745853s][吞吐率：1.34req/s] [内存消耗：3,397.72kb] [文件加载：56]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'getVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'limiapp.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'token' => 'a5df55687307ce489977321318c118655e28845f',
+  'page' => '2',
+  'time' => '',
+  'video' => 'getVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.330416s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000726s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.182592s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->getVideoList[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.135252s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.091255s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.089782s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.091686s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.088285s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.091810s ]
+[ sql ] [ SQL ] SELECT `user_info_status`,`identity_status`,`identity_time` FROM `limi_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.088951s ]
+---------------------------------------------------------------
+[ 2018-06-06T18:19:01+08:00 ] 127.0.0.1 GET /index.php/app1_4/video/getVideoList?id=2&token=a5df55687307ce489977321318c118655e28845f&page=1&time=
+[ info ] limiapp.com/index.php/app1_4/video/getVideoList?id=2&token=a5df55687307ce489977321318c118655e28845f&page=1&time= [运行时间：4.546130s][吞吐率：0.22req/s] [内存消耗：3,549.36kb] [文件加载：56]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'getVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'limiapp.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'token' => 'a5df55687307ce489977321318c118655e28845f',
+  'page' => '1',
+  'time' => '',
+  'video' => 'getVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.309815s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000676s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.174297s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->getVideoList[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.129702s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.084083s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.085860s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.086473s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.085274s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.083511s ]
+[ sql ] [ SQL ] SELECT `user_info_status`,`identity_status`,`identity_time` FROM `limi_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.084530s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_video` [ RunTime:0.084883s ]
+[ sql ] [ SQL ] SELECT `id`,`user_id`,`title`,`video_cover`,`video`,`view_num`,`click_num`,`discuss_num`,`tags`,`music_id` FROM `limi_video` WHERE  `create_time` < '2018-06-06 18:18:58'  AND `view_auth` = 1  AND `is_show` = 0 ORDER BY id desc LIMIT 0,10 [ RunTime:0.084546s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_video_click` [ RunTime:0.086020s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1298  AND `user_id` = 2 LIMIT 1 [ RunTime:0.084127s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user_relation` [ RunTime:0.084424s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.083865s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_music` [ RunTime:0.084455s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.084596s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.083999s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1297  AND `user_id` = 2 LIMIT 1 [ RunTime:0.085295s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.084357s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.082831s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.084164s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1296  AND `user_id` = 2 LIMIT 1 [ RunTime:0.084111s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.084863s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.085400s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.082281s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1295  AND `user_id` = 2 LIMIT 1 [ RunTime:0.084522s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 18 LIMIT 1 [ RunTime:0.083961s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.084846s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 18 LIMIT 1 [ RunTime:0.083519s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1294  AND `user_id` = 2 LIMIT 1 [ RunTime:0.084985s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.084275s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.084012s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.086058s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1292  AND `user_id` = 2 LIMIT 1 [ RunTime:0.084579s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.084441s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.083531s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.085579s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1291  AND `user_id` = 2 LIMIT 1 [ RunTime:0.085275s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.083748s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.084128s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.085267s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1290  AND `user_id` = 2 LIMIT 1 [ RunTime:0.083826s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.084765s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.084404s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.084233s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1287  AND `user_id` = 2 LIMIT 1 [ RunTime:0.084809s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.086006s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.084151s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.083958s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1286  AND `user_id` = 2 LIMIT 1 [ RunTime:0.086136s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.084407s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.084545s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.085453s ]
+---------------------------------------------------------------
+[ 2018-06-06T18:20:01+08:00 ] 127.0.0.1 GET /index.php/app1_4/video/getVideoList?id=2&token=a5df55687307ce489977321318c118655e28845f&page=1&time=
+[ info ] limiapp.com/index.php/app1_4/video/getVideoList?id=2&token=a5df55687307ce489977321318c118655e28845f&page=1&time= [运行时间：4.569899s][吞吐率：0.22req/s] [内存消耗：3,549.36kb] [文件加载：56]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'getVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'limiapp.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'token' => 'a5df55687307ce489977321318c118655e28845f',
+  'page' => '1',
+  'time' => '',
+  'video' => 'getVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.314943s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001205s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.174380s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->getVideoList[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.130070s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.084420s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.084680s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.087038s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.083781s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.084088s ]
+[ sql ] [ SQL ] SELECT `user_info_status`,`identity_status`,`identity_time` FROM `limi_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.083696s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_video` [ RunTime:0.084853s ]
+[ sql ] [ SQL ] SELECT `id`,`user_id`,`title`,`video_cover`,`video`,`view_num`,`click_num`,`discuss_num`,`tags`,`music_id` FROM `limi_video` WHERE  `create_time` < '2018-06-06 18:19:57'  AND `view_auth` = 1  AND `is_show` = 0 ORDER BY id desc LIMIT 0,10 [ RunTime:0.084539s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_video_click` [ RunTime:0.084870s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1298  AND `user_id` = 2 LIMIT 1 [ RunTime:0.084449s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user_relation` [ RunTime:0.083524s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.083948s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_music` [ RunTime:0.084704s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.084631s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.084245s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1297  AND `user_id` = 2 LIMIT 1 [ RunTime:0.083157s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.084263s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.082908s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.086116s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1296  AND `user_id` = 2 LIMIT 1 [ RunTime:0.084864s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.085090s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.084613s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.084211s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1295  AND `user_id` = 2 LIMIT 1 [ RunTime:0.083564s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 18 LIMIT 1 [ RunTime:0.084702s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.085944s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 18 LIMIT 1 [ RunTime:0.084282s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1294  AND `user_id` = 2 LIMIT 1 [ RunTime:0.083310s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.085260s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.083877s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.083904s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1292  AND `user_id` = 2 LIMIT 1 [ RunTime:0.083686s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.085164s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.084789s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.084552s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1291  AND `user_id` = 2 LIMIT 1 [ RunTime:0.084461s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.085032s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.084230s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.084755s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1290  AND `user_id` = 2 LIMIT 1 [ RunTime:0.084914s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.085613s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.082959s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.082926s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1287  AND `user_id` = 2 LIMIT 1 [ RunTime:0.083514s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.084540s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.085409s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.084105s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1286  AND `user_id` = 2 LIMIT 1 [ RunTime:0.084706s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.084405s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.084529s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.084216s ]
+---------------------------------------------------------------
+[ 2018-06-06T18:20:02+08:00 ] 127.0.0.1 GET /index.php/app1_4/video/getVideoList?id=2&token=a5df55687307ce489977321318c118655e28845f&page=2&time=
+[ info ] limiapp.com/index.php/app1_4/video/getVideoList?id=2&token=a5df55687307ce489977321318c118655e28845f&page=2&time= [运行时间：0.748290s][吞吐率：1.34req/s] [内存消耗：3,397.72kb] [文件加载：56]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'getVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'limiapp.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'token' => 'a5df55687307ce489977321318c118655e28845f',
+  'page' => '2',
+  'time' => '',
+  'video' => 'getVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.331796s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000698s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.183742s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->getVideoList[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.137703s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.089796s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.089225s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.090183s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.089767s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.090071s ]
+[ sql ] [ SQL ] SELECT `user_info_status`,`identity_status`,`identity_time` FROM `limi_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.088852s ]
+---------------------------------------------------------------
+[ 2018-06-06T18:20:12+08:00 ] 127.0.0.1 GET /index.php/app1_4/video/getVideoList?id=2&token=a5df55687307ce489977321318c118655e28845f&page=1&time=
+[ info ] limiapp.com/index.php/app1_4/video/getVideoList?id=2&token=a5df55687307ce489977321318c118655e28845f&page=1&time= [运行时间：4.449684s][吞吐率：0.22req/s] [内存消耗：3,549.36kb] [文件加载：56]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'getVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'limiapp.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'token' => 'a5df55687307ce489977321318c118655e28845f',
+  'page' => '1',
+  'time' => '',
+  'video' => 'getVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.303026s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000994s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.168164s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->getVideoList[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.126356s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.081861s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.085259s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.082382s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.082435s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.082725s ]
+[ sql ] [ SQL ] SELECT `user_info_status`,`identity_status`,`identity_time` FROM `limi_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.082404s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_video` [ RunTime:0.084258s ]
+[ sql ] [ SQL ] SELECT `id`,`user_id`,`title`,`video_cover`,`video`,`view_num`,`click_num`,`discuss_num`,`tags`,`music_id` FROM `limi_video` WHERE  `create_time` < '2018-06-06 18:20:08'  AND `view_auth` = 1  AND `is_show` = 0 ORDER BY id desc LIMIT 0,10 [ RunTime:0.083400s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_video_click` [ RunTime:0.083332s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1298  AND `user_id` = 2 LIMIT 1 [ RunTime:0.083127s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user_relation` [ RunTime:0.082541s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.082320s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_music` [ RunTime:0.082791s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.082486s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.081687s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1297  AND `user_id` = 2 LIMIT 1 [ RunTime:0.081509s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.082476s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.082404s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.081687s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1296  AND `user_id` = 2 LIMIT 1 [ RunTime:0.083752s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.081340s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.082777s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.082328s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1295  AND `user_id` = 2 LIMIT 1 [ RunTime:0.082482s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 18 LIMIT 1 [ RunTime:0.081804s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.082461s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 18 LIMIT 1 [ RunTime:0.082004s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1294  AND `user_id` = 2 LIMIT 1 [ RunTime:0.083939s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.082087s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.083083s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.082684s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1292  AND `user_id` = 2 LIMIT 1 [ RunTime:0.083474s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.081161s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.083157s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.082007s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1291  AND `user_id` = 2 LIMIT 1 [ RunTime:0.082624s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.082612s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.082382s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.083212s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1290  AND `user_id` = 2 LIMIT 1 [ RunTime:0.084566s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.083436s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.082837s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.087065s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1287  AND `user_id` = 2 LIMIT 1 [ RunTime:0.084788s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.082114s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.081400s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.082587s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1286  AND `user_id` = 2 LIMIT 1 [ RunTime:0.082491s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.082538s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.082424s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.083363s ]
+---------------------------------------------------------------
+[ 2018-06-06T18:24:27+08:00 ] 127.0.0.1 GET /index.php/app1_4/video/getVideoList?id=2&token=a5df55687307ce489977321318c118655e28845f&page=1
+[ info ] limiapp.com/index.php/app1_4/video/getVideoList?id=2&token=a5df55687307ce489977321318c118655e28845f&page=1 [运行时间：165.365507s][吞吐率：0.01req/s] [内存消耗：3,590.88kb] [文件加载：56]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'getVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'dd33744a-6f8d-4219-bf13-34c4755fc312',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'token' => 'a5df55687307ce489977321318c118655e28845f',
+  'page' => '1',
+  'video' => 'getVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.312239s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001093s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.177394s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->getVideoList[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.129242s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.084238s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.086444s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.086228s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.085495s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.083770s ]
+[ sql ] [ SQL ] SELECT `user_info_status`,`identity_status`,`identity_time` FROM `limi_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.084973s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_video` [ RunTime:0.084940s ]
+[ sql ] [ SQL ] SELECT `id`,`user_id`,`title`,`video_cover`,`video`,`view_num`,`click_num`,`discuss_num`,`tags`,`music_id` FROM `limi_video` WHERE  `create_time` < '2018-06-06 18:21:46'  AND `view_auth` = 1  AND `is_show` = 0 ORDER BY id desc LIMIT 0,10 [ RunTime:0.085255s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_video_click` [ RunTime:0.086011s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1298  AND `user_id` = 2 LIMIT 1 [ RunTime:0.084837s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user_relation` [ RunTime:0.085397s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.086011s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_music` [ RunTime:0.085632s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.086065s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.085577s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1297  AND `user_id` = 2 LIMIT 1 [ RunTime:0.085553s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.085582s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.084802s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.085720s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1296  AND `user_id` = 2 LIMIT 1 [ RunTime:0.086862s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.085524s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.088338s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.086044s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1295  AND `user_id` = 2 LIMIT 1 [ RunTime:0.089242s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 18 LIMIT 1 [ RunTime:0.085462s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.085132s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 18 LIMIT 1 [ RunTime:0.087091s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1294  AND `user_id` = 2 LIMIT 1 [ RunTime:0.087900s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.086801s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.084756s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.088055s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1292  AND `user_id` = 2 LIMIT 1 [ RunTime:0.085454s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.085003s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.085426s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.086310s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1291  AND `user_id` = 2 LIMIT 1 [ RunTime:0.085284s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.085036s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.086329s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.088035s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1290  AND `user_id` = 2 LIMIT 1 [ RunTime:0.086118s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.084733s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.085740s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.085907s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1287  AND `user_id` = 2 LIMIT 1 [ RunTime:0.085031s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.085355s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.085027s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.085672s ]
+[ sql ] [ SQL ] SELECT `type` FROM `limi_video_click` WHERE  `video_id` = 1286  AND `user_id` = 2 LIMIT 1 [ RunTime:0.084458s ]
+[ sql ] [ SQL ] SELECT `is_cancel` FROM `limi_user_relation` WHERE  `user_id` = 2  AND `attention_id` = 5 LIMIT 1 [ RunTime:0.084925s ]
+[ sql ] [ SQL ] SELECT `name`,`pic` FROM `limi_music` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.084418s ]
+[ sql ] [ SQL ] SELECT `nickname`,`head_pic` FROM `limi_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.086279s ]

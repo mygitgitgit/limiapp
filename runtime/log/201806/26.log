@@ -1,0 +1,464 @@
+---------------------------------------------------------------
+[ 2018-06-26T11:58:40+08:00 ] 127.0.0.1 POST /index.php/com/Ffmpeg/extractMusic
+[ info ] limiapp.com/index.php/com/Ffmpeg/extractMusic [运行时间：0.425833s][吞吐率：2.35req/s] [内存消耗：2,461.20kb] [文件加载：50]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'com',
+    1 => 'Ffmpeg',
+    2 => 'extractMusic',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '6f0e2b17-2af3-4fd6-a214-c3a725b8360a',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------344478370483459190683351',
+  'content-length' => '416',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '30',
+  'token' => '2d00b9c0d6d599a37d11a8f21461400374c2646f',
+  'college_id' => '1001',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.336490s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001676s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.146610s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.086066s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.084161s ]
+[ error ] [1]Interface 'Silex\ServiceProviderInterface' not found[D:\xampp\htdocs\limiapp\extend\PHP-FFMpeg-master\src\FFMpeg\FFMpegServiceProvider.php:19]
+---------------------------------------------------------------
+[ 2018-06-26T12:00:07+08:00 ] 127.0.0.1 POST /index.php/com/Ffmpeg/extractMusic
+[ info ] limiapp.com/index.php/com/Ffmpeg/extractMusic [运行时间：0.359666s][吞吐率：2.78req/s] [内存消耗：2,480.30kb] [文件加载：50]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'com',
+    1 => 'Ffmpeg',
+    2 => 'extractMusic',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'db8b55f9-d6e2-4cd0-b4e7-930f124f53eb',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------128613956876144468325683',
+  'content-length' => '416',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '30',
+  'token' => '2d00b9c0d6d599a37d11a8f21461400374c2646f',
+  'college_id' => '1001',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.312035s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000745s ]
+[ info ] [ RUN ] app\com\controller\Ffmpeg->extractMusic[ D:\xampp\htdocs\limiapp\application\com\controller\Ffmpeg.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.129159s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.086201s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.083770s ]
+[ error ] [1]Class 'Doctrine\Common\Cache\ArrayCache' not found[D:\xampp\htdocs\limiapp\extend\PHP-FFMpeg-master\src\FFMpeg\FFProbe.php:223]
+---------------------------------------------------------------
+[ 2018-06-26T12:00:22+08:00 ] 127.0.0.1 POST /index.php/com/Ffmpeg/extractMusic
+[ info ] limiapp.com/index.php/com/Ffmpeg/extractMusic [运行时间：0.371094s][吞吐率：2.69req/s] [内存消耗：2,449.64kb] [文件加载：49]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'com',
+    1 => 'Ffmpeg',
+    2 => 'extractMusic',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '44837d7e-e91d-4ee0-8417-c6fa748f0933',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------773774459550067961177879',
+  'content-length' => '416',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '30',
+  'token' => '2d00b9c0d6d599a37d11a8f21461400374c2646f',
+  'college_id' => '1001',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.323234s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000878s ]
+[ info ] [ RUN ] app\com\controller\Ffmpeg->extractMusic[ D:\xampp\htdocs\limiapp\application\com\controller\Ffmpeg.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.135166s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.088963s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.087326s ]
+[ error ] [1]Class 'FFMpeg\FFProbe' not found[D:\xampp\htdocs\limiapp\extend\PHP-FFMpeg-master\src\FFMpeg\FFMpeg.php:117]
+---------------------------------------------------------------
+[ 2018-06-26T12:01:01+08:00 ] 127.0.0.1 POST /index.php/com/Ffmpeg/extractMusic
+[ info ] limiapp.com/index.php/com/Ffmpeg/extractMusic [运行时间：0.383386s][吞吐率：2.61req/s] [内存消耗：2,448.73kb] [文件加载：49]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'com',
+    1 => 'Ffmpeg',
+    2 => 'extractMusic',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e3d62ca7-0a89-436d-89ac-9088d3f7703d',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------771880030649633951009409',
+  'content-length' => '416',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '30',
+  'token' => '2d00b9c0d6d599a37d11a8f21461400374c2646f',
+  'college_id' => '1001',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.326119s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000902s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.134474s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.087990s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.088502s ]
+[ error ] [1]Interface 'Silex\ServiceProviderInterface' not found[D:\xampp\htdocs\limiapp\extend\PHP-FFMpeg-master\src\FFMpeg\FFMpegServiceProvider.php:19]
+---------------------------------------------------------------
+[ 2018-06-26T12:01:10+08:00 ] 127.0.0.1 POST /index.php/com/Ffmpeg/extractMusic
+[ info ] limiapp.com/index.php/com/Ffmpeg/extractMusic [运行时间：0.376498s][吞吐率：2.66req/s] [内存消耗：2,479.30kb] [文件加载：50]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'com',
+    1 => 'Ffmpeg',
+    2 => 'extractMusic',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'fcdb9698-bc37-4069-89c0-d1e2ef9de485',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------952029606358807025378311',
+  'content-length' => '416',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '30',
+  'token' => '2d00b9c0d6d599a37d11a8f21461400374c2646f',
+  'college_id' => '1001',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.323379s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000749s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.133169s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.088538s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.087412s ]
+[ error ] [1]Interface 'Silex\ServiceProviderInterface' not found[D:\xampp\htdocs\limiapp\extend\PHP-FFMpeg-master\src\FFMpeg\FFMpegServiceProvider.php:19]
+---------------------------------------------------------------
+[ 2018-06-26T12:01:16+08:00 ] 127.0.0.1 POST /index.php/com/Ffmpeg/extractMusic
+[ info ] limiapp.com/index.php/com/Ffmpeg/extractMusic [运行时间：0.361277s][吞吐率：2.77req/s] [内存消耗：2,480.28kb] [文件加载：50]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'com',
+    1 => 'Ffmpeg',
+    2 => 'extractMusic',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '251ec00d-5c5c-4b6f-9ae4-114cfae56d97',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------056503849632992610526461',
+  'content-length' => '416',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '30',
+  'token' => '2d00b9c0d6d599a37d11a8f21461400374c2646f',
+  'college_id' => '1001',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.311407s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000803s ]
+[ info ] [ RUN ] app\com\controller\Ffmpeg->extractMusic[ D:\xampp\htdocs\limiapp\application\com\controller\Ffmpeg.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.129338s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.085363s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.084561s ]
+[ error ] [1]Class 'Doctrine\Common\Cache\ArrayCache' not found[D:\xampp\htdocs\limiapp\extend\PHP-FFMpeg-master\src\FFMpeg\FFProbe.php:223]
+---------------------------------------------------------------
+[ 2018-06-26T12:02:10+08:00 ] 127.0.0.1 POST /index.php/com/Ffmpeg/extractMusic
+[ info ] limiapp.com/index.php/com/Ffmpeg/extractMusic [运行时间：0.384156s][吞吐率：2.60req/s] [内存消耗：2,449.64kb] [文件加载：49]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'com',
+    1 => 'Ffmpeg',
+    2 => 'extractMusic',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '582c9155-a509-43a1-85e9-cd64d7c33279',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------278671635398546888888472',
+  'content-length' => '416',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '30',
+  'token' => '2d00b9c0d6d599a37d11a8f21461400374c2646f',
+  'college_id' => '1001',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.332455s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000833s ]
+[ info ] [ RUN ] app\com\controller\Ffmpeg->extractMusic[ D:\xampp\htdocs\limiapp\application\com\controller\Ffmpeg.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.138127s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.090693s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.090788s ]
+[ error ] [1]Class 'FFMpeg\FFProbe' not found[D:\xampp\htdocs\limiapp\extend\PHP-FFMpeg-master\src\FFMpeg\FFMpeg.php:117]
+---------------------------------------------------------------
+[ 2018-06-26T16:10:29+08:00 ] 127.0.0.1 POST /index.php/com/Alivideo/getVideoInfo
+[ info ] limiapp.com/index.php/com/Alivideo/getVideoInfo [运行时间：51.535343s][吞吐率：0.02req/s] [内存消耗：2,982.79kb] [文件加载：64]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'com',
+    1 => 'Alivideo',
+    2 => 'getVideoInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '8c89166c-b3c2-42cb-a4c4-b9f2fb9d8af0',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------070659468232083649157983',
+  'content-length' => '416',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '30',
+  'token' => '2d00b9c0d6d599a37d11a8f21461400374c2646f',
+  'college_id' => '1001',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.325705s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002299s ]
+[ info ] [ RUN ] app\com\controller\Alivideo->getVideoInfo[ D:\xampp\htdocs\limiapp\application\com\controller\Alivideo.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.131026s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.085084s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.084787s ]
+[ error ] [8]未定义数组索引: cn-shanghai#vod[D:\xampp\htdocs\limiapp\extend\aliyunOpenapi\aliyun-php-sdk-core\Regions\LocationService.php:56]
+---------------------------------------------------------------
+[ 2018-06-26T16:11:14+08:00 ] 127.0.0.1 POST /index.php/com/Alivideo/getVideoInfo
+[ info ] limiapp.com/index.php/com/Alivideo/getVideoInfo [运行时间：38.628684s][吞吐率：0.03req/s] [内存消耗：2,982.86kb] [文件加载：64]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'com',
+    1 => 'Alivideo',
+    2 => 'getVideoInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '29ebc55b-13dd-47f6-b7ae-82b9671033e1',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------399223524951223082031835',
+  'content-length' => '416',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '30',
+  'token' => '2d00b9c0d6d599a37d11a8f21461400374c2646f',
+  'college_id' => '1001',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.324962s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000880s ]
+[ info ] [ RUN ] app\com\controller\Alivideo->getVideoInfo[ D:\xampp\htdocs\limiapp\application\com\controller\Alivideo.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.135307s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.088109s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.088589s ]
+[ error ] [8]未定义数组索引: cn-shanghai#vod[D:\xampp\htdocs\limiapp\extend\aliyunOpenapi\aliyun-php-sdk-core\Regions\LocationService.php:56]
+---------------------------------------------------------------
+[ 2018-06-26T16:12:09+08:00 ] 127.0.0.1 POST /index.php/com/Alivideo/getMezzanineInfo
+[ info ] limiapp.com/index.php/com/Alivideo/getMezzanineInfo [运行时间：26.130850s][吞吐率：0.04req/s] [内存消耗：2,984.19kb] [文件加载：64]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'com',
+    1 => 'Alivideo',
+    2 => 'getMezzanineInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '02665217-2c02-46b6-bd02-075d95540bab',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------221676881834690630168979',
+  'content-length' => '416',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '30',
+  'token' => '2d00b9c0d6d599a37d11a8f21461400374c2646f',
+  'college_id' => '1001',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.327272s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001920s ]
+[ info ] [ RUN ] app\com\controller\Alivideo->getMezzanineInfo[ D:\xampp\htdocs\limiapp\application\com\controller\Alivideo.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.135448s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.088235s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.086960s ]
+[ error ] [8]未定义数组索引: cn-shanghai#vod[D:\xampp\htdocs\limiapp\extend\aliyunOpenapi\aliyun-php-sdk-core\Regions\LocationService.php:56]
+---------------------------------------------------------------
+[ 2018-06-26T16:30:23+08:00 ] 127.0.0.1 POST /index.php/com/Alivideo/getPlayInfo
+[ info ] limiapp.com/index.php/com/Alivideo/getPlayInfo [运行时间：0.433685s][吞吐率：2.31req/s] [内存消耗：2,993.68kb] [文件加载：60]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'com',
+    1 => 'Alivideo',
+    2 => 'getPlayInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c365d796-c45d-4b49-88d0-6c9f8568c35c',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------460098689749858349389065',
+  'content-length' => '416',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '30',
+  'token' => '2d00b9c0d6d599a37d11a8f21461400374c2646f',
+  'college_id' => '1001',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.317217s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001253s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.130591s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.085431s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.085434s ]
+[ error ] [0]方法参数错误:videoId[D:\xampp\htdocs\limiapp\thinkphp\library\think\App.php:431]
+---------------------------------------------------------------
+[ 2018-06-26T16:31:28+08:00 ] 127.0.0.1 POST /index.php/com/Alivideo/getPlayInfo
+[ info ] limiapp.com/index.php/com/Alivideo/getPlayInfo [运行时间：46.884314s][吞吐率：0.02req/s] [内存消耗：3,024.76kb] [文件加载：64]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'com',
+    1 => 'Alivideo',
+    2 => 'getPlayInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '70805315-ccf1-4899-ad0f-589dbe82d5c5',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------845468926433918762892687',
+  'content-length' => '416',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '30',
+  'token' => '2d00b9c0d6d599a37d11a8f21461400374c2646f',
+  'college_id' => '1001',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.334673s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000884s ]
+[ info ] [ RUN ] app\com\controller\Alivideo->getPlayInfo[ D:\xampp\htdocs\limiapp\application\com\controller\Alivideo.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.141043s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.088506s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.089058s ]
+[ error ] [8]未定义数组索引: cn-shanghai#vod[D:\xampp\htdocs\limiapp\extend\aliyunOpenapi\aliyun-php-sdk-core\Regions\LocationService.php:56]

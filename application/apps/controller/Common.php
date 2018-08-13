@@ -1,0 +1,1399 @@
+<?php
+namespace app\apps\controller;
+use think\Controller;
+use think\Request;
+use think\Db;
+
+class Common extends Controller
+{
+
+    public function _initialize(){
+        $ss=input();
+        $ss=input();
+    }
+
+    /**
+     * Created by zyjun
+     * Info:根据用户手机号+随机数产生token，用户手机登陆后的访问token
+     * $param:手机号
+     * return:
+     */
+    public function createToken($param){
+         $password=sha1(MD5($param.time().rand(1,9999)));
+         return $password;
+    }
+
+    /**
+     * Created by zyjun
+     * Info:生成支付密码
+     * $param:用户密码
+     * return:
+     */
+    public function createPayPassword($param){
+        $password=sha1(MD5($param.'limi@8268'));
+        return $password;
+    }
+
+    /**
+     * Created by zyjun
+     * Info:支付订单编号，充值，提现产生，也用于用户回调通知,随机产生后缀
+     */
+    public function createBusinessNo(){
+        $out_biz_no=date('YmdHis',time()).rand(1000,9999);
+        return $out_biz_no;
+    }
+
+    /**
+     * Created by zyjun
+     * Info:支付订单编号，充值，提现产生，也用于用户回调通知,随机产生后缀
+     */
+    public function createShopOrderNo(){
+        $out_biz_no=date('YmdHis',time()).rand(10000,99999);
+        return $out_biz_no;
+    }
+
+    /**
+     * Created by zyjun
+     * Info:阿里云内容鉴别任务id
+     */
+    public function createAliGreenDataid(){
+        $dataid=date('YmdHis',time()).rand(100,999);
+        return $dataid;
+    }
+
+    /**
+     * Created by zyjun
+     * Info:验证用户是否已经注册过
+     */
+    public function isReg($param){
+        $res=Db::name('user')->where('mobile',$param)->find();
+        if($res){
+            $data['msg']='手机号已经注册，请登录！';
+            $data['status']=1;
+            return $data;
+        }
+        $data['msg']='手机号未注册';
+        $data['status']=0;
+        return $data;
+    }
+
+    /**
+     * Created by zyjun
+     * Info:判断用户状态，每次请求都返回
+     */
+    public function userStatus($param){
+        $res=Db::name('user')->where('mobile',$param)->find();
+
+    }
+
+    /**
+     * Created by zyjun
+     * Info:验证用户token
+     */
+    public function checkToken($id,$token){
+        $login_error_code=1000;
+        if(empty($id)){
+            $data['msg']='error:用户ID异常';
+            $data['status']=1;
+            $data['code']=$login_error_code;
+            return $data;
+        }
+        if(empty($token)){
+            $data['msg']='error:用户Token异常';
+            $data['status']=1;
+            $data['code']=$login_error_code;
+            return $data;
+        }
+        if($this->checkInt($id,'','')){
+            $data['msg']='用户ID非法';
+            $data['status']=1;
+            $data['code']=$login_error_code;
+            return $data;
+        }
+        if($this->checkUserToken($token)){
+            $data['msg']='用户TOKEN非法';
+            $data['status']=1;
+            $data['code']=$login_error_code;
+            return $data;
+        }
+        $user_token=Db::name('user')->where('id',$id)->value('token');
+        if(empty($user_token)){
+            $data['msg']='用户不存在';
+            $data['status']=1;
+            $data['code']=$login_error_code;
+            return $data;
+        }
+
+        if($user_token!=$token){
+            $data['msg']='用户身份验证失败！';
+            $data['status']=1;
+            $data['code']=$login_error_code;
+            return $data;
+        }
+        $data['msg']='用户身份验证成功！';
+        $data['status']=0;
+        return $data;
+    }
+
+
+    /**
+     * Created by zyjun
+     * Info:获取大学列表
+     */
+    public function getCollegeList($param){
+        $coids=[22001,22002,22003,22004,22005,22006,22007,22008,22009,22010,22011,22013,22014,22015,22016,22017,22033,22037,22073,22081,22086,22087,22088,22094,22095,22096,22097,22098,22099,22100];
+        $res=Db::name('college')->where('provinceID',$param)->where('coid','in',$coids)->select();//'510000'
+        return $res;
+    }
+
+    /**
+     * Created by zyjun
+     * Info:获取学院列表
+     */
+    public function getSchoolList($param){
+        $res=Db::name('school')->where('collegeID',$param)->select();
+        return $res;
+    }
+
+    /**
+     * Created by zyjun
+     * Info:获取年级列表
+     */
+    public function getGradeList(){
+        $res=Db::name('grade')->select();
+        return $res;
+    }
+
+    /**
+     * Created by zyjun
+     * Info:获取某个人的大学名称
+     * $param:用户id
+     */
+    public function getUserCollege($param){
+        $college_id=Db::name('user')->where('id',$param)->value('college_id');
+        if(empty($college_id)){
+            return '';
+        }
+        $college=Db::name('college')->where('coid',$college_id)->field('coid,name,provinceID')->find();
+        if(empty($college)){
+            return '';
+        }
+        return $college;
+    }
+
+    /**
+     * Created by zyjun
+     * Info:获取获取某个人的学院名称
+     *  $param:用户id
+     */
+    public function getUserSchool($param){
+        $school_id=Db::name('user')->where('id',$param)->value('school_id');
+        if(empty($school_id)){
+            return '';
+        }
+        $school=Db::name('school')->where('scid',$school_id)->field('scid,name,collegeID')->find();
+        if(empty($school)){
+            return '';
+        }
+        return $school;
+    }
+
+    /**
+     * Created by zyjun
+     * Info:获取获取年级
+     *  $param:用户id
+     */
+    public function getUserGrade($param){
+        $grade_id=Db::name('user')->where('id',$param)->value('grade_id');
+        if(empty($grade_id)){
+            return '';
+        }
+        $grade=Db::name('grade')->where('id',$grade_id)->field('id,name')->find();
+        if(empty($grade)){
+            return '';
+        }
+        return $grade;
+    }
+
+/*****************正则验证函数开始********************/
+    /**
+     * Created by zyjun
+     * Info:中文或者英文  10个汉字
+     */
+    public function checkTrueName($param){
+        if((preg_match('/^[\x{4e00}-\x{9fa5}]{2,10}$/u', $param))||(preg_match('/^[A-Za-z\\s]{2,10}$/u', $param))){
+            return false;
+        } else {
+            return true;
+        }
+    }
+    /**
+     * Created by zyjun
+     * Info:昵称检测  中文字母空格
+     */
+    public function checkNickName($param){
+        if(!preg_match('/^[\x{4e00}-\x{9fa5}A-Za-z\\s]{2,10}$/u', $param)||preg_match('/\s{2,}/', $param)){
+            return true;
+        } else {
+            return false;
+        }
+    }
+    /**
+     * Created by zyjun
+     * Info:验证输入的红包
+     */
+    public function checkRedPacket($param){
+
+        if(preg_match('/^([1-9]\d*|0)(\.\d{1,2})?$/', $param)){
+            return false;
+        } else {
+            return true;
+        }
+    }
+
+    /**
+     * Created by zyjun
+     * Info:检测正整数 自定义长度
+     */
+    public function checkInt($param,$start,$end){
+        if($start&&$end){
+          $reg='/^\d{'.$start.','.$end.'}$/';
+        }else{
+          $reg='/^\d*$/';
+        }
+        if(!preg_match($reg, $param)){
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    /**
+ * Created by zyjun
+ * Info:检查密文是否合法，用户token数字,字母40位
+ */
+    public function checkUserToken($param){
+        if(preg_match('/^[a-z0-9]{40}$/', $param)){
+            return false;
+        } else {
+            return true;
+        }
+    }
+
+    /**
+     * Created by zyjun
+     * Info:检查密文是否合法，红包token数字,字母32位
+     */
+    public function checkRedToken($param){
+        if(preg_match('/^[a-z0-9]{32}$/',$param)){
+            return false;
+        } else {
+            return true;
+        }
+    }
+
+    /**
+     * Created by zyjun
+     * Info:验证支付密码，6位纯数字
+     */
+  public  function checkPayCode($param){
+        if (!preg_match('/^[0-9]{6}$/',$param)){
+            return true;
+        }else{
+            return false;
+        }
+    }
+
+    /**
+     * Created by zyjun
+     * Info:邮箱验证
+     */
+    public function checkEmail($param){
+        if (!preg_match('/^[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/',$param)){
+            return true;
+        }else{
+            return false;
+        }
+    }
+
+    /**
+     * Created by zyjun
+     * Info:判断账号类型 邮箱，手机号
+     */
+    public function checkAccountType($account){
+        if(preg_match('/^[0-9]*$/',$account)){
+            return 1;
+        }
+        if(strpos('XX'.$account,'@')>0){
+            return 2;
+        }
+        if(!preg_match('/^[0-9]*$/',$account)&&strpos('XX'.$account,'@')==false){
+            return 3;
+        }
+    }
+
+    /**
+     * Created by zyjun
+     * Info:验证订单号格式 18位数字
+     */
+    public function checkBusinessNo($param){
+        if (!preg_match('/^[0-9]{18}$/',$param)){
+            return true;
+        }else{
+            return false;
+        }
+    }
+
+    /**
+     * Created by zyjun
+     * Info:验证订单号格式 19位数字
+     */
+    public function checkShopOrderNo($param){
+        if (!preg_match('/^[0-9]{19}$/',$param)){
+            return true;
+        }else{
+            return false;
+        }
+    }
+
+
+/*****************正则验证函数结束********************/
+
+/******************写入日志文件函数******************************/
+    /**
+     * Created by zyjun
+     * Info:$id用户ID,$red_packed_id:红包ID,$content:错误内容，
+     */
+    public function redPacketLog($uid,$content){
+        Db::name('redpacket_log')->insert(['uid'=>$uid,'content'=>json_encode($content),'create_time'=>date('Y-m-d H:i:s',time())]);
+    }
+
+    /**
+     * Created by zyjun
+     * Info:linux定时计划日志
+     */
+    public function taskLog($content){
+        Db::name('task_log')->insert(['data'=>json_encode($content),'create_time'=>date('Y-m-d H:i:s',time())]);
+    }
+
+    /**
+     * Created by zyjun
+     * Info:记录红包流水
+     * $uid:用户id  $rid:
+     */
+    public function redPacketRecordDetail($uid,$rid,$stype,$sid,$status,$money,$wallet,$type,$des){
+        Db::name('wallet_record')->insert(['uid'=>$uid,'rid'=>$rid,'stype'=>$stype,'sid'=>$sid,'status'=>$status,'money'=>$money,'wallet'=>$wallet,'type'=>$type,'des'=>$des,'time'=>date('Y-m-d H:i:s')]);
+        $this->walletRecordToatl($uid,$type,$money,$stype,$status);
+    }
+
+    /**
+     * Created by zyjun
+     * Info:记录财务流水
+     * $uid:用户id  $rid:
+     */
+    public function walletRecordDetail($uid,$rid,$stype,$sid,$status,$money,$wallet,$type,$des){
+        Db::name('wallet_record')->insert(['uid'=>$uid,'rid'=>$rid,'stype'=>$stype,'sid'=>$sid,'status'=>$status,'money'=>$money,'wallet'=>$wallet,'type'=>$type,'des'=>$des,'time'=>date('Y-m-d H:i:s')]);
+        $this->walletRecordToatl($uid,$type,$money,$stype,$status);
+    }
+
+    /**
+     * Created by zyjun
+     * Info:临时放在这里 设置后台系统变量
+     */
+    public function sys_set($uid,$content,$des){
+        $time=date('Y-m-d H:i:s',time());
+        Db::name('sys_set')->insert(['uid'=>$uid,'data'=>json_encode($content),'des'=>$des,'time'=>$time]);
+    }
+
+    /**
+     * Created by zyjun
+     * Info:记录支付充值回调详细参数
+     * order_out_biz_no内部订单号    $type交易类型  1：支付宝  2：微信  3：银行卡     $content 回调数组内容   $des 描述
+     */
+    public function recharge_log($type,$order_out_biz_no,$content,$des){
+        $data['order_type']=$type;
+        $data['order_out_biz_no']=$order_out_biz_no;
+        $data['content']=json_encode($content);
+        $data['des']=$des;
+        $data['create_time']=date('Y-m-d H:i:s',time());
+        Db::name('recharge_log')->insert($data);
+    }
+
+    /**
+     * Created by zyjun
+     * Info:记录在线支付，商品购买详细参数
+     * order_out_biz_no内部订单号    $type交易类型  1：支付宝  2：微信  3：银行卡     $content 回调数组内容   $des 描述
+     */
+    public function orderPayLog($type,$order_out_biz_no,$content,$des){
+        $data['order_type']=$type;
+        $data['order_out_biz_no']=$order_out_biz_no;
+        $data['content']=json_encode($content);
+        $data['des']=$des;
+        $data['create_time']=date('Y-m-d H:i:s',time());
+        Db::name('order_pay_log')->insert($data);
+    }
+/*************************************************************/
+    /**
+     * 认证是否通过
+     */
+    public function isAccess($id)
+    {
+        //查询数据库 提交审核时间
+        $res=Db::name('user')->where('id',$id)->field('user_info_status,identity_status,identity_time')->find();
+        $identity_status=$res['identity_status'];
+        $user_info_status=$res['user_info_status'];
+        if($identity_status==0){
+            $data['msg']='未认证身份信息';
+            $data['identity_status']=$identity_status;
+            return $data;
+        }
+        if($identity_status==1){
+            if($user_info_status==2){ //未认证，且完善信息才进行认证
+                $identity_time=$res['identity_time'];
+                $identity_time=(time()-strtotime($identity_time))/60;
+                if($identity_time<=0.1){
+                    $data['msg']='身份认证信息审核中';
+                    $data['identity_status']=$identity_status;
+                    return $data;
+                }else{
+                    $data['msg']='身份认证成功';
+                    Db::name('user')->where('id',$id)->setField('identity_status','2'); //认证通过
+                    $Im=new Im();
+                    $res=Db::name('user')->where('id',$id)->field('true_name,head_pic,sex')->find();
+                    $accid=Db::name('im_user')->where('uid',$id)->value('accid');
+                    if(empty($accid)){
+                        $data['im_update']=1;
+                        $data['im_update_msg']='未查询到IM用户';
+                        $data['identity_status']=2;
+                        return $data;
+                    }
+                    $res2=$Im->updateImUinfo($accid,$res['true_name'],$res['head_pic'],$res['sex'],'','','','','');
+                    if($res2['status']){ //网易云通讯默认头像昵称更新失败
+                        $data['im_update']=1;
+                        $data['im_update_msg']=$res2['msg'];
+                    }
+                    $data['identity_status']=2;
+                    return $data;
+                }
+            }
+        }
+        if($identity_status==2){
+            $data['msg']='身份认证成功';
+            $data['identity_status']=2;
+            return $data;
+        }
+        if($identity_status==3){
+            $data['msg']='身份认证失败';
+            $data['identity_status']=3;
+            return $data;
+        }
+        $data['msg']='认证信息异常';
+        return $data;
+    }
+
+    /**
+     * Created by zyjun
+     * Info:接收上传文件  图片,视频,其他  接收单个值
+     * $file_type:字符串 参数image,video,或者'image,video'
+     */
+    public function uploadFiles($file,$file_type){
+        if(empty($file)){
+            $data['msg']='上传文件不能为空';
+            $data['status']=1;
+            return $data;
+        }
+        //允许上传的类型
+        switch ($file_type){
+            case 'image':$allow_type=array('image/jpg','image/gif','image/jpeg','image/png');break;
+            case 'video':$allow_type=array('video/swf','video/flv','video/avi','video/mp4');break;
+            default :$allow_type=array('image/jpg','image/gif','image/jpeg','image/png','video/swf','video/flv','video/avi','video/mp4');
+        }
+        $type=$file['type'];
+        if(!in_array($type,$allow_type)){
+            $data['msg']='上传文件格式错误';
+            $data['status']=1;
+            return $data;
+        }
+        //限制上传大小
+        $limit_size=0;
+        if(stripos($type,'video')!==false){ //视频上传
+            $file_path_name="videos";
+            $limit_size=300;  //限制上传大小  暂取默认值 300M
+        }
+        if(stripos($type,'image')!==false){ //图片上传
+            $file_path_name="images";
+            $limit_size=5;
+        }
+        $limit_size=$limit_size*1024*1024;
+        if($file['size']>$limit_size){
+            $data['msg']='上传文件不能超过'.$limit_size.'M';
+            $data['status']=1;
+            return $data;
+        }
+        //开始创建目录
+        $temp_file=$file['tmp_name']; //服务器临时文件路径
+        $time=time();
+        $new_file = APP_PUBLIC."uploads/user/".$file_path_name."/".date('Ymd',$time)."/";
+        $save_url="/uploads/user/".$file_path_name."/".date('Ymd',$time)."/";
+        if(!file_exists($new_file))
+        {//检查是否有该文件夹，如果没有就创建，并给予最高权限
+            mkdir($new_file, 0700);
+        }
+        $rand=strval(rand(1000,9999));
+        $file_type=explode('/',$file['type'])[1]; //文件后缀
+        $new_file = $new_file.$time.'_'.$rand.'.'.$file_type;
+        $save_url=$save_url.$time.'_'.$rand.'.'.$file_type;
+        //拷贝文件到正式文件夹
+        if (file_put_contents($new_file,file_get_contents($temp_file))){//必须先file_get_contents接受临时图片
+            $data['msg']='保存成功';
+            $data['status']=0;
+            $data['file_url']=$save_url;
+            return $data;  //保存成功
+        }else{
+            $data['msg']='上传失败';
+            $data['status']=1;
+            return $data;
+        }
+    }
+
+    /**
+     * Created by zyjun
+     * Info:给图片，视频等加上url地址
+     */
+    public function addApiUrl($para){
+        $file_path=ApiUrl.'/uploads/';
+        $str='/uploads/';
+        if(!empty($para)){
+            $para=str_replace($str,$file_path,$para);
+        }
+        return $para;
+    }
+
+    public function removeApiUrl($para){
+        $length=strpos($para, '/uploads');
+        if($length===false){
+            return $para;
+        }else{
+            return substr($para,$length,-1);
+        }
+    }
+    /**
+     * 用户的基本信息
+     * user_id true_name,sex, head_pic, college, school, grade,
+     */
+    public function userInfo($id){
+        $res=Db::name('user')
+            ->alias('u')
+            ->join('school sch','sch.scid=u.school_id','LEFT')
+            ->join('college col','col.coid=u.college_id','LEFT')
+            ->join('grade gra','gra.id=u.grade_id','LEFT')
+            ->field(['u.id user_id,u.user_info_status,true_name,sex,head_pic,back_pic,col.name college,sch.name school,gra.name grade'])
+            ->where('u.id',$id)
+            ->find();
+        if($res['sex']=='0'){
+            $res['sex']='女';
+        }else{
+            $res['sex']='男';
+        }
+        if($res['head_pic']){
+            $res['head_pic']=$this->addApiUrl($res['head_pic']);
+        }
+        if($res['back_pic']){
+            $res['back_pic']=$this->addApiUrl($res['back_pic']);
+        }
+        return $res;
+    }
+
+    /**
+     * 查询全部信息列表
+     * @param $type
+     * @param $page
+     * @param array $data
+     * @return array|false|int|\PDOStatement|string|\think\Collection
+     */
+    public function getActionList($page,$data=[]){
+        $res=Db::name('action')
+            ->alias('a')
+            ->join('user u','a.user_id=u.id','LEFT')
+            ->join('skill s','a.skill_id=s.id','LEFT')
+            ->join('school sch','sch.scid=u.school_id','LEFT')
+            ->join('college col','col.coid=u.college_id','LEFT')
+            ->join('redpacket red','a.id=red.did','LEFT')
+            ->field('a.id action_id,u.id user_id,u.true_name,u.sex,u.head_pic,col.name college,sch.name school,red.red_token,red.type red_type,red.is_over,a.content,a.create_time,a.discuss_num,a.view_num,a.click_num,s.skill,a.action_pic,a.action_video')
+            ->order('a.create_time desc')
+            ->page($page,'10')
+            ->where($data)
+            ->where('is_show',0)
+            ->select();
+        //dump($res);die;
+        if($res){
+            foreach($res as & $v){
+                //dump($v);die;
+                if($v['sex']=='1'){
+                    $v['sex']='男';
+                }elseif($v['sex']=='0'){
+                    $v['sex']='女';
+                }
+                //响应红包类型
+                if($v['red_type']===null){
+                    $v['red_type']='null';
+                }elseif($v['red_type']===0){
+                    $v['red_type']='0';
+                    //$v['red_type']='美女专属';
+                }elseif($v['red_type']==1){
+                    $v['red_type']='1';
+                    // $v['red_type']='帅哥专属';
+                }elseif($v['red_type']==2){
+                    $v['red_type']='2';
+                    //$v['red_type']='任何人可以领取';
+                }
+                //响应头像地址
+                if($v['head_pic']){
+                    $v['head_pic']=$this->addApiUrl($v['head_pic']);
+                }
+                if($v['action_video']){
+                    $v['action_video']=$this->addApiUrl($v['action_video']);
+                }
+                //响应的发布时间
+                $v['create_time']=round((time()-strtotime($v['create_time']))/60); //分钟
+                if($v['create_time']<1){
+                    $v['create_time']='刚刚';
+                }
+                if($v['create_time']>=1){
+                    $v['create_time']=$v['create_time'].'分钟前';
+                }
+                if($v['create_time']>59){
+                    //大于60分钟
+                    $v['create_time']=ceil($v['create_time']/60).'小时前'; //小时
+                    //大于24天
+                    if($v['create_time']>23){
+                        $v['create_time']=ceil($v['create_time']/24).'天前'; //天
+                        //大于30天
+                        if($v['create_time']>29){
+                            $v['create_time']=ceil($v['create_time']/30).'月前'; //月
+                            //大于12月
+                            if($v['create_time']>11) {
+                                $v['create_time'] ='n年前'; //月
+                            }
+
+                        }
+                    }
+                }
+                //响应的浏览数量
+                if($v['view_num']>1000){
+                    $v['view_num']=round($v['view_num']/1000,1).'k';
+                    if($v['view_num']>10000){
+                        $v['view_num']=round($v['view_num']/10000,1).'w';
+                    }
+                }else{
+                    $v['view_num']=(string)$v['view_num'];
+                }
+                //响应的评论数量
+                $count=Db::name('discuss')
+                    ->field('count(*) discuss_num')
+                    ->where('action_id',$v['action_id'])
+                    ->select();
+                if(!$count){
+                    return apiError('响应评论数量有误');
+                }
+                $v['discuss_num']=$count[0]['discuss_num'];
+
+                //响应的点赞数量
+                $count=Db::name('click')
+                    ->field('count(*) click_num')
+                    ->where('action_id',$v['action_id'])
+                    ->select();
+                if(!$count){
+                    return apiError('响应点赞数量有误');
+                }
+                $v['click_num']=$count[0]['click_num'];
+
+                //响应动态的文字和 图片
+                if($v['action_pic']){
+                    $pic=explode(',',$v['action_pic']);
+                    foreach ($pic as & $value){
+                        $value=$this->addApiUrl($value);
+                    }
+                    $v['action_pic']=$pic;
+                    //$v['action_pic_num']=count($v['action_pic']);
+                }
+            }
+        }
+        return $res;
+    }
+    public function getSkillList($page,$data=[]){
+        //$data['skill']='not null';
+        $res=Db::name('action')
+            ->alias('a')
+            ->join('user u','a.user_id=u.id','LEFT')
+            ->join('skill s','a.skill_id=s.id','LEFT')
+            ->join('school sch','sch.scid=u.school_id','LEFT')
+            ->join('college col','col.coid=u.college_id','LEFT')
+            ->join('redpacket red','a.id=red.did','LEFT')
+            ->field('a.id action_id,u.id user_id,u.true_name,u.sex,u.head_pic,col.name college,sch.name school,red.red_token,red.type red_type,red.is_over,a.content,a.create_time,a.discuss_num,a.view_num,a.click_num,s.skill,a.action_pic,a.action_video')
+            ->order('a.create_time desc')
+            ->page($page,'10')
+            ->where($data)
+            ->where('is_show',0)
+            ->where('skill','not null')
+            ->select();
+        if($res){
+            foreach($res as & $v){
+                //dump($v);die;
+                if($v['sex']=='1'){
+                    $v['sex']='男';
+                }elseif($v['sex']=='0'){
+                    $v['sex']='女';
+                }
+                //响应红包类型
+                if($v['red_type']===null){
+                    $v['red_type']='null';
+                }elseif($v['red_type']===0){
+                    $v['red_type']='0';
+                    //$v['red_type']='美女专属';
+                }elseif($v['red_type']==1){
+                    $v['red_type']='1';
+                    // $v['red_type']='帅哥专属';
+                }elseif($v['red_type']==2){
+                    $v['red_type']='2';
+                    //$v['red_type']='任何人可以领取';
+                }
+                //响应头像地址
+                if($v['head_pic']){
+                    $v['head_pic']=$this->addApiUrl($v['head_pic']);
+                }
+                if($v['action_video']){
+                    $v['action_video']=$this->addApiUrl($v['action_video']);
+                }
+                //响应的发布时间
+                $v['create_time']=round((time()-strtotime($v['create_time']))/60); //分钟
+                if($v['create_time']<1){
+                    $v['create_time']='刚刚';
+                }
+                if($v['create_time']>=1){
+                    $v['create_time']=$v['create_time'].'分钟前';
+                }
+                if($v['create_time']>59){
+                    //大于60分钟
+                    $v['create_time']=ceil($v['create_time']/60).'小时前'; //小时
+                    //大于24天
+                    if($v['create_time']>23){
+                        $v['create_time']=ceil($v['create_time']/24).'天前'; //天
+                        //大于30天
+                        if($v['create_time']>29){
+                            $v['create_time']=ceil($v['create_time']/30).'月前'; //月
+                            //大于12月
+                            if($v['create_time']>11) {
+                                $v['create_time'] ='n年前'; //月
+                            }
+
+                        }
+                    }
+                }
+                //响应的浏览数量
+                if($v['view_num']>1000){
+                    $v['view_num']=round($v['view_num']/1000,1).'k';
+                    if($v['view_num']>10000){
+                        $v['view_num']=round($v['view_num']/10000,1).'w';
+                    }
+                }else{
+                    $v['view_num']=(string)$v['view_num'];
+                }
+                //响应的评论数量
+                $count=Db::name('discuss')
+                    ->field('count(*) discuss_num')
+                    ->where('action_id',$v['action_id'])
+                    ->select();
+                if(!$count){
+                    return apiError('响应评论数量有误');
+                }
+                $v['discuss_num']=$count[0]['discuss_num'];
+
+                //响应的点赞数量
+                $count=Db::name('click')
+                    ->field('count(*) click_num')
+                    ->where('action_id',$v['action_id'])
+                    ->select();
+                if(!$count){
+                    return apiError('响应点赞数量有误');
+                }
+                $v['click_num']=$count[0]['click_num'];
+
+                //响应动态的文字和 图片
+                if($v['action_pic']){
+                    $pic=explode(',',$v['action_pic']);
+                    foreach ($pic as & $value){
+                        $value=$this->addApiUrl($value);
+                    }
+                    $v['action_pic']=$pic;
+                    //$v['action_pic_num']=count($v['action_pic']);
+                }
+            }
+        }
+return $res;
+    }
+    public function totalInfoList($type,$page,$data=[]){
+        $dat=$data;
+
+        //判断是动态还是发现 分别返回数
+        //$res=$this->getActionList($page,$dat);
+        if($type=='action'){
+            $res=$this->getActionList($page,$dat);
+            //所有动态信息 浏览次数加10
+            foreach ($res as & $v){
+                Db::name('action')->where('id',$v['action_id'])->setInc('view_num',rand(0,3));
+            }
+            return $res;
+        }elseif ($type=='skill'){
+            $skill=$this->getSkillList($page,$dat);
+            foreach ($skill as & $v){
+                Db::name('action')->where('id',$v['action_id'])->setInc('view_num',rand(0,3));
+            }
+            return $skill;
+        }
+    }
+
+    /**
+     * 查询一条动态信息 评论 用
+     * @param $action_id
+     * @return array|false|\PDOStatement|string|\think\Model|void
+     */
+    public function oneInfo($action_id){
+        $res=Db::name('action')
+            ->alias('a')
+            ->join('user u','a.user_id=u.id','LEFT')
+            ->join('skill s','a.skill_id=s.id','LEFT')
+            ->join('school sch','sch.scid=u.school_id','LEFT')
+            ->join('college col','col.coid=u.college_id','LEFT')
+            ->join('redpacket red','a.id=red.did','LEFT')
+            ->field('u.id user_id,u.true_name,u.sex sex,u.head_pic,col.name college,sch.name school,a.id action_id,red.red_token,red.type red_type,red.is_over,a.content,a.create_time,a.discuss_num,a.view_num,a.click_num,s.skill,a.action_pic,a.action_video')
+            ->where('a.id',$action_id)
+            ->where('is_show',0)
+            ->find();
+        if($res){
+            if($res['sex']=='1'){
+                $res['sex']='男';
+            }elseif($res['sex']=='0'){
+                $res['sex']='女';
+            }
+
+            //响应红包类型
+            if($res['red_type']===null){
+                $res['red_type']='null'; //没有红包
+            }elseif($res['red_type']===0){
+                $res['red_type']='0';
+                //$res['red_type']='美女专属';
+            }elseif($res['red_type']==1){
+                $v['red_type']='1';
+                // $v['red_type']='帅哥专属';
+            }elseif($res['red_type']==2){
+                $res['red_type']='2';
+                //$res['red_type']='任何人可以领取';
+            }
+            if($res['head_pic']){
+                $res['head_pic']=$this->addApiUrl($res['head_pic']);
+            }
+            if($res['action_video']){
+                $res['action_video']=$this->addApiUrl($res['action_video']);
+            }
+            //响应的发布时间
+            //$res['create_time']=ceil((time()-strtotime($res['create_time']))/60).'分钟前'; //分钟
+            $res['create_time']=round((time()-strtotime($res['create_time']))/60); //分钟
+            if($res['create_time']<1){
+                $res['create_time']='刚刚';
+            }
+            if($res['create_time']>=1){
+                $res['create_time']=$res['create_time'].'分钟前';
+            }
+            if($res['create_time']>59){
+                //大于60分钟
+                $res['create_time']=ceil($res['create_time']/60).'小时前'; //小时
+                //大于24天
+                if($res['create_time']>23){
+                    $res['create_time']=ceil($res['create_time']/24).'天前'; //天
+                    //大于30天
+                    if($res['create_time']>29){
+                        $res['create_time']=ceil($res['create_time']/30).'月前'; //月
+                        //大于12月
+                        if($res['create_time']>11) {
+                            $res['create_time'] ='n年前'; //月
+                        }
+
+                    }
+                }
+            }
+            //响应的浏览数量
+            if($res['view_num']>1000){
+                $res['view_num']=round($res['view_num']/1000,1).'k';
+                if($res['view_num']>10000){
+                    $res['view_num']=round($res['view_num']/10000,1).'w';
+                }
+            }else{
+                $res['view_num']=(string)$res['view_num'];
+            }
+            //响应的评论数量
+            $count=Db::name('discuss')
+                ->field('count(*) discuss_num')
+                ->where('action_id',$res['action_id'])
+                ->select();
+            if(!$count){
+                return apiError('响应评论数量有误');
+            }
+            $res['discuss_num']=$count[0]['discuss_num'];
+
+            //响应的点赞数量
+            $count=Db::name('click')
+                ->field('count(*) click_num')
+                ->where('action_id',$res['action_id'])
+                ->select();
+            if(!$count){
+                return apiError('响应点赞数量有误');
+            }
+            $res['click_num']=$count[0]['click_num'];
+
+            //响应动态的文字和 图片
+            if($res['action_pic']){
+                $pic=explode(',',$res['action_pic']);
+                foreach ($pic as & $value){
+                    $value=$this->addApiUrl($value);
+                }
+                $res['action_pic']=$pic;
+            }
+
+        }
+        return $res;
+    }
+
+
+    /**
+     * 查询个人详情信息下面的动态信息 详情和需求 无学校年级 性别
+     * @param $type
+     * @param $page
+     * @param array $data 筛选用户id和被删除
+     * @return array|false|int|\PDOStatement|string|\think\Collection
+     */
+    public function myInfoList($type,$page,$data=[]){
+        $res=Db::name('action')
+            ->alias('a')
+            ->join('user u','a.user_id=u.id','LEFT')
+            ->join('skill s','a.skill_id=s.id','LEFT')
+            ->join('redpacket red','a.id=red.did','LEFT')
+            ->field('u.id user_id,u.true_name,u.head_pic,a.id action_id,red.red_token,red.type red_type,red.is_over,a.content,a.create_time,a.discuss_num,a.view_num,a.click_num,s.skill,a.action_pic,a.action_video')
+            ->order('a.create_time desc')
+            ->page($page,'10')
+            ->where($data)
+            ->where('is_show',0)
+            ->select();
+        if($res){
+            foreach ($res as & $v){
+                //响应红包类型
+                if($v['red_type']===null){
+                    $v['red_type']='null';
+                }elseif($v['red_type']===0){
+                    $v['red_type']='0';
+                    //$v['red_type']='美女专属';
+                }elseif($v['red_type']==1){
+                    $v['red_type']='1';
+                    // $v['red_type']='帅哥专属';
+                }elseif($v['red_type']==2){
+                    $v['red_type']='2';
+                    //$v['red_type']='任何人可以领取';
+                }
+                //响应头像地址
+                if($v['head_pic']){
+                    $v['head_pic']=$this->addApiUrl($v['head_pic']);
+                }
+                if($v['action_video']){
+                    $v['action_video']=$this->addApiUrl($v['action_video']);
+                }
+                //响应的发布时间
+                $v['create_time']=round((time()-strtotime($v['create_time']))/60); //分钟
+                if($v['create_time']<1){
+                    $v['create_time']='刚刚';
+                }
+                if($v['create_time']>=1){
+                    $v['create_time']=$v['create_time'].'分钟前';
+                }
+                if($v['create_time']>59){
+                    //大于60分钟
+                    $v['create_time']=ceil($v['create_time']/60).'小时前'; //小时
+                    //大于24小时
+                    if($v['create_time']>23){
+                        $v['create_time']=ceil($v['create_time']/24).'天前'; //天
+                        //大于30天
+                        if($v['create_time']>29){
+                            $v['create_time']=ceil($v['create_time']/30).'月前'; //月
+                            //大于12月
+                            if($v['create_time']>11) {
+                                $v['create_time'] ='n年前'; //月
+                            }
+
+                        }
+                    }
+                }
+                //响应的浏览数量
+                if($v['view_num']>1000){
+                    $v['view_num']=round($v['view_num']/1000,1).'k';
+                    if($v['view_num']>10000){
+                        $v['view_num']=round($v['view_num']/10000,1).'w';
+                    }
+                }else{
+                    $v['view_num']=(string)$v['view_num'];
+                }
+                //响应的评论数量
+                $count=Db::name('discuss')
+                    ->field('count(*) discuss_num')
+                    ->where('action_id',$v['action_id'])
+                    ->select();
+                if(!$count){
+                    return apiError('响应评论数量有误');
+                }
+                $v['discuss_num']=$count[0]['discuss_num'];
+
+                //响应的点赞数量
+                $count=Db::name('click')
+                    ->field('count(*) click_num')
+                    ->where('action_id',$v['action_id'])
+                    ->select();
+                if(!$count){
+                    return apiError('响应点赞数量有误');
+                }
+                $v['click_num']=$count[0]['click_num'];
+
+                //响应动态的文字和 图片
+                if($v['action_pic']){
+                    $pic=explode(',',$v['action_pic']);
+                    foreach ($pic as & $value){
+                        $value=$this->addApiUrl($value);
+                    }
+                    $v['action_pic']=$pic;
+                }
+            }
+        }
+        //判断是动态还是发现 分别返回数据
+        if($type=='action'){
+            //所有动态信息 浏览次数加10
+            foreach ($res as & $v){
+                Db::name('action')->where('id',$v['action_id'])->setInc('view_num',rand(0,3));
+            }
+            return $res;
+        }elseif ($type=='skill'){
+            //筛选出含有skill的信息 浏览次数加10
+            $skill=[];
+            foreach ($res as & $v){
+                if(!empty($v['skill'])){
+                    $skill[]=$v;
+                    Db::name('action')->where('id',$v['action_id'])->setInc('view_num',rand(0,3));
+                }
+            }
+            return $skill;
+        }
+    }
+
+    /**
+     * Created by zyjun
+     * Info:获取红包过期时间
+     */
+    public function getRedpacketExpireTime(){
+        //判断红包期限是否期限 1小时=3600  1天=86400  1周604800
+        $expire_time=Db::name('sys_set')->where('id',1)->value('data');
+        if(empty($expire_time)){
+            return 0;
+        }
+        $expire_time=json_decode($expire_time,true);
+        $expire_time=$expire_time['data'];
+        return $expire_time;
+    }
+
+    /**
+     * Created by zyjun
+     * Info:确认支付密码
+     */
+    public function confirmPayPassword($uid,$passwd){
+        $res=Db::name('user')->where('id',$uid)->field('pay_password,pay_password_status')->find();
+        $pay_password=$res['pay_password'];
+        $pay_password_status=$res['pay_password_status'];
+        if(empty($pay_password)){
+            $data['msg']='请先设置支付密码';
+            $data['code']=1;
+            $data['status']=1;
+            return $data;
+        }
+        if($pay_password_status==1){
+            $data['msg']='支付功能已被锁定,请到个人中心重置支付密码';
+            $data['code']=2;
+            $data['status']=1;
+            return $data;
+        }
+        if(empty($passwd)){
+            $data['msg']='请输入支付密码';
+            $data['status']=1;
+            $data['code']='';
+            return $data;
+        }
+        if($this->checkPayCode($passwd)){
+            $data['msg']='请输入6位纯数字支付密码';
+            $data['status']=1;
+            $data['code']='';
+            return $data;
+        }
+        $passwd=$this->createPayPassword($passwd);
+        if($passwd!=$pay_password){
+            $errors=$this->recordPayPasswordError($uid);
+            if($errors>=6){ //超过限制，锁定支付功能
+              Db::name('user')->where('id',$uid)->setField('pay_password_status',1);
+                $data['msg']='支付密码错误次数超过6次,支付功能已被锁定，请到个人中心重置支付密码';
+                $data['status']=1;
+                $data['code']=2;
+                $data['errors']=$errors;
+                return $data;
+            }
+            $num=6-$errors;
+            $data['msg']='支付密码错误,您还可以输入'.$num.'次';
+            $data['status']=1;
+            $data['code']=3;
+            $data['errors']=$errors;
+            return $data;
+        }
+        Db::name('user')->where('id',$uid)->update(['pay_password_error_time'=>null,'pay_password_errors'=>0]);
+        $data['msg']='支付密码正确';
+        $data['code']='';
+        $data['status']=0;
+        return $data;
+
+    }
+
+
+    /**
+     * Created by zyjun
+     * Info:记录支付密码错误次数,并返回当前错误次数
+     */
+    public function recordPayPasswordError($uid){
+        Db::name('user')->where('id',$uid)->setField('pay_password_error_time',date('Y-m-d H:i:s'));
+        Db::name('user')->where('id',$uid)->setInc('pay_password_errors');
+        $errors=Db::name('user')->where('id',$uid)->whereTime('pay_password_error_time', 'today')->value('pay_password_errors');
+        if(empty($errors)){
+            return 0;
+        }
+        return $errors;
+    }
+
+    /**
+    把用户输入的文本转义（主要针对特殊符号和emoji表情）
+     */
+    function userTextEncode($str){
+        if(!is_string($str))return $str;
+        if(!$str || $str=='undefined')return '';
+
+        $text = json_encode($str); //暴露出unicode
+        $text = preg_replace_callback("/(\\\u[ed][0-9a-f]{3})/i",function($str){
+            return addslashes($str[0]);
+        },$text); //将emoji的unicode留下，其他不动，这里的正则比原答案增加了d，因为我发现我很多emoji实际上是\ud开头的，反而暂时没发现有\ue开头。
+        return json_decode($text);
+    }
+    /**
+    解码上面的转义
+     */
+    function userTextDecode($str){
+        $text = json_encode($str); //暴露出unicode
+        $text = preg_replace_callback('/\\\\\\\\/i',function($str){
+            return '\\';
+        },$text); //将两条斜杠变成一条，其他不动
+        return json_decode($text);
+    }
+
+    /**
+     * Created by zyjun
+     * Info:获取当前钱包金额
+     */
+    public function getNowWallet($uid){
+      $wallet=Db::name('user_wallet')->where('uid',$uid)->value('money');
+      if(empty($wallet)){
+          return 0;
+      }
+      return $wallet;
+    }
+
+
+
+    /**
+     * 查询附近人列表信息
+     * @param $page请求页码
+     * @param $where 筛选条件
+     */
+    public function nearList($user_id,$where=[]){
+        $res=Db::name('user_location')
+            ->alias('l')
+            ->join('user u','l.user_id=u.id','LEFT')
+            ->field('l.lng,l.lat,u.id user_id,u.true_name,u.head_pic,u.sex,l.content')
+            ->where($where)
+            ->where('lat','neq','null')
+            ->where('l.user_id','neq',$user_id)
+            ->select();
+        if($res){
+            foreach($res as & $v){
+                //响应头像地址
+                if($v['head_pic']){
+                    $v['head_pic']=$this->addApiUrl($v['head_pic']);
+                }
+            }
+        }
+        return $res;
+
+    }
+//计算距离
+    //经度 ，纬度   经度，纬度
+    public function getDistance($lng1, $lat1, $lng2, $lat2) {
+        // 将角度转为狐度
+        $radLat1 = deg2rad($lat1); //deg2rad()函数将角度转换为弧度
+        $radLat2 = deg2rad($lat2);
+        $radLng1 = deg2rad($lng1);
+        $radLng2 = deg2rad($lng2);
+        $a = $radLat1 - $radLat2;
+        $b = $radLng1 - $radLng2;
+        $s = 2 * asin(sqrt(pow(sin($a / 2), 2) + cos($radLat1) * cos($radLat2) * pow(sin($b / 2), 2))) * 6378.137 * 1000;
+        return $s;
+    }
+
+
+    /**
+     * Created by zyjun
+     * Info:点赞消息总表，用于生成唯一点赞消息id,取出消息id号，网易云信发送后，客户端统计消息数
+     */
+    public function totalClick($data){
+        $msg_id=Db::name('message_click')->insertGetId($data);
+        return $msg_id;
+    }
+
+    /**
+     * Created by zyjun
+     * Info:点赞消息总表，删除某个id记录   $type 0 需求    1：话题
+     */
+    public function totalClickDel($uid,$type,$type_id){
+        Db::name('message_click')->where(['from'=>$uid,'type'=>$type,'type_id'=>$type_id])->delete();
+    }
+
+
+    /**
+     * Created by zyjun
+     * Info:评论消息总表，用于生成唯一评论消息id,取出消息id号，网易云信发送后，客户端统计消息数
+     */
+    public function totalComment($data){
+        $msg_id=Db::name('message_comment')->insertGetId($data);
+        return $msg_id;
+    }
+
+    /**
+     * Created by zyjun
+     * Info:转换时间为时分秒
+     */
+    public function timeToHour($time){
+        $time=round((time()-strtotime($time))/60); //分钟
+        if($time<1){
+            $time='刚刚';
+        }
+        if($time>=1){
+            $time=$time.'分钟前';
+        }
+        if($time>59){
+            //大于60分钟
+            $time=ceil($time/60).'小时前'; //小时
+            //大于24小时
+            if($time>23){
+                $time=ceil($time/24).'天前'; //天
+                //大于30天
+                if($time>29){
+                    $time=ceil($time/30).'月前'; //月
+                    //大于12月
+                    if($time>11) {
+                        $time ='n年前'; //月
+                    }
+
+                }
+            }
+        }
+        return $time;
+    }
+
+    /**
+     * Created by zyjun
+     * Info:七牛云图片鉴黄
+     * $url图片地址传入数组地址或者单个图片地址
+     */
+    public function isSexyImg($url){
+        $lable=''; //图片违规类型
+        if(is_array($url)){
+            foreach ($url as $key=>$val) {
+                $url=ApiUrl.$val.'?qpulp';
+                $res=httpGetData($url);
+                if(!$res['status']){ //返回正常数据才进入
+                    $data=$res['data']['result'];
+                    if($data['label']==0){ //色情
+                        $re['status']=1;
+                        $re['msg']='包含色情或者性感图片';
+                        $re['code']=$data['label'];
+                        return $re;
+                    }
+                    if($lable==''){ //只检测一次，避免循环覆盖
+                        if($data['label']==1){
+                            $lable=1; //性感  检测性感图片不返回，只记录类型为性感
+                        }
+                    }
+                }
+            }
+            $re['status']=0;
+            $re['msg']='无违规图片';
+            $re['code']=$lable;
+            return $re;
+        }else{
+            $url=ApiUrl.$url.'?qpulp';
+            $res=httpGetData($url);
+            if(!$res['status']){ //返回正常数据才进入
+                $data=$res['data']['result'];
+                if($data['label']==0){ //色情或者性感
+                    $re['status']=1;
+                    $re['msg']='包含色情或者性感图片';
+                    $re['code']=$data['label'];
+                    return $re;
+                }
+                if($data['label']==1){
+                    $lable=1; //性感  检测性感图片不返回，只记录类型为性感
+                }
+            }
+            $re['status']=0;
+            $re['msg']='无违规图片';
+            $re['code']=$lable;
+            return $re;
+        }
+
+    }
+
+    /**
+     * Created by zyjun
+     * Info:记录个人总收入
+     * $money交易金额
+     */
+    public function walletRecordToatl($uid,$type,$money,$stype,$status){
+        if($type==1){ //进账
+            if(in_array($status,[3,4,5])&&$stype==2){ //退款的时候，不再往in_money里面累加钱，但是out_money里面要减少返回的钱
+                $out_money=Db::name('user_wallet')->where('uid',$uid)->value('out_money');
+                $out_money=$out_money-$money; //减少
+                Db::name('user_wallet')->where('uid',$uid)->setField('out_money',$out_money);
+            }else{ //其余的充值，领取红包需要加钱进去
+                $in_money=Db::name('user_wallet')->where('uid',$uid)->value('in_money');
+                $in_money=$in_money+$money;
+                Db::name('user_wallet')->where('uid',$uid)->setField('in_money',$in_money);
+            }
+        }
+        if($type==0){ //出账
+            $out_money=Db::name('user_wallet')->where('uid',$uid)->value('out_money');
+            $out_money=$out_money+$money;
+            Db::name('user_wallet')->where('uid',$uid)->setField('out_money',$out_money);
+        }
+
+    }
+
+
+
+
+}

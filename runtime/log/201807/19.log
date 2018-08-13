@@ -1,0 +1,1250 @@
+---------------------------------------------------------------
+[ 2018-07-19T09:53:47+08:00 ] 127.0.0.1 GET /index.php/app1_6/video/getChallengeVideoList?id=3&challenge_id=1
+[ info ] limiapp.com/index.php/app1_6/video/getChallengeVideoList?id=3&challenge_id=1 [运行时间：1.165067s][吞吐率：0.86req/s] [内存消耗：3,484.95kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_6',
+    1 => 'video',
+    2 => 'getChallengeVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '38ffdc46-3c4c-434a-81bc-754634bf46f1',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+  'challenge_id' => '1',
+  'video' => 'getChallengeVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.362021s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.010000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.183011s ]
+[ info ] [ RUN ] app\apps1_6\controller\Video->getChallengeVideoList[ D:\xampp\htdocs\limiapp\application\apps1_6\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-19T12:08:33+08:00 ] 127.0.0.1 GET /index.php/app1_5/near/nearUserList?id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&lat=32&lng=105&page=1
+[ info ] limiapp.com/index.php/app1_5/near/nearUserList?id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&lat=32&lng=105&page=1 [运行时间：1.305074s][吞吐率：0.77req/s] [内存消耗：3,171.82kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'near',
+    2 => 'nearUserList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '177f2f3e-c6cf-4b4b-a80e-bab0f1e52b9f',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+  'token' => 'd8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7',
+  'lat' => '32',
+  'lng' => '105',
+  'page' => '1',
+  'near' => 'nearUserList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.300017s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.173009s ]
+[ info ] [ RUN ] app\apps1_5\controller\Near->nearUserList[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Near.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-19T12:10:35+08:00 ] 127.0.0.1 GET /index.php/app1_5/near/nearUserList?id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&lat=32&lng=105&page=1
+[ info ] limiapp.com/index.php/app1_5/near/nearUserList?id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&lat=32&lng=105&page=1 [运行时间：1.118063s][吞吐率：0.89req/s] [内存消耗：3,171.80kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'near',
+    2 => 'nearUserList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '9c43c0a8-35fb-43bd-ab29-a3c926e142fa',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+  'token' => 'd8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7',
+  'lat' => '32',
+  'lng' => '105',
+  'page' => '1',
+  'near' => 'nearUserList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.316018s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.186010s ]
+[ info ] [ RUN ] app\apps1_5\controller\Near->nearUserList[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Near.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-19T12:12:46+08:00 ] 127.0.0.1 GET /index.php/app1_6/near/nearUserList?id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&lat=32&lng=105&page=1
+[ info ] limiapp.com/index.php/app1_6/near/nearUserList?id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&lat=32&lng=105&page=1 [运行时间：98.686645s][吞吐率：0.01req/s] [内存消耗：3,106.36kb] [文件加载：53]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_6',
+    1 => 'near',
+    2 => 'nearUserList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '0fa2c8f7-f879-44cf-b785-d0b940c5d9ca',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+  'token' => 'd8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7',
+  'lat' => '32',
+  'lng' => '105',
+  'page' => '1',
+  'near' => 'nearUserList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.314018s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.185011s ]
+[ info ] [ RUN ] app\apps1_6\controller\Near->nearUserList[ D:\xampp\htdocs\limiapp\application\apps1_6\controller\Near.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-19T12:13:45+08:00 ] 127.0.0.1 GET /index.php/app1_6/near/nearUserList?id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&lat=32&lng=105&page=1
+[ info ] limiapp.com/index.php/app1_6/near/nearUserList?id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&lat=32&lng=105&page=1 [运行时间：56.020204s][吞吐率：0.02req/s] [内存消耗：3,106.63kb] [文件加载：53]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_6',
+    1 => 'near',
+    2 => 'nearUserList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '75a11f76-0c61-4636-863a-78c8a619fbc9',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+  'token' => 'd8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7',
+  'lat' => '32',
+  'lng' => '105',
+  'page' => '1',
+  'near' => 'nearUserList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.315018s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.186011s ]
+[ info ] [ RUN ] app\apps1_6\controller\Near->nearUserList[ D:\xampp\htdocs\limiapp\application\apps1_6\controller\Near.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-19T12:16:52+08:00 ] 127.0.0.1 GET /index.php/app1_6/near/nearUserList?id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&lat=32&lng=105&page=1
+[ info ] limiapp.com/index.php/app1_6/near/nearUserList?id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&lat=32&lng=105&page=1 [运行时间：1.149065s][吞吐率：0.87req/s] [内存消耗：3,174.82kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_6',
+    1 => 'near',
+    2 => 'nearUserList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '6f18dcb7-131b-46d8-bc01-5235abd35522',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+  'token' => 'd8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7',
+  'lat' => '32',
+  'lng' => '105',
+  'page' => '1',
+  'near' => 'nearUserList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.314018s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.184010s ]
+[ info ] [ RUN ] app\apps1_6\controller\Near->nearUserList[ D:\xampp\htdocs\limiapp\application\apps1_6\controller\Near.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-19T12:19:57+08:00 ] 127.0.0.1 GET /index.php/app1_6/near/nearUserList?id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&lat=30.551142&lng=104&page=1
+[ info ] limiapp.com/index.php/app1_6/near/nearUserList?id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&lat=30.551142&lng=104&page=1 [运行时间：1.123064s][吞吐率：0.89req/s] [内存消耗：3,174.93kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_6',
+    1 => 'near',
+    2 => 'nearUserList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '89ded446-0b4e-4e28-abef-f61011862298',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+  'token' => 'd8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7',
+  'lat' => '30.551142',
+  'lng' => '104',
+  'page' => '1',
+  'near' => 'nearUserList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.314018s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.185011s ]
+[ info ] [ RUN ] app\apps1_6\controller\Near->nearUserList[ D:\xampp\htdocs\limiapp\application\apps1_6\controller\Near.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-19T12:20:14+08:00 ] 127.0.0.1 GET /index.php/app1_6/near/nearUserList?id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&lat=104&lng=30.551142&page=1
+[ info ] limiapp.com/index.php/app1_6/near/nearUserList?id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&lat=104&lng=30.551142&page=1 [运行时间：1.053060s][吞吐率：0.95req/s] [内存消耗：3,174.91kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_6',
+    1 => 'near',
+    2 => 'nearUserList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '6bf5a983-551d-45a9-91cd-d467798cd7d2',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+  'token' => 'd8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7',
+  'lat' => '104',
+  'lng' => '30.551142',
+  'page' => '1',
+  'near' => 'nearUserList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.297017s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.175010s ]
+[ info ] [ RUN ] app\apps1_6\controller\Near->nearUserList[ D:\xampp\htdocs\limiapp\application\apps1_6\controller\Near.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-19T12:20:40+08:00 ] 127.0.0.1 GET /index.php/app1_6/near/nearUserList?id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&lat=30.551142&lng=104&page=1
+[ info ] limiapp.com/index.php/app1_6/near/nearUserList?id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&lat=30.551142&lng=104&page=1 [运行时间：1.075062s][吞吐率：0.93req/s] [内存消耗：3,174.93kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_6',
+    1 => 'near',
+    2 => 'nearUserList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a4aa9fc6-873c-4a3f-a541-bd9fc921c210',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+  'token' => 'd8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7',
+  'lat' => '30.551142',
+  'lng' => '104',
+  'page' => '1',
+  'near' => 'nearUserList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.304017s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.178010s ]
+[ info ] [ RUN ] app\apps1_6\controller\Near->nearUserList[ D:\xampp\htdocs\limiapp\application\apps1_6\controller\Near.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-19T12:21:12+08:00 ] 127.0.0.1 GET /index.php/app1_6/near/nearUserList?id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&lat=30.551142&lng=104.065917&page=1
+[ info ] limiapp.com/index.php/app1_6/near/nearUserList?id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&lat=30.551142&lng=104.065917&page=1 [运行时间：1.083061s][吞吐率：0.92req/s] [内存消耗：3,174.86kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_6',
+    1 => 'near',
+    2 => 'nearUserList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '99f17151-8046-4006-bd8d-7117e002d2e5',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+  'token' => 'd8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7',
+  'lat' => '30.551142',
+  'lng' => '104.065917',
+  'page' => '1',
+  'near' => 'nearUserList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.298017s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.173010s ]
+[ info ] [ RUN ] app\apps1_6\controller\Near->nearUserList[ D:\xampp\htdocs\limiapp\application\apps1_6\controller\Near.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-19T14:10:16+08:00 ] 127.0.0.1 GET /index.php/app1_6/video/getChallengeVideoList?id=51&challenge_id=1
+[ info ] limiapp.com/index.php/app1_6/video/getChallengeVideoList?id=51&challenge_id=1 [运行时间：0.843048s][吞吐率：1.19req/s] [内存消耗：3,592.71kb] [文件加载：61]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_6',
+    1 => 'video',
+    2 => 'getChallengeVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '5d050b53-12f8-44e1-ba55-221616a6b29a',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '51',
+  'challenge_id' => '1',
+  'video' => 'getChallengeVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.299017s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.174010s ]
+[ info ] [ RUN ] app\apps1_6\controller\Video->getChallengeVideoList[ D:\xampp\htdocs\limiapp\application\apps1_6\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column '' in 'field list'[D:\xampp\htdocs\limiapp\thinkphp\library\think\db\Connection.php:388]
+---------------------------------------------------------------
+[ 2018-07-19T14:11:41+08:00 ] 127.0.0.1 GET /index.php/app1_6/video/getChallengeVideoList?id=51&challenge_id=1
+[ info ] limiapp.com/index.php/app1_6/video/getChallengeVideoList?id=51&challenge_id=1 [运行时间：12.383708s][吞吐率：0.08req/s] [内存消耗：3,464.72kb] [文件加载：54]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_6',
+    1 => 'video',
+    2 => 'getChallengeVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a271d0b4-e769-49b4-b789-4743f1036be1',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '51',
+  'challenge_id' => '1',
+  'video' => 'getChallengeVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.305018s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.175010s ]
+[ info ] [ RUN ] app\apps1_6\controller\Video->getChallengeVideoList[ D:\xampp\htdocs\limiapp\application\apps1_6\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-19T14:14:04+08:00 ] 127.0.0.1 GET /index.php/app1_6/video/getChallengeVideoList?id=51&challenge_id=1
+[ info ] limiapp.com/index.php/app1_6/video/getChallengeVideoList?id=51&challenge_id=1 [运行时间：0.848049s][吞吐率：1.18req/s] [内存消耗：3,540.77kb] [文件加载：56]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_6',
+    1 => 'video',
+    2 => 'getChallengeVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '4600acb2-7f96-42c2-951d-b99e45979b5c',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '51',
+  'challenge_id' => '1',
+  'video' => 'getChallengeVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.316018s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.184011s ]
+[ info ] [ RUN ] app\apps1_6\controller\Video->getChallengeVideoList[ D:\xampp\htdocs\limiapp\application\apps1_6\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-19T14:32:01+08:00 ] 127.0.0.1 GET /index.php/app1_6/video/getChallengeVideoList?id=51&challenge_id=1
+[ info ] limiapp.com/index.php/app1_6/video/getChallengeVideoList?id=51&challenge_id=1 [运行时间：0.546031s][吞吐率：1.83req/s] [内存消耗：3,546.80kb] [文件加载：56]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_6',
+    1 => 'video',
+    2 => 'getChallengeVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '6a68bc8e-25be-476a-b2db-41fac34b0bca',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '51',
+  'challenge_id' => '1',
+  'video' => 'getChallengeVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.302018s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.176010s ]
+[ info ] [ RUN ] app\apps1_6\controller\Video->getChallengeVideoList[ D:\xampp\htdocs\limiapp\application\apps1_6\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-19T14:32:09+08:00 ] 127.0.0.1 GET /index.php/app1_6/video/getChallengeVideoList?id=51&challenge_id=1&page=1
+[ info ] limiapp.com/index.php/app1_6/video/getChallengeVideoList?id=51&challenge_id=1&page=1 [运行时间：1.238071s][吞吐率：0.81req/s] [内存消耗：3,631.01kb] [文件加载：60]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_6',
+    1 => 'video',
+    2 => 'getChallengeVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e8a43f45-f68f-417c-a75a-634a452e1dc2',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '51',
+  'challenge_id' => '1',
+  'page' => '1',
+  'video' => 'getChallengeVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.315018s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.184011s ]
+[ info ] [ RUN ] app\apps1_6\controller\Video->getChallengeVideoList[ D:\xampp\htdocs\limiapp\application\apps1_6\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: user_id[D:\xampp\htdocs\limiapp\application\apps1_6\controller\Video.php:1141]
+---------------------------------------------------------------
+[ 2018-07-19T14:32:57+08:00 ] 127.0.0.1 GET /index.php/app1_6/video/getChallengeVideoList?id=51&challenge_id=1&page=1
+[ info ] limiapp.com/index.php/app1_6/video/getChallengeVideoList?id=51&challenge_id=1&page=1 [运行时间：1.176067s][吞吐率：0.85req/s] [内存消耗：3,631.08kb] [文件加载：60]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_6',
+    1 => 'video',
+    2 => 'getChallengeVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '22f1360e-c222-44a9-b020-23bb31636fc2',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '51',
+  'challenge_id' => '1',
+  'page' => '1',
+  'video' => 'getChallengeVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.302017s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.177010s ]
+[ info ] [ RUN ] app\apps1_6\controller\Video->getChallengeVideoList[ D:\xampp\htdocs\limiapp\application\apps1_6\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: music_name[D:\xampp\htdocs\limiapp\application\apps1_6\controller\Video.php:1148]
+---------------------------------------------------------------
+[ 2018-07-19T14:37:49+08:00 ] 127.0.0.1 GET /index.php/app1_6/video/getChallengeVideoList?id=51&challenge_id=1&page=1
+[ info ] limiapp.com/index.php/app1_6/video/getChallengeVideoList?id=51&challenge_id=1&page=1 [运行时间：1.512086s][吞吐率：0.66req/s] [内存消耗：3,594.07kb] [文件加载：56]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_6',
+    1 => 'video',
+    2 => 'getChallengeVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '48262d6f-493d-4db4-8822-c62893a39896',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '51',
+  'challenge_id' => '1',
+  'page' => '1',
+  'video' => 'getChallengeVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.303017s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.177010s ]
+[ info ] [ RUN ] app\apps1_6\controller\Video->getChallengeVideoList[ D:\xampp\htdocs\limiapp\application\apps1_6\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-19T14:38:58+08:00 ] 127.0.0.1 GET /index.php/app1_6/video/getChallengeVideoList?id=51&challenge_id=1&page=1
+[ info ] limiapp.com/index.php/app1_6/video/getChallengeVideoList?id=51&challenge_id=1&page=1 [运行时间：1.478085s][吞吐率：0.68req/s] [内存消耗：3,594.07kb] [文件加载：56]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_6',
+    1 => 'video',
+    2 => 'getChallengeVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'af9e8669-5490-40ef-9a55-11b19d6ba72b',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '51',
+  'challenge_id' => '1',
+  'page' => '1',
+  'video' => 'getChallengeVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.297017s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.175010s ]
+[ info ] [ RUN ] app\apps1_6\controller\Video->getChallengeVideoList[ D:\xampp\htdocs\limiapp\application\apps1_6\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-19T14:40:39+08:00 ] 127.0.0.1 GET /index.php/app1_6/video/getChallengeVideoList?id=51&challenge_id=1&page=1
+[ info ] limiapp.com/index.php/app1_6/video/getChallengeVideoList?id=51&challenge_id=1&page=1 [运行时间：1.479085s][吞吐率：0.68req/s] [内存消耗：3,594.06kb] [文件加载：56]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_6',
+    1 => 'video',
+    2 => 'getChallengeVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd54c4660-3293-41f5-aca6-eca6dea3b618',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '51',
+  'challenge_id' => '1',
+  'page' => '1',
+  'video' => 'getChallengeVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.298017s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.174010s ]
+[ info ] [ RUN ] app\apps1_6\controller\Video->getChallengeVideoList[ D:\xampp\htdocs\limiapp\application\apps1_6\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-19T14:41:12+08:00 ] 127.0.0.1 GET /index.php/app1_6/video/getChallengeVideoList?id=51&challenge_id=1&page=1
+[ info ] limiapp.com/index.php/app1_6/video/getChallengeVideoList?id=51&challenge_id=1&page=1 [运行时间：1.552089s][吞吐率：0.64req/s] [内存消耗：3,594.06kb] [文件加载：56]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_6',
+    1 => 'video',
+    2 => 'getChallengeVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '24e11d9d-e4c8-4142-a857-76a656167e5f',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '51',
+  'challenge_id' => '1',
+  'page' => '1',
+  'video' => 'getChallengeVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.315018s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.183010s ]
+[ info ] [ RUN ] app\apps1_6\controller\Video->getChallengeVideoList[ D:\xampp\htdocs\limiapp\application\apps1_6\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-19T14:43:07+08:00 ] 127.0.0.1 GET /index.php/app1_6/video/getChallengeVideoList?id=51&challenge_id=1&page=1
+[ info ] limiapp.com/index.php/app1_6/video/getChallengeVideoList?id=51&challenge_id=1&page=1 [运行时间：1.481085s][吞吐率：0.68req/s] [内存消耗：3,593.35kb] [文件加载：56]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_6',
+    1 => 'video',
+    2 => 'getChallengeVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '4c05309b-e341-4544-be6a-9b5e5deba558',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '51',
+  'challenge_id' => '1',
+  'page' => '1',
+  'video' => 'getChallengeVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.298017s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.175010s ]
+[ info ] [ RUN ] app\apps1_6\controller\Video->getChallengeVideoList[ D:\xampp\htdocs\limiapp\application\apps1_6\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-19T14:57:52+08:00 ] 127.0.0.1 GET /index.php/app1_6/video/getChallengeVideoList?id=51&challenge_id=1&page=1
+[ info ] limiapp.com/index.php/app1_6/video/getChallengeVideoList?id=51&challenge_id=1&page=1 [运行时间：1.606092s][吞吐率：0.62req/s] [内存消耗：3,600.61kb] [文件加载：56]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_6',
+    1 => 'video',
+    2 => 'getChallengeVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '2479aa65-407e-43ee-b9c2-6b55d69d3ef8',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '51',
+  'challenge_id' => '1',
+  'page' => '1',
+  'video' => 'getChallengeVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.305018s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.178010s ]
+[ info ] [ RUN ] app\apps1_6\controller\Video->getChallengeVideoList[ D:\xampp\htdocs\limiapp\application\apps1_6\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-19T14:58:21+08:00 ] 127.0.0.1 GET /index.php/app1_6/video/getChallengeVideoList?id=3&challenge_id=1&page=1
+[ info ] limiapp.com/index.php/app1_6/video/getChallengeVideoList?id=3&challenge_id=1&page=1 [运行时间：1.650094s][吞吐率：0.61req/s] [内存消耗：3,600.61kb] [文件加载：56]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_6',
+    1 => 'video',
+    2 => 'getChallengeVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '0c445fb0-bba6-4153-8ffd-39a52e69992d',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+  'challenge_id' => '1',
+  'page' => '1',
+  'video' => 'getChallengeVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.316018s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.184011s ]
+[ info ] [ RUN ] app\apps1_6\controller\Video->getChallengeVideoList[ D:\xampp\htdocs\limiapp\application\apps1_6\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-19T14:59:23+08:00 ] 127.0.0.1 GET /index.php/app1_6/video/getChallengeVideoList?id=3&challenge_id=1&page=1
+[ info ] limiapp.com/index.php/app1_6/video/getChallengeVideoList?id=3&challenge_id=1&page=1 [运行时间：1.255072s][吞吐率：0.80req/s] [内存消耗：3,591.79kb] [文件加载：56]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_6',
+    1 => 'video',
+    2 => 'getChallengeVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ca36bf88-68d2-4e69-a677-9299be1f8fe5',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+  'challenge_id' => '1',
+  'page' => '1',
+  'video' => 'getChallengeVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.301018s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.177011s ]
+[ info ] [ RUN ] app\apps1_6\controller\Video->getChallengeVideoList[ D:\xampp\htdocs\limiapp\application\apps1_6\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-19T14:59:51+08:00 ] 127.0.0.1 GET /index.php/app1_6/video/getChallengeVideoList?id=51&challenge_id=1&page=1
+[ info ] limiapp.com/index.php/app1_6/video/getChallengeVideoList?id=51&challenge_id=1&page=1 [运行时间：1.740100s][吞吐率：0.57req/s] [内存消耗：3,603.45kb] [文件加载：56]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_6',
+    1 => 'video',
+    2 => 'getChallengeVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a611f632-a6d0-4947-8a99-2633a970b2f8',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '51',
+  'challenge_id' => '1',
+  'page' => '1',
+  'video' => 'getChallengeVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.315018s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.180011s ]
+[ info ] [ RUN ] app\apps1_6\controller\Video->getChallengeVideoList[ D:\xampp\htdocs\limiapp\application\apps1_6\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-19T15:00:07+08:00 ] 127.0.0.1 GET /index.php/app1_6/video/getChallengeVideoList?id=51&challenge_id=1&page=1
+[ info ] limiapp.com/index.php/app1_6/video/getChallengeVideoList?id=51&challenge_id=1&page=1 [运行时间：1.602092s][吞吐率：0.62req/s] [内存消耗：3,600.61kb] [文件加载：56]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_6',
+    1 => 'video',
+    2 => 'getChallengeVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '37fa8649-4c0f-4220-8f92-f51bd9c3cb4d',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '51',
+  'challenge_id' => '1',
+  'page' => '1',
+  'video' => 'getChallengeVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.306018s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.177010s ]
+[ info ] [ RUN ] app\apps1_6\controller\Video->getChallengeVideoList[ D:\xampp\htdocs\limiapp\application\apps1_6\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-19T15:04:19+08:00 ] 127.0.0.1 GET /index.php/app1_6/video/getChallengeVideoList?id=51&challenge_id=1&page=1
+[ info ] limiapp.com/index.php/app1_6/video/getChallengeVideoList?id=51&challenge_id=1&page=1 [运行时间：1.733099s][吞吐率：0.58req/s] [内存消耗：3,601.66kb] [文件加载：56]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_6',
+    1 => 'video',
+    2 => 'getChallengeVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '406434cb-2e89-45a8-be6a-674b3bf8d102',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '51',
+  'challenge_id' => '1',
+  'page' => '1',
+  'video' => 'getChallengeVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.314018s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.183010s ]
+[ info ] [ RUN ] app\apps1_6\controller\Video->getChallengeVideoList[ D:\xampp\htdocs\limiapp\application\apps1_6\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-19T15:05:01+08:00 ] 127.0.0.1 GET /index.php/app1_6/video/getChallengeVideoList?id=51&challenge_id=1&page=1
+[ info ] limiapp.com/index.php/app1_6/video/getChallengeVideoList?id=51&challenge_id=1&page=1 [运行时间：1.654095s][吞吐率：0.60req/s] [内存消耗：3,601.65kb] [文件加载：56]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_6',
+    1 => 'video',
+    2 => 'getChallengeVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'de8467c5-86b4-4e61-a850-b4279d827b54',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '51',
+  'challenge_id' => '1',
+  'page' => '1',
+  'video' => 'getChallengeVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.302017s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.172010s ]
+[ info ] [ RUN ] app\apps1_6\controller\Video->getChallengeVideoList[ D:\xampp\htdocs\limiapp\application\apps1_6\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-19T15:05:40+08:00 ] 127.0.0.1 GET /index.php/app1_6/video/getChallengeVideoList?id=51&challenge_id=1&page=1
+[ info ] limiapp.com/index.php/app1_6/video/getChallengeVideoList?id=51&challenge_id=1&page=1 [运行时间：1.687096s][吞吐率：0.59req/s] [内存消耗：3,601.55kb] [文件加载：56]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_6',
+    1 => 'video',
+    2 => 'getChallengeVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '0323a546-f459-41ec-886f-09e7031d261b',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '51',
+  'challenge_id' => '1',
+  'page' => '1',
+  'video' => 'getChallengeVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.304017s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.177010s ]
+[ info ] [ RUN ] app\apps1_6\controller\Video->getChallengeVideoList[ D:\xampp\htdocs\limiapp\application\apps1_6\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-19T15:09:33+08:00 ] 127.0.0.1 GET /index.php/app1_6/Video/personalDetails?id=56&user_id=56&page=1&type=1&time=1528104018
+[ info ] limiapp.com/index.php/app1_6/Video/personalDetails?id=56&user_id=56&page=1&type=1&time=1528104018 [运行时间：2.030116s][吞吐率：0.49req/s] [内存消耗：3,623.95kb] [文件加载：56]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_6',
+    1 => 'Video',
+    2 => 'personalDetails',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '8585d10b-99e9-4b88-bd3a-e1001d13300f',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '56',
+  'user_id' => '56',
+  'page' => '1',
+  'type' => '1',
+  'time' => '1528104018',
+  'Video' => 'personalDetails',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.302017s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002001s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.175011s ]
+[ info ] [ RUN ] app\apps1_6\controller\Video->personalDetails[ D:\xampp\htdocs\limiapp\application\apps1_6\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-19T15:09:52+08:00 ] 127.0.0.1 GET /index.php/app1_6/Video/personalDetails?id=56&user_id=56&page=1&type=0&time=1528104018
+[ info ] limiapp.com/index.php/app1_6/Video/personalDetails?id=56&user_id=56&page=1&type=0&time=1528104018 [运行时间：1.767101s][吞吐率：0.57req/s] [内存消耗：3,616.42kb] [文件加载：56]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_6',
+    1 => 'Video',
+    2 => 'personalDetails',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '094f3af7-b5ee-43c0-bfd1-8f0c4c62bee4',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '56',
+  'user_id' => '56',
+  'page' => '1',
+  'type' => '0',
+  'time' => '1528104018',
+  'Video' => 'personalDetails',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.317018s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.184010s ]
+[ info ] [ RUN ] app\apps1_6\controller\Video->personalDetails[ D:\xampp\htdocs\limiapp\application\apps1_6\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-19T15:10:00+08:00 ] 127.0.0.1 GET /index.php/app1_6/Video/personalDetails?id=56&user_id=56&page=1&type=1&time=1528104018
+[ info ] limiapp.com/index.php/app1_6/Video/personalDetails?id=56&user_id=56&page=1&type=1&time=1528104018 [运行时间：2.120121s][吞吐率：0.47req/s] [内存消耗：3,623.95kb] [文件加载：56]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_6',
+    1 => 'Video',
+    2 => 'personalDetails',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '99ccb71c-0824-41ea-ab58-234c9336c76b',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '56',
+  'user_id' => '56',
+  'page' => '1',
+  'type' => '1',
+  'time' => '1528104018',
+  'Video' => 'personalDetails',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.315018s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.183011s ]
+[ info ] [ RUN ] app\apps1_6\controller\Video->personalDetails[ D:\xampp\htdocs\limiapp\application\apps1_6\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-19T15:10:43+08:00 ] 127.0.0.1 GET /index.php/app1_5/video/indexVideoList?page=1&time=1528692726&type=1&id=50&token=3044347ffcf82055c9ac95957b07cf4a1d73bc3e
+[ info ] limiapp.com/index.php/app1_5/video/indexVideoList?page=1&time=1528692726&type=1&id=50&token=3044347ffcf82055c9ac95957b07cf4a1d73bc3e [运行时间：1.931111s][吞吐率：0.52req/s] [内存消耗：3,533.67kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'video',
+    2 => 'indexVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '5d3112ca-3489-4aea-8f08-7ec85b495310',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'time' => '1528692726',
+  'type' => '1',
+  'id' => '50',
+  'token' => '3044347ffcf82055c9ac95957b07cf4a1d73bc3e',
+  'video' => 'indexVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.300017s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.176010s ]
+[ info ] [ RUN ] app\apps1_5\controller\Video->indexVideoList[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-19T15:11:00+08:00 ] 127.0.0.1 GET /index.php/app1_6/video/indexVideoList?page=1&time=1528692726&type=1&id=50&token=3044347ffcf82055c9ac95957b07cf4a1d73bc3e
+[ info ] limiapp.com/index.php/app1_6/video/indexVideoList?page=1&time=1528692726&type=1&id=50&token=3044347ffcf82055c9ac95957b07cf4a1d73bc3e [运行时间：1.954112s][吞吐率：0.51req/s] [内存消耗：3,619.41kb] [文件加载：56]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_6',
+    1 => 'video',
+    2 => 'indexVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '318deac1-756f-44d7-8a75-19d79da2cf19',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'time' => '1528692726',
+  'type' => '1',
+  'id' => '50',
+  'token' => '3044347ffcf82055c9ac95957b07cf4a1d73bc3e',
+  'video' => 'indexVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.313018s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.177010s ]
+[ info ] [ RUN ] app\apps1_6\controller\Video->indexVideoList[ D:\xampp\htdocs\limiapp\application\apps1_6\controller\Video.php ]
+[ info ] [ LOG ] INIT File

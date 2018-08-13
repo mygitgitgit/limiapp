@@ -1,0 +1,2304 @@
+---------------------------------------------------------------
+[ 2018-06-04T15:09:40+08:00 ] 127.0.0.1 POST /index.php/com/redis/wZsetData
+[ info ] limiapp.com/index.php/com/redis/wZsetData [运行时间：0.395085s][吞吐率：2.53req/s] [内存消耗：2,423.03kb] [文件加载：46]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'com',
+    1 => 'redis',
+    2 => 'wZsetData',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '239f0a5f-eb15-4f17-afe7-3020b9f5f635',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------951873929842688898031732',
+  'content-length' => '1127',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'title' => '测试发布说一句及哈哈哈',
+  'tags' => '美女',
+  'view_auth' => '1',
+  'music_id' => '2',
+  'video_addr' => 'cf2ef9af81b046b785a1f7ed045164a6',
+  'video_cover' => 'http://video.youhongtech.com/1b7c7ed99c134e62b40254891a96ef81/covers/8dace67c896a4ee4982902e0ff6c4d65-00002.jpg',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.314365s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001529s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.127627s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.084566s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.082550s ]
+[ error ] [0]方法参数错误:redis_db[D:\xampp\htdocs\limiapp\thinkphp\library\think\App.php:431]
+---------------------------------------------------------------
+[ 2018-06-04T15:12:57+08:00 ] 127.0.0.1 POST /index.php/com/callback/Aligreencallback
+[ info ] limiapp.com/index.php/com/callback/Aligreencallback [运行时间：0.365761s][吞吐率：2.73req/s] [内存消耗：2,427.30kb] [文件加载：47]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'com',
+    1 => 'callback',
+    2 => 'Aligreencallback',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'aa8f4740-44e0-49e7-8d40-231a8de4977f',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------647655400896386900444840',
+  'content-length' => '1127',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'title' => '测试发布说一句及哈哈哈',
+  'tags' => '美女',
+  'view_auth' => '1',
+  'music_id' => '2',
+  'video_addr' => 'cf2ef9af81b046b785a1f7ed045164a6',
+  'video_cover' => 'http://video.youhongtech.com/1b7c7ed99c134e62b40254891a96ef81/covers/8dace67c896a4ee4982902e0ff6c4d65-00002.jpg',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.310395s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000955s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.128123s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.083599s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.084319s ]
+---------------------------------------------------------------
+[ 2018-06-04T15:13:05+08:00 ] 127.0.0.1 POST /index.php/callback/Aligreencallback
+[ info ] limiapp.com/index.php/callback/Aligreencallback [运行时间：0.371593s][吞吐率：2.69req/s] [内存消耗：2,435.75kb] [文件加载：47]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'callback',
+    1 => 'Aligreencallback',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ddd51c07-3cb0-4b2f-a969-bbdbe89e282b',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------842225239075350426981837',
+  'content-length' => '1127',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'title' => '测试发布说一句及哈哈哈',
+  'tags' => '美女',
+  'view_auth' => '1',
+  'music_id' => '2',
+  'video_addr' => 'cf2ef9af81b046b785a1f7ed045164a6',
+  'video_cover' => 'http://video.youhongtech.com/1b7c7ed99c134e62b40254891a96ef81/covers/8dace67c896a4ee4982902e0ff6c4d65-00002.jpg',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.320223s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000997s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.131839s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.087030s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.087692s ]
+---------------------------------------------------------------
+[ 2018-06-04T15:13:23+08:00 ] 127.0.0.1 POST /index.php/callback/Aligreencallback/test
+[ info ] limiapp.com/index.php/callback/Aligreencallback/test [运行时间：0.475316s][吞吐率：2.10req/s] [内存消耗：2,457.05kb] [文件加载：49]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'callback',
+    1 => 'Aligreencallback',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '27135151-2ee9-402a-a995-34d3e78916a2',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------678998178887552654953933',
+  'content-length' => '1127',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'title' => '测试发布说一句及哈哈哈',
+  'tags' => '美女',
+  'view_auth' => '1',
+  'music_id' => '2',
+  'video_addr' => 'cf2ef9af81b046b785a1f7ed045164a6',
+  'video_cover' => 'http://video.youhongtech.com/1b7c7ed99c134e62b40254891a96ef81/covers/8dace67c896a4ee4982902e0ff6c4d65-00002.jpg',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.317771s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000975s ]
+[ info ] [ RUN ] app\callback\controller\Aligreencallback->test[ D:\xampp\htdocs\limiapp\application\callback\controller\Aligreencallback.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.127767s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.084977s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.085209s ]
+[ error ] [2]Redis::select() expects parameter 1 to be long, string given[D:\xampp\htdocs\limiapp\application\com\controller\Redis.php:22]
+---------------------------------------------------------------
+[ 2018-06-04T15:15:57+08:00 ] 127.0.0.1 POST /index.php/callback/Aligreencallback/test
+[ info ] limiapp.com/index.php/callback/Aligreencallback/test [运行时间：83.869298s][吞吐率：0.01req/s] [内存消耗：2,320.77kb] [文件加载：43]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'callback',
+    1 => 'Aligreencallback',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd1fbbe16-52c1-4d0a-ab13-71c33d259d5c',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------469623947607594677233658',
+  'content-length' => '1127',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'title' => '测试发布说一句及哈哈哈',
+  'tags' => '美女',
+  'view_auth' => '1',
+  'music_id' => '2',
+  'video_addr' => 'cf2ef9af81b046b785a1f7ed045164a6',
+  'video_cover' => 'http://video.youhongtech.com/1b7c7ed99c134e62b40254891a96ef81/covers/8dace67c896a4ee4982902e0ff6c4d65-00002.jpg',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.311308s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000809s ]
+[ info ] [ RUN ] app\callback\controller\Aligreencallback->test[ D:\xampp\htdocs\limiapp\application\callback\controller\Aligreencallback.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.127384s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.083438s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.084210s ]
+---------------------------------------------------------------
+[ 2018-06-04T15:16:49+08:00 ] 127.0.0.1 POST /index.php/callback/Aligreencallback/test
+[ info ] limiapp.com/index.php/callback/Aligreencallback/test [运行时间：34.293730s][吞吐率：0.03req/s] [内存消耗：2,318.59kb] [文件加载：43]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'callback',
+    1 => 'Aligreencallback',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '8e2ace64-f6e1-4af0-87df-f09d391663da',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------823594478092510685430076',
+  'content-length' => '1127',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'title' => '测试发布说一句及哈哈哈',
+  'tags' => '美女',
+  'view_auth' => '1',
+  'music_id' => '2',
+  'video_addr' => 'cf2ef9af81b046b785a1f7ed045164a6',
+  'video_cover' => 'http://video.youhongtech.com/1b7c7ed99c134e62b40254891a96ef81/covers/8dace67c896a4ee4982902e0ff6c4d65-00002.jpg',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.305507s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000998s ]
+[ info ] [ RUN ] app\callback\controller\Aligreencallback->test[ D:\xampp\htdocs\limiapp\application\callback\controller\Aligreencallback.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.126141s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.082739s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.082709s ]
+---------------------------------------------------------------
+[ 2018-06-04T15:20:37+08:00 ] 127.0.0.1 POST /index.php/callback/Aligreencallback/test
+[ info ] limiapp.com/index.php/callback/Aligreencallback/test [运行时间：34.972306s][吞吐率：0.03req/s] [内存消耗：2,320.27kb] [文件加载：43]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'callback',
+    1 => 'Aligreencallback',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '50f7975e-094c-4fca-9f74-7ccc6d713374',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------753733606225100735923410',
+  'content-length' => '1127',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'title' => '测试发布说一句及哈哈哈',
+  'tags' => '美女',
+  'view_auth' => '1',
+  'music_id' => '2',
+  'video_addr' => 'cf2ef9af81b046b785a1f7ed045164a6',
+  'video_cover' => 'http://video.youhongtech.com/1b7c7ed99c134e62b40254891a96ef81/covers/8dace67c896a4ee4982902e0ff6c4d65-00002.jpg',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.318764s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001172s ]
+[ info ] [ RUN ] app\callback\controller\Aligreencallback->test[ D:\xampp\htdocs\limiapp\application\callback\controller\Aligreencallback.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.131081s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.086946s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.086710s ]
+---------------------------------------------------------------
+[ 2018-06-04T15:21:57+08:00 ] 127.0.0.1 POST /index.php/callback/Aligreencallback/test
+[ info ] limiapp.com/index.php/callback/Aligreencallback/test [运行时间：0.555307s][吞吐率：1.80req/s] [内存消耗：2,403.96kb] [文件加载：45]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'callback',
+    1 => 'Aligreencallback',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f412ca8e-e9e3-4673-8207-2859c8bfa6af',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------146413693018146832256000',
+  'content-length' => '1127',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'title' => '测试发布说一句及哈哈哈',
+  'tags' => '美女',
+  'view_auth' => '1',
+  'music_id' => '2',
+  'video_addr' => 'cf2ef9af81b046b785a1f7ed045164a6',
+  'video_cover' => 'http://video.youhongtech.com/1b7c7ed99c134e62b40254891a96ef81/covers/8dace67c896a4ee4982902e0ff6c4d65-00002.jpg',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.306078s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000793s ]
+[ info ] [ RUN ] app\callback\controller\Aligreencallback->test[ D:\xampp\htdocs\limiapp\application\callback\controller\Aligreencallback.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.124671s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.083820s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.082569s ]
+---------------------------------------------------------------
+[ 2018-06-04T15:22:03+08:00 ] 127.0.0.1 POST /index.php/callback/Aligreencallback/test
+[ info ] limiapp.com/index.php/callback/Aligreencallback/test [运行时间：0.580216s][吞吐率：1.72req/s] [内存消耗：2,403.96kb] [文件加载：45]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'callback',
+    1 => 'Aligreencallback',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd6ab621c-73d4-47cb-b724-49906bf8d8a1',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------382420581562289449476387',
+  'content-length' => '1127',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'title' => '测试发布说一句及哈哈哈',
+  'tags' => '美女',
+  'view_auth' => '1',
+  'music_id' => '2',
+  'video_addr' => 'cf2ef9af81b046b785a1f7ed045164a6',
+  'video_cover' => 'http://video.youhongtech.com/1b7c7ed99c134e62b40254891a96ef81/covers/8dace67c896a4ee4982902e0ff6c4d65-00002.jpg',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.305139s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001627s ]
+[ info ] [ RUN ] app\callback\controller\Aligreencallback->test[ D:\xampp\htdocs\limiapp\application\callback\controller\Aligreencallback.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.124922s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.081340s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.083208s ]
+---------------------------------------------------------------
+[ 2018-06-04T15:22:21+08:00 ] 127.0.0.1 POST /index.php/callback/Aligreencallback/test
+[ info ] limiapp.com/index.php/callback/Aligreencallback/test [运行时间：9.092476s][吞吐率：0.11req/s] [内存消耗：2,320.23kb] [文件加载：43]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'callback',
+    1 => 'Aligreencallback',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '8fae62f0-b4d3-4be2-b2cc-ab655be6b199',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------309323831882822610575950',
+  'content-length' => '1127',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'title' => '测试发布说一句及哈哈哈',
+  'tags' => '美女',
+  'view_auth' => '1',
+  'music_id' => '2',
+  'video_addr' => 'cf2ef9af81b046b785a1f7ed045164a6',
+  'video_cover' => 'http://video.youhongtech.com/1b7c7ed99c134e62b40254891a96ef81/covers/8dace67c896a4ee4982902e0ff6c4d65-00002.jpg',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.336007s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000840s ]
+[ info ] [ RUN ] app\callback\controller\Aligreencallback->test[ D:\xampp\htdocs\limiapp\application\callback\controller\Aligreencallback.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.144951s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.089685s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.087373s ]
+---------------------------------------------------------------
+[ 2018-06-04T15:22:56+08:00 ] 127.0.0.1 POST /index.php/callback/Aligreencallback/test
+[ info ] limiapp.com/index.php/callback/Aligreencallback/test [运行时间：20.057910s][吞吐率：0.05req/s] [内存消耗：2,321.39kb] [文件加载：43]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'callback',
+    1 => 'Aligreencallback',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '39a8efd3-6670-4950-8000-426d7a57d4cc',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------337075706485158282211618',
+  'content-length' => '1127',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'title' => '测试发布说一句及哈哈哈',
+  'tags' => '美女',
+  'view_auth' => '1',
+  'music_id' => '2',
+  'video_addr' => 'cf2ef9af81b046b785a1f7ed045164a6',
+  'video_cover' => 'http://video.youhongtech.com/1b7c7ed99c134e62b40254891a96ef81/covers/8dace67c896a4ee4982902e0ff6c4d65-00002.jpg',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.321144s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000778s ]
+[ info ] [ RUN ] app\callback\controller\Aligreencallback->test[ D:\xampp\htdocs\limiapp\application\callback\controller\Aligreencallback.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.133540s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.087083s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.087227s ]
+---------------------------------------------------------------
+[ 2018-06-04T15:24:40+08:00 ] 127.0.0.1 POST /index.php/callback/Aligreencallback/test
+[ info ] limiapp.com/index.php/callback/Aligreencallback/test [运行时间：92.613263s][吞吐率：0.01req/s] [内存消耗：2,321.62kb] [文件加载：43]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'callback',
+    1 => 'Aligreencallback',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '778ac403-7676-47e3-893b-ac525f1c289c',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------595699003532569860029393',
+  'content-length' => '1127',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'title' => '测试发布说一句及哈哈哈',
+  'tags' => '美女',
+  'view_auth' => '1',
+  'music_id' => '2',
+  'video_addr' => 'cf2ef9af81b046b785a1f7ed045164a6',
+  'video_cover' => 'http://video.youhongtech.com/1b7c7ed99c134e62b40254891a96ef81/covers/8dace67c896a4ee4982902e0ff6c4d65-00002.jpg',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.307482s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001311s ]
+[ info ] [ RUN ] app\callback\controller\Aligreencallback->test[ D:\xampp\htdocs\limiapp\application\callback\controller\Aligreencallback.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.127279s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.084427s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.083505s ]
+---------------------------------------------------------------
+[ 2018-06-04T15:41:39+08:00 ] 127.0.0.1 POST /index.php/callback/Aligreencallback/test
+[ info ] limiapp.com/index.php/callback/Aligreencallback/test [运行时间：0.488110s][吞吐率：2.05req/s] [内存消耗：2,403.03kb] [文件加载：45]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'callback',
+    1 => 'Aligreencallback',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '5cf1746b-177a-43e4-903a-272a169ca4e4',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------332480007705061849772314',
+  'content-length' => '1127',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'title' => '测试发布说一句及哈哈哈',
+  'tags' => '美女',
+  'view_auth' => '1',
+  'music_id' => '2',
+  'video_addr' => 'cf2ef9af81b046b785a1f7ed045164a6',
+  'video_cover' => 'http://video.youhongtech.com/1b7c7ed99c134e62b40254891a96ef81/covers/8dace67c896a4ee4982902e0ff6c4d65-00002.jpg',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.306672s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001022s ]
+[ info ] [ RUN ] app\callback\controller\Aligreencallback->test[ D:\xampp\htdocs\limiapp\application\callback\controller\Aligreencallback.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.127501s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.083002s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.082398s ]
+---------------------------------------------------------------
+[ 2018-06-04T15:42:56+08:00 ] 127.0.0.1 POST /index.php/callback/Aligreencallback/test
+[ info ] limiapp.com/index.php/callback/Aligreencallback/test [运行时间：17.658154s][吞吐率：0.06req/s] [内存消耗：2,461.24kb] [文件加载：49]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'callback',
+    1 => 'Aligreencallback',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '5573b430-a4af-43b2-92e0-8490850b984b',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------325528753932077272290869',
+  'content-length' => '1127',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'title' => '测试发布说一句及哈哈哈',
+  'tags' => '美女',
+  'view_auth' => '1',
+  'music_id' => '2',
+  'video_addr' => 'cf2ef9af81b046b785a1f7ed045164a6',
+  'video_cover' => 'http://video.youhongtech.com/1b7c7ed99c134e62b40254891a96ef81/covers/8dace67c896a4ee4982902e0ff6c4d65-00002.jpg',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.313334s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001400s ]
+[ info ] [ RUN ] app\callback\controller\Aligreencallback->test[ D:\xampp\htdocs\limiapp\application\callback\controller\Aligreencallback.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.127905s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.086820s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.084351s ]
+[ error ] [8]未定义数组索引: score[D:\xampp\htdocs\limiapp\application\com\controller\Redis.php:57]
+---------------------------------------------------------------
+[ 2018-06-04T15:50:56+08:00 ] 127.0.0.1 POST /index.php/callback/Aligreencallback/test
+[ info ] limiapp.com/index.php/callback/Aligreencallback/test [运行时间：4.096685s][吞吐率：0.24req/s] [内存消耗：2,460.51kb] [文件加载：49]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'callback',
+    1 => 'Aligreencallback',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '95223847-1057-4bb9-9679-e55153771755',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------554594051434907446680599',
+  'content-length' => '1127',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'title' => '测试发布说一句及哈哈哈',
+  'tags' => '美女',
+  'view_auth' => '1',
+  'music_id' => '2',
+  'video_addr' => 'cf2ef9af81b046b785a1f7ed045164a6',
+  'video_cover' => 'http://video.youhongtech.com/1b7c7ed99c134e62b40254891a96ef81/covers/8dace67c896a4ee4982902e0ff6c4d65-00002.jpg',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.321408s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001162s ]
+[ info ] [ RUN ] app\callback\controller\Aligreencallback->test[ D:\xampp\htdocs\limiapp\application\callback\controller\Aligreencallback.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.133377s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.088305s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.086162s ]
+[ error ] [8]未定义数组索引: score[D:\xampp\htdocs\limiapp\application\com\controller\Redis.php:57]
+---------------------------------------------------------------
+[ 2018-06-04T15:51:13+08:00 ] 127.0.0.1 POST /index.php/callback/Aligreencallback/test
+[ info ] limiapp.com/index.php/callback/Aligreencallback/test [运行时间：8.239104s][吞吐率：0.12req/s] [内存消耗：2,319.73kb] [文件加载：43]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'callback',
+    1 => 'Aligreencallback',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '0d74ebfc-acb0-46e5-ab89-81b21a37b942',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------639727477476326211316133',
+  'content-length' => '1127',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'title' => '测试发布说一句及哈哈哈',
+  'tags' => '美女',
+  'view_auth' => '1',
+  'music_id' => '2',
+  'video_addr' => 'cf2ef9af81b046b785a1f7ed045164a6',
+  'video_cover' => 'http://video.youhongtech.com/1b7c7ed99c134e62b40254891a96ef81/covers/8dace67c896a4ee4982902e0ff6c4d65-00002.jpg',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.324007s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001042s ]
+[ info ] [ RUN ] app\callback\controller\Aligreencallback->test[ D:\xampp\htdocs\limiapp\application\callback\controller\Aligreencallback.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.132580s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.088091s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.088315s ]
+---------------------------------------------------------------
+[ 2018-06-04T15:51:29+08:00 ] 127.0.0.1 POST /index.php/callback/Aligreencallback/test
+[ info ] limiapp.com/index.php/callback/Aligreencallback/test [运行时间：3.789508s][吞吐率：0.26req/s] [内存消耗：2,404.78kb] [文件加载：45]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'callback',
+    1 => 'Aligreencallback',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c4f1cdc7-6bcb-4f56-8062-58706f59c298',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------753751863738029394250098',
+  'content-length' => '1127',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'title' => '测试发布说一句及哈哈哈',
+  'tags' => '美女',
+  'view_auth' => '1',
+  'music_id' => '2',
+  'video_addr' => 'cf2ef9af81b046b785a1f7ed045164a6',
+  'video_cover' => 'http://video.youhongtech.com/1b7c7ed99c134e62b40254891a96ef81/covers/8dace67c896a4ee4982902e0ff6c4d65-00002.jpg',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.308260s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001612s ]
+[ info ] [ RUN ] app\callback\controller\Aligreencallback->test[ D:\xampp\htdocs\limiapp\application\callback\controller\Aligreencallback.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.127661s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.085310s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.084114s ]
+---------------------------------------------------------------
+[ 2018-06-04T15:54:40+08:00 ] 127.0.0.1 POST /index.php/callback/Aligreencallback/test
+[ info ] limiapp.com/index.php/callback/Aligreencallback/test [运行时间：6.340092s][吞吐率：0.16req/s] [内存消耗：2,320.92kb] [文件加载：43]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'callback',
+    1 => 'Aligreencallback',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7f2f0062-ea41-475d-95c2-97af831220cf',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------145172493425484434489028',
+  'content-length' => '1127',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'title' => '测试发布说一句及哈哈哈',
+  'tags' => '美女',
+  'view_auth' => '1',
+  'music_id' => '2',
+  'video_addr' => 'cf2ef9af81b046b785a1f7ed045164a6',
+  'video_cover' => 'http://video.youhongtech.com/1b7c7ed99c134e62b40254891a96ef81/covers/8dace67c896a4ee4982902e0ff6c4d65-00002.jpg',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.322693s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001216s ]
+[ info ] [ RUN ] app\callback\controller\Aligreencallback->test[ D:\xampp\htdocs\limiapp\application\callback\controller\Aligreencallback.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.135950s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.089171s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.085603s ]
+---------------------------------------------------------------
+[ 2018-06-04T15:55:27+08:00 ] 127.0.0.1 POST /index.php/callback/Aligreencallback/test
+[ info ] limiapp.com/index.php/callback/Aligreencallback/test [运行时间：34.821575s][吞吐率：0.03req/s] [内存消耗：2,321.17kb] [文件加载：43]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'callback',
+    1 => 'Aligreencallback',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '299451ce-6e07-41c7-8a00-55c3e50aa796',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------788924044626707601359022',
+  'content-length' => '1127',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'title' => '测试发布说一句及哈哈哈',
+  'tags' => '美女',
+  'view_auth' => '1',
+  'music_id' => '2',
+  'video_addr' => 'cf2ef9af81b046b785a1f7ed045164a6',
+  'video_cover' => 'http://video.youhongtech.com/1b7c7ed99c134e62b40254891a96ef81/covers/8dace67c896a4ee4982902e0ff6c4d65-00002.jpg',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.305649s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001058s ]
+[ info ] [ RUN ] app\callback\controller\Aligreencallback->test[ D:\xampp\htdocs\limiapp\application\callback\controller\Aligreencallback.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.126888s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.082695s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.084289s ]
+---------------------------------------------------------------
+[ 2018-06-04T15:55:59+08:00 ] 127.0.0.1 POST /index.php/callback/Aligreencallback/test
+[ info ] limiapp.com/index.php/callback/Aligreencallback/test [运行时间：5.576044s][吞吐率：0.18req/s] [内存消耗：2,321.16kb] [文件加载：43]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'callback',
+    1 => 'Aligreencallback',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ee68b384-764c-4912-bcab-3c80b464f19c',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------321226293300916970442759',
+  'content-length' => '1127',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'title' => '测试发布说一句及哈哈哈',
+  'tags' => '美女',
+  'view_auth' => '1',
+  'music_id' => '2',
+  'video_addr' => 'cf2ef9af81b046b785a1f7ed045164a6',
+  'video_cover' => 'http://video.youhongtech.com/1b7c7ed99c134e62b40254891a96ef81/covers/8dace67c896a4ee4982902e0ff6c4d65-00002.jpg',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.319671s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000856s ]
+[ info ] [ RUN ] app\callback\controller\Aligreencallback->test[ D:\xampp\htdocs\limiapp\application\callback\controller\Aligreencallback.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.132542s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.086932s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.086983s ]
+---------------------------------------------------------------
+[ 2018-06-04T15:57:43+08:00 ] 127.0.0.1 POST /index.php/callback/Aligreencallback/test
+[ info ] limiapp.com/index.php/callback/Aligreencallback/test [运行时间：4.331551s][吞吐率：0.23req/s] [内存消耗：2,321.57kb] [文件加载：43]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'callback',
+    1 => 'Aligreencallback',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '6d0076d6-499c-4034-b932-5f25284fe29d',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------943477411803424193344378',
+  'content-length' => '1127',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'title' => '测试发布说一句及哈哈哈',
+  'tags' => '美女',
+  'view_auth' => '1',
+  'music_id' => '2',
+  'video_addr' => 'cf2ef9af81b046b785a1f7ed045164a6',
+  'video_cover' => 'http://video.youhongtech.com/1b7c7ed99c134e62b40254891a96ef81/covers/8dace67c896a4ee4982902e0ff6c4d65-00002.jpg',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.323853s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000961s ]
+[ info ] [ RUN ] app\callback\controller\Aligreencallback->test[ D:\xampp\htdocs\limiapp\application\callback\controller\Aligreencallback.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.133615s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.088085s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.088366s ]
+---------------------------------------------------------------
+[ 2018-06-04T15:58:19+08:00 ] 127.0.0.1 POST /index.php/callback/Aligreencallback/test
+[ info ] limiapp.com/index.php/callback/Aligreencallback/test [运行时间：0.628406s][吞吐率：1.59req/s] [内存消耗：2,405.45kb] [文件加载：45]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'callback',
+    1 => 'Aligreencallback',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '996e9765-1860-455e-8519-b484321a975f',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------070382209715058846406294',
+  'content-length' => '1127',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'title' => '测试发布说一句及哈哈哈',
+  'tags' => '美女',
+  'view_auth' => '1',
+  'music_id' => '2',
+  'video_addr' => 'cf2ef9af81b046b785a1f7ed045164a6',
+  'video_cover' => 'http://video.youhongtech.com/1b7c7ed99c134e62b40254891a96ef81/covers/8dace67c896a4ee4982902e0ff6c4d65-00002.jpg',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.325247s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000740s ]
+[ info ] [ RUN ] app\callback\controller\Aligreencallback->test[ D:\xampp\htdocs\limiapp\application\callback\controller\Aligreencallback.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.137609s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.086043s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.086895s ]
+---------------------------------------------------------------
+[ 2018-06-04T15:58:23+08:00 ] 127.0.0.1 POST /index.php/callback/Aligreencallback/test
+[ info ] limiapp.com/index.php/callback/Aligreencallback/test [运行时间：0.616082s][吞吐率：1.62req/s] [内存消耗：2,405.45kb] [文件加载：45]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'callback',
+    1 => 'Aligreencallback',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '71fe53fb-f69c-4ea9-a67c-4d698b9bbfec',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------140321550346825292412977',
+  'content-length' => '1127',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'title' => '测试发布说一句及哈哈哈',
+  'tags' => '美女',
+  'view_auth' => '1',
+  'music_id' => '2',
+  'video_addr' => 'cf2ef9af81b046b785a1f7ed045164a6',
+  'video_cover' => 'http://video.youhongtech.com/1b7c7ed99c134e62b40254891a96ef81/covers/8dace67c896a4ee4982902e0ff6c4d65-00002.jpg',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.306580s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001035s ]
+[ info ] [ RUN ] app\callback\controller\Aligreencallback->test[ D:\xampp\htdocs\limiapp\application\callback\controller\Aligreencallback.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.127350s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.084246s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.082639s ]
+---------------------------------------------------------------
+[ 2018-06-04T15:58:52+08:00 ] 127.0.0.1 POST /index.php/callback/Aligreencallback/test
+[ info ] limiapp.com/index.php/callback/Aligreencallback/test [运行时间：0.639040s][吞吐率：1.56req/s] [内存消耗：2,405.38kb] [文件加载：45]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'callback',
+    1 => 'Aligreencallback',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '2f843cb8-5b77-450c-ae97-13b742198ec1',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------528158558412077600849685',
+  'content-length' => '1127',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'title' => '测试发布说一句及哈哈哈',
+  'tags' => '美女',
+  'view_auth' => '1',
+  'music_id' => '2',
+  'video_addr' => 'cf2ef9af81b046b785a1f7ed045164a6',
+  'video_cover' => 'http://video.youhongtech.com/1b7c7ed99c134e62b40254891a96ef81/covers/8dace67c896a4ee4982902e0ff6c4d65-00002.jpg',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.329541s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001193s ]
+[ info ] [ RUN ] app\callback\controller\Aligreencallback->test[ D:\xampp\htdocs\limiapp\application\callback\controller\Aligreencallback.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.138341s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.089214s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.087536s ]
+---------------------------------------------------------------
+[ 2018-06-04T15:58:53+08:00 ] 127.0.0.1 POST /index.php/callback/Aligreencallback/test
+[ info ] limiapp.com/index.php/callback/Aligreencallback/test [运行时间：0.620408s][吞吐率：1.61req/s] [内存消耗：2,405.38kb] [文件加载：45]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'callback',
+    1 => 'Aligreencallback',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'be4b96c5-098a-49c6-9327-afc19acdf493',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------405627551670084755287794',
+  'content-length' => '1127',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'title' => '测试发布说一句及哈哈哈',
+  'tags' => '美女',
+  'view_auth' => '1',
+  'music_id' => '2',
+  'video_addr' => 'cf2ef9af81b046b785a1f7ed045164a6',
+  'video_cover' => 'http://video.youhongtech.com/1b7c7ed99c134e62b40254891a96ef81/covers/8dace67c896a4ee4982902e0ff6c4d65-00002.jpg',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.317858s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000761s ]
+[ info ] [ RUN ] app\callback\controller\Aligreencallback->test[ D:\xampp\htdocs\limiapp\application\callback\controller\Aligreencallback.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.129007s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.085368s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.085012s ]
+---------------------------------------------------------------
+[ 2018-06-04T15:59:12+08:00 ] 127.0.0.1 POST /index.php/callback/Aligreencallback/test
+[ info ] limiapp.com/index.php/callback/Aligreencallback/test [运行时间：0.609731s][吞吐率：1.64req/s] [内存消耗：2,405.38kb] [文件加载：45]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'callback',
+    1 => 'Aligreencallback',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'acb87400-ac4b-44f3-80bf-bb3f0692663f',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------829639344900662934140252',
+  'content-length' => '1127',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'title' => '测试发布说一句及哈哈哈',
+  'tags' => '美女',
+  'view_auth' => '1',
+  'music_id' => '2',
+  'video_addr' => 'cf2ef9af81b046b785a1f7ed045164a6',
+  'video_cover' => 'http://video.youhongtech.com/1b7c7ed99c134e62b40254891a96ef81/covers/8dace67c896a4ee4982902e0ff6c4d65-00002.jpg',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.309756s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000804s ]
+[ info ] [ RUN ] app\callback\controller\Aligreencallback->test[ D:\xampp\htdocs\limiapp\application\callback\controller\Aligreencallback.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.128979s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.086545s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.083464s ]
+---------------------------------------------------------------
+[ 2018-06-04T15:59:36+08:00 ] 127.0.0.1 POST /index.php/callback/Aligreencallback/test
+[ info ] limiapp.com/index.php/callback/Aligreencallback/test [运行时间：0.617961s][吞吐率：1.62req/s] [内存消耗：2,405.38kb] [文件加载：45]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'callback',
+    1 => 'Aligreencallback',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ea24f0a2-2733-450b-b284-7e6db7b36568',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------622235173212660425139798',
+  'content-length' => '1127',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'title' => '测试发布说一句及哈哈哈',
+  'tags' => '美女',
+  'view_auth' => '1',
+  'music_id' => '2',
+  'video_addr' => 'cf2ef9af81b046b785a1f7ed045164a6',
+  'video_cover' => 'http://video.youhongtech.com/1b7c7ed99c134e62b40254891a96ef81/covers/8dace67c896a4ee4982902e0ff6c4d65-00002.jpg',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.322606s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001424s ]
+[ info ] [ RUN ] app\callback\controller\Aligreencallback->test[ D:\xampp\htdocs\limiapp\application\callback\controller\Aligreencallback.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.132681s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.087574s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.087022s ]
+---------------------------------------------------------------
+[ 2018-06-04T15:59:52+08:00 ] 127.0.0.1 POST /index.php/callback/Aligreencallback/test
+[ info ] limiapp.com/index.php/callback/Aligreencallback/test [运行时间：0.617624s][吞吐率：1.62req/s] [内存消耗：2,405.38kb] [文件加载：45]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'callback',
+    1 => 'Aligreencallback',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '75232126-b9a5-4493-9097-8925401b9caa',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------753963059997626204117602',
+  'content-length' => '1127',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'title' => '测试发布说一句及哈哈哈',
+  'tags' => '美女',
+  'view_auth' => '1',
+  'music_id' => '2',
+  'video_addr' => 'cf2ef9af81b046b785a1f7ed045164a6',
+  'video_cover' => 'http://video.youhongtech.com/1b7c7ed99c134e62b40254891a96ef81/covers/8dace67c896a4ee4982902e0ff6c4d65-00002.jpg',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.305986s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001020s ]
+[ info ] [ RUN ] app\callback\controller\Aligreencallback->test[ D:\xampp\htdocs\limiapp\application\callback\controller\Aligreencallback.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.126555s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.083598s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.082775s ]
+---------------------------------------------------------------
+[ 2018-06-04T16:03:01+08:00 ] 127.0.0.1 POST /index.php/callback/Aligreencallback/test
+[ info ] limiapp.com/index.php/callback/Aligreencallback/test [运行时间：0.584642s][吞吐率：1.71req/s] [内存消耗：2,461.10kb] [文件加载：49]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'callback',
+    1 => 'Aligreencallback',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b108a316-9d24-42d8-ab17-98c2d6a9368b',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------228504760110924998426900',
+  'content-length' => '1127',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'title' => '测试发布说一句及哈哈哈',
+  'tags' => '美女',
+  'view_auth' => '1',
+  'music_id' => '2',
+  'video_addr' => 'cf2ef9af81b046b785a1f7ed045164a6',
+  'video_cover' => 'http://video.youhongtech.com/1b7c7ed99c134e62b40254891a96ef81/covers/8dace67c896a4ee4982902e0ff6c4d65-00002.jpg',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.310952s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002978s ]
+[ info ] [ RUN ] app\callback\controller\Aligreencallback->test[ D:\xampp\htdocs\limiapp\application\callback\controller\Aligreencallback.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.126698s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.084738s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.084096s ]
+[ error ] [8]Undefined property: app\callback\controller\Aligreencallback::$Redis[D:\xampp\htdocs\limiapp\application\callback\controller\Aligreencallback.php:74]
+---------------------------------------------------------------
+[ 2018-06-04T16:04:28+08:00 ] 127.0.0.1 POST /index.php/callback/Aligreencallback/test
+[ info ] limiapp.com/index.php/callback/Aligreencallback/test [运行时间：0.527879s][吞吐率：1.89req/s] [内存消耗：2,393.53kb] [文件加载：44]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'callback',
+    1 => 'Aligreencallback',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7627006e-0181-46f6-ac82-8741965b90e3',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------678922744972734595798219',
+  'content-length' => '1127',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'title' => '测试发布说一句及哈哈哈',
+  'tags' => '美女',
+  'view_auth' => '1',
+  'music_id' => '2',
+  'video_addr' => 'cf2ef9af81b046b785a1f7ed045164a6',
+  'video_cover' => 'http://video.youhongtech.com/1b7c7ed99c134e62b40254891a96ef81/covers/8dace67c896a4ee4982902e0ff6c4d65-00002.jpg',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.305887s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001342s ]
+[ info ] [ RUN ] app\callback\controller\Aligreencallback->test[ D:\xampp\htdocs\limiapp\application\callback\controller\Aligreencallback.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.126128s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.083152s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.082480s ]
+---------------------------------------------------------------
+[ 2018-06-04T16:04:42+08:00 ] 127.0.0.1 POST /index.php/callback/Aligreencallback/test
+[ info ] limiapp.com/index.php/callback/Aligreencallback/test [运行时间：0.546918s][吞吐率：1.83req/s] [内存消耗：2,393.53kb] [文件加载：44]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'callback',
+    1 => 'Aligreencallback',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '5000c816-d685-4138-a9c7-7c32912e55e0',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------019963971562513012577831',
+  'content-length' => '1127',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'title' => '测试发布说一句及哈哈哈',
+  'tags' => '美女',
+  'view_auth' => '1',
+  'music_id' => '2',
+  'video_addr' => 'cf2ef9af81b046b785a1f7ed045164a6',
+  'video_cover' => 'http://video.youhongtech.com/1b7c7ed99c134e62b40254891a96ef81/covers/8dace67c896a4ee4982902e0ff6c4d65-00002.jpg',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.321254s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000803s ]
+[ info ] [ RUN ] app\callback\controller\Aligreencallback->test[ D:\xampp\htdocs\limiapp\application\callback\controller\Aligreencallback.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.132307s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.087586s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.088573s ]
+---------------------------------------------------------------
+[ 2018-06-04T16:14:38+08:00 ] 127.0.0.1 POST /index.php/callback/Aligreencallback/test
+[ info ] limiapp.com/index.php/callback/Aligreencallback/test [运行时间：0.526335s][吞吐率：1.90req/s] [内存消耗：2,393.53kb] [文件加载：44]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'callback',
+    1 => 'Aligreencallback',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '2dcd30bf-89b6-4de9-a86d-6e5c34ad2786',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------393153335077232914422126',
+  'content-length' => '1127',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'title' => '测试发布说一句及哈哈哈',
+  'tags' => '美女',
+  'view_auth' => '1',
+  'music_id' => '2',
+  'video_addr' => 'cf2ef9af81b046b785a1f7ed045164a6',
+  'video_cover' => 'http://video.youhongtech.com/1b7c7ed99c134e62b40254891a96ef81/covers/8dace67c896a4ee4982902e0ff6c4d65-00002.jpg',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.318718s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000996s ]
+[ info ] [ RUN ] app\callback\controller\Aligreencallback->test[ D:\xampp\htdocs\limiapp\application\callback\controller\Aligreencallback.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.130892s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.088188s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.085676s ]
+---------------------------------------------------------------
+[ 2018-06-04T16:14:39+08:00 ] 127.0.0.1 POST /index.php/callback/Aligreencallback/test
+[ info ] limiapp.com/index.php/callback/Aligreencallback/test [运行时间：0.541284s][吞吐率：1.85req/s] [内存消耗：2,393.53kb] [文件加载：44]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'callback',
+    1 => 'Aligreencallback',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7d2c9b52-7877-4daa-8581-b733bc9572ee',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------034987130776907978967679',
+  'content-length' => '1127',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'title' => '测试发布说一句及哈哈哈',
+  'tags' => '美女',
+  'view_auth' => '1',
+  'music_id' => '2',
+  'video_addr' => 'cf2ef9af81b046b785a1f7ed045164a6',
+  'video_cover' => 'http://video.youhongtech.com/1b7c7ed99c134e62b40254891a96ef81/covers/8dace67c896a4ee4982902e0ff6c4d65-00002.jpg',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.324688s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000909s ]
+[ info ] [ RUN ] app\callback\controller\Aligreencallback->test[ D:\xampp\htdocs\limiapp\application\callback\controller\Aligreencallback.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.132125s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.087630s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.087704s ]
+---------------------------------------------------------------
+[ 2018-06-04T16:16:46+08:00 ] 127.0.0.1 POST /index.php/callback/Aligreencallback/test
+[ info ] limiapp.com/index.php/callback/Aligreencallback/test [运行时间：0.532296s][吞吐率：1.88req/s] [内存消耗：2,393.53kb] [文件加载：44]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'callback',
+    1 => 'Aligreencallback',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '6627c5cf-d64e-424a-99fd-86a7a56cf06e',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------154267348741736322326087',
+  'content-length' => '1127',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'title' => '测试发布说一句及哈哈哈',
+  'tags' => '美女',
+  'view_auth' => '1',
+  'music_id' => '2',
+  'video_addr' => 'cf2ef9af81b046b785a1f7ed045164a6',
+  'video_cover' => 'http://video.youhongtech.com/1b7c7ed99c134e62b40254891a96ef81/covers/8dace67c896a4ee4982902e0ff6c4d65-00002.jpg',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.310318s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000892s ]
+[ info ] [ RUN ] app\callback\controller\Aligreencallback->test[ D:\xampp\htdocs\limiapp\application\callback\controller\Aligreencallback.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.128620s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.084179s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.084845s ]
+---------------------------------------------------------------
+[ 2018-06-04T16:32:25+08:00 ] 127.0.0.1 POST /index.php/callback/Aligreencallback/test
+[ info ] limiapp.com/index.php/callback/Aligreencallback/test [运行时间：0.721342s][吞吐率：1.39req/s] [内存消耗：2,406.89kb] [文件加载：45]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'callback',
+    1 => 'Aligreencallback',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '07c228ed-1638-4ddf-bc11-37a6a3061ae7',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------782039234528453288432594',
+  'content-length' => '1127',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'title' => '测试发布说一句及哈哈哈',
+  'tags' => '美女',
+  'view_auth' => '1',
+  'music_id' => '2',
+  'video_addr' => 'cf2ef9af81b046b785a1f7ed045164a6',
+  'video_cover' => 'http://video.youhongtech.com/1b7c7ed99c134e62b40254891a96ef81/covers/8dace67c896a4ee4982902e0ff6c4d65-00002.jpg',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.321395s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001466s ]
+[ info ] [ RUN ] app\callback\controller\Aligreencallback->test[ D:\xampp\htdocs\limiapp\application\callback\controller\Aligreencallback.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.132194s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.087609s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.087812s ]
+---------------------------------------------------------------
+[ 2018-06-04T16:40:53+08:00 ] 127.0.0.1 POST /index.php/callback/Aligreencallback/test
+[ info ] limiapp.com/index.php/callback/Aligreencallback/test [运行时间：200.598756s][吞吐率：0.00req/s] [内存消耗：2,327.23kb] [文件加载：43]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'callback',
+    1 => 'Aligreencallback',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '3a81d896-d3dc-4787-8492-2e58969c754b',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------882125919963943583791890',
+  'content-length' => '1127',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'title' => '测试发布说一句及哈哈哈',
+  'tags' => '美女',
+  'view_auth' => '1',
+  'music_id' => '2',
+  'video_addr' => 'cf2ef9af81b046b785a1f7ed045164a6',
+  'video_cover' => 'http://video.youhongtech.com/1b7c7ed99c134e62b40254891a96ef81/covers/8dace67c896a4ee4982902e0ff6c4d65-00002.jpg',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.333136s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001011s ]
+[ info ] [ RUN ] app\callback\controller\Aligreencallback->test[ D:\xampp\htdocs\limiapp\application\callback\controller\Aligreencallback.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.140981s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.090896s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.086434s ]
+---------------------------------------------------------------
+[ 2018-06-04T16:41:27+08:00 ] 127.0.0.1 POST /index.php/callback/Aligreencallback/test
+[ info ] limiapp.com/index.php/callback/Aligreencallback/test [运行时间：31.311984s][吞吐率：0.03req/s] [内存消耗：2,326.39kb] [文件加载：43]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'callback',
+    1 => 'Aligreencallback',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b00fd74e-23a9-4832-8c6e-45de300a9b55',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------990125130174282106126838',
+  'content-length' => '1127',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'title' => '测试发布说一句及哈哈哈',
+  'tags' => '美女',
+  'view_auth' => '1',
+  'music_id' => '2',
+  'video_addr' => 'cf2ef9af81b046b785a1f7ed045164a6',
+  'video_cover' => 'http://video.youhongtech.com/1b7c7ed99c134e62b40254891a96ef81/covers/8dace67c896a4ee4982902e0ff6c4d65-00002.jpg',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:3.323039s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001277s ]
+[ info ] [ RUN ] app\callback\controller\Aligreencallback->test[ D:\xampp\htdocs\limiapp\application\callback\controller\Aligreencallback.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:3.136702s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.087279s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.086945s ]
+---------------------------------------------------------------
+[ 2018-06-04T16:41:38+08:00 ] 127.0.0.1 POST /index.php/callback/Aligreencallback/test
+[ info ] limiapp.com/index.php/callback/Aligreencallback/test [运行时间：8.743067s][吞吐率：0.11req/s] [内存消耗：2,410.59kb] [文件加载：45]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'callback',
+    1 => 'Aligreencallback',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '2e824e9d-7817-4b88-9d0f-0403431d8d54',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------071430519891694974476036',
+  'content-length' => '1127',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'title' => '测试发布说一句及哈哈哈',
+  'tags' => '美女',
+  'view_auth' => '1',
+  'music_id' => '2',
+  'video_addr' => 'cf2ef9af81b046b785a1f7ed045164a6',
+  'video_cover' => 'http://video.youhongtech.com/1b7c7ed99c134e62b40254891a96ef81/covers/8dace67c896a4ee4982902e0ff6c4d65-00002.jpg',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.306779s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001718s ]
+[ info ] [ RUN ] app\callback\controller\Aligreencallback->test[ D:\xampp\htdocs\limiapp\application\callback\controller\Aligreencallback.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.128743s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.082858s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.084281s ]
+---------------------------------------------------------------
+[ 2018-06-04T16:42:24+08:00 ] 127.0.0.1 POST /index.php/callback/Aligreencallback/test
+[ info ] limiapp.com/index.php/callback/Aligreencallback/test [运行时间：28.984197s][吞吐率：0.03req/s] [内存消耗：2,411.15kb] [文件加载：45]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'callback',
+    1 => 'Aligreencallback',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b59d1342-fa0e-45f9-bd9f-5e2df8b43c56',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------322321627023434753053618',
+  'content-length' => '1127',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'title' => '测试发布说一句及哈哈哈',
+  'tags' => '美女',
+  'view_auth' => '1',
+  'music_id' => '2',
+  'video_addr' => 'cf2ef9af81b046b785a1f7ed045164a6',
+  'video_cover' => 'http://video.youhongtech.com/1b7c7ed99c134e62b40254891a96ef81/covers/8dace67c896a4ee4982902e0ff6c4d65-00002.jpg',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.320201s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000859s ]
+[ info ] [ RUN ] app\callback\controller\Aligreencallback->test[ D:\xampp\htdocs\limiapp\application\callback\controller\Aligreencallback.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.132029s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.087479s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.087142s ]
+---------------------------------------------------------------
+[ 2018-06-04T16:44:23+08:00 ] 127.0.0.1 POST /index.php/callback/Aligreencallback/test
+[ info ] limiapp.com/index.php/callback/Aligreencallback/test [运行时间：93.518609s][吞吐率：0.01req/s] [内存消耗：2,326.39kb] [文件加载：43]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'callback',
+    1 => 'Aligreencallback',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '6a9f200f-a39d-4e00-9aa2-9eaaa1b7024b',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------891023255599216083033252',
+  'content-length' => '1127',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'title' => '测试发布说一句及哈哈哈',
+  'tags' => '美女',
+  'view_auth' => '1',
+  'music_id' => '2',
+  'video_addr' => 'cf2ef9af81b046b785a1f7ed045164a6',
+  'video_cover' => 'http://video.youhongtech.com/1b7c7ed99c134e62b40254891a96ef81/covers/8dace67c896a4ee4982902e0ff6c4d65-00002.jpg',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.321516s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000877s ]
+[ info ] [ RUN ] app\callback\controller\Aligreencallback->test[ D:\xampp\htdocs\limiapp\application\callback\controller\Aligreencallback.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.131989s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.088813s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.086349s ]
+---------------------------------------------------------------
+[ 2018-06-04T16:44:36+08:00 ] 127.0.0.1 POST /index.php/callback/Aligreencallback/test
+[ info ] limiapp.com/index.php/callback/Aligreencallback/test [运行时间：4.813379s][吞吐率：0.21req/s] [内存消耗：2,411.15kb] [文件加载：45]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'callback',
+    1 => 'Aligreencallback',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7d3aec36-12f0-45e4-aa4c-2c9beb2723ab',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------374767500151457017266430',
+  'content-length' => '1127',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'title' => '测试发布说一句及哈哈哈',
+  'tags' => '美女',
+  'view_auth' => '1',
+  'music_id' => '2',
+  'video_addr' => 'cf2ef9af81b046b785a1f7ed045164a6',
+  'video_cover' => 'http://video.youhongtech.com/1b7c7ed99c134e62b40254891a96ef81/covers/8dace67c896a4ee4982902e0ff6c4d65-00002.jpg',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.309500s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001824s ]
+[ info ] [ RUN ] app\callback\controller\Aligreencallback->test[ D:\xampp\htdocs\limiapp\application\callback\controller\Aligreencallback.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.126495s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.085068s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.083691s ]
+---------------------------------------------------------------
+[ 2018-06-04T16:45:56+08:00 ] 127.0.0.1 POST /index.php/callback/Aligreencallback/test
+[ info ] limiapp.com/index.php/callback/Aligreencallback/test [运行时间：10.558118s][吞吐率：0.09req/s] [内存消耗：2,410.86kb] [文件加载：45]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'callback',
+    1 => 'Aligreencallback',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '90990363-75ab-4019-8fca-a26ed26fc399',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------600430205252665773246779',
+  'content-length' => '1127',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'title' => '测试发布说一句及哈哈哈',
+  'tags' => '美女',
+  'view_auth' => '1',
+  'music_id' => '2',
+  'video_addr' => 'cf2ef9af81b046b785a1f7ed045164a6',
+  'video_cover' => 'http://video.youhongtech.com/1b7c7ed99c134e62b40254891a96ef81/covers/8dace67c896a4ee4982902e0ff6c4d65-00002.jpg',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.327017s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000758s ]
+[ info ] [ RUN ] app\callback\controller\Aligreencallback->test[ D:\xampp\htdocs\limiapp\application\callback\controller\Aligreencallback.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.135372s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.087640s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.087291s ]
+---------------------------------------------------------------
+[ 2018-06-04T16:46:20+08:00 ] 127.0.0.1 POST /index.php/callback/Aligreencallback/test
+[ info ] limiapp.com/index.php/callback/Aligreencallback/test [运行时间：4.755148s][吞吐率：0.21req/s] [内存消耗：2,326.05kb] [文件加载：43]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'callback',
+    1 => 'Aligreencallback',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c174c3b3-b127-41d7-9131-f2a1884ee5cc',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------317893278839773014331400',
+  'content-length' => '1127',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'title' => '测试发布说一句及哈哈哈',
+  'tags' => '美女',
+  'view_auth' => '1',
+  'music_id' => '2',
+  'video_addr' => 'cf2ef9af81b046b785a1f7ed045164a6',
+  'video_cover' => 'http://video.youhongtech.com/1b7c7ed99c134e62b40254891a96ef81/covers/8dace67c896a4ee4982902e0ff6c4d65-00002.jpg',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.322319s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001663s ]
+[ info ] [ RUN ] app\callback\controller\Aligreencallback->test[ D:\xampp\htdocs\limiapp\application\callback\controller\Aligreencallback.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.133221s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.086550s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.089097s ]
+---------------------------------------------------------------
+[ 2018-06-04T16:46:46+08:00 ] 127.0.0.1 POST /index.php/callback/Aligreencallback/test
+[ info ] limiapp.com/index.php/callback/Aligreencallback/test [运行时间：3.287078s][吞吐率：0.30req/s] [内存消耗：2,324.83kb] [文件加载：43]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'callback',
+    1 => 'Aligreencallback',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a7278ccc-7e3d-426b-bfff-ea2091fda287',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------558110110597617974834687',
+  'content-length' => '1127',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'title' => '测试发布说一句及哈哈哈',
+  'tags' => '美女',
+  'view_auth' => '1',
+  'music_id' => '2',
+  'video_addr' => 'cf2ef9af81b046b785a1f7ed045164a6',
+  'video_cover' => 'http://video.youhongtech.com/1b7c7ed99c134e62b40254891a96ef81/covers/8dace67c896a4ee4982902e0ff6c4d65-00002.jpg',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.327158s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001282s ]
+[ info ] [ RUN ] app\callback\controller\Aligreencallback->test[ D:\xampp\htdocs\limiapp\application\callback\controller\Aligreencallback.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.133326s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.088555s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.088175s ]
+---------------------------------------------------------------
+[ 2018-06-04T16:49:02+08:00 ] 127.0.0.1 POST /index.php/callback/Aligreencallback/test
+[ info ] limiapp.com/index.php/callback/Aligreencallback/test [运行时间：15.312957s][吞吐率：0.07req/s] [内存消耗：2,409.73kb] [文件加载：45]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'callback',
+    1 => 'Aligreencallback',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '73a1fab8-d7c2-4b0e-a163-940e39251171',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------620091079127201077620632',
+  'content-length' => '1127',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'title' => '测试发布说一句及哈哈哈',
+  'tags' => '美女',
+  'view_auth' => '1',
+  'music_id' => '2',
+  'video_addr' => 'cf2ef9af81b046b785a1f7ed045164a6',
+  'video_cover' => 'http://video.youhongtech.com/1b7c7ed99c134e62b40254891a96ef81/covers/8dace67c896a4ee4982902e0ff6c4d65-00002.jpg',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.315237s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001049s ]
+[ info ] [ RUN ] app\callback\controller\Aligreencallback->test[ D:\xampp\htdocs\limiapp\application\callback\controller\Aligreencallback.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.127969s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.084614s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.084512s ]
+---------------------------------------------------------------
+[ 2018-06-04T16:49:29+08:00 ] 127.0.0.1 POST /index.php/callback/Aligreencallback/test
+[ info ] limiapp.com/index.php/callback/Aligreencallback/test [运行时间：8.664496s][吞吐率：0.12req/s] [内存消耗：2,409.73kb] [文件加载：45]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'callback',
+    1 => 'Aligreencallback',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '6191307f-cbc4-4480-8529-5ca93420898a',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------169415592561220885672972',
+  'content-length' => '1127',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'title' => '测试发布说一句及哈哈哈',
+  'tags' => '美女',
+  'view_auth' => '1',
+  'music_id' => '2',
+  'video_addr' => 'cf2ef9af81b046b785a1f7ed045164a6',
+  'video_cover' => 'http://video.youhongtech.com/1b7c7ed99c134e62b40254891a96ef81/covers/8dace67c896a4ee4982902e0ff6c4d65-00002.jpg',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.309510s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000752s ]
+[ info ] [ RUN ] app\callback\controller\Aligreencallback->test[ D:\xampp\htdocs\limiapp\application\callback\controller\Aligreencallback.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.127540s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.084288s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.083738s ]
+---------------------------------------------------------------
+[ 2018-06-04T16:55:44+08:00 ] 127.0.0.1 POST /index.php/callback/Aligreencallback/test
+[ info ] limiapp.com/index.php/callback/Aligreencallback/test [运行时间：64.593092s][吞吐率：0.02req/s] [内存消耗：2,329.15kb] [文件加载：43]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'callback',
+    1 => 'Aligreencallback',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '1bcd1815-f694-4d7f-a6c9-2457da046a08',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------725745218465703865395208',
+  'content-length' => '1127',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'title' => '测试发布说一句及哈哈哈',
+  'tags' => '美女',
+  'view_auth' => '1',
+  'music_id' => '2',
+  'video_addr' => 'cf2ef9af81b046b785a1f7ed045164a6',
+  'video_cover' => 'http://video.youhongtech.com/1b7c7ed99c134e62b40254891a96ef81/covers/8dace67c896a4ee4982902e0ff6c4d65-00002.jpg',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.324339s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000972s ]
+[ info ] [ RUN ] app\callback\controller\Aligreencallback->test[ D:\xampp\htdocs\limiapp\application\callback\controller\Aligreencallback.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.134709s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.087658s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.086802s ]
+---------------------------------------------------------------
+[ 2018-06-04T16:55:52+08:00 ] 127.0.0.1 POST /index.php/callback/Aligreencallback/test
+[ info ] limiapp.com/index.php/callback/Aligreencallback/test [运行时间：2.208708s][吞吐率：0.45req/s] [内存消耗：2,466.02kb] [文件加载：49]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'callback',
+    1 => 'Aligreencallback',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '026ca0d9-b398-49fe-ad0b-f19bfb574646',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------599472377159955273614457',
+  'content-length' => '1127',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'title' => '测试发布说一句及哈哈哈',
+  'tags' => '美女',
+  'view_auth' => '1',
+  'music_id' => '2',
+  'video_addr' => 'cf2ef9af81b046b785a1f7ed045164a6',
+  'video_cover' => 'http://video.youhongtech.com/1b7c7ed99c134e62b40254891a96ef81/covers/8dace67c896a4ee4982902e0ff6c4d65-00002.jpg',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.321749s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001709s ]
+[ info ] [ RUN ] app\callback\controller\Aligreencallback->test[ D:\xampp\htdocs\limiapp\application\callback\controller\Aligreencallback.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.132575s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.086756s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.088667s ]
+[ error ] [8]未定义数组下标: 0[D:\xampp\htdocs\limiapp\application\com\controller\Redis.php:74]
+---------------------------------------------------------------
+[ 2018-06-04T16:56:24+08:00 ] 127.0.0.1 POST /index.php/callback/Aligreencallback/test
+[ info ] limiapp.com/index.php/callback/Aligreencallback/test [运行时间：9.478740s][吞吐率：0.11req/s] [内存消耗：2,411.49kb] [文件加载：45]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'callback',
+    1 => 'Aligreencallback',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'fcd5d832-9cb7-435b-b724-ebf1cb319c29',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------802916628572600655358127',
+  'content-length' => '1127',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'title' => '测试发布说一句及哈哈哈',
+  'tags' => '美女',
+  'view_auth' => '1',
+  'music_id' => '2',
+  'video_addr' => 'cf2ef9af81b046b785a1f7ed045164a6',
+  'video_cover' => 'http://video.youhongtech.com/1b7c7ed99c134e62b40254891a96ef81/covers/8dace67c896a4ee4982902e0ff6c4d65-00002.jpg',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.305911s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000766s ]
+[ info ] [ RUN ] app\callback\controller\Aligreencallback->test[ D:\xampp\htdocs\limiapp\application\callback\controller\Aligreencallback.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.126851s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.082374s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.084330s ]
+---------------------------------------------------------------
+[ 2018-06-04T19:28:18+08:00 ] 127.0.0.1 POST /index.php/app1_4/publish/publishVideo
+[ info ] limiapp.com/index.php/app1_4/publish/publishVideo [运行时间：0.376617s][吞吐率：2.66req/s] [内存消耗：2,447.07kb] [文件加载：50]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'publish',
+    2 => 'publishVideo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd3d4279d-070c-4eaa-bf35-0ed418c9b41a',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------111541353259209634287917',
+  'content-length' => '1328',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'title' => '测试发布说一句',
+  'tags' => '美女',
+  'view_auth' => '1',
+  'music_id' => '2',
+  'music_start' => '',
+  'music_end' => '',
+  'video' => '1b7c7ed99c134e62b40254891a96ef81',
+  'video_cover' => 'http://video.youhongtech.com/1b7c7ed99c134e62b40254891a96ef81/covers/8dace67c896a4ee4982902e0ff6c4d65-00002.jpg',
+  'publish' => 'publishVideo',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.311384s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001303s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.129476s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.085181s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.082706s ]
+---------------------------------------------------------------
+[ 2018-06-04T19:29:20+08:00 ] 127.0.0.1 POST /index.php/app1_4/video/publishVideo
+[ info ] limiapp.com/index.php/app1_4/video/publishVideo [运行时间：0.733936s][吞吐率：1.36req/s] [内存消耗：3,360.52kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'publishVideo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '0d50da26-8a4e-4a41-bc56-fd49f873c161',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------676939694714213816190909',
+  'content-length' => '1328',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'title' => '测试发布说一句',
+  'tags' => '美女',
+  'view_auth' => '1',
+  'music_id' => '2',
+  'music_start' => '',
+  'music_end' => '',
+  'video' => 'publishVideo',
+  'video_cover' => 'http://video.youhongtech.com/1b7c7ed99c134e62b40254891a96ef81/covers/8dace67c896a4ee4982902e0ff6c4d65-00002.jpg',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.310284s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001618s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.180265s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->publishVideo[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.127773s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.083309s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.085392s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.085007s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.084795s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.084233s ]
+[ sql ] [ SQL ] SELECT `user_info_status`,`identity_status`,`identity_time` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.082954s ]
+---------------------------------------------------------------
+[ 2018-06-04T19:29:37+08:00 ] 127.0.0.1 POST /index.php/app1_4/video/publishVideo
+[ info ] limiapp.com/index.php/app1_4/video/publishVideo [运行时间：2.181538s][吞吐率：0.46req/s] [内存消耗：3,402.28kb] [文件加载：56]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'publishVideo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd6f28b6a-3c80-4b9a-b7a3-caaac56d1bf4',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------759035064884716424333886',
+  'content-length' => '1333',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => '1d4f9067421ea4a1e7b70c72aab2509287a2cfe3',
+  'title' => '测试发布说一句',
+  'tags' => '美女',
+  'view_auth' => '1',
+  'music_id' => '2',
+  'music_start' => '',
+  'music_end' => '',
+  'video_addr' => '1b7c7ed99c134e62b40254891a96ef81',
+  'video_cover' => 'http://video.youhongtech.com/1b7c7ed99c134e62b40254891a96ef81/covers/8dace67c896a4ee4982902e0ff6c4d65-00002.jpg',
+  'video' => 'publishVideo',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.337963s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001339s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.181365s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->publishVideo[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.132148s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.086554s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.108149s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.087551s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.087518s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.086571s ]
+[ sql ] [ SQL ] SELECT `user_info_status`,`identity_status`,`identity_time` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.087474s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_video` [ RunTime:0.088964s ]
+[ sql ] [ SQL ] SELECT `create_time` FROM `limi_video` WHERE  `user_id` = 1 ORDER BY id desc LIMIT 1  FOR UPDATE [ RunTime:0.086770s ]
+[ sql ] [ SQL ] INSERT INTO `limi_video` (`user_id` , `tags` , `video` , `title` , `view_auth` , `music_id` , `music_start` , `music_end` , `is_show` , `is_verify` , `create_time`) VALUES (1 , '美女' , '1b7c7ed99c134e62b40254891a96ef81' , '测试发布说一句' , 1 , 1 , '' , '' , 1 , 1 , '2018-06-04 19:29:35') [ RunTime:0.087609s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_video` WHERE  `id` = 1283 LIMIT 1 [ RunTime:0.088455s ]
+---------------------------------------------------------------
+[ 2018-06-04T19:44:54+08:00 ] 127.0.0.1 POST /index.php/app1_4/video/getStsAuth
+[ info ] limiapp.com/index.php/app1_4/video/getStsAuth [运行时间：0.965523s][吞吐率：1.04req/s] [内存消耗：3,944.82kb] [文件加载：75]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'getStsAuth',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '1cf36d92-0c71-43cc-964a-c0e2ecd1a994',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------996595938282075923304798',
+  'content-length' => '161',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1278',
+  'video' => 'getStsAuth',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.322201s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000960s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.180355s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->getStsAuth[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.132317s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.087927s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.086576s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.087715s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1278 LIMIT 1 [ RunTime:0.087321s ]

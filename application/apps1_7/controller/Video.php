@@ -34,6 +34,7 @@ class Video extends Common
             apiError('请求页码有误');
             return;
         }
+
         if(!$time){
             return apiError('时间不能为空');
         }
