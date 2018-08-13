@@ -1,0 +1,1990 @@
+---------------------------------------------------------------
+[ 2018-07-05T09:47:05+08:00 ] 127.0.0.1 GET /index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=1&m_id=0
+[ info ] limiapp.com/index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=1&m_id=0 [运行时间：0.848048s][吞吐率：1.18req/s] [内存消耗：3,167.18kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Music',
+    2 => 'musicList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '40078420-69ee-4e03-873e-c5e57faec628',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'id' => '3',
+  'token' => 'd8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7',
+  'type' => '1',
+  'm_id' => '0',
+  'Music' => 'musicList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.281016s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.151009s ]
+[ info ] [ RUN ] app\apps1_5\controller\Music->musicList[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Music.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-05T09:50:25+08:00 ] 127.0.0.1 GET /index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=1&m_id=0
+[ info ] limiapp.com/index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=1&m_id=0 [运行时间：1.441082s][吞吐率：0.69req/s] [内存消耗：3,153.25kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Music',
+    2 => 'musicList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '98b66935-19fb-4549-a9ab-d2c85f6b836d',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'id' => '3',
+  'token' => 'd8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7',
+  'type' => '1',
+  'm_id' => '0',
+  'Music' => 'musicList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.278016s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.163009s ]
+[ info ] [ RUN ] app\apps1_5\controller\Music->musicList[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Music.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-05T09:50:49+08:00 ] 127.0.0.1 GET /index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=1&m_id=0
+[ info ] limiapp.com/index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=1&m_id=0 [运行时间：1.499086s][吞吐率：0.67req/s] [内存消耗：3,153.30kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Music',
+    2 => 'musicList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '04f1c31e-ff46-4aed-8220-daf91700296c',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'id' => '3',
+  'token' => 'd8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7',
+  'type' => '1',
+  'm_id' => '0',
+  'Music' => 'musicList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.293017s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.172010s ]
+[ info ] [ RUN ] app\apps1_5\controller\Music->musicList[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Music.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-05T09:52:05+08:00 ] 127.0.0.1 GET /index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=1&m_id=0
+[ info ] limiapp.com/index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=1&m_id=0 [运行时间：0.971056s][吞吐率：1.03req/s] [内存消耗：3,159.04kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Music',
+    2 => 'musicList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e8277b2e-e86e-4e33-881f-c0204b6fdefa',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'id' => '3',
+  'token' => 'd8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7',
+  'type' => '1',
+  'm_id' => '0',
+  'Music' => 'musicList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.303017s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.174010s ]
+[ info ] [ RUN ] app\apps1_5\controller\Music->musicList[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Music.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-05T09:52:13+08:00 ] 127.0.0.1 GET /index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=1&m_id=2
+[ info ] limiapp.com/index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=1&m_id=2 [运行时间：1.159066s][吞吐率：0.86req/s] [内存消耗：3,164.73kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Music',
+    2 => 'musicList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '1d08550d-6497-4c1f-a5d8-2991b770e21b',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'id' => '3',
+  'token' => 'd8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7',
+  'type' => '1',
+  'm_id' => '2',
+  'Music' => 'musicList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.305017s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.178010s ]
+[ info ] [ RUN ] app\apps1_5\controller\Music->musicList[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Music.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-05T09:53:35+08:00 ] 127.0.0.1 GET /index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=1&m_id=2
+[ info ] limiapp.com/index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=1&m_id=2 [运行时间：1.032059s][吞吐率：0.97req/s] [内存消耗：3,165.07kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Music',
+    2 => 'musicList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '0b532e8f-de8e-47e9-a43e-f7811e7d57b3',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'id' => '3',
+  'token' => 'd8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7',
+  'type' => '1',
+  'm_id' => '2',
+  'Music' => 'musicList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.267015s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.162009s ]
+[ info ] [ RUN ] app\apps1_5\controller\Music->musicList[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Music.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-05T10:01:49+08:00 ] 127.0.0.1 GET /index.php/app1_5/music/musicType
+[ info ] limiapp.com/index.php/app1_5/music/musicType [运行时间：0.382022s][吞吐率：2.62req/s] [内存消耗：3,129.27kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'music',
+    2 => 'musicType',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ff55e131-9198-4412-8904-ba01041f0bf5',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'music' => 'musicType',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.305018s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.002000s ]
+[ info ] [ RUN ] app\apps1_5\controller\Music->musicType[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Music.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-05T10:02:52+08:00 ] 127.0.0.1 GET /index.php/app1_5/music/musicType
+[ info ] limiapp.com/index.php/app1_5/music/musicType [运行时间：0.350020s][吞吐率：2.86req/s] [内存消耗：3,129.48kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'music',
+    2 => 'musicType',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'dc4487e4-8486-4e5d-b3ca-4fd7217c5564',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'music' => 'musicType',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.277015s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\apps1_5\controller\Music->musicType[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Music.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-05T10:06:46+08:00 ] 127.0.0.1 GET /index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=1&m_id=2
+[ info ] limiapp.com/index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=1&m_id=2 [运行时间：0.673038s][吞吐率：1.49req/s] [内存消耗：3,205.51kb] [文件加载：59]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Music',
+    2 => 'musicList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f3dc2fa0-caa3-49c6-a2ee-9a9e43835750',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'id' => '3',
+  'token' => 'd8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7',
+  'type' => '1',
+  'm_id' => '2',
+  'Music' => 'musicList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.305018s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.177010s ]
+[ info ] [ RUN ] app\apps1_5\controller\Music->musicList[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Music.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: id[D:\xampp\htdocs\limiapp\application\apps1_5\controller\Music.php:120]
+---------------------------------------------------------------
+[ 2018-07-05T10:08:58+08:00 ] 127.0.0.1 GET /index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=1&m_id=2
+[ info ] limiapp.com/index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=1&m_id=2 [运行时间：1.000058s][吞吐率：1.00req/s] [内存消耗：3,158.43kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Music',
+    2 => 'musicList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '3edf3344-a66f-48fa-ba56-9853ffbfd58f',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'id' => '3',
+  'token' => 'd8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7',
+  'type' => '1',
+  'm_id' => '2',
+  'Music' => 'musicList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.305018s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.178010s ]
+[ info ] [ RUN ] app\apps1_5\controller\Music->musicList[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Music.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-05T10:09:19+08:00 ] 127.0.0.1 GET /index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=0&m_id=0
+[ info ] limiapp.com/index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=0&m_id=0 [运行时间：1.035059s][吞吐率：0.97req/s] [内存消耗：3,165.79kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Music',
+    2 => 'musicList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '49772246-a233-4ebb-bd35-a0cdd0f109bc',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'id' => '3',
+  'token' => 'd8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7',
+  'type' => '0',
+  'm_id' => '0',
+  'Music' => 'musicList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.292016s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.172010s ]
+[ info ] [ RUN ] app\apps1_5\controller\Music->musicList[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Music.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-05T10:09:56+08:00 ] 127.0.0.1 GET /index.php/app1_5/Music/musicList?page=1&type=1&m_id=2
+[ info ] limiapp.com/index.php/app1_5/Music/musicList?page=1&type=1&m_id=2 [运行时间：0.705041s][吞吐率：1.42req/s] [内存消耗：3,140.56kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Music',
+    2 => 'musicList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7337acfa-dc26-410b-9621-364d7886801c',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'type' => '1',
+  'm_id' => '2',
+  'Music' => 'musicList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.264015s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\apps1_5\controller\Music->musicList[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Music.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-05T10:10:22+08:00 ] 127.0.0.1 GET /index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=1&m_id=2
+[ info ] limiapp.com/index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=1&m_id=2 [运行时间：0.898051s][吞吐率：1.11req/s] [内存消耗：3,158.43kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Music',
+    2 => 'musicList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b20479e7-c93b-4591-a763-365d2fa0d7ab',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'id' => '3',
+  'token' => 'd8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7',
+  'type' => '1',
+  'm_id' => '2',
+  'Music' => 'musicList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.277015s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001001s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.163009s ]
+[ info ] [ RUN ] app\apps1_5\controller\Music->musicList[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Music.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-05T10:10:39+08:00 ] 127.0.0.1 GET /index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=0&m_id=0
+[ info ] limiapp.com/index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=0&m_id=0 [运行时间：0.951054s][吞吐率：1.05req/s] [内存消耗：3,165.79kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Music',
+    2 => 'musicList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '29324f12-bed1-4fc0-9588-3c1bae7abce0',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'id' => '3',
+  'token' => 'd8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7',
+  'type' => '0',
+  'm_id' => '0',
+  'Music' => 'musicList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.268016s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.157009s ]
+[ info ] [ RUN ] app\apps1_5\controller\Music->musicList[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Music.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-05T10:11:01+08:00 ] 127.0.0.1 GET /index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=1&m_id=2
+[ info ] limiapp.com/index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=1&m_id=2 [运行时间：0.882051s][吞吐率：1.13req/s] [内存消耗：3,158.43kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Music',
+    2 => 'musicList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '5bdbdb14-d0e1-43dd-bdd8-0896fc1f8eee',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'id' => '3',
+  'token' => 'd8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7',
+  'type' => '1',
+  'm_id' => '2',
+  'Music' => 'musicList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.268015s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.155008s ]
+[ info ] [ RUN ] app\apps1_5\controller\Music->musicList[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Music.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-05T10:14:08+08:00 ] 127.0.0.1 GET /index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=1&m_id=2
+[ info ] limiapp.com/index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=1&m_id=2 [运行时间：96.175501s][吞吐率：0.01req/s] [内存消耗：3,079.59kb] [文件加载：53]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Music',
+    2 => 'musicList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'df202424-a2a7-4a44-bea5-d019d20d1262',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'id' => '3',
+  'token' => 'd8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7',
+  'type' => '1',
+  'm_id' => '2',
+  'Music' => 'musicList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.268015s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.159009s ]
+[ info ] [ RUN ] app\apps1_5\controller\Music->musicList[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Music.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-05T10:16:11+08:00 ] 127.0.0.1 GET /index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=1&m_id=2
+[ info ] limiapp.com/index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=1&m_id=2 [运行时间：19.444112s][吞吐率：0.05req/s] [内存消耗：3,193.63kb] [文件加载：59]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Music',
+    2 => 'musicList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b84fa4cb-9200-4fcc-a195-83374a962162',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'id' => '3',
+  'token' => 'd8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7',
+  'type' => '1',
+  'm_id' => '2',
+  'Music' => 'musicList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.294017s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.172010s ]
+[ info ] [ RUN ] app\apps1_5\controller\Music->musicList[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Music.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]PDO::prepare(): MySQL server has gone away[D:\xampp\htdocs\limiapp\thinkphp\library\think\db\Connection.php:368]
+---------------------------------------------------------------
+[ 2018-07-05T10:16:12+08:00 ] 127.0.0.1 GET /index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=1&m_id=2
+[ info ] limiapp.com/index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=1&m_id=2 [运行时间：0.868050s][吞吐率：1.15req/s] [内存消耗：3,158.39kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Music',
+    2 => 'musicList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'cbb181a9-7ae9-4102-8d7e-7d54a9dd6373',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'id' => '3',
+  'token' => 'd8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7',
+  'type' => '1',
+  'm_id' => '2',
+  'Music' => 'musicList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.269016s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.156009s ]
+[ info ] [ RUN ] app\apps1_5\controller\Music->musicList[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Music.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-05T10:54:49+08:00 ] 192.168.0.108 GET /
+[ info ] 192.168.0.110/ [运行时间：0.336019s][吞吐率：2.98req/s] [内存消耗：2,413.54kb] [文件加载：46]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 5.1; Trident/5.0)',
+  'host' => '192.168.0.110',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'pragma' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.264015s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-05T12:09:56+08:00 ] 127.0.0.1 GET /index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=0&m_id=1
+[ info ] limiapp.com/index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=0&m_id=1 [运行时间：0.733042s][吞吐率：1.36req/s] [内存消耗：3,150.76kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Music',
+    2 => 'musicList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'bee942a3-2d8b-4c89-9e0e-e6c0ba5f34e7',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'id' => '3',
+  'token' => 'd8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7',
+  'type' => '0',
+  'm_id' => '1',
+  'Music' => 'musicList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.307018s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.178010s ]
+[ info ] [ RUN ] app\apps1_5\controller\Music->musicList[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Music.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-05T14:03:14+08:00 ] 127.0.0.1 GET /index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=0&m_id=1
+[ info ] limiapp.com/index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=0&m_id=1 [运行时间：0.793045s][吞吐率：1.26req/s] [内存消耗：3,156.09kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Music',
+    2 => 'musicList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '5e400c5c-b883-4c5f-b9d4-3e8c93213aa9',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'id' => '3',
+  'token' => 'd8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7',
+  'type' => '0',
+  'm_id' => '1',
+  'Music' => 'musicList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.267016s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.155009s ]
+[ info ] [ RUN ] app\apps1_5\controller\Music->musicList[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Music.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-05T14:04:14+08:00 ] 127.0.0.1 GET /index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=0&m_id=1
+[ info ] limiapp.com/index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=0&m_id=1 [运行时间：0.820047s][吞吐率：1.22req/s] [内存消耗：3,156.09kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Music',
+    2 => 'musicList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '13086b04-2842-4c79-981c-aac76199d35f',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'id' => '3',
+  'token' => 'd8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7',
+  'type' => '0',
+  'm_id' => '1',
+  'Music' => 'musicList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.267016s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.157009s ]
+[ info ] [ RUN ] app\apps1_5\controller\Music->musicList[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Music.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-05T14:04:37+08:00 ] 127.0.0.1 GET /index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=0&m_id=1
+[ info ] limiapp.com/index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=0&m_id=1 [运行时间：0.965055s][吞吐率：1.04req/s] [内存消耗：3,158.91kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Music',
+    2 => 'musicList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ccdf6bd4-0275-4f9e-b89c-51e1e14f73b8',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'id' => '3',
+  'token' => 'd8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7',
+  'type' => '0',
+  'm_id' => '1',
+  'Music' => 'musicList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.296017s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.174010s ]
+[ info ] [ RUN ] app\apps1_5\controller\Music->musicList[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Music.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-05T14:08:42+08:00 ] 127.0.0.1 GET /index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=0&m_id=1
+[ info ] limiapp.com/index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=0&m_id=1 [运行时间：0.938053s][吞吐率：1.07req/s] [内存消耗：3,158.91kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Music',
+    2 => 'musicList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '442b5347-687e-4ae2-b8ea-a905bbe52809',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'id' => '3',
+  'token' => 'd8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7',
+  'type' => '0',
+  'm_id' => '1',
+  'Music' => 'musicList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.280016s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.169009s ]
+[ info ] [ RUN ] app\apps1_5\controller\Music->musicList[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Music.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-05T14:14:14+08:00 ] 127.0.0.1 GET /index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=0&m_id=0
+[ info ] limiapp.com/index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=0&m_id=0 [运行时间：1.183068s][吞吐率：0.85req/s] [内存消耗：3,162.43kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Music',
+    2 => 'musicList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'fecf9b9d-94ec-4893-942d-579269d6e6fc',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'id' => '3',
+  'token' => 'd8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7',
+  'type' => '0',
+  'm_id' => '0',
+  'Music' => 'musicList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.277016s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.159009s ]
+[ info ] [ RUN ] app\apps1_5\controller\Music->musicList[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Music.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-05T14:14:32+08:00 ] 127.0.0.1 GET /index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=0&m_id=0
+[ info ] limiapp.com/index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=0&m_id=0 [运行时间：1.243071s][吞吐率：0.80req/s] [内存消耗：3,162.09kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Music',
+    2 => 'musicList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '2dc09aa6-5057-4024-a2e2-86c1cfc02c95',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'id' => '3',
+  'token' => 'd8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7',
+  'type' => '0',
+  'm_id' => '0',
+  'Music' => 'musicList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.293017s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.168009s ]
+[ info ] [ RUN ] app\apps1_5\controller\Music->musicList[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Music.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-05T14:14:57+08:00 ] 127.0.0.1 GET /index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=0&m_id=0
+[ info ] limiapp.com/index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=0&m_id=0 [运行时间：1.273073s][吞吐率：0.79req/s] [内存消耗：3,162.09kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Music',
+    2 => 'musicList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a7257a6d-f2f5-4a5d-bd26-297c9913990d',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'id' => '3',
+  'token' => 'd8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7',
+  'type' => '0',
+  'm_id' => '0',
+  'Music' => 'musicList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.306018s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.173010s ]
+[ info ] [ RUN ] app\apps1_5\controller\Music->musicList[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Music.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-05T14:23:40+08:00 ] 127.0.0.1 GET /index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=0&m_id=0
+[ info ] limiapp.com/index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=0&m_id=0 [运行时间：1.100063s][吞吐率：0.91req/s] [内存消耗：3,162.39kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Music',
+    2 => 'musicList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '992377e8-73d2-4118-b6eb-11834e22e76d',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'id' => '3',
+  'token' => 'd8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7',
+  'type' => '0',
+  'm_id' => '0',
+  'Music' => 'musicList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.314018s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.179011s ]
+[ info ] [ RUN ] app\apps1_5\controller\Music->musicList[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Music.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-05T14:23:52+08:00 ] 127.0.0.1 GET /index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=0&m_id=0
+[ info ] limiapp.com/index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=0&m_id=0 [运行时间：1.259072s][吞吐率：0.79req/s] [内存消耗：3,162.41kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Music',
+    2 => 'musicList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e32bd779-e426-4e4e-828b-9b01f7acb2de',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'id' => '3',
+  'token' => 'd8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7',
+  'type' => '0',
+  'm_id' => '0',
+  'Music' => 'musicList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.301018s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.170010s ]
+[ info ] [ RUN ] app\apps1_5\controller\Music->musicList[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Music.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-05T14:25:39+08:00 ] 127.0.0.1 GET /index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=0&m_id=0
+[ info ] limiapp.com/index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=0&m_id=0 [运行时间：1.135065s][吞吐率：0.88req/s] [内存消耗：3,162.09kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Music',
+    2 => 'musicList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '4c969124-e1d4-40ad-84eb-23a31138985e',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'id' => '3',
+  'token' => 'd8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7',
+  'type' => '0',
+  'm_id' => '0',
+  'Music' => 'musicList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.265015s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.151009s ]
+[ info ] [ RUN ] app\apps1_5\controller\Music->musicList[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Music.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-05T14:25:46+08:00 ] 127.0.0.1 GET /index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=0&m_id=0
+[ info ] limiapp.com/index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=0&m_id=0 [运行时间：21.511230s][吞吐率：0.05req/s] [内存消耗：2,398.22kb] [文件加载：44]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Music',
+    2 => 'musicList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '2680274f-212f-4471-b2b8-c50ad2795703',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'id' => '3',
+  'token' => 'd8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7',
+  'type' => '0',
+  'm_id' => '0',
+  'Music' => 'musicList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] �������ӷ���һ��ʱ���û����ȷ�𸴻����ӵ�����û�з�Ӧ�����ӳ���ʧ�ܡ�
+[D:\xampp\htdocs\limiapp\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2018-07-05T14:26:28+08:00 ] 127.0.0.1 GET /index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=0&m_id=0
+[ info ] limiapp.com/index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=0&m_id=0 [运行时间：1.208069s][吞吐率：0.83req/s] [内存消耗：3,162.41kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Music',
+    2 => 'musicList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '95cee056-045b-4469-bee5-d680b5dd0d54',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'id' => '3',
+  'token' => 'd8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7',
+  'type' => '0',
+  'm_id' => '0',
+  'Music' => 'musicList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.289016s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.166009s ]
+[ info ] [ RUN ] app\apps1_5\controller\Music->musicList[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Music.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-05T14:26:49+08:00 ] 127.0.0.1 GET /index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=0&m_id=0
+[ info ] limiapp.com/index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=0&m_id=0 [运行时间：1.091063s][吞吐率：0.92req/s] [内存消耗：3,155.01kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Music',
+    2 => 'musicList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '6c4f7854-23bd-4b99-bb40-c234e56cfc25',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'id' => '3',
+  'token' => 'd8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7',
+  'type' => '0',
+  'm_id' => '0',
+  'Music' => 'musicList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.301017s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.173010s ]
+[ info ] [ RUN ] app\apps1_5\controller\Music->musicList[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Music.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-05T14:30:31+08:00 ] 127.0.0.1 GET /index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=0&m_id=2
+[ info ] limiapp.com/index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=0&m_id=2 [运行时间：2.250128s][吞吐率：0.44req/s] [内存消耗：3,204.83kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Music',
+    2 => 'musicList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f1c7c1cd-06fb-414a-9094-7d0d473795eb',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'id' => '3',
+  'token' => 'd8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7',
+  'type' => '0',
+  'm_id' => '2',
+  'Music' => 'musicList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.264015s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.153009s ]
+[ info ] [ RUN ] app\apps1_5\controller\Music->musicList[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Music.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-05T14:32:21+08:00 ] 127.0.0.1 POST /index.php/app1_5/Music/musicCollect
+[ info ] limiapp.com/index.php/app1_5/Music/musicCollect [运行时间：1.136065s][吞吐率：0.88req/s] [内存消耗：3,157.94kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Music',
+    2 => 'musicCollect',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a7fadc20-64ac-4652-b996-9dadd4e34600',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------487882524974304719021795',
+  'content-length' => '521',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+  'token' => 'd8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7',
+  'music_id' => '26',
+  'music_type' => '0',
+  'Music' => 'musicCollect',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.291016s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.165009s ]
+[ info ] [ RUN ] app\apps1_5\controller\Music->musicCollect[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Music.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-05T14:47:51+08:00 ] 127.0.0.1 POST /index.php/app1_5/Music/musicCollect
+[ info ] limiapp.com/index.php/app1_5/Music/musicCollect [运行时间：1.225071s][吞吐率：0.82req/s] [内存消耗：3,157.94kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Music',
+    2 => 'musicCollect',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ae5367ba-421c-43d1-9939-684504ef6f15',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------218596139360662733946857',
+  'content-length' => '520',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+  'token' => 'd8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7',
+  'music_id' => '3',
+  'music_type' => '1',
+  'Music' => 'musicCollect',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.306018s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.181010s ]
+[ info ] [ RUN ] app\apps1_5\controller\Music->musicCollect[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Music.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-05T14:48:03+08:00 ] 127.0.0.1 GET /index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=0&m_id=0
+[ info ] limiapp.com/index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=0&m_id=0 [运行时间：2.254129s][吞吐率：0.44req/s] [内存消耗：3,168.01kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Music',
+    2 => 'musicList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c737bc2f-c3e8-4968-b7d6-3b2709e71c1f',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'id' => '3',
+  'token' => 'd8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7',
+  'type' => '0',
+  'm_id' => '0',
+  'Music' => 'musicList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.477027s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.282016s ]
+[ info ] [ RUN ] app\apps1_5\controller\Music->musicList[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Music.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-05T15:57:57+08:00 ] 127.0.0.1 GET /index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=0&m_id=0
+[ info ] limiapp.com/index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=0&m_id=0 [运行时间：1.397080s][吞吐率：0.72req/s] [内存消耗：3,168.30kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Music',
+    2 => 'musicList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '9eb5b0e1-a184-4b07-9f69-f9e356e6df61',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'id' => '3',
+  'token' => 'd8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7',
+  'type' => '0',
+  'm_id' => '0',
+  'Music' => 'musicList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.289017s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.169009s ]
+[ info ] [ RUN ] app\apps1_5\controller\Music->musicList[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Music.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-05T16:05:20+08:00 ] 127.0.0.1 GET /index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=0&m_id=0
+[ info ] limiapp.com/index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=0&m_id=0 [运行时间：1.379079s][吞吐率：0.73req/s] [内存消耗：3,168.58kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Music',
+    2 => 'musicList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '64cfdcf5-54a0-4e8c-8b37-91b68e53a637',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'id' => '3',
+  'token' => 'd8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7',
+  'type' => '0',
+  'm_id' => '0',
+  'Music' => 'musicList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.288017s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.167010s ]
+[ info ] [ RUN ] app\apps1_5\controller\Music->musicList[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Music.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-05T16:06:38+08:00 ] 127.0.0.1 GET /index.php/app1_5/video/indexVideoList?page=1&time=1528692726&type=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7
+[ info ] limiapp.com/index.php/app1_5/video/indexVideoList?page=1&time=1528692726&type=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7 [运行时间：1.773101s][吞吐率：0.56req/s] [内存消耗：3,494.06kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'video',
+    2 => 'indexVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '29069c46-0704-4a99-92e3-56748c7c00c6',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'time' => '1528692726',
+  'type' => '1',
+  'id' => '3',
+  'token' => 'd8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7',
+  'video' => 'indexVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.266015s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.153008s ]
+[ info ] [ RUN ] app\apps1_5\controller\Video->indexVideoList[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-05T16:12:32+08:00 ] 127.0.0.1 GET /index.php/app1_5/video/indexVideoList?page=1&time=1528692726&type=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7
+[ info ] limiapp.com/index.php/app1_5/video/indexVideoList?page=1&time=1528692726&type=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7 [运行时间：4.675268s][吞吐率：0.21req/s] [内存消耗：3,497.26kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'video',
+    2 => 'indexVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd64b0af2-7261-4c19-a850-1083485a1d35',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'time' => '1528692726',
+  'type' => '1',
+  'id' => '3',
+  'token' => 'd8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7',
+  'video' => 'indexVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.634036s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.370021s ]
+[ info ] [ RUN ] app\apps1_5\controller\Video->indexVideoList[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-05T16:13:54+08:00 ] 127.0.0.1 GET /index.php/app1_5/video/indexVideoList?page=1&time=1528692726&type=0&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7
+[ info ] limiapp.com/index.php/app1_5/video/indexVideoList?page=1&time=1528692726&type=0&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7 [运行时间：21.468228s][吞吐率：0.05req/s] [内存消耗：2,398.24kb] [文件加载：44]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'video',
+    2 => 'indexVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '185f64cb-7885-4a58-b4c3-6e41ef71a4b2',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'time' => '1528692726',
+  'type' => '0',
+  'id' => '3',
+  'token' => 'd8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7',
+  'video' => 'indexVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] �������ӷ���һ��ʱ���û����ȷ�𸴻����ӵ�����û�з�Ӧ�����ӳ���ʧ�ܡ�
+[D:\xampp\htdocs\limiapp\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2018-07-05T16:14:01+08:00 ] 127.0.0.1 GET /index.php/app1_5/video/indexVideoList?page=1&time=1528692726&type=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7
+[ info ] limiapp.com/index.php/app1_5/video/indexVideoList?page=1&time=1528692726&type=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7 [运行时间：1.882108s][吞吐率：0.53req/s] [内存消耗：3,497.26kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'video',
+    2 => 'indexVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '95927374-8e96-4f48-a1d4-ee05f2591808',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'time' => '1528692726',
+  'type' => '1',
+  'id' => '3',
+  'token' => 'd8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7',
+  'video' => 'indexVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.290016s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.166009s ]
+[ info ] [ RUN ] app\apps1_5\controller\Video->indexVideoList[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-05T16:14:08+08:00 ] 127.0.0.1 GET /index.php/app1_5/video/indexVideoList?page=1&time=1528692726&type=0&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7
+[ info ] limiapp.com/index.php/app1_5/video/indexVideoList?page=1&time=1528692726&type=0&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7 [运行时间：1.968112s][吞吐率：0.51req/s] [内存消耗：3,502.73kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'video',
+    2 => 'indexVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '605cf4d7-013c-47ff-91b4-848cf9fcf67f',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'time' => '1528692726',
+  'type' => '0',
+  'id' => '3',
+  'token' => 'd8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7',
+  'video' => 'indexVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.294016s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.167010s ]
+[ info ] [ RUN ] app\apps1_5\controller\Video->indexVideoList[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-05T16:21:47+08:00 ] 127.0.0.1 GET /index.php/app1_5/Video/personalDetails?id=3&user_id=3&page=1&type=0&time=1528104018
+[ info ] limiapp.com/index.php/app1_5/Video/personalDetails?id=3&user_id=3&page=1&type=0&time=1528104018 [运行时间：1.976113s][吞吐率：0.51req/s] [内存消耗：3,501.34kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Video',
+    2 => 'personalDetails',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '73668ba0-dcd3-4f16-9ac9-69999a726218',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+  'user_id' => '3',
+  'page' => '1',
+  'type' => '0',
+  'time' => '1528104018',
+  'Video' => 'personalDetails',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.302017s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.167009s ]
+[ info ] [ RUN ] app\apps1_5\controller\Video->personalDetails[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-05T16:52:35+08:00 ] 127.0.0.1 GET /index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=0&m_id=2
+[ info ] limiapp.com/index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=0&m_id=2 [运行时间：2.808161s][吞吐率：0.36req/s] [内存消耗：3,210.70kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Music',
+    2 => 'musicList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '61be451e-e58d-440c-9ef3-32382451a9f0',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'id' => '3',
+  'token' => 'd8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7',
+  'type' => '0',
+  'm_id' => '2',
+  'Music' => 'musicList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.309017s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.171010s ]
+[ info ] [ RUN ] app\apps1_5\controller\Music->musicList[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Music.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-05T16:53:44+08:00 ] 127.0.0.1 GET /index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=0&m_id=2
+[ info ] limiapp.com/index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=0&m_id=2 [运行时间：4.972284s][吞吐率：0.20req/s] [内存消耗：3,210.70kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Music',
+    2 => 'musicList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '05084896-5618-45e6-a042-e61b3ebee8d6',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'id' => '3',
+  'token' => 'd8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7',
+  'type' => '0',
+  'm_id' => '2',
+  'Music' => 'musicList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.646037s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.355020s ]
+[ info ] [ RUN ] app\apps1_5\controller\Music->musicList[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Music.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-05T16:54:49+08:00 ] 127.0.0.1 GET /index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=0&m_id=2
+[ info ] limiapp.com/index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=0&m_id=2 [运行时间：46.614667s][吞吐率：0.02req/s] [内存消耗：3,098.48kb] [文件加载：53]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Music',
+    2 => 'musicList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a41fcfb6-8d72-4ae9-bef9-084e0eec5ce0',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'id' => '3',
+  'token' => 'd8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7',
+  'type' => '0',
+  'm_id' => '2',
+  'Music' => 'musicList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.462026s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.258014s ]
+[ info ] [ RUN ] app\apps1_5\controller\Music->musicList[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Music.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-05T16:55:06+08:00 ] 127.0.0.1 GET /index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=0&m_id=2
+[ info ] limiapp.com/index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=0&m_id=2 [运行时间：2.903166s][吞吐率：0.34req/s] [内存消耗：3,210.67kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Music',
+    2 => 'musicList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c4e20e84-db0a-4209-b827-927e7f8b16f8',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'id' => '3',
+  'token' => 'd8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7',
+  'type' => '0',
+  'm_id' => '2',
+  'Music' => 'musicList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.311017s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.191011s ]
+[ info ] [ RUN ] app\apps1_5\controller\Music->musicList[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Music.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-05T16:55:54+08:00 ] 127.0.0.1 GET /index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=0&m_id=2
+[ info ] limiapp.com/index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=0&m_id=2 [运行时间：4.404252s][吞吐率：0.23req/s] [内存消耗：3,210.68kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Music',
+    2 => 'musicList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '163e0c88-230c-414d-b805-7ff8e252af42',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'id' => '3',
+  'token' => 'd8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7',
+  'type' => '0',
+  'm_id' => '2',
+  'Music' => 'musicList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.584034s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.333019s ]
+[ info ] [ RUN ] app\apps1_5\controller\Music->musicList[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Music.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-05T17:41:30+08:00 ] 127.0.0.1 GET /index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=1&m_id=2
+[ info ] limiapp.com/index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=1&m_id=2 [运行时间：0.853049s][吞吐率：1.17req/s] [内存消耗：3,154.60kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Music',
+    2 => 'musicList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '52bc4061-4df8-4c11-8f60-70976ed10b2a',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'id' => '3',
+  'token' => 'd8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7',
+  'type' => '1',
+  'm_id' => '2',
+  'Music' => 'musicList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.288016s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.163009s ]
+[ info ] [ RUN ] app\apps1_5\controller\Music->musicList[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Music.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-05T17:41:50+08:00 ] 127.0.0.1 GET /index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=1&m_id=0
+[ info ] limiapp.com/index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=1&m_id=0 [运行时间：0.641037s][吞吐率：1.56req/s] [内存消耗：3,146.12kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Music',
+    2 => 'musicList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b3e43f0b-5bfa-4083-a66b-4b0e6056cc33',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'id' => '3',
+  'token' => 'd8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7',
+  'type' => '1',
+  'm_id' => '0',
+  'Music' => 'musicList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.307018s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.180010s ]
+[ info ] [ RUN ] app\apps1_5\controller\Music->musicList[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Music.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-05T17:41:58+08:00 ] 127.0.0.1 GET /index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=1&m_id=1
+[ info ] limiapp.com/index.php/app1_5/Music/musicList?page=1&id=3&token=d8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7&type=1&m_id=1 [运行时间：0.883051s][吞吐率：1.13req/s] [内存消耗：3,157.49kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'Music',
+    2 => 'musicList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'eea3bec8-8506-4d3f-8914-2070093ec738',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'id' => '3',
+  'token' => 'd8a1f30f0f29f4a79cc8e8d87bc36bdb13f46df7',
+  'type' => '1',
+  'm_id' => '1',
+  'Music' => 'musicList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.269015s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002001s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.156009s ]
+[ info ] [ RUN ] app\apps1_5\controller\Music->musicList[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\Music.php ]
+[ info ] [ LOG ] INIT File

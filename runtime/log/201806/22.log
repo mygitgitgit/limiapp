@@ -1,0 +1,593 @@
+---------------------------------------------------------------
+[ 2018-06-22T18:55:34+08:00 ] 127.0.0.1 GET /index.php/app1_5/user/createUserIdCode
+[ info ] limiapp.com/index.php/app1_5/user/createUserIdCode [运行时间：66.871321s][吞吐率：0.01req/s] [内存消耗：3,262.82kb] [文件加载：53]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'user',
+    2 => 'createUserIdCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '84fe69cc-e42a-4e68-91b1-2376257ceb39',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'user' => 'createUserIdCode',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.312320s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000883s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.000965s ]
+[ info ] [ RUN ] app\apps1_5\controller\User->createUserIdCode[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.127639s ] mysql:host=47.97.218.145;port=3306;dbname=limiapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.085195s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.084123s ]
+---------------------------------------------------------------
+[ 2018-06-22T18:55:46+08:00 ] 127.0.0.1 GET /index.php/app1_5/user/createUserIdCode
+[ info ] limiapp.com/index.php/app1_5/user/createUserIdCode [运行时间：5.331701s][吞吐率：0.19req/s] [内存消耗：3,339.20kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'user',
+    2 => 'createUserIdCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '13d10ed6-5afa-453c-afe8-5c87cbbe4c38',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'user' => 'createUserIdCode',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.317317s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001088s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.001068s ]
+[ info ] [ RUN ] app\apps1_5\controller\User->createUserIdCode[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.130931s ] mysql:host=47.97.218.145;port=3306;dbname=limiapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.087191s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.084633s ]
+---------------------------------------------------------------
+[ 2018-06-22T18:56:15+08:00 ] 127.0.0.1 GET /index.php/app1_5/user/createUserIdCode
+[ info ] limiapp.com/index.php/app1_5/user/createUserIdCode [运行时间：18.295868s][吞吐率：0.05req/s] [内存消耗：3,354.80kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'user',
+    2 => 'createUserIdCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7ade6f0c-4240-4528-b389-bc929dff1665',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'user' => 'createUserIdCode',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.333990s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001289s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.000683s ]
+[ info ] [ RUN ] app\apps1_5\controller\User->createUserIdCode[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.135320s ] mysql:host=47.97.218.145;port=3306;dbname=limiapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.094297s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.089840s ]
+---------------------------------------------------------------
+[ 2018-06-22T18:56:38+08:00 ] 127.0.0.1 GET /index.php/app1_5/user/createUserIdCode
+[ info ] limiapp.com/index.php/app1_5/user/createUserIdCode [运行时间：9.313759s][吞吐率：0.11req/s] [内存消耗：3,299.12kb] [文件加载：53]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'user',
+    2 => 'createUserIdCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'eb77951c-7a0e-44a2-9a10-ba91925f2673',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'user' => 'createUserIdCode',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.323127s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000728s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.001040s ]
+[ info ] [ RUN ] app\apps1_5\controller\User->createUserIdCode[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.132065s ] mysql:host=47.97.218.145;port=3306;dbname=limiapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.091598s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.088376s ]
+---------------------------------------------------------------
+[ 2018-06-22T18:57:24+08:00 ] 127.0.0.1 GET /index.php/app1_5/user/createUserIdCode
+[ info ] limiapp.com/index.php/app1_5/user/createUserIdCode [运行时间：23.161772s][吞吐率：0.04req/s] [内存消耗：3,257.97kb] [文件加载：53]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'user',
+    2 => 'createUserIdCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b6cd8273-c208-4649-bd9a-c5a9464f18b2',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'user' => 'createUserIdCode',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.323127s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000695s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.000594s ]
+[ info ] [ RUN ] app\apps1_5\controller\User->createUserIdCode[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.135184s ] mysql:host=47.97.218.145;port=3306;dbname=limiapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.087083s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.088414s ]
+---------------------------------------------------------------
+[ 2018-06-22T18:58:39+08:00 ] 127.0.0.1 GET /index.php/app1_5/user/createUserIdCode
+[ info ] limiapp.com/index.php/app1_5/user/createUserIdCode [运行时间：8.696500s][吞吐率：0.11req/s] [内存消耗：3,257.98kb] [文件加载：53]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'user',
+    2 => 'createUserIdCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '61018540-0ce2-42f6-b50b-10feeb462972',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'user' => 'createUserIdCode',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.310911s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001745s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.001108s ]
+[ info ] [ RUN ] app\apps1_5\controller\User->createUserIdCode[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.127499s ] mysql:host=47.97.218.145;port=3306;dbname=limiapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.084046s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.083738s ]
+---------------------------------------------------------------
+[ 2018-06-22T18:58:52+08:00 ] 127.0.0.1 GET /index.php/app1_5/user/createUserIdCode
+[ info ] limiapp.com/index.php/app1_5/user/createUserIdCode [运行时间：8.489241s][吞吐率：0.12req/s] [内存消耗：3,257.98kb] [文件加载：53]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'user',
+    2 => 'createUserIdCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd84da9a5-f563-4a67-978b-2894a879e004',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'user' => 'createUserIdCode',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.318470s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000808s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.000610s ]
+[ info ] [ RUN ] app\apps1_5\controller\User->createUserIdCode[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.130508s ] mysql:host=47.97.218.145;port=3306;dbname=limiapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.086910s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.085690s ]
+---------------------------------------------------------------
+[ 2018-06-22T18:59:07+08:00 ] 127.0.0.1 GET /index.php/app1_5/user/createUserIdCode
+[ info ] limiapp.com/index.php/app1_5/user/createUserIdCode [运行时间：6.612572s][吞吐率：0.15req/s] [内存消耗：3,257.95kb] [文件加载：53]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'user',
+    2 => 'createUserIdCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd7c01af6-9305-4307-bd74-b992fa01862d',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'user' => 'createUserIdCode',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.305532s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000691s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.000714s ]
+[ info ] [ RUN ] app\apps1_5\controller\User->createUserIdCode[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.126598s ] mysql:host=47.97.218.145;port=3306;dbname=limiapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.083048s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.082634s ]
+---------------------------------------------------------------
+[ 2018-06-22T19:01:21+08:00 ] 127.0.0.1 GET /index.php/app1_5/user/createUserIdCode
+[ info ] limiapp.com/index.php/app1_5/user/createUserIdCode [运行时间：34.605583s][吞吐率：0.03req/s] [内存消耗：3,803.08kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'user',
+    2 => 'createUserIdCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '170a7e89-a2ae-4ba4-9326-1837df695273',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'user' => 'createUserIdCode',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.311489s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001150s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\apps1_5\controller\User->createUserIdCode[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.129079s ] mysql:host=47.97.218.145;port=3306;dbname=limiapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.084948s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.085734s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user_code` [ RunTime:0.085731s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '960000' LIMIT 1 [ RunTime:0.084203s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('960000') [ RunTime:0.086111s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '290000' LIMIT 1 [ RunTime:0.085693s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('290000') [ RunTime:0.086562s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '970000' LIMIT 1 [ RunTime:0.084802s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('970000') [ RunTime:0.086898s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '760000' LIMIT 1 [ RunTime:0.085147s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('760000') [ RunTime:0.091387s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '970000' LIMIT 1 [ RunTime:0.085060s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '240000' LIMIT 1 [ RunTime:0.086566s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('240000') [ RunTime:0.088904s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '880000' LIMIT 1 [ RunTime:0.083867s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('880000') [ RunTime:0.086740s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '790000' LIMIT 1 [ RunTime:0.086385s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('790000') [ RunTime:0.086712s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '720000' LIMIT 1 [ RunTime:0.084575s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('720000') [ RunTime:0.087029s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '670000' LIMIT 1 [ RunTime:0.085838s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('670000') [ RunTime:0.086545s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '450000' LIMIT 1 [ RunTime:0.084313s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('450000') [ RunTime:0.086416s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '420000' LIMIT 1 [ RunTime:0.086011s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('420000') [ RunTime:0.085458s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '590000' LIMIT 1 [ RunTime:0.085148s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('590000') [ RunTime:0.087184s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '860000' LIMIT 1 [ RunTime:0.084790s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('860000') [ RunTime:0.085601s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '420000' LIMIT 1 [ RunTime:0.084777s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '310000' LIMIT 1 [ RunTime:0.084788s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('310000') [ RunTime:0.086737s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '810000' LIMIT 1 [ RunTime:0.087868s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('810000') [ RunTime:0.086508s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '140000' LIMIT 1 [ RunTime:0.085600s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('140000') [ RunTime:0.085333s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '750000' LIMIT 1 [ RunTime:0.083867s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('750000') [ RunTime:0.086574s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '360000' LIMIT 1 [ RunTime:0.085963s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('360000') [ RunTime:0.086108s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '930000' LIMIT 1 [ RunTime:0.085218s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('930000') [ RunTime:0.084820s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '840000' LIMIT 1 [ RunTime:0.086070s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('840000') [ RunTime:0.086108s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '860000' LIMIT 1 [ RunTime:0.085063s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '530000' LIMIT 1 [ RunTime:0.084679s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('530000') [ RunTime:0.087091s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '700000' LIMIT 1 [ RunTime:0.084780s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('700000') [ RunTime:0.086126s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '400000' LIMIT 1 [ RunTime:0.083714s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('400000') [ RunTime:0.088261s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '790000' LIMIT 1 [ RunTime:0.085813s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '970000' LIMIT 1 [ RunTime:0.084698s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '740000' LIMIT 1 [ RunTime:0.084330s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('740000') [ RunTime:0.087830s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '680000' LIMIT 1 [ RunTime:0.084580s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('680000') [ RunTime:0.086572s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '860000' LIMIT 1 [ RunTime:0.084242s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '600000' LIMIT 1 [ RunTime:0.084603s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('600000') [ RunTime:0.086521s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '850000' LIMIT 1 [ RunTime:0.086391s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('850000') [ RunTime:0.086697s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '570000' LIMIT 1 [ RunTime:0.085750s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('570000') [ RunTime:0.088242s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '700000' LIMIT 1 [ RunTime:0.084540s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '370000' LIMIT 1 [ RunTime:0.084546s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('370000') [ RunTime:0.087093s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '730000' LIMIT 1 [ RunTime:0.084750s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('730000') [ RunTime:0.086214s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '980000' LIMIT 1 [ RunTime:0.084837s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('980000') [ RunTime:0.086002s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '880000' LIMIT 1 [ RunTime:0.084283s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '680000' LIMIT 1 [ RunTime:0.084195s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '870000' LIMIT 1 [ RunTime:0.085569s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('870000') [ RunTime:0.089621s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '260000' LIMIT 1 [ RunTime:0.084061s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('260000') [ RunTime:0.085384s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '500000' LIMIT 1 [ RunTime:0.084815s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('500000') [ RunTime:0.090953s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '330000' LIMIT 1 [ RunTime:0.085588s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('330000') [ RunTime:0.089289s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '500000' LIMIT 1 [ RunTime:0.085854s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '330000' LIMIT 1 [ RunTime:0.084078s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '810000' LIMIT 1 [ RunTime:0.084436s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '990000' LIMIT 1 [ RunTime:0.089404s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('990000') [ RunTime:0.087643s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '580000' LIMIT 1 [ RunTime:0.084747s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('580000') [ RunTime:0.086476s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '100000' LIMIT 1 [ RunTime:0.084465s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('100000') [ RunTime:0.085111s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '210000' LIMIT 1 [ RunTime:0.084309s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('210000') [ RunTime:0.086220s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '410000' LIMIT 1 [ RunTime:0.083618s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('410000') [ RunTime:0.087839s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '590000' LIMIT 1 [ RunTime:0.086033s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '520000' LIMIT 1 [ RunTime:0.083637s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('520000') [ RunTime:0.087114s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '470000' LIMIT 1 [ RunTime:0.086095s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('470000') [ RunTime:0.086503s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '850000' LIMIT 1 [ RunTime:0.084591s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '850000' LIMIT 1 [ RunTime:0.084808s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '250000' LIMIT 1 [ RunTime:0.084718s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('250000') [ RunTime:0.086413s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '890000' LIMIT 1 [ RunTime:0.083981s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('890000') [ RunTime:0.088623s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '210000' LIMIT 1 [ RunTime:0.084341s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '610000' LIMIT 1 [ RunTime:0.085959s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('610000') [ RunTime:0.086798s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '400000' LIMIT 1 [ RunTime:0.084699s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '950000' LIMIT 1 [ RunTime:0.084368s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('950000') [ RunTime:0.086243s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '900000' LIMIT 1 [ RunTime:0.085422s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('900000') [ RunTime:0.086952s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '280000' LIMIT 1 [ RunTime:0.084304s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('280000') [ RunTime:0.089818s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '120000' LIMIT 1 [ RunTime:0.085385s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('120000') [ RunTime:0.088551s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '330000' LIMIT 1 [ RunTime:0.084569s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '540000' LIMIT 1 [ RunTime:0.087597s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('540000') [ RunTime:0.086807s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '670000' LIMIT 1 [ RunTime:0.084741s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '270000' LIMIT 1 [ RunTime:0.084528s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('270000') [ RunTime:0.086536s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '530000' LIMIT 1 [ RunTime:0.085038s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '780000' LIMIT 1 [ RunTime:0.085249s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('780000') [ RunTime:0.088293s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '750000' LIMIT 1 [ RunTime:0.092382s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '900000' LIMIT 1 [ RunTime:0.085447s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '100000' LIMIT 1 [ RunTime:0.085357s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '500000' LIMIT 1 [ RunTime:0.086328s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '730000' LIMIT 1 [ RunTime:0.082882s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '360000' LIMIT 1 [ RunTime:0.086212s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '830000' LIMIT 1 [ RunTime:0.083798s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('830000') [ RunTime:0.084787s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '640000' LIMIT 1 [ RunTime:0.083778s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('640000') [ RunTime:0.087184s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '830000' LIMIT 1 [ RunTime:0.085702s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '550000' LIMIT 1 [ RunTime:0.084658s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('550000') [ RunTime:0.086353s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '140000' LIMIT 1 [ RunTime:0.084392s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '620000' LIMIT 1 [ RunTime:0.084341s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('620000') [ RunTime:0.084981s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '980000' LIMIT 1 [ RunTime:0.084834s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '220000' LIMIT 1 [ RunTime:0.085106s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('220000') [ RunTime:0.086184s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '790000' LIMIT 1 [ RunTime:0.084902s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '640000' LIMIT 1 [ RunTime:0.085967s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '810000' LIMIT 1 [ RunTime:0.085174s ]
+---------------------------------------------------------------
+[ 2018-06-22T19:06:11+08:00 ] 127.0.0.1 GET /index.php/app1_5/user/createUserIdCode
+[ info ] limiapp.com/index.php/app1_5/user/createUserIdCode [运行时间：11.334355s][吞吐率：0.09req/s] [内存消耗：3,261.10kb] [文件加载：53]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'user',
+    2 => 'createUserIdCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e633d25d-1910-4a85-a1d2-257cf72bc454',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'user' => 'createUserIdCode',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.326090s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000927s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.000975s ]
+[ info ] [ RUN ] app\apps1_5\controller\User->createUserIdCode[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.133670s ] mysql:host=47.97.218.145;port=3306;dbname=limiapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.088621s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.087901s ]
+---------------------------------------------------------------
+[ 2018-06-22T19:06:22+08:00 ] 127.0.0.1 GET /index.php/app1_5/user/createUserIdCode
+[ info ] limiapp.com/index.php/app1_5/user/createUserIdCode [运行时间：2.912237s][吞吐率：0.34req/s] [内存消耗：3,261.10kb] [文件加载：53]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'user',
+    2 => 'createUserIdCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7155472d-43d9-4fd0-8096-41efa56dc199',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'user' => 'createUserIdCode',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.314676s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000789s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.000665s ]
+[ info ] [ RUN ] app\apps1_5\controller\User->createUserIdCode[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.128779s ] mysql:host=47.97.218.145;port=3306;dbname=limiapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.084858s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.085932s ]
+---------------------------------------------------------------
+[ 2018-06-22T19:06:37+08:00 ] 127.0.0.1 GET /index.php/app1_5/user/createUserIdCode
+[ info ] limiapp.com/index.php/app1_5/user/createUserIdCode [运行时间：1.509977s][吞吐率：0.66req/s] [内存消耗：3,421.59kb] [文件加载：59]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_5',
+    1 => 'user',
+    2 => 'createUserIdCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'bd6ddee9-2575-4053-bdde-3bb88945f7f4',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'user' => 'createUserIdCode',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.310214s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001507s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.001144s ]
+[ info ] [ RUN ] app\apps1_5\controller\User->createUserIdCode[ D:\xampp\htdocs\limiapp\application\apps1_5\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.128822s ] mysql:host=47.97.218.145;port=3306;dbname=limiapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.084081s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.084609s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user_code` [ RunTime:0.085313s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '100729' LIMIT 1 [ RunTime:0.085334s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('100729') [ RunTime:0.086555s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '298972' LIMIT 1 [ RunTime:0.084689s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('298972') [ RunTime:0.086242s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '962578' LIMIT 1 [ RunTime:0.083483s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('962578') [ RunTime:0.084548s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '586408' LIMIT 1 [ RunTime:0.085075s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('586408') [ RunTime:0.085470s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '258680' LIMIT 1 [ RunTime:0.083913s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('258680') [ RunTime:0.086821s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_user_code` WHERE  `code` = '628089' LIMIT 1 [ RunTime:0.085702s ]
+[ sql ] [ SQL ] INSERT INTO `limi_user_code` (`code`) VALUES ('628089') [ RunTime:0.086883s ]
+[ error ] [8]未定义数组下标: 6[D:\xampp\htdocs\limiapp\application\apps1_5\controller\User.php:1151]

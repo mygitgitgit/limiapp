@@ -1,0 +1,193 @@
+---------------------------------------------------------------
+[ 2018-08-10T15:37:48+08:00 ] 127.0.0.1 GET /index.php/app1_7/video/indexVideoList?college_id=22006&id=45&page=1&time=1533886539&token=6a8cffd25b029a95c3b39f4734fc37742d47e81a&type=1
+[ info ] limiapp.com/index.php/app1_7/video/indexVideoList?college_id=22006&id=45&page=1&time=1533886539&token=6a8cffd25b029a95c3b39f4734fc37742d47e81a&type=1 [运行时间：2.180125s][吞吐率：0.46req/s] [内存消耗：3,775.47kb] [文件加载：57]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_7',
+    1 => 'video',
+    2 => 'indexVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '6342741f-40b2-42da-a1fc-e2dc1754be2b',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'college_id' => '22006',
+  'id' => '45',
+  'page' => '1',
+  'time' => '1533886539',
+  'token' => '6a8cffd25b029a95c3b39f4734fc37742d47e81a',
+  'type' => '1',
+  'video' => 'indexVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.355020s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.028001s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_7\behavior\Auth @action_begin [ RunTime:0.182011s ]
+[ info ] [ RUN ] app\apps1_7\controller\Video->indexVideoList[ D:\xampp\htdocs\limiapp\application\apps1_7\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T15:39:00+08:00 ] 127.0.0.1 GET /index.php/app1_6/video/indexVideoList?page=1&time=1528692726&type=1&id=50&token=3044347ffcf82055c9ac95957b07cf4a1d73bc3e
+[ info ] limiapp.com/index.php/app1_6/video/indexVideoList?page=1&time=1528692726&type=1&id=50&token=3044347ffcf82055c9ac95957b07cf4a1d73bc3e [运行时间：6.635379s][吞吐率：0.15req/s] [内存消耗：3,758.64kb] [文件加载：56]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_6',
+    1 => 'video',
+    2 => 'indexVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '909368be-f171-4102-bf7f-b81162eba213',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'time' => '1528692726',
+  'type' => '1',
+  'id' => '50',
+  'token' => '3044347ffcf82055c9ac95957b07cf4a1d73bc3e',
+  'video' => 'indexVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:1.018059s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_5\behavior\Auth @action_begin [ RunTime:0.944054s ]
+[ info ] [ RUN ] app\apps1_6\controller\Video->indexVideoList[ D:\xampp\htdocs\limiapp\application\apps1_6\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T15:39:23+08:00 ] 127.0.0.1 GET /index.php/app1_7/video/indexVideoList?page=1&time=1528692726&type=1&id=50&token=3044347ffcf82055c9ac95957b07cf4a1d73bc3e
+[ info ] limiapp.com/index.php/app1_7/video/indexVideoList?page=1&time=1528692726&type=1&id=50&token=3044347ffcf82055c9ac95957b07cf4a1d73bc3e [运行时间：5.050288s][吞吐率：0.20req/s] [内存消耗：3,789.50kb] [文件加载：57]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_7',
+    1 => 'video',
+    2 => 'indexVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c08c92b2-6531-429c-ba8c-92b4861fd5b4',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'time' => '1528692726',
+  'type' => '1',
+  'id' => '50',
+  'token' => '3044347ffcf82055c9ac95957b07cf4a1d73bc3e',
+  'video' => 'indexVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.892051s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002001s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_7\behavior\Auth @action_begin [ RunTime:0.853049s ]
+[ info ] [ RUN ] app\apps1_7\controller\Video->indexVideoList[ D:\xampp\htdocs\limiapp\application\apps1_7\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T16:23:51+08:00 ] 127.0.0.1 GET /index.php/app1_7/video/indexVideoList?college_id=22007&id=45&page=1&time=1533886539&token=6a8cffd25b029a95c3b39f4734fc37742d47e81a&type=1
+[ info ] limiapp.com/index.php/app1_7/video/indexVideoList?college_id=22007&id=45&page=1&time=1533886539&token=6a8cffd25b029a95c3b39f4734fc37742d47e81a&type=1 [运行时间：2.053118s][吞吐率：0.49req/s] [内存消耗：3,786.98kb] [文件加载：57]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_7',
+    1 => 'video',
+    2 => 'indexVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'be5c6804-4dd5-4809-8fc7-f981bf1c2468',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'college_id' => '22007',
+  'id' => '45',
+  'page' => '1',
+  'time' => '1533886539',
+  'token' => '6a8cffd25b029a95c3b39f4734fc37742d47e81a',
+  'type' => '1',
+  'video' => 'indexVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.308018s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_7\behavior\Auth @action_begin [ RunTime:0.179010s ]
+[ info ] [ RUN ] app\apps1_7\controller\Video->indexVideoList[ D:\xampp\htdocs\limiapp\application\apps1_7\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T16:24:30+08:00 ] 127.0.0.1 GET /index.php/app1_7/video/indexVideoList?college_id=22007&id=45&page=1&time=1533886539&token=6a8cffd25b029a95c3b39f4734fc37742d47e81a&type=1
+[ info ] limiapp.com/index.php/app1_7/video/indexVideoList?college_id=22007&id=45&page=1&time=1533886539&token=6a8cffd25b029a95c3b39f4734fc37742d47e81a&type=1 [运行时间：2.082119s][吞吐率：0.48req/s] [内存消耗：3,786.98kb] [文件加载：57]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_7',
+    1 => 'video',
+    2 => 'indexVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '340f994b-35a9-4a0f-a17b-f441c88157a9',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'college_id' => '22007',
+  'id' => '45',
+  'page' => '1',
+  'time' => '1533886539',
+  'token' => '6a8cffd25b029a95c3b39f4734fc37742d47e81a',
+  'type' => '1',
+  'video' => 'indexVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.310017s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_7\behavior\Auth @action_begin [ RunTime:0.181011s ]
+[ info ] [ RUN ] app\apps1_7\controller\Video->indexVideoList[ D:\xampp\htdocs\limiapp\application\apps1_7\controller\Video.php ]
+[ info ] [ LOG ] INIT File

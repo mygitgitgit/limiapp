@@ -1,0 +1,1575 @@
+---------------------------------------------------------------
+[ 2018-06-15T10:57:46+08:00 ] 127.0.0.1 POST /index.php/app1_4/pushvideo/getRecommVideoList
+[ info ] limiapp.com/index.php/app1_4/pushvideo/getRecommVideoList [运行时间：0.402857s][吞吐率：2.48req/s] [内存消耗：3,111.41kb] [文件加载：60]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'pushvideo',
+    2 => 'getRecommVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '1fe2f784-b63b-475e-85f4-b8ceeb20845a',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------329759298079916634228977',
+  'content-length' => '160',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '20',
+  'pushvideo' => 'getRecommVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.284810s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001162s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.001260s ]
+[ info ] [ RUN ] app\apps1_4\controller\Pushvideo->getRecommVideoList[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Pushvideo.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.117127s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.075940s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.076930s ]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'EXISTS (SELECT black_user_id FROM limi_user_black WHERE user_id=20) ORDER BY RAN' at line 1[D:\xampp\htdocs\limiapp\thinkphp\library\think\db\Connection.php:388]
+---------------------------------------------------------------
+[ 2018-06-15T10:58:45+08:00 ] 127.0.0.1 POST /index.php/app1_4/pushvideo/getRecommVideoList
+[ info ] limiapp.com/index.php/app1_4/pushvideo/getRecommVideoList [运行时间：34.409003s][吞吐率：0.03req/s] [内存消耗：3,006.50kb] [文件加载：53]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'pushvideo',
+    2 => 'getRecommVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f8cce6d9-03c2-4c8e-be3e-ddfeaf4b4ad7',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------327199376742225561856065',
+  'content-length' => '160',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '20',
+  'pushvideo' => 'getRecommVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.278537s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000707s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.000971s ]
+[ info ] [ RUN ] app\apps1_4\controller\Pushvideo->getRecommVideoList[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Pushvideo.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.114490s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.076111s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.074480s ]
+[ sql ] [ SQL ] SELECT  a.id,a.user_id,a.title,a.video_cover,a.video,a.view_num,a.click_num,a.discuss_num,a.tags,a.music_id,b.nickname user_nickname,CONCAT("http://video.youhongtech.com",b.head_pic) AS user_head_pic,c.name music_name,CONCAT("http://video.youhongtech.com",c.pic) AS music_pic FROM limi_video AS a LEFT JOIN limi_user AS b ON a.user_id = b.id LEFT JOIN limi_music AS c ON a.music_id = c.id  WHERE a.view_auth=1 AND a.status=0 AND a.user_id NOT IN (SELECT black_user_id FROM limi_user_black WHERE user_id=20) ORDER BY RAND() LIMIT 20 [ RunTime:0.074636s ]
+---------------------------------------------------------------
+[ 2018-06-15T10:59:18+08:00 ] 127.0.0.1 POST /index.php/app1_4/pushvideo/getRecommVideoList
+[ info ] limiapp.com/index.php/app1_4/pushvideo/getRecommVideoList [运行时间：9.827015s][吞吐率：0.10req/s] [内存消耗：3,008.70kb] [文件加载：53]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'pushvideo',
+    2 => 'getRecommVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'df0bd7f2-5af7-4658-baf4-6cf8b1a4fe5e',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------189889550872497784204093',
+  'content-length' => '160',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '20',
+  'pushvideo' => 'getRecommVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.283697s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000663s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.000613s ]
+[ info ] [ RUN ] app\apps1_4\controller\Pushvideo->getRecommVideoList[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Pushvideo.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.117369s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.076198s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.077111s ]
+[ sql ] [ SQL ] SELECT  a.id,a.user_id,a.title,a.video_cover,a.video,a.width,a.height,a.view_num,a.click_num,a.discuss_num,a.tags,a.music_id,b.nickname user_nickname,CONCAT("http://video.youhongtech.com",b.head_pic) AS user_head_pic,c.name music_name,CONCAT("http://video.youhongtech.com",c.pic) AS music_pic FROM limi_video AS a LEFT JOIN limi_user AS b ON a.user_id = b.id LEFT JOIN limi_music AS c ON a.music_id = c.id  WHERE a.view_auth=1 AND a.status=0 AND a.user_id NOT IN (SELECT black_user_id FROM limi_user_black WHERE user_id=20) ORDER BY RAND() LIMIT 20 [ RunTime:0.079128s ]
+---------------------------------------------------------------
+[ 2018-06-15T11:04:38+08:00 ] 127.0.0.1 GET /index.php/app1_4/video/getVideoList
+[ info ] limiapp.com/index.php/app1_4/video/getVideoList [运行时间：0.349199s][吞吐率：2.86req/s] [内存消耗：3,366.98kb] [文件加载：56]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'getVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '627e2e7d-6edc-44a8-9be7-084ec5fb9c4f',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'video' => 'getVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.286972s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001815s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.001755s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->getVideoList[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.119067s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.077729s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.076275s ]
+---------------------------------------------------------------
+[ 2018-06-15T11:04:41+08:00 ] 127.0.0.1 POST /index.php/app1_4/video/getVideoList
+[ info ] limiapp.com/index.php/app1_4/video/getVideoList [运行时间：0.334533s][吞吐率：2.99req/s] [内存消耗：3,367.15kb] [文件加载：56]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'getVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '11248bff-4503-4ec1-a1ab-427a21a0ce08',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'video' => 'getVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.277834s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000776s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.000716s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->getVideoList[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.112162s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.074776s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.074164s ]
+---------------------------------------------------------------
+[ 2018-06-15T11:07:48+08:00 ] 127.0.0.1 POST /index.php/app1_4/video/getVideoList
+[ info ] limiapp.com/index.php/app1_4/video/getVideoList [运行时间：0.534353s][吞吐率：1.87req/s] [内存消耗：3,376.99kb] [文件加载：56]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'getVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '33633e6c-f1e6-4972-a2b2-f14a9ef85880',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------478272082356570291820257',
+  'content-length' => '508',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '',
+  'time' => '',
+  'id' => '1',
+  'token' => 'd2fc39fd3c9f1984f3426c21e2875ea1a4d6d5f5',
+  'video' => 'getVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.305360s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000970s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.170380s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->getVideoList[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.126131s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.082177s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.082572s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.082497s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.082699s ]
+---------------------------------------------------------------
+[ 2018-06-15T11:07:55+08:00 ] 127.0.0.1 POST /index.php/app1_4/video/getVideoList
+[ info ] limiapp.com/index.php/app1_4/video/getVideoList [运行时间：0.573281s][吞吐率：1.74req/s] [内存消耗：3,376.99kb] [文件加载：56]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'getVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '907e2afa-fc14-4be6-9539-915f4112a074',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------055277174597713399016940',
+  'content-length' => '509',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'time' => '',
+  'id' => '1',
+  'token' => 'd2fc39fd3c9f1984f3426c21e2875ea1a4d6d5f5',
+  'video' => 'getVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.318853s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001432s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.187732s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->getVideoList[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.133052s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.086811s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.085587s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.091492s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.089183s ]
+---------------------------------------------------------------
+[ 2018-06-15T11:08:36+08:00 ] 127.0.0.1 GET /index.php/app1_4/video/getVideoList?id=1&token=d2fc39fd3c9f1984f3426c21e2875ea1a4d6d5f5&page=1&time
+[ info ] limiapp.com/index.php/app1_4/video/getVideoList?id=1&token=d2fc39fd3c9f1984f3426c21e2875ea1a4d6d5f5&page=1&time [运行时间：0.788048s][吞吐率：1.27req/s] [内存消耗：3,397.52kb] [文件加载：56]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'getVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '16b1738f-152d-4cf2-90d4-5907f85069ee',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => 'd2fc39fd3c9f1984f3426c21e2875ea1a4d6d5f5',
+  'page' => '1',
+  'time' => '',
+  'video' => 'getVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.304570s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000714s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.170153s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->getVideoList[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.125476s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.083429s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.082504s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.082001s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.081448s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.081938s ]
+[ sql ] [ SQL ] SELECT `user_info_status`,`identity_status`,`identity_time` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.083792s ]
+[ sql ] [ SQL ] SELECT  a.id,a.user_id,a.title,a.video_cover,a.video,a.width,a.height,a.view_num,a.click_num,a.discuss_num,a.tags,a.music_id,b.nickname user_nickname,CONCAT("http://video.youhongtech.com",b.head_pic) AS user_head_pic,c.name music_name,CONCAT("http://video.youhongtech.com",c.pic) AS music_pic FROM limi_video AS a LEFT JOIN limi_user AS b ON a.user_id = b.id LEFT JOIN limi_music AS c ON a.music_id = c.id  WHERE a.view_auth=1 AND a.status=0 AND a.user_id NOT IN (SELECT black_user_id FROM limi_user_black WHERE user_id=1) ORDER BY RAND() LIMIT 20 [ RunTime:0.083299s ]
+---------------------------------------------------------------
+[ 2018-06-15T11:08:44+08:00 ] 127.0.0.1 GET /index.php/app1_4/video/getVideoList?id=1&token=d2fc39fd3c9f1984f3426c21e2875ea1a4d6d5f5&page=1&time
+[ info ] limiapp.com/index.php/app1_4/video/getVideoList?id=1&token=d2fc39fd3c9f1984f3426c21e2875ea1a4d6d5f5&page=1&time [运行时间：0.754761s][吞吐率：1.32req/s] [内存消耗：3,397.52kb] [文件加载：56]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'getVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7e0d0c2e-7734-47be-9ea6-268672d68678',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => 'd2fc39fd3c9f1984f3426c21e2875ea1a4d6d5f5',
+  'page' => '1',
+  'time' => '',
+  'video' => 'getVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.293346s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000836s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.161472s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->getVideoList[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.121961s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.079331s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.077542s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.079318s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.077404s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.077523s ]
+[ sql ] [ SQL ] SELECT `user_info_status`,`identity_status`,`identity_time` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.078285s ]
+[ sql ] [ SQL ] SELECT  a.id,a.user_id,a.title,a.video_cover,a.video,a.width,a.height,a.view_num,a.click_num,a.discuss_num,a.tags,a.music_id,b.nickname user_nickname,CONCAT("http://video.youhongtech.com",b.head_pic) AS user_head_pic,c.name music_name,CONCAT("http://video.youhongtech.com",c.pic) AS music_pic FROM limi_video AS a LEFT JOIN limi_user AS b ON a.user_id = b.id LEFT JOIN limi_music AS c ON a.music_id = c.id  WHERE a.view_auth=1 AND a.status=0 AND a.user_id NOT IN (SELECT black_user_id FROM limi_user_black WHERE user_id=1) ORDER BY RAND() LIMIT 20 [ RunTime:0.079540s ]
+---------------------------------------------------------------
+[ 2018-06-15T11:09:01+08:00 ] 127.0.0.1 GET /index.php/app1_4/video/getVideoList?page=1&time
+[ info ] limiapp.com/index.php/app1_4/video/getVideoList?page=1&time [运行时间：0.433564s][吞吐率：2.31req/s] [内存消耗：3,374.38kb] [文件加载：56]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'getVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ec43cd8d-254d-48a4-a10f-cb516c5fa978',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'time' => '',
+  'video' => 'getVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.291656s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001529s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.001075s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->getVideoList[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.120827s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.078432s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.078327s ]
+[ sql ] [ SQL ] SELECT  a.id,a.user_id,a.title,a.video_cover,a.video,a.width,a.height,a.view_num,a.click_num,a.discuss_num,a.tags,a.music_id,b.nickname user_nickname,CONCAT("http://video.youhongtech.com",b.head_pic) AS user_head_pic,c.name music_name,CONCAT("http://video.youhongtech.com",c.pic) AS music_pic FROM limi_video AS a LEFT JOIN limi_user AS b ON a.user_id = b.id LEFT JOIN limi_music AS c ON a.music_id = c.id  WHERE a.view_auth=1 AND a.status=0 ORDER BY RAND() LIMIT 20 [ RunTime:0.078160s ]
+---------------------------------------------------------------
+[ 2018-06-15T11:50:41+08:00 ] 127.0.0.1 GET /index.php/app1_4/video/getVideoList?page=1&time
+[ info ] limiapp.com/index.php/app1_4/video/getVideoList?page=1&time [运行时间：0.416630s][吞吐率：2.40req/s] [内存消耗：3,376.24kb] [文件加载：56]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'getVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'dde0367f-e762-48ea-bd86-c86ed18656b0',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'time' => '',
+  'video' => 'getVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.276009s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001776s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.001177s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->getVideoList[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.113107s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.073978s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.073506s ]
+[ sql ] [ SQL ] SELECT  a.id,a.user_id,a.title,a.video_cover,a.video,a.width,a.height,a.view_num,a.click_num,a.discuss_num,a.tags,a.music_id,b.nickname user_nickname,CONCAT("http://video.youhongtech.com",b.head_pic) AS user_head_pic,c.name music_name,CONCAT("http://video.youhongtech.com",c.pic) AS music_pic FROM limi_video AS a LEFT JOIN limi_user AS b ON a.user_id = b.id LEFT JOIN limi_music AS c ON a.music_id = c.id  WHERE a.view_auth=1 AND a.status=0 ORDER BY RAND() LIMIT 20 [ RunTime:0.074731s ]
+---------------------------------------------------------------
+[ 2018-06-15T11:51:07+08:00 ] 127.0.0.1 GET /index.php/app1_4/video/getVideoList?id=1&page=1&time
+[ info ] limiapp.com/index.php/app1_4/video/getVideoList?id=1&page=1&time [运行时间：0.628864s][吞吐率：1.59req/s] [内存消耗：3,391.70kb] [文件加载：56]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'getVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'cccabcd6-859d-460d-a5f6-1320f14941dd',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'page' => '1',
+  'time' => '',
+  'video' => 'getVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.311892s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000719s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.173143s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->getVideoList[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.128313s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.085243s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.082373s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.084181s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.083336s ]
+[ sql ] [ SQL ] SELECT  a.id,a.user_id,a.title,a.video_cover,a.video,a.width,a.height,a.view_num,a.click_num,a.discuss_num,a.tags,a.music_id,b.nickname user_nickname,CONCAT("http://video.youhongtech.com",b.head_pic) AS user_head_pic,c.name music_name,CONCAT("http://video.youhongtech.com",c.pic) AS music_pic FROM limi_video AS a LEFT JOIN limi_user AS b ON a.user_id = b.id LEFT JOIN limi_music AS c ON a.music_id = c.id  WHERE a.view_auth=1 AND a.status=0 ORDER BY RAND() LIMIT 20 [ RunTime:0.083641s ]
+---------------------------------------------------------------
+[ 2018-06-15T11:51:14+08:00 ] 127.0.0.1 GET /index.php/app1_4/video/getVideoList?id=1&token=d2fc39fd3c9f1984f3426c21e2875ea1a4d6d5f5&page=1&time
+[ info ] limiapp.com/index.php/app1_4/video/getVideoList?id=1&token=d2fc39fd3c9f1984f3426c21e2875ea1a4d6d5f5&page=1&time [运行时间：4.704794s][吞吐率：0.21req/s] [内存消耗：3,428.86kb] [文件加载：56]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'getVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '6f6ebb36-aa06-4fbd-af7f-c838a246bc4c',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => 'd2fc39fd3c9f1984f3426c21e2875ea1a4d6d5f5',
+  'page' => '1',
+  'time' => '',
+  'video' => 'getVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.316425s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000710s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.170984s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->getVideoList[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.130710s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.082611s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.083410s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.083556s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.082049s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.083511s ]
+[ sql ] [ SQL ] SELECT `user_info_status`,`identity_status`,`identity_time` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.082011s ]
+[ sql ] [ SQL ] SELECT  a.id,a.user_id,a.title,a.video_cover,a.video,a.width,a.height,a.view_num,0 as is_click,a.click_num,a.discuss_num,a.tags,a.music_id,b.nickname user_nickname,CONCAT("http://video.youhongtech.com",b.head_pic) AS user_head_pic,c.name music_name,CONCAT("http://video.youhongtech.com",c.pic) AS music_pic FROM limi_video AS a LEFT JOIN limi_user AS b ON a.user_id = b.id LEFT JOIN limi_music AS c ON a.music_id = c.id  WHERE a.view_auth=1 AND a.status=0 AND a.user_id NOT IN (SELECT black_user_id FROM limi_user_black WHERE user_id=1) ORDER BY RAND() LIMIT 20 [ RunTime:0.083700s ]
+---------------------------------------------------------------
+[ 2018-06-15T12:09:24+08:00 ] 127.0.0.1 GET /index.php/app1_4/video/getVideoList?id=1&token=d2fc39fd3c9f1984f3426c21e2875ea1a4d6d5f5&page=1&time
+[ info ] limiapp.com/index.php/app1_4/video/getVideoList?id=1&token=d2fc39fd3c9f1984f3426c21e2875ea1a4d6d5f5&page=1&time [运行时间：93.104783s][吞吐率：0.01req/s] [内存消耗：3,417.10kb] [文件加载：57]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'getVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '3c1fbd52-77cc-47db-b21d-c514f6746ea6',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => 'd2fc39fd3c9f1984f3426c21e2875ea1a4d6d5f5',
+  'page' => '1',
+  'time' => '',
+  'video' => 'getVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.275665s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001648s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.156652s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->getVideoList[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.112344s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.073348s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.075189s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.075354s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.074865s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.074843s ]
+[ sql ] [ SQL ] SELECT `user_info_status`,`identity_status`,`identity_time` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.073540s ]
+[ sql ] [ SQL ] SELECT  a.id,a.user_id,a.title,a.video_cover,a.video,a.width,a.height,a.view_num,0 as is_click,a.click_num,a.discuss_num,a.tags,a.music_id,b.nickname user_nickname,CONCAT("http://video.youhongtech.com",b.head_pic) AS user_head_pic,c.name music_name,CONCAT("http://video.youhongtech.com",c.pic) AS music_pic FROM limi_video AS a LEFT JOIN limi_user AS b ON a.user_id = b.id LEFT JOIN limi_music AS c ON a.music_id = c.id LEFT JOIN limi_video_click AS d ON (a.id = d.video_id AND a.user_id=d.user_id ) WHERE a.view_auth=1 AND a.status=0 AND a.user_id NOT IN (SELECT black_user_id FROM limi_user_black WHERE user_id=1) ORDER BY RAND() LIMIT 20 [ RunTime:0.075215s ]
+[ error ] [8]未定义数组索引: province[xdebug://debug-eval(1) : eval()'d code:1]
+[ error ] [8]未定义数组索引: province[xdebug://debug-eval(1) : eval()'d code:1]
+---------------------------------------------------------------
+[ 2018-06-15T12:11:14+08:00 ] 127.0.0.1 GET /index.php/app1_4/video/getVideoList?id=1&token=d2fc39fd3c9f1984f3426c21e2875ea1a4d6d5f5&page=1&time
+[ info ] limiapp.com/index.php/app1_4/video/getVideoList?id=1&token=d2fc39fd3c9f1984f3426c21e2875ea1a4d6d5f5&page=1&time [运行时间：107.621262s][吞吐率：0.01req/s] [内存消耗：3,349.02kb] [文件加载：54]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'getVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f3f928b1-f950-4f59-8ba7-9c02ff8a97d1',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => 'd2fc39fd3c9f1984f3426c21e2875ea1a4d6d5f5',
+  'page' => '1',
+  'time' => '',
+  'video' => 'getVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.309334s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000661s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.162765s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->getVideoList[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.128247s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.088961s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.078435s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.078023s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.078812s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.077443s ]
+[ sql ] [ SQL ] SELECT `user_info_status`,`identity_status`,`identity_time` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.077281s ]
+[ sql ] [ SQL ] SELECT  a.id,a.user_id,a.title,a.video_cover,a.video,a.width,a.height,a.view_num,d.type as is_click,a.click_num,a.discuss_num,a.tags,a.music_id,b.nickname user_nickname,CONCAT("http://video.youhongtech.com",b.head_pic) AS user_head_pic,c.name music_name,CONCAT("http://video.youhongtech.com",c.pic) AS music_pic FROM limi_video AS a LEFT JOIN limi_user AS b ON a.user_id = b.id LEFT JOIN limi_music AS c ON a.music_id = c.id LEFT JOIN limi_video_click AS d ON (a.id = d.video_id AND a.user_id=d.user_id ) WHERE a.view_auth=1 AND a.status=0 AND a.user_id NOT IN (SELECT black_user_id FROM limi_user_black WHERE user_id=1) ORDER BY RAND() LIMIT 20 [ RunTime:0.077645s ]
+---------------------------------------------------------------
+[ 2018-06-15T12:14:38+08:00 ] 127.0.0.1 GET /index.php/app1_4/video/getVideoList?id=1&token=d2fc39fd3c9f1984f3426c21e2875ea1a4d6d5f5&page=1&time
+[ info ] limiapp.com/index.php/app1_4/video/getVideoList?id=1&token=d2fc39fd3c9f1984f3426c21e2875ea1a4d6d5f5&page=1&time [运行时间：0.706983s][吞吐率：1.41req/s] [内存消耗：3,441.63kb] [文件加载：61]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'getVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'afe80e5f-96b3-4360-bd7a-c61ab4bc762d',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => 'd2fc39fd3c9f1984f3426c21e2875ea1a4d6d5f5',
+  'page' => '1',
+  'time' => '',
+  'video' => 'getVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.279180s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001123s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.155987s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->getVideoList[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.114561s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.075677s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.074729s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.076164s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.074324s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.076008s ]
+[ sql ] [ SQL ] SELECT `user_info_status`,`identity_status`,`identity_time` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.074768s ]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as is_click),a.click_num,a.discuss_num,a.tags,a.music_id,b.nickname user_nicknam' at line 1[D:\xampp\htdocs\limiapp\thinkphp\library\think\db\Connection.php:388]
+---------------------------------------------------------------
+[ 2018-06-15T12:15:00+08:00 ] 127.0.0.1 GET /index.php/app1_4/video/getVideoList?id=1&token=d2fc39fd3c9f1984f3426c21e2875ea1a4d6d5f5&page=1&time
+[ info ] limiapp.com/index.php/app1_4/video/getVideoList?id=1&token=d2fc39fd3c9f1984f3426c21e2875ea1a4d6d5f5&page=1&time [运行时间：0.697355s][吞吐率：1.43req/s] [内存消耗：3,441.63kb] [文件加载：61]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'getVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '8bf63fb3-4949-4d5e-8d81-56c4f7c539fd',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => 'd2fc39fd3c9f1984f3426c21e2875ea1a4d6d5f5',
+  'page' => '1',
+  'time' => '',
+  'video' => 'getVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.277632s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000999s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.154499s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->getVideoList[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.114601s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.073116s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.073322s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.074479s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.073508s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.074467s ]
+[ sql ] [ SQL ] SELECT `user_info_status`,`identity_status`,`identity_time` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.074026s ]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CASE END) as is_click,a.click_num,a.discuss_num,a.tags,a.music_id,b.nickname use' at line 1[D:\xampp\htdocs\limiapp\thinkphp\library\think\db\Connection.php:388]
+---------------------------------------------------------------
+[ 2018-06-15T12:15:09+08:00 ] 127.0.0.1 GET /index.php/app1_4/video/getVideoList?id=1&token=d2fc39fd3c9f1984f3426c21e2875ea1a4d6d5f5&page=1&time
+[ info ] limiapp.com/index.php/app1_4/video/getVideoList?id=1&token=d2fc39fd3c9f1984f3426c21e2875ea1a4d6d5f5&page=1&time [运行时间：0.680937s][吞吐率：1.47req/s] [内存消耗：3,441.61kb] [文件加载：61]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'getVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '2a0928f1-0d2c-4802-b69c-a50be43ae825',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => 'd2fc39fd3c9f1984f3426c21e2875ea1a4d6d5f5',
+  'page' => '1',
+  'time' => '',
+  'video' => 'getVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.272608s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001047s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.152772s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->getVideoList[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.112642s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.074621s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.073560s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.073386s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.072994s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.073610s ]
+[ sql ] [ SQL ] SELECT `user_info_status`,`identity_status`,`identity_time` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.072745s ]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') as is_click,a.click_num,a.discuss_num,a.tags,a.music_id,b.nickname user_nickna' at line 1[D:\xampp\htdocs\limiapp\thinkphp\library\think\db\Connection.php:388]
+---------------------------------------------------------------
+[ 2018-06-15T12:15:18+08:00 ] 127.0.0.1 GET /index.php/app1_4/video/getVideoList?id=1&token=d2fc39fd3c9f1984f3426c21e2875ea1a4d6d5f5&page=1&time
+[ info ] limiapp.com/index.php/app1_4/video/getVideoList?id=1&token=d2fc39fd3c9f1984f3426c21e2875ea1a4d6d5f5&page=1&time [运行时间：0.794438s][吞吐率：1.26req/s] [内存消耗：3,441.63kb] [文件加载：61]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'getVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '97a22e45-3993-4710-8e35-c08f4a583d82',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => 'd2fc39fd3c9f1984f3426c21e2875ea1a4d6d5f5',
+  'page' => '1',
+  'time' => '',
+  'video' => 'getVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.319497s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000956s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.181150s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->getVideoList[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.131853s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.086187s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.086228s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.088024s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.087692s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.086929s ]
+[ sql ] [ SQL ] SELECT `user_info_status`,`identity_status`,`identity_time` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.087048s ]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as is_click,a.click_num,a.discuss_num,a.tags,a.music_id,b.nickname user_nickname' at line 1[D:\xampp\htdocs\limiapp\thinkphp\library\think\db\Connection.php:388]
+---------------------------------------------------------------
+[ 2018-06-15T12:19:22+08:00 ] 127.0.0.1 GET /index.php/app1_4/video/getVideoList?id=1&token=d2fc39fd3c9f1984f3426c21e2875ea1a4d6d5f5&page=1&time
+[ info ] limiapp.com/index.php/app1_4/video/getVideoList?id=1&token=d2fc39fd3c9f1984f3426c21e2875ea1a4d6d5f5&page=1&time [运行时间：0.873944s][吞吐率：1.14req/s] [内存消耗：3,441.63kb] [文件加载：61]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'getVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd0d3276b-c3ee-49c6-a32b-501e4faeb512',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => 'd2fc39fd3c9f1984f3426c21e2875ea1a4d6d5f5',
+  'page' => '1',
+  'time' => '',
+  'video' => 'getVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.319164s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001381s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.204775s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->getVideoList[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.132657s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.085612s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.086683s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.085639s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.113412s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.112029s ]
+[ sql ] [ SQL ] SELECT `user_info_status`,`identity_status`,`identity_time` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.097678s ]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as is_click,a.click_num,a.discuss_num,a.tags,a.music_id,b.nickname user_nickname' at line 1[D:\xampp\htdocs\limiapp\thinkphp\library\think\db\Connection.php:388]
+---------------------------------------------------------------
+[ 2018-06-15T12:19:36+08:00 ] 127.0.0.1 GET /index.php/app1_4/video/getVideoList?id=1&token=d2fc39fd3c9f1984f3426c21e2875ea1a4d6d5f5&page=1&time
+[ info ] limiapp.com/index.php/app1_4/video/getVideoList?id=1&token=d2fc39fd3c9f1984f3426c21e2875ea1a4d6d5f5&page=1&time [运行时间：0.680065s][吞吐率：1.47req/s] [内存消耗：3,441.59kb] [文件加载：61]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'getVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '210d6c63-e1b4-439f-99c7-bed522b6e480',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => 'd2fc39fd3c9f1984f3426c21e2875ea1a4d6d5f5',
+  'page' => '1',
+  'time' => '',
+  'video' => 'getVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.268532s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000893s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.154015s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->getVideoList[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.111884s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.071178s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.073164s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.074835s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.073278s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.072997s ]
+[ sql ] [ SQL ] SELECT `user_info_status`,`identity_status`,`identity_time` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.072657s ]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as is_click,a.click_num,a.discuss_num,a.tags,a.music_id,b.nickname user_nickname' at line 1[D:\xampp\htdocs\limiapp\thinkphp\library\think\db\Connection.php:388]
+---------------------------------------------------------------
+[ 2018-06-15T12:19:54+08:00 ] 127.0.0.1 GET /index.php/app1_4/video/getVideoList?id=1&token=d2fc39fd3c9f1984f3426c21e2875ea1a4d6d5f5&page=1&time
+[ info ] limiapp.com/index.php/app1_4/video/getVideoList?id=1&token=d2fc39fd3c9f1984f3426c21e2875ea1a4d6d5f5&page=1&time [运行时间：0.758537s][吞吐率：1.32req/s] [内存消耗：3,441.63kb] [文件加载：61]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'getVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd44f6a21-43f3-45b6-a329-b9136eb0f37b',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => 'd2fc39fd3c9f1984f3426c21e2875ea1a4d6d5f5',
+  'page' => '1',
+  'time' => '',
+  'video' => 'getVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.303903s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000846s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.175724s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->getVideoList[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.125384s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.083479s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.081876s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.083794s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.082665s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.081949s ]
+[ sql ] [ SQL ] SELECT `user_info_status`,`identity_status`,`identity_time` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.083809s ]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as is_click),a.click_num,a.discuss_num,a.tags,a.music_id,b.nickname user_nicknam' at line 1[D:\xampp\htdocs\limiapp\thinkphp\library\think\db\Connection.php:388]
+---------------------------------------------------------------
+[ 2018-06-15T12:20:13+08:00 ] 127.0.0.1 GET /index.php/app1_4/video/getVideoList?id=1&token=d2fc39fd3c9f1984f3426c21e2875ea1a4d6d5f5&page=1&time
+[ info ] limiapp.com/index.php/app1_4/video/getVideoList?id=1&token=d2fc39fd3c9f1984f3426c21e2875ea1a4d6d5f5&page=1&time [运行时间：0.688845s][吞吐率：1.45req/s] [内存消耗：3,441.61kb] [文件加载：61]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'getVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '96f52fe5-ccfa-4113-bfa6-6adaf8d313f5',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => 'd2fc39fd3c9f1984f3426c21e2875ea1a4d6d5f5',
+  'page' => '1',
+  'time' => '',
+  'video' => 'getVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.273471s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000844s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.154745s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->getVideoList[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.113876s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.073008s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.073194s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.074439s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.074968s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.073207s ]
+[ sql ] [ SQL ] SELECT `user_info_status`,`identity_status`,`identity_time` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.073491s ]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as is_click,a.click_num,a.discuss_num,a.tags,a.music_id,b.nickname user_nickname' at line 1[D:\xampp\htdocs\limiapp\thinkphp\library\think\db\Connection.php:388]
+---------------------------------------------------------------
+[ 2018-06-15T12:22:56+08:00 ] 127.0.0.1 GET /index.php/app1_4/video/getVideoList?id=1&token=d2fc39fd3c9f1984f3426c21e2875ea1a4d6d5f5&page=1&time
+[ info ] limiapp.com/index.php/app1_4/video/getVideoList?id=1&token=d2fc39fd3c9f1984f3426c21e2875ea1a4d6d5f5&page=1&time [运行时间：27.036670s][吞吐率：0.04req/s] [内存消耗：3,350.85kb] [文件加载：54]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'getVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e6452c3b-7dfe-4527-b1a5-e400c7e8b3b8',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => 'd2fc39fd3c9f1984f3426c21e2875ea1a4d6d5f5',
+  'page' => '1',
+  'time' => '',
+  'video' => 'getVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.281440s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001415s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.154292s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->getVideoList[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.118085s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.073462s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.075078s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.074841s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.073533s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.074721s ]
+[ sql ] [ SQL ] SELECT `user_info_status`,`identity_status`,`identity_time` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.073981s ]
+[ sql ] [ SQL ] SELECT  a.id,a.user_id,a.title,a.video_cover,a.video,a.width,a.height,a.view_num, CASE d.type WHEN 1 THEN 1 WHEN 0 THEN 0 ELSE 0 END as is_click,a.click_num,a.discuss_num,a.tags,a.music_id,b.nickname user_nickname,CONCAT("http://video.youhongtech.com",b.head_pic) AS user_head_pic,c.name music_name,CONCAT("http://video.youhongtech.com",c.pic) AS music_pic FROM limi_video AS a LEFT JOIN limi_user AS b ON a.user_id = b.id LEFT JOIN limi_music AS c ON a.music_id = c.id LEFT JOIN limi_video_click AS d ON (a.id = d.video_id AND a.user_id=d.user_id ) WHERE a.view_auth=1 AND a.status=0 AND a.user_id NOT IN (SELECT black_user_id FROM limi_user_black WHERE user_id=1) ORDER BY RAND() LIMIT 20 [ RunTime:0.075222s ]
+---------------------------------------------------------------
+[ 2018-06-15T12:30:02+08:00 ] 127.0.0.1 GET /index.php/app1_4/video/getVideoList?id=1&token=d2fc39fd3c9f1984f3426c21e2875ea1a4d6d5f5&page=1&time
+[ info ] limiapp.com/index.php/app1_4/video/getVideoList?id=1&token=d2fc39fd3c9f1984f3426c21e2875ea1a4d6d5f5&page=1&time [运行时间：0.774788s][吞吐率：1.29req/s] [内存消耗：3,441.27kb] [文件加载：61]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'getVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '81112359-1d2c-4296-940f-59ef39b3b90d',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => 'd2fc39fd3c9f1984f3426c21e2875ea1a4d6d5f5',
+  'page' => '1',
+  'time' => '',
+  'video' => 'getVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.308931s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001029s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.173968s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->getVideoList[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.126463s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.083314s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.083583s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.083716s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.082548s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.085392s ]
+[ sql ] [ SQL ] SELECT `user_info_status`,`identity_status`,`identity_time` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.082468s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c.is_cancel' in 'field list'[D:\xampp\htdocs\limiapp\thinkphp\library\think\db\Connection.php:388]
+---------------------------------------------------------------
+[ 2018-06-15T12:30:26+08:00 ] 127.0.0.1 GET /index.php/app1_4/video/getVideoList?id=1&token=d2fc39fd3c9f1984f3426c21e2875ea1a4d6d5f5&page=1&time
+[ info ] limiapp.com/index.php/app1_4/video/getVideoList?id=1&token=d2fc39fd3c9f1984f3426c21e2875ea1a4d6d5f5&page=1&time [运行时间：0.718225s][吞吐率：1.39req/s] [内存消耗：3,404.25kb] [文件加载：56]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'getVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '8639972b-4d09-4858-bde0-6db39bb64c18',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => 'd2fc39fd3c9f1984f3426c21e2875ea1a4d6d5f5',
+  'page' => '1',
+  'time' => '',
+  'video' => 'getVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.273553s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000709s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.158153s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->getVideoList[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.113469s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.072552s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.075051s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.076672s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.074171s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.075103s ]
+[ sql ] [ SQL ] SELECT `user_info_status`,`identity_status`,`identity_time` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.074361s ]
+[ sql ] [ SQL ] SELECT  a.id,a.user_id,a.title,a.video_cover,a.video,a.width,a.height,a.view_num, CASE d.type WHEN 1 THEN 1 WHEN 0 THEN 0 ELSE 0 END as is_click,CASE e.is_cancel WHEN 1 THEN 0 WHEN 0 THEN 1 ELSE 0 END as is_attention,a.click_num,a.discuss_num,a.tags,a.music_id,b.nickname user_nickname,CONCAT("http://video.youhongtech.com",b.head_pic) AS user_head_pic,c.name music_name,CONCAT("http://video.youhongtech.com",c.pic) AS music_pic FROM limi_video AS a LEFT JOIN limi_user AS b ON a.user_id = b.id LEFT JOIN limi_music AS c ON a.music_id = c.id LEFT JOIN limi_video_click AS d ON (a.id = d.video_id AND a.user_id=d.user_id ) LEFT JOIN limi_user_relation AS e ON (e.attention_id=a.user_id AND e.user_id=1 )WHERE a.view_auth=1 AND a.status=0 AND a.user_id NOT IN (SELECT black_user_id FROM limi_user_black WHERE user_id=1) ORDER BY RAND() LIMIT 20 [ RunTime:0.076638s ]
+---------------------------------------------------------------
+[ 2018-06-15T12:31:29+08:00 ] 127.0.0.1 GET /index.php/app1_4/video/getVideoList?id=1&token=d2fc39fd3c9f1984f3426c21e2875ea1a4d6d5f5&page=1&time
+[ info ] limiapp.com/index.php/app1_4/video/getVideoList?id=1&token=d2fc39fd3c9f1984f3426c21e2875ea1a4d6d5f5&page=1&time [运行时间：0.730093s][吞吐率：1.37req/s] [内存消耗：3,404.24kb] [文件加载：56]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'getVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ec83efb0-aad3-4532-850e-2ec5072748da',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => 'd2fc39fd3c9f1984f3426c21e2875ea1a4d6d5f5',
+  'page' => '1',
+  'time' => '',
+  'video' => 'getVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.282121s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000721s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.153428s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->getVideoList[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.113076s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.076191s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.074370s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.074116s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.073747s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.075300s ]
+[ sql ] [ SQL ] SELECT `user_info_status`,`identity_status`,`identity_time` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.078980s ]
+[ sql ] [ SQL ] SELECT  a.id,a.user_id,a.title,a.video_cover,a.video,a.width,a.height,a.view_num, CASE d.type WHEN 1 THEN 1 WHEN 0 THEN 0 ELSE 0 END as is_click,CASE e.is_cancel WHEN 1 THEN 0 WHEN 0 THEN 1 ELSE 0 END as is_attention,a.click_num,a.discuss_num,a.tags,a.music_id,b.nickname user_nickname,CONCAT("http://video.youhongtech.com",b.head_pic) AS user_head_pic,c.name music_name,CONCAT("http://video.youhongtech.com",c.pic) AS music_pic FROM limi_video AS a LEFT JOIN limi_user AS b ON a.user_id = b.id LEFT JOIN limi_music AS c ON a.music_id = c.id LEFT JOIN limi_video_click AS d ON (a.id = d.video_id AND a.user_id=d.user_id ) LEFT JOIN limi_user_relation AS e ON (e.attention_id=a.user_id AND e.user_id=1 )WHERE a.view_auth=1 AND a.status=0 AND a.user_id NOT IN (SELECT black_user_id FROM limi_user_black WHERE user_id=1) ORDER BY RAND() LIMIT 20 [ RunTime:0.074531s ]
+---------------------------------------------------------------
+[ 2018-06-15T12:33:52+08:00 ] 127.0.0.1 GET /index.php/app1_4/video/getVideoList?id=1&token=d2fc39fd3c9f1984f3426c21e2875ea1a4d6d5f5&page=1&time
+[ info ] limiapp.com/index.php/app1_4/video/getVideoList?id=1&token=d2fc39fd3c9f1984f3426c21e2875ea1a4d6d5f5&page=1&time [运行时间：17.433365s][吞吐率：0.06req/s] [内存消耗：3,353.60kb] [文件加载：54]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'getVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '1bfd05d7-a660-4123-ad6b-a504f2b5a19b',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'token' => 'd2fc39fd3c9f1984f3426c21e2875ea1a4d6d5f5',
+  'page' => '1',
+  'time' => '',
+  'video' => 'getVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.318266s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001036s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.179045s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->getVideoList[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.130948s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.087457s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.086144s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.086829s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.085803s ]
+[ sql ] [ SQL ] SELECT `token` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.085836s ]
+[ sql ] [ SQL ] SELECT `user_info_status`,`identity_status`,`identity_time` FROM `limi_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.086727s ]
+[ sql ] [ SQL ] SELECT  a.id,a.user_id,a.title,a.video_cover,a.video,a.width,a.height,a.view_num, CASE d.type WHEN 1 THEN 1 WHEN 0 THEN 0 ELSE 0 END as is_click,CASE e.is_cancel WHEN 1 THEN 0 WHEN 0 THEN 1 ELSE 0 END as is_attention,a.click_num,a.discuss_num,a.tags,a.music_id,b.nickname user_nickname,CONCAT("http://video.youhongtech.com",b.head_pic) AS user_head_pic,c.name music_name,CONCAT("http://video.youhongtech.com",c.pic) AS music_pic FROM limi_video AS a LEFT JOIN limi_user AS b ON a.user_id = b.id LEFT JOIN limi_music AS c ON a.music_id = c.id LEFT JOIN limi_video_click AS d ON (a.id = d.video_id AND a.user_id=d.user_id ) LEFT JOIN limi_user_relation AS e ON (e.attention_id=a.user_id AND e.user_id=1 )WHERE a.view_auth=1 AND a.status=0 AND a.user_id NOT IN (SELECT black_user_id FROM limi_user_black WHERE user_id=1) ORDER BY RAND() LIMIT 20 [ RunTime:0.086507s ]
+---------------------------------------------------------------
+[ 2018-06-15T14:23:14+08:00 ] 127.0.0.1 GET /index.php/Callback/AlivideoCallback/videoUploaded
+[ info ] limiapp.com/index.php/Callback/AlivideoCallback/videoUploaded [运行时间：1.348528s][吞吐率：0.74req/s] [内存消耗：3,159.77kb] [文件加载：70]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Callback',
+    1 => 'AlivideoCallback',
+    2 => 'videoUploaded',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7e2f4c04-ef96-43e4-88ff-c0e96fbb7807',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.292961s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001022s ]
+[ info ] [ RUN ] app\callback\controller\Alivideocallback->videoUploaded[ D:\xampp\htdocs\limiapp\application\callback\controller\Alivideocallback.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.120786s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.078394s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.077559s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_video` [ RunTime:0.077692s ]
+[ sql ] [ SQL ] UPDATE `limi_video`  SET `width`=1080,`height`=1920  WHERE  `video` = '703ec53de56747faa590404547c53b62' [ RunTime:0.080665s ]
+[ sql ] [ SQL ] UPDATE `limi_video`  SET `green_dataid`='20180615142314697'  WHERE  `video` = '703ec53de56747faa590404547c53b62' [ RunTime:0.081070s ]
+[ error ] [8]未定义数组索引: cn-shanghai#vod[D:\xampp\htdocs\limiapp\extend\aliyunOpenapi\aliyun-php-sdk-core\Regions\LocationService.php:56]
+---------------------------------------------------------------
+[ 2018-06-15T14:24:08+08:00 ] 127.0.0.1 GET /index.php/Callback/AlivideoCallback/videoUploaded
+[ info ] limiapp.com/index.php/Callback/AlivideoCallback/videoUploaded [运行时间：48.963265s][吞吐率：0.02req/s] [内存消耗：3,172.02kb] [文件加载：70]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Callback',
+    1 => 'AlivideoCallback',
+    2 => 'videoUploaded',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c0cb863c-1513-48a6-8b22-af251953ddf5',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.388502s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000949s ]
+[ info ] [ RUN ] app\callback\controller\Alivideocallback->videoUploaded[ D:\xampp\htdocs\limiapp\application\callback\controller\Alivideocallback.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.164874s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.100957s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.108613s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_video` [ RunTime:0.088105s ]
+[ sql ] [ SQL ] UPDATE `limi_video`  SET `width`=1080,`height`=1920  WHERE  `video` = '703ec53de56747faa590404547c53b62' [ RunTime:0.089247s ]
+[ sql ] [ SQL ] UPDATE `limi_video`  SET `green_dataid`='20180615142408232'  WHERE  `video` = '703ec53de56747faa590404547c53b62' [ RunTime:0.088946s ]
+[ error ] [8]未定义数组索引: cn-shanghai#vod[D:\xampp\htdocs\limiapp\extend\aliyunOpenapi\aliyun-php-sdk-core\Regions\LocationService.php:56]
+---------------------------------------------------------------
+[ 2018-06-15T14:24:41+08:00 ] 127.0.0.1 GET /index.php/Callback/AlivideoCallback/videoUploaded
+[ info ] limiapp.com/index.php/Callback/AlivideoCallback/videoUploaded [运行时间：1.115384s][吞吐率：0.90req/s] [内存消耗：3,159.87kb] [文件加载：70]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Callback',
+    1 => 'AlivideoCallback',
+    2 => 'videoUploaded',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '662d9776-d1c1-41bf-bff8-e93439389bfe',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.319261s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.000658s ]
+[ info ] [ RUN ] app\callback\controller\Alivideocallback->videoUploaded[ D:\xampp\htdocs\limiapp\application\callback\controller\Alivideocallback.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.132250s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.087092s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.087616s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_video` [ RunTime:0.088654s ]
+[ sql ] [ SQL ] UPDATE `limi_video`  SET `width`=374,`height`=666  WHERE  `video` = '842f21e338fb4c708647bd20759ffbab' [ RunTime:0.087914s ]
+[ sql ] [ SQL ] UPDATE `limi_video`  SET `green_dataid`='20180615142441726'  WHERE  `video` = '842f21e338fb4c708647bd20759ffbab' [ RunTime:0.089349s ]
+[ error ] [8]未定义数组索引: cn-shanghai#vod[D:\xampp\htdocs\limiapp\extend\aliyunOpenapi\aliyun-php-sdk-core\Regions\LocationService.php:56]
+---------------------------------------------------------------
+[ 2018-06-15T17:43:00+08:00 ] 127.0.0.1 POST /index.php/app1_4/pushvideo/getRecommVideoList
+[ info ] limiapp.com/index.php/app1_4/pushvideo/getRecommVideoList [运行时间：0.959272s][吞吐率：1.04req/s] [内存消耗：3,112.65kb] [文件加载：57]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'pushvideo',
+    2 => 'getRecommVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'db8eb7f6-a0e5-482c-abcc-adaecfb38c87',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------136051695008198057683831',
+  'content-length' => '160',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '697',
+  'pushvideo' => 'getRecommVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.280800s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.010292s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.151298s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.112549s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.073945s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.073322s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.074162s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 697 LIMIT 1 [ RunTime:0.072355s ]
+[ error ] [0]方法参数错误:page[D:\xampp\htdocs\limiapp\thinkphp\library\think\App.php:431]
+---------------------------------------------------------------
+[ 2018-06-15T17:44:37+08:00 ] 127.0.0.1 POST /index.php/app1_4/video/getVideoList
+[ info ] limiapp.com/index.php/app1_4/video/getVideoList [运行时间：0.560059s][吞吐率：1.79req/s] [内存消耗：3,379.44kb] [文件加载：56]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'getVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ddda4d71-6aa9-44a5-90b9-99d54b3ce3b0',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------745492333394890769861948',
+  'content-length' => '160',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '697',
+  'video' => 'getVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.306508s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001360s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.171483s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->getVideoList[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.124826s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.082824s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.081737s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.083461s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 697 LIMIT 1 [ RunTime:0.081378s ]
+---------------------------------------------------------------
+[ 2018-06-15T17:44:47+08:00 ] 127.0.0.1 POST /index.php/app1_4/video/getVideoList
+[ info ] limiapp.com/index.php/app1_4/video/getVideoList [运行时间：0.612911s][吞吐率：1.63req/s] [内存消耗：3,379.72kb] [文件加载：56]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'getVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'fda0a978-6b82-409c-b269-62826b6196f6',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------712341728104671409431090',
+  'content-length' => '366',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '697',
+  'page' => '',
+  'time' => '',
+  'video' => 'getVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.371916s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002163s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.165455s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->getVideoList[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.131427s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.127386s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.097146s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.079860s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 697 LIMIT 1 [ RunTime:0.079144s ]
+---------------------------------------------------------------
+[ 2018-06-15T17:44:50+08:00 ] 127.0.0.1 POST /index.php/app1_4/video/getVideoList
+[ info ] limiapp.com/index.php/app1_4/video/getVideoList [运行时间：0.533614s][吞吐率：1.87req/s] [内存消耗：3,379.72kb] [文件加载：56]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'getVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '3d53b125-7593-4a8a-a578-5a4cafe260de',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------571104808241628986381541',
+  'content-length' => '367',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '697',
+  'page' => '1',
+  'time' => '',
+  'video' => 'getVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.301414s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001328s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.163907s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->getVideoList[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.128930s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.078007s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.080671s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.079035s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 697 LIMIT 1 [ RunTime:0.076264s ]
+---------------------------------------------------------------
+[ 2018-06-15T17:45:46+08:00 ] 127.0.0.1 GET /index.php/app1_4/video/getVideoList?id=697&page&time
+[ info ] limiapp.com/index.php/app1_4/video/getVideoList?id=697&page&time [运行时间：0.532226s][吞吐率：1.88req/s] [内存消耗：3,379.05kb] [文件加载：56]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'getVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c795d33f-8071-44c6-8ee9-b92428986a03',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '697',
+  'page' => '',
+  'time' => '',
+  'video' => 'getVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.292749s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.001598s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.162300s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->getVideoList[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.121032s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.079272s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.078565s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.077531s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 697 LIMIT 1 [ RunTime:0.076466s ]
+---------------------------------------------------------------
+[ 2018-06-15T17:45:52+08:00 ] 127.0.0.1 GET /index.php/app1_4/video/getVideoList?id=697&page=1&time
+[ info ] limiapp.com/index.php/app1_4/video/getVideoList?id=697&page=1&time [运行时间：0.585703s][吞吐率：1.71req/s] [内存消耗：3,403.37kb] [文件加载：56]
+[ info ] [ LANG ] D:\xampp\htdocs\limiapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apps1_4',
+    1 => 'video',
+    2 => 'getVideoList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'aeedc03f-4047-43ff-8c48-8e9359acc58c',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'accept' => '*/*',
+  'host' => 'limiapp.com',
+  'cookie' => 'XDEBUG_SESSION=PHPSTORM',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '697',
+  'page' => '1',
+  'time' => '',
+  'video' => 'getVideoList',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\behavior\Server @app_begin [ RunTime:0.283410s ]
+[ info ] [ BEHAVIOR ] Run app\behavior\Appset @app_begin [ RunTime:0.002147s ]
+[ info ] [ BEHAVIOR ] Run app\apps1_2\behavior\Auth @action_begin [ RunTime:0.154722s ]
+[ info ] [ RUN ] app\apps1_4\controller\Video->getVideoList[ D:\xampp\htdocs\limiapp\application\apps1_4\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.119475s ] mysql:host=47.97.218.145;port=3306;dbname=testapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_sys_set` [ RunTime:0.073555s ]
+[ sql ] [ SQL ] SELECT * FROM `limi_sys_set` WHERE  `key` = 5 LIMIT 1 [ RunTime:0.074772s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `limi_user` [ RunTime:0.074791s ]
+[ sql ] [ SQL ] SELECT `status` FROM `limi_user` WHERE  `id` = 697 LIMIT 1 [ RunTime:0.072929s ]
+[ sql ] [ SQL ] SELECT  a.id,a.user_id,a.title,a.video_cover,a.video,a.width,a.height,a.view_num,a.click_num,a.discuss_num,a.tags,a.music_id,b.nickname user_nickname,CONCAT("http://video.youhongtech.com",b.head_pic) AS user_head_pic,c.name music_name,CONCAT("http://video.youhongtech.com",c.pic) AS music_pic FROM limi_video AS a LEFT JOIN limi_user AS b ON a.user_id = b.id LEFT JOIN limi_music AS c ON a.music_id = c.id  WHERE a.view_auth=1 AND a.status=0 ORDER BY RAND() LIMIT 20 [ RunTime:0.073706s ]
